@@ -1,0 +1,36 @@
+.nmm-field-checkbox
+{
+	input[type='checkbox']
+	{
+		margin-top: 4px;
+		float: left;
+		
+		@include bp(up-to-tall-admin-bar)
+		{
+			margin-top: 0;
+		}
+	}
+	
+	.nmm-description
+	{
+		padding-top: 3px;
+		padding-bottom: 3px;
+		display: block;
+	}
+	
+	&.nmm-confirmation
+	{
+		color: $color-red;
+		font-weight: 600;
+		
+		.nmm-description
+		{
+			color: $color-red;
+		}
+	}
+}
+
+body.rtl .nmm-field-checkbox input[type='checkbox']
+{
+	float: right;
+}

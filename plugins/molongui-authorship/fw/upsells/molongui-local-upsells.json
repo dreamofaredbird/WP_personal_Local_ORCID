@@ -1,0 +1,69 @@
+{
+	"all":
+	{
+		"authorship":
+		{
+			"id": "authorship",
+			"link": "https://molongui.amitzy.com/product/authorship",
+			"price": "24.00",
+			"name": "Molongui Authorship",
+			"image": "%%MOLONGUI_PLUGIN_URL%%/fw/upsells/img/molongui_authorship.png",
+			"excerpt": "Complete suite on all about authors and authorship: Multiple authors, guest authors and author box. Three plugins in one... 3 in 1!",
+			"name_es_ES": "Molongui Authorship",
+			"image_es_ES": "%%MOLONGUI_PLUGIN_URL%%/fw/upsells/img/molongui_authorship-es_ES.png",
+			"excerpt_es_ES": "Todo lo que necesitas para dar crédito a tus autores: Varios autores por post, autores invitados y caja de autor. Tres plugins en uno... ¡3 en 1!."
+		},
+		"order-bump":
+		{
+			"id": "bump-offer",
+			"link": "https://molongui.amitzy.com/product/order-bump/",
+			"price": "34.00",
+			"name": "Molongui Order Bump For WooCommerce",
+			"image": "%%MOLONGUI_PLUGIN_URL%%/fw/upsells/img/molongui_bump_offer.png",
+			"excerpt": "Display impossible not to see one-time offers on your checkout form, which a customer can purchase by accepting them without leaving the order form.",
+			"name_es_ES": "Molongui Bump Offer para WooCommerce",
+			"image_es_ES": "%%MOLONGUI_PLUGIN_URL%%/fw/upsells/img/molongui_bump_offer.png",
+			"excerpt_es_ES": "Muestra llamativas ofertas en la página de pago que el cliente puede aceptar con un solo click."
+		}
+	},
+
+	"featured":
+	{
+		"authorship":
+		{
+			"id": "authorship",
+			"link": "https://molongui.amitzy.com/product/authorship",
+			"price": "24.00",
+			"name": "Molongui Authorship",
+			"image": "%%MOLONGUI_PLUGIN_URL%%/fw/upsells/img/authorship.svg",
+			"excerpt": "Complete suite on all about authors and authorship: Multiple authors, guest authors and author box. Three plugins in one... 3 in 1!",
+			"name_es_ES": "Molongui Authorship",
+			"image_es_ES": "%%MOLONGUI_PLUGIN_URL%%/fw/upsells/img/authorship-es_ES.png",
+			"excerpt_es_ES": "Todo lo que necesitas para dar crédito a tus autores: Varios autores por post, autores invitados y caja de autor. Tres plugins en uno... ¡3 en 1!."
+		},
+		"order-bump":
+		{
+			"id": "bump-offer",
+			"link": "https://molongui.amitzy.com/product/order-bump/",
+			"price": "34.00",
+			"name": "Molongui Order Bump For WooCommerce",
+			"image": "%%MOLONGUI_PLUGIN_URL%%/fw/upsells/img/molongui_bump_offer.png",
+			"excerpt": "Display impossible not to see one-time offers on your checkout form, which a customer can purchase by accepting them without leaving the order form.",
+			"name_es_ES": "Molongui Bump Offer para WooCommerce",
+			"image_es_ES": "%%MOLONGUI_PLUGIN_URL%%/fw/upsells/img/molongui_bump_offer.png",
+			"excerpt_es_ES": "Muestra llamativas ofertas en la página de pago que el cliente puede aceptar con un solo click."
+		}
+	},
+
+	"free":
+	{
+	},
+
+	"premium":
+	{
+	},
+
+	"popular":
+	{
+	}
+}

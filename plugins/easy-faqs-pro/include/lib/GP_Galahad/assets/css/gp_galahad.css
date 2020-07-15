@@ -1,0 +1,18 @@
+.gp_galahad_message {
+	color: forestgreen;
+    font-size: 14px;
+    font-style: italic;
+}
+
+
+.gp_galahad label {
+    display: block;
+    font-weight: bold;
+    margin: 10px 0 2px;
+}
+
+.gp_galahad textarea,
+.gp_galahad input[type="text"] {
+    max-width: 600px;
+	width: 95%;
+}

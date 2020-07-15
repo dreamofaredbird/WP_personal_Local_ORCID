@@ -1,0 +1,5 @@
+# Development files
+/node_modules
+/assets/vendor/
+
+.idea/

@@ -1,0 +1,9 @@
+.nmm-hidden
+{
+	display: none;
+}
+
+.nmm-nav-tab:focus
+{
+	@include box-shadow(none);
+}

@@ -1,0 +1,108 @@
+.tribe-events-pro {
+
+	/* -----------------------------------------------------------------------------
+	 * Venue
+	 * ----------------------------------------------------------------------------- */
+
+	.tribe-events-pro-venue__meta {
+		width: 100%;
+		margin-bottom: var(--spacer-5);
+
+		.tribe-common--breakpoint-medium& {
+			margin-bottom: var(--spacer-8);
+		}
+	}
+
+	.tribe-events-pro-venue__meta--has-map {
+
+		.tribe-events-pro-venue__meta-data,
+		.tribe-events-pro-venue__meta-map {
+
+			.tribe-common--breakpoint-medium& {
+				width: var(--grid-width-1-of-2);
+			}
+		}
+	}
+
+	.tribe-events-pro-venue__meta-data {
+		padding: var(--spacer-5);
+
+		.tribe-common--breakpoint-medium& {
+			padding: var(--spacer-7);
+		}
+
+		> :last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	.tribe-events-pro-venue__meta-map {
+		margin: 0 var(--spacer-5) var(--spacer-5) var(--spacer-5);
+
+		.tribe-common--breakpoint-medium& {
+			margin: 0;
+		}
+	}
+
+	.tribe-events-pro-venue__meta-title {
+		margin: 0 0 var(--spacer-3);
+
+		.tribe-common--breakpoint-medium& {
+			margin-bottom: var(--spacer-5);
+		}
+	}
+
+	.tribe-events-pro-venue__meta-details {
+		margin-bottom: var(--spacer-3);
+
+		.tribe-common--breakpoint-medium& {
+			margin-bottom: var(--spacer-6);
+		}
+
+		> :last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	.tribe-events-pro-venue__meta-phone,
+	.tribe-events-pro-venue__meta-address,
+	.tribe-events-pro-venue__meta-website {
+		display: flex;
+		margin-bottom: var(--spacer-1);
+	}
+
+	.tribe-events-pro-venue__meta-address-details {
+		flex: 1 1 100%;
+
+		.tribe-address {
+			display: block;
+		}
+	}
+
+	.tribe-events-pro-venue__meta-phone-icon,
+	.tribe-events-pro-venue__meta-address-icon,
+	.tribe-events-pro-venue__meta-website-icon {
+		background-repeat: no-repeat;
+		display: inline-block;
+		margin-right: var(--spacer-2);
+		height: 16px;
+		width: 16px;
+	}
+
+	.tribe-events-pro-venue__meta-phone-icon {
+		background-image: svg-inline(phone-active);
+	}
+
+	.tribe-events-pro-venue__meta-website-icon {
+		background-image: svg-inline(link-active);
+	}
+
+	.tribe-events-pro-venue__meta-address-icon {
+		background-image: svg-inline(map-pin-active);
+	}
+
+	.tribe-events-pro-venue__meta-data-google-maps-default {
+		height: 100%;
+		width: 100%;
+	}
+}

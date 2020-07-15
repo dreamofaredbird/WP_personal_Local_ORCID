@@ -1,0 +1,230 @@
+/* -----------------------------------------------------------------------------
+ *
+ * Datepicker
+ *
+ * ----------------------------------------------------------------------------- */
+
+.tribe-events-pro {
+
+	&.tribe-events-view--week .datepicker {
+
+		.day {
+			border-radius: 0;
+
+			&:first-child {
+				border-bottom-left-radius: var(--border-radius-default);
+				border-top-left-radius: var(--border-radius-default);
+			}
+
+			&:last-child {
+				border-bottom-right-radius: var(--border-radius-default);
+				border-top-right-radius: var(--border-radius-default);
+			}
+
+			&.disabled {
+				color: var(--color-text-primary);
+
+				&:hover,
+				&:focus,
+				&.focused {
+					color: var(--color-text-primary);
+				}
+			}
+
+			&.active {
+				color: var(--color-text-primary);
+				background: transparent;
+
+				&:hover {
+					background: transparent;
+				}
+			}
+
+			&.past {
+				color: var(--color-text-primary-light);
+
+				&:hover,
+				&:focus,
+				&.focused {
+					color: var(--color-text-primary-light);
+				}
+			}
+
+			&.current {
+				color: var(--color-background);
+				position: relative;
+
+				&:hover,
+				&:focus,
+				&.focused {
+					color: var(--color-background);
+				}
+
+				&:before {
+					content: '';
+					background: var(--color-accent-primary);
+					border-radius: var(--border-radius-default);
+					position: absolute;
+					top: 0;
+					left: 0;
+					bottom: 0;
+					right: 0;
+					z-index: -1;
+				}
+			}
+		}
+
+		.hovered,
+		.focused {
+
+			.day {
+				background: var(--color-background-secondary);
+
+				&:hover {
+					background: var(--color-background-secondary);
+				}
+
+				&.current {
+					background: transparent;
+				}
+			}
+		}
+
+		.active {
+
+			.day {
+				background: var(--color-accent-primary-background);
+
+				&:hover {
+					background: var(--color-accent-primary-background);
+				}
+			}
+		}
+	}
+
+	/* -----------------------------------------------------------------------------
+	 *
+	 * Datepicker: Theme Overrides
+	 *
+	 * ----------------------------------------------------------------------------- */
+
+	/* -----------------------------------------------------------------------------
+	 * Theme Overrides - Enfold
+	 * ----------------------------------------------------------------------------- */
+
+	.tribe-theme-enfold &.tribe-events-view--week .datepicker {
+
+		.day {
+
+			&.active {
+				color: var(--color-text-primary);
+				background: transparent;
+
+				&:hover {
+					background: transparent;
+				}
+			}
+
+			&.past {
+				color: var(--color-text-primary-light);
+			}
+
+			&.current {
+				color: var(--color-background);
+
+				&:hover,
+				&:focus,
+				&.focused {
+					color: var(--color-background);
+				}
+			}
+		}
+
+		.hovered,
+		.focused {
+
+			.day {
+				background: var(--color-background-secondary);
+
+				&:hover {
+					background: var(--color-background-secondary);
+				}
+
+				&.current {
+					background: transparent;
+				}
+			}
+		}
+
+		.active {
+
+			.day {
+				background: var(--color-accent-primary-background);
+
+				&:hover {
+					background: var(--color-accent-primary-background);
+				}
+			}
+		}
+	}
+
+	/* -----------------------------------------------------------------------------
+	 * Theme Overrides - Avada
+	 * ----------------------------------------------------------------------------- */
+
+	.tribe-theme-avada &.tribe-events-view--week .datepicker {
+
+		.day {
+
+			&.active {
+				color: var(--color-text-primary) !important;
+				background: transparent !important;
+
+				&:hover {
+					background: transparent !important;
+				}
+			}
+
+			&.past {
+				color: var(--color-text-primary-light) !important;
+			}
+
+			&.current {
+				color: var(--color-background) !important;
+
+				&:hover,
+				&:focus,
+				&.focused {
+					color: var(--color-background) !important;
+				}
+			}
+		}
+
+		.hovered,
+		.focused {
+
+			.day {
+				background: var(--color-background-secondary) !important;
+
+				&:hover {
+					background: var(--color-background-secondary) !important;
+				}
+
+				&.current {
+					background: transparent !important;
+				}
+			}
+		}
+
+		.active {
+
+			.day {
+				background: var(--color-accent-primary-background) !important;
+
+				&:hover {
+					background: var(--color-accent-primary-background) !important;
+				}
+			}
+		}
+	}
+}

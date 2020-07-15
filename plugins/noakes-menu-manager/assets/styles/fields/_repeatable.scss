@@ -1,0 +1,310 @@
+.nmm-repeatable
+{
+	> .nmm-repeatable-layout,
+	> .nmm-repeatable-item
+	{
+		@include border-box();
+		
+		position: relative;
+		overflow: hidden;
+		background: $color-sub-gray;
+		
+		@include bp(above-absolute-admin-bar)
+		{
+			padding: 1px 28px 0;
+		}
+		
+		@include bp(up-to-absolute-admin-bar)
+		{
+			padding: 28px 1px 0;
+		}
+		
+		> div
+		{
+			background: $color-light-gray;
+		}
+		
+		&:nth-child(odd) > div
+		{
+			background: $color-white;
+		}
+	}
+	
+	> .nmm-repeatable-item
+	{
+		> a,
+		> a span
+		{
+			@include transition(all);
+			
+			height: 28px;
+			width: 28px;
+			display: block;
+			color: $color-wp-dark-gray;
+			line-height: 28px;
+			text-align: center;
+			cursor: pointer;
+		}
+		
+		> .nmm-repeatable-move
+		{
+			position: absolute;
+			top: 0;
+			left: 0;
+			cursor: move;
+			
+			&:hover
+			{
+				background: $color-sub-dark-gray;
+			}
+			
+			span
+			{
+				cursor: move;
+
+				&.nmm-repeatable-count
+				{
+					background: $color-sub-dark-gray;
+					font-size: 12px;
+					letter-spacing: -1px;
+				}
+			}
+		}
+		
+		&.ui-sortable-helper > .nmm-repeatable-move
+		{
+			background: $color-sub-dark-gray;
+		}
+		
+		> .nmm-repeatable-button,
+		> a .nmm-repeatable-button
+		{
+			position: absolute;
+			background: rgba($color-sub-dark-gray, 0);
+			opacity: 0;
+			
+			&:hover
+			{
+				background: $color-sub-dark-gray;
+			}
+		}
+		
+		&:hover > .nmm-repeatable-button,
+		&:hover > a .nmm-repeatable-button
+		{
+			opacity: 1;
+		}
+		
+		> .nmm-repeatable-insert
+		{
+			z-index: 1;
+			
+			span
+			{
+				line-height: 32px;
+			}
+		}
+		
+		&:first-child > .nmm-repeatable-move-up,
+		&:nth-last-child(3) > .nmm-repeatable-move-down
+		{
+			display: none;
+		}
+		
+		@include bp(above-absolute-admin-bar)
+		{
+			> .nmm-repeatable-move
+			{
+				height: 100%;
+				
+				.nmm-repeatable-button
+				{
+					position: absolute;
+					top: 50%;
+					left: 0;
+				}
+			}
+			
+			> .nmm-repeatable-move-up,
+			> .nmm-repeatable-move-up span,
+			> .nmm-repeatable-move-down,
+			> .nmm-repeatable-move-down span
+			{
+				height: 14px;
+				width: 14px;
+				font-size: 10px;
+				line-height: 14px;
+			}
+			
+			> .nmm-repeatable-move-up,
+			> .nmm-repeatable-move-down
+			{
+				&:hover,
+				&:hover span
+				{
+					height: 28px;
+					width: 28px;
+					font-size: 20px;
+					line-height: 28px;
+				}
+			}
+
+			> .nmm-repeatable-move-up
+			{
+				top: 0;
+				left: 28px;
+			}
+
+			> .nmm-repeatable-move-down
+			{
+				bottom: 0;
+				left: 28px;
+			}
+
+			> .nmm-repeatable-insert
+			{
+				top: 0;
+				right: 0;
+			}
+
+			> .nmm-repeatable-remove
+			{
+				top: 50%;
+				right: 0;
+			}
+		}
+		
+		@include bp(up-to-absolute-admin-bar)
+		{
+			> .nmm-repeatable-move
+			{
+				height: 28px;
+				
+				.nmm-repeatable-button
+				{
+					display: none;
+				}
+			}
+			
+			> .nmm-repeatable-move-up
+			{
+				top: 0;
+				left: 28px;
+			}
+
+			> .nmm-repeatable-move-down
+			{
+				top: 0;
+				left: 56px;
+			}
+
+			> .nmm-repeatable-insert
+			{
+				top: 0;
+				left: 50%;
+				margin-left: -14px;
+			}
+
+			> .nmm-repeatable-remove
+			{
+				top: 0;
+				right: 0;
+			}
+		}
+	}
+	
+	&.nmm-has-layout > .nmm-repeatable-item:nth-child(2) > .nmm-repeatable-move-up,
+	{
+		display: none;
+	}
+	
+	&.ui-sortable-disabled > .nmm-repeatable-item > .nmm-repeatable-move
+	{
+		cursor: default;
+
+		&:hover
+		{
+			background: none;
+		}
+		
+		.nmm-repeatable-count
+		{
+			cursor: default;
+		}
+		
+		.nmm-repeatable-button
+		{
+			display: none;
+		}
+	}
+	
+	> .nmm-repeatable-placeholder
+	{
+		background: $color-sub-gray;
+	}
+	
+	> .nmm-repeatable-template
+	{
+		display: none;
+	}
+	
+	> .nmm-repeatable-add
+	{
+		border: 1px solid $color-sub-gray;
+		padding: 12px;
+		background: $color-sub-light-gray;
+		
+		@include bp(above-absolute-admin-bar)
+		{
+			border-right-width: 28px;
+			border-left-width: 28px;
+		}
+	}
+}
+
+body.rtl .nmm-repeatable > .nmm-repeatable-item
+{
+	> .nmm-repeatable-move
+	{
+		right: 0;
+		left: auto;
+	}
+	
+	@include bp(above-absolute-admin-bar)
+	{
+		> .nmm-repeatable-move-up,
+		> .nmm-repeatable-move-down
+		{
+			right: 28px;
+			left: auto;
+		}
+		
+		> .nmm-repeatable-insert,
+		> .nmm-repeatable-remove
+		{
+			right: auto;
+			left: 0;
+		}
+	}
+	
+	@include bp(up-to-absolute-admin-bar)
+	{
+		> .nmm-repeatable-move-up
+		{
+			right: 28px;
+			left: auto;
+		}
+		
+		> .nmm-repeatable-move-down
+		{
+			right: 56px;
+			left: auto;
+		}
+		
+		> .nmm-repeatable-remove
+		{
+			right: auto;
+			left: 0;
+		}
+	}
+}

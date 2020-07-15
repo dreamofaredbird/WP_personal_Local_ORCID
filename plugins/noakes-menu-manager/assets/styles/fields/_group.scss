@@ -1,0 +1,48 @@
+.nmm-field-group > .nmm-group
+{
+	padding: 6px;
+	overflow: hidden;
+
+	> .nmm-field
+	{
+		@include border-box();
+
+		padding: 6px;
+		float: left;
+		min-height: 1px;
+		width: 100%;
+		background: none;
+		
+		&.nmm-field-layout
+		{
+			padding-top: 3px;
+			padding-bottom: 3px;
+		}
+	}
+}
+		
+@include bp(above-tall-admin-bar)
+{
+	#advanced-sortables,
+	#normal-sortables
+	{
+		.nmm-group > .nmm-field
+		{
+			float: left;
+			clear: none;
+			width: 50%
+		}
+	}
+	
+	body.rtl
+	{
+		#advanced-sortables,
+		#normal-sortables
+		{
+			.nmm-group > .nmm-field
+			{
+				float: right;
+			}
+		}
+	}
+}

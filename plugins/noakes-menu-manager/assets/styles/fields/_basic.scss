@@ -1,0 +1,18 @@
+.nmm-field-select select,
+.nmm-field-text input
+{
+	margin: 0;
+	width: 100%;
+}
+
+.inside
+{
+	> .nmm-field-select,
+	> .nmm-field-text
+	{
+		> .nmm-field-input
+		{
+			max-width: 480px;
+		}
+	}
+}

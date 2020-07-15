@@ -1,0 +1,21 @@
+.nmm-field-radio .nmm-field-input label
+{
+	padding: 3px 12px 3px 0;
+	display: inline-block;
+	
+	input[type='radio']
+	{
+		margin-top: 1px;
+		float: left;
+		
+		@include bp(up-to-tall-admin-bar)
+		{
+			margin-top: -2px;
+		}
+	}
+}
+
+body.rtl .nmm-field-radio .nmm-field-input label input[type='radio']
+{
+	float: right;
+}

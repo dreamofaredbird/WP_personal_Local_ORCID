@@ -1,0 +1,1270 @@
+/**
+ * This CSS file was auto-generated via PostCSS
+ *
+ * Contributors should avoid editing this file, but instead edit the associated
+ * src/resources/postcss/ file. For more information, check out our engineering
+ * docs on how we handle CSS in our engineering docs.
+ *
+ * @see: http://moderntribe.github.io/products-engineering/css/
+ */
+
+/**
+ * The Events Calendar Pro Tribe V2 Full Stylesheet
+ *
+ * @package TribeEventsCalendar
+ *
+ */
+
+/* Utilities */
+
+/* -----------------------------------------------------------------------------
+ *
+ * Utilities
+ *
+ * This file is just a clearing-house.
+ * Make partials (start with an underscore) for any actual css code.
+ *
+ * ----------------------------------------------------------------------------- */
+
+/* Variables */
+
+:root {
+	/* -----------------------------------------------------------------------------
+	 * Borders - Radius
+	 * ----------------------------------------------------------------------------- */
+
+	/* -----------------------------------------------------------------------------
+	 * Borders - Width
+	 * ----------------------------------------------------------------------------- */
+}
+
+:root {
+	/* -----------------------------------------------------------------------------
+	 * Box Shadows
+	 * ----------------------------------------------------------------------------- */
+}
+
+:root {
+	/* -----------------------------------------------------------------------------
+	 * Layers of z-index
+	 * ----------------------------------------------------------------------------- */
+}
+
+:root {
+	/* -----------------------------------------------------------------------------
+	 * Colors - Typography
+	 * ----------------------------------------------------------------------------- */
+
+	/* -----------------------------------------------------------------------------
+	 * Colors - Iconography
+	 * ----------------------------------------------------------------------------- */
+
+	/* -----------------------------------------------------------------------------
+	 * Colors - UI
+	 * ----------------------------------------------------------------------------- */
+
+	/* -----------------------------------------------------------------------------
+	 * Colors - Borders & Misc
+	 * ----------------------------------------------------------------------------- */
+
+}
+
+:root {
+	/* -----------------------------------------------------------------------------
+	 * Forms - Colors
+	 * ----------------------------------------------------------------------------- */
+
+	/* -----------------------------------------------------------------------------
+	 * Forms - Box Shadows
+	 * ----------------------------------------------------------------------------- */
+}
+
+:root {
+	/* -----------------------------------------------------------------------------
+	 * Gutter - Default
+	 * ----------------------------------------------------------------------------- */
+
+	/* -----------------------------------------------------------------------------
+	 * Gutter - Page
+	 * ----------------------------------------------------------------------------- */
+
+	/* -----------------------------------------------------------------------------
+	 * Grid Width - Default
+	 * ----------------------------------------------------------------------------- */
+
+	/* -----------------------------------------------------------------------------
+	 * Grid Width - Relative
+	 * ----------------------------------------------------------------------------- */
+}
+
+:root {
+	/* -----------------------------------------------------------------------------
+	 * Opacities
+	 * ----------------------------------------------------------------------------- */
+}
+
+:root {
+	/* -----------------------------------------------------------------------------
+	 * Spacers
+	 * ----------------------------------------------------------------------------- */
+}
+
+/* -----------------------------------------------------------------------------
+ * SVG - Arrow Right
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Caret Down
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Caret Left
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Caret Right
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Caret Up
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Check
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Close
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Day
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Dropdown
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Featured
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Filters
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Link
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - List
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Location
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Mail
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Map
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Map pin
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Messages
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Month
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - No Map
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Phone
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Photo
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Plus
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Recurring
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Reset
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Search
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Search Filter
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Week
+ * ----------------------------------------------------------------------------- */
+
+:root {
+	/* -----------------------------------------------------------------------------
+	 * Transitions
+	 * ----------------------------------------------------------------------------- */
+}
+
+:root {
+	/* -----------------------------------------------------------------------------
+	 * Font Stacks
+	 * ----------------------------------------------------------------------------- */
+
+	/* -----------------------------------------------------------------------------
+	 * Font Weights
+	 * ----------------------------------------------------------------------------- */
+
+	/* -----------------------------------------------------------------------------
+	 * Font Sizing
+	 * ----------------------------------------------------------------------------- */
+
+	/* -----------------------------------------------------------------------------
+	 * Line Height
+	 * ----------------------------------------------------------------------------- */
+}
+
+/* Mixins */
+
+/* -----------------------------------------------------------------------------
+ * Body
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Desktop Body 1
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Desktop Body 2
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Desktop Body 3
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Mobile Body 1
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Mobile Body 2
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Mobile Body 3
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Heading
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Heading 1
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Heading 2
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Heading 3
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Heading 4
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Heading 5
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Heading 6
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Heading 7
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Heading 8
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Anchor - Default
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Anchor - Alt
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Anchor - Thin
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Anchor - Thin
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Button - Global
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Button - Solid
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Button - Border
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Button - Icon Border
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Sliders & Toggles
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Sliders
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Hidden: Hide from both screenreaders and browsers
+ * @author: h5bp.com/u
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Visually Hide: Hide only visually, but have it available for screenreaders
+ * @author: h5bp.com/v
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Visually Show: Show element after has been hidden with %visually-hide
+ * ----------------------------------------------------------------------------- */
+
+/* Components */
+
+/* -----------------------------------------------------------------------------
+ *
+ * Components
+ *
+ * This file is just a clearing-house.
+ * Make partials (start with an underscore) for any actual css code.
+ *
+ * ----------------------------------------------------------------------------- */
+
+/* Datepicker */
+
+/* -----------------------------------------------------------------------------
+ *
+ * Datepicker
+ *
+ * ----------------------------------------------------------------------------- */
+
+.tribe-events-pro {
+
+	/* -----------------------------------------------------------------------------
+	 *
+	 * Datepicker: Theme Overrides
+	 *
+	 * ----------------------------------------------------------------------------- */
+}
+
+.tribe-events-pro.tribe-events-view--week .datepicker .day {
+			border-radius: 0;
+		}
+
+.tribe-events-pro.tribe-events-view--week .datepicker .day:first-child {
+				border-bottom-left-radius: 4px;
+				border-top-left-radius: 4px;
+			}
+
+.tribe-events-pro.tribe-events-view--week .datepicker .day:last-child {
+				border-bottom-right-radius: 4px;
+				border-top-right-radius: 4px;
+			}
+
+.tribe-events-pro.tribe-events-view--week .datepicker .day.disabled {
+				color: #141827;
+			}
+
+.tribe-events-pro.tribe-events-view--week .datepicker .day.disabled:hover,
+				.tribe-events-pro.tribe-events-view--week .datepicker .day.disabled:focus,
+				.tribe-events-pro.tribe-events-view--week .datepicker .day.disabled.focused {
+					color: #141827;
+				}
+
+.tribe-events-pro.tribe-events-view--week .datepicker .day.active {
+				color: #141827;
+				background: transparent;
+			}
+
+.tribe-events-pro.tribe-events-view--week .datepicker .day.active:hover {
+					background: transparent;
+				}
+
+.tribe-events-pro.tribe-events-view--week .datepicker .day.past {
+				color: rgba(20,24,39, 0.62);
+			}
+
+.tribe-events-pro.tribe-events-view--week .datepicker .day.past:hover,
+				.tribe-events-pro.tribe-events-view--week .datepicker .day.past:focus,
+				.tribe-events-pro.tribe-events-view--week .datepicker .day.past.focused {
+					color: rgba(20,24,39, 0.62);
+				}
+
+.tribe-events-pro.tribe-events-view--week .datepicker .day.current {
+				color: #FFFFFF;
+				position: relative;
+			}
+
+.tribe-events-pro.tribe-events-view--week .datepicker .day.current:hover,
+				.tribe-events-pro.tribe-events-view--week .datepicker .day.current:focus,
+				.tribe-events-pro.tribe-events-view--week .datepicker .day.current.focused {
+					color: #FFFFFF;
+				}
+
+.tribe-events-pro.tribe-events-view--week .datepicker .day.current:before {
+					content: '';
+					background: #334AFF;
+					border-radius: 4px;
+					position: absolute;
+					top: 0;
+					left: 0;
+					bottom: 0;
+					right: 0;
+					z-index: -1;
+				}
+
+.tribe-events-pro.tribe-events-view--week .datepicker .hovered .day, .tribe-events-pro.tribe-events-view--week .datepicker .focused .day {
+				background: #F7F6F6;
+			}
+
+.tribe-events-pro.tribe-events-view--week .datepicker .hovered .day:hover, .tribe-events-pro.tribe-events-view--week .datepicker .focused .day:hover {
+					background: #F7F6F6;
+				}
+
+.tribe-events-pro.tribe-events-view--week .datepicker .hovered .day.current, .tribe-events-pro.tribe-events-view--week .datepicker .focused .day.current {
+					background: transparent;
+				}
+
+.tribe-events-pro.tribe-events-view--week .datepicker .active .day {
+				background: rgba(51,74,255, 0.07);
+			}
+
+.tribe-events-pro.tribe-events-view--week .datepicker .active .day:hover {
+					background: rgba(51,74,255, 0.07);
+				}
+
+/* -----------------------------------------------------------------------------
+	 * Theme Overrides - Enfold
+	 * ----------------------------------------------------------------------------- */
+
+.tribe-theme-enfold .tribe-events-pro.tribe-events-view--week .datepicker .day.active {
+				color: #141827;
+				background: transparent;
+			}
+
+.tribe-theme-enfold .tribe-events-pro.tribe-events-view--week .datepicker .day.active:hover {
+					background: transparent;
+				}
+
+.tribe-theme-enfold .tribe-events-pro.tribe-events-view--week .datepicker .day.past {
+				color: rgba(20,24,39, 0.62);
+			}
+
+.tribe-theme-enfold .tribe-events-pro.tribe-events-view--week .datepicker .day.current {
+				color: #FFFFFF;
+			}
+
+.tribe-theme-enfold .tribe-events-pro.tribe-events-view--week .datepicker .day.current:hover,
+				.tribe-theme-enfold .tribe-events-pro.tribe-events-view--week .datepicker .day.current:focus,
+				.tribe-theme-enfold .tribe-events-pro.tribe-events-view--week .datepicker .day.current.focused {
+					color: #FFFFFF;
+				}
+
+.tribe-theme-enfold .tribe-events-pro.tribe-events-view--week .datepicker .hovered .day, .tribe-theme-enfold .tribe-events-pro.tribe-events-view--week .datepicker .focused .day {
+				background: #F7F6F6;
+			}
+
+.tribe-theme-enfold .tribe-events-pro.tribe-events-view--week .datepicker .hovered .day:hover, .tribe-theme-enfold .tribe-events-pro.tribe-events-view--week .datepicker .focused .day:hover {
+					background: #F7F6F6;
+				}
+
+.tribe-theme-enfold .tribe-events-pro.tribe-events-view--week .datepicker .hovered .day.current, .tribe-theme-enfold .tribe-events-pro.tribe-events-view--week .datepicker .focused .day.current {
+					background: transparent;
+				}
+
+.tribe-theme-enfold .tribe-events-pro.tribe-events-view--week .datepicker .active .day {
+				background: rgba(51,74,255, 0.07);
+			}
+
+.tribe-theme-enfold .tribe-events-pro.tribe-events-view--week .datepicker .active .day:hover {
+					background: rgba(51,74,255, 0.07);
+				}
+
+/* -----------------------------------------------------------------------------
+	 * Theme Overrides - Avada
+	 * ----------------------------------------------------------------------------- */
+
+.tribe-theme-avada .tribe-events-pro.tribe-events-view--week .datepicker .day.active {
+				color: #141827 !important;
+				background: transparent !important;
+			}
+
+.tribe-theme-avada .tribe-events-pro.tribe-events-view--week .datepicker .day.active:hover {
+					background: transparent !important;
+				}
+
+.tribe-theme-avada .tribe-events-pro.tribe-events-view--week .datepicker .day.past {
+				color: rgba(20,24,39, 0.62) !important;
+			}
+
+.tribe-theme-avada .tribe-events-pro.tribe-events-view--week .datepicker .day.current {
+				color: #FFFFFF !important;
+			}
+
+.tribe-theme-avada .tribe-events-pro.tribe-events-view--week .datepicker .day.current:hover,
+				.tribe-theme-avada .tribe-events-pro.tribe-events-view--week .datepicker .day.current:focus,
+				.tribe-theme-avada .tribe-events-pro.tribe-events-view--week .datepicker .day.current.focused {
+					color: #FFFFFF !important;
+				}
+
+.tribe-theme-avada .tribe-events-pro.tribe-events-view--week .datepicker .hovered .day, .tribe-theme-avada .tribe-events-pro.tribe-events-view--week .datepicker .focused .day {
+				background: #F7F6F6 !important;
+			}
+
+.tribe-theme-avada .tribe-events-pro.tribe-events-view--week .datepicker .hovered .day:hover, .tribe-theme-avada .tribe-events-pro.tribe-events-view--week .datepicker .focused .day:hover {
+					background: #F7F6F6 !important;
+				}
+
+.tribe-theme-avada .tribe-events-pro.tribe-events-view--week .datepicker .hovered .day.current, .tribe-theme-avada .tribe-events-pro.tribe-events-view--week .datepicker .focused .day.current {
+					background: transparent !important;
+				}
+
+.tribe-theme-avada .tribe-events-pro.tribe-events-view--week .datepicker .active .day {
+				background: rgba(51,74,255, 0.07) !important;
+			}
+
+.tribe-theme-avada .tribe-events-pro.tribe-events-view--week .datepicker .active .day:hover {
+					background: rgba(51,74,255, 0.07) !important;
+				}
+
+/* Views */
+
+/* -----------------------------------------------------------------------------
+ *
+ * Views Full
+ *
+ * This file is just a clearing-house.
+ * Make partials (start with an underscore) for any actual css code.
+ *
+ * ----------------------------------------------------------------------------- */
+
+/* Photo */
+
+/**
+ * The Events Calendar Tribe Photo V2 Stylesheet
+ *
+ * @package TribeEventsCalendarPro
+ *
+ */
+
+/* -----------------------------------------------------------------------------
+	 * Event
+	 * ----------------------------------------------------------------------------- */
+
+.tribe-events-pro .tribe-events-pro-photo__event-featured-image-link {
+		transition: opacity 0.2s ease;
+	}
+
+.tribe-events-pro .tribe-events-pro-photo__event-featured-image-link:hover,
+		.tribe-events-pro .tribe-events-pro-photo__event-featured-image-link:focus {
+			opacity: 0.8;
+		}
+
+.tribe-events-pro .tribe-events-pro-photo__event-featured-image-link:active {
+			opacity: 0.9;
+		}
+
+.tribe-events-pro .tribe-events-pro-photo__event-date-tag-month {
+		color: #141827;
+		font-family: "Helvetica Neue", Helvetica, -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif;
+		font-size: 11px;
+		font-weight: 400;
+		line-height: 1.5;
+
+		color: #5D5D5D;
+		text-transform: uppercase;
+	}
+
+.tribe-events-pro .tribe-events-pro-photo__event-datetime-featured-text {
+		color: #334AFF;
+		font-weight: 700;
+	}
+
+.tribe-events-pro .tribe-events-pro-photo__event-datetime-recurring-link:hover .tribe-events-pro-photo__event-datetime-recurring-icon, .tribe-events-pro .tribe-events-pro-photo__event-datetime-recurring-link:focus .tribe-events-pro-photo__event-datetime-recurring-icon {
+				background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='20' height='20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M13.333 3.826c0 .065 0 .13-.02.174 0 .022-.02.065-.02.087a.9.9 0 0 1-.197.37L10.45 7.37a.797.797 0 0 1-.592.26.797.797 0 0 1-.593-.26c-.316-.348-.316-.935 0-1.305l1.225-1.348H6.3C3.753 4.717 1.66 7 1.66 9.827c0 1.369.474 2.651 1.363 3.608.316.348.316.935 0 1.304A.797.797 0 0 1 2.43 15a.797.797 0 0 1-.593-.26C.652 13.434 0 11.695 0 9.847c0-3.826 2.825-6.935 6.301-6.935h4.208L9.284 1.565c-.316-.348-.316-.935 0-1.304.316-.348.85-.348 1.185 0l2.647 2.913c.099.109.158.239.198.37 0 .021.02.065.02.086v.196zM20 10.152c0 3.826-2.825 6.935-6.301 6.935H9.49l1.225 1.348c.336.348.336.935 0 1.304a.797.797 0 0 1-.593.261.83.83 0 0 1-.592-.26l-2.627-2.936a.948.948 0 0 1-.198-.37c0-.021-.02-.064-.02-.086-.02-.065-.02-.109-.02-.174 0-.065 0-.13.02-.174 0-.022.02-.065.02-.087a.9.9 0 0 1 .198-.37L9.55 12.63c.316-.347.849-.347 1.185 0 .336.348.336.935 0 1.305L9.51 15.283h4.208c2.548 0 4.641-2.283 4.641-5.11 0-1.369-.474-2.651-1.362-3.608a.97.97 0 0 1 0-1.304c.316-.348.849-.348 1.185 0C19.348 6.543 20 8.283 20 10.152z' fill='%23334AFF'/%3E%3C/svg%3E");
+			}
+
+/* .tribe-events-pro { */
+
+/* -----------------------------------------------------------------------------
+	 * Nav
+	 * ----------------------------------------------------------------------------- */
+
+/* } */
+
+/* Week */
+
+/**
+ * The Events Calendar Tribe Week V2 Stylesheet
+ *
+ * @package TribeEventsCalendarPro
+ *
+ */
+
+/* -----------------------------------------------------------------------------
+	 * Week Day Selector
+	 * ----------------------------------------------------------------------------- */
+
+.tribe-events-pro .tribe-events-pro-week-day-selector__day {
+		border: 1px solid transparent;
+		border-radius: 4px;
+		transition: border-color 0.2s ease;
+	}
+
+.tribe-events-pro .tribe-events-pro-week-day-selector__day:hover .tribe-events-pro-week-day-selector__day-weekday,
+			.tribe-events-pro .tribe-events-pro-week-day-selector__day:hover .tribe-events-pro-week-day-selector__day-daynum,
+			.tribe-events-pro .tribe-events-pro-week-day-selector__day:focus .tribe-events-pro-week-day-selector__day-weekday,
+			.tribe-events-pro .tribe-events-pro-week-day-selector__day:focus .tribe-events-pro-week-day-selector__day-daynum {
+				color: rgba(20,24,39, 0.8);
+			}
+
+.tribe-events-pro .tribe-events-pro-week-day-selector__day:active .tribe-events-pro-week-day-selector__day-weekday,
+			.tribe-events-pro .tribe-events-pro-week-day-selector__day:active .tribe-events-pro-week-day-selector__day-daynum {
+				color: rgba(20,24,39, 0.9);
+			}
+
+.tribe-events-pro .tribe-events-pro-week-day-selector__day--active {
+		border-color: #334AFF;
+	}
+
+.tribe-events-pro .tribe-events-pro-week-day-selector__events-icon {
+		background-color: #334AFF;
+	}
+
+.tribe-events-pro .tribe-events-pro-week-day-selector__day-weekday,
+	.tribe-events-pro .tribe-events-pro-week-day-selector__day-daynum {
+		transition: color 0.2s ease;
+	}
+
+.tribe-events-pro .tribe-events-pro-week-day-selector__day-weekday {
+		color: #5D5D5D;
+		text-transform: uppercase;
+		margin: 9px 0 -7px;
+	}
+
+.tribe-events-pro .tribe-events-pro-week-day-selector__day-daynum {
+		margin-bottom: 4px;
+	}
+
+/* .tribe-events-pro { */
+
+/* -----------------------------------------------------------------------------
+	 * Week Grid
+	 * ----------------------------------------------------------------------------- */
+
+/* } */
+
+/* -----------------------------------------------------------------------------
+	 * Week Grid Header
+	 * ----------------------------------------------------------------------------- */
+
+.tribe-events-pro .tribe-events-pro-week-grid__header-column--current .tribe-events-pro-week-grid__header-column-weekday {
+			color: #141827;
+		}
+
+.tribe-events-pro .tribe-events-pro-week-grid__header-column--current .tribe-events-pro-week-grid__header-column-daynum,
+		.tribe-events-pro .tribe-events-pro-week-grid__header-column--current .tribe-events-pro-week-grid__header-column-daynum-link {
+			color: #334AFF;
+		}
+
+.tribe-events-pro .tribe-events-pro-week-grid__header-column--current .tribe-events-pro-week-grid__header-column-daynum-link:hover,
+			.tribe-events-pro .tribe-events-pro-week-grid__header-column--current .tribe-events-pro-week-grid__header-column-daynum-link:focus {
+				color: rgba(51,74,255, 0.8);
+			}
+
+.tribe-events-pro .tribe-events-pro-week-grid__header-column--current .tribe-events-pro-week-grid__header-column-daynum-link:active {
+				color: rgba(51,74,255, 0.9);
+			}
+
+.tribe-events-pro .tribe-events-pro-week-grid__header-column-weekday {
+		color: #5D5D5D;
+		text-transform: uppercase;
+	}
+
+/* -----------------------------------------------------------------------------
+	 * Week Grid Body
+	 * ----------------------------------------------------------------------------- */
+
+.tribe-events-pro .tribe-events-pro-week-grid__multiday-events-row-wrapper {
+		box-shadow: 16px 6px 6px -2px rgba(0,0,0, 0.1);
+	}
+
+.tribe-events-pro .tribe-events-pro-week-grid__events-row-wrapper:focus + .tribe-events-pro-week-grid__events-row-scroll-pane {
+			opacity: 1;
+		}
+
+.tribe-events-pro .tribe-events-pro-week-grid__multiday-toggle-button:hover,
+		.tribe-events-pro .tribe-events-pro-week-grid__multiday-toggle-button:focus {
+			opacity: 0.8;
+		}
+
+.tribe-events-pro .tribe-events-pro-week-grid__multiday-toggle-button:active {
+			opacity: 0.9;
+		}
+
+.tribe-events-pro .tribe-events-pro-week-grid__events-scroll-wrapper:hover .tribe-events-pro-week-grid__events-row-scroll-pane {
+			opacity: 1;
+		}
+
+.tribe-events-pro .tribe-events-pro-week-grid__events-time-tag {
+		color: #141827;
+		font-family: "Helvetica Neue", Helvetica, -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif;
+		font-size: 11px;
+		font-weight: 400;
+		line-height: 1.5;
+	}
+
+.tribe-events-pro .tribe-events-pro-week-grid__events-row-scroll-pane {
+		opacity: 0;
+		transition: opacity 0.2s ease;
+	}
+
+.tribe-events-pro .tribe-events-pro-week-grid__events-row-scroll-pane.active {
+			opacity: 1;
+		}
+
+/* -----------------------------------------------------------------------------
+	 * Multiday Event
+	 * ----------------------------------------------------------------------------- */
+
+.tribe-events-pro .tribe-events-pro-week-grid__multiday-event--start .tribe-events-pro-week-grid__multiday-event-bar {
+			border-top-left-radius: 9.5px;
+			border-bottom-left-radius: 9.5px;
+		}
+
+.tribe-events-pro .tribe-events-pro-week-grid__multiday-event--end .tribe-events-pro-week-grid__multiday-event-bar {
+			border-top-right-radius: 9.5px;
+			border-bottom-right-radius: 9.5px;
+		}
+
+.tribe-events-pro .tribe-events-pro-week-grid__multiday-event-bar-inner {
+		background-color: rgba(51,74,255, 0.24);
+		transition: background-color 0.2s ease;
+	}
+
+.tribe-events-pro .tribe-events-pro-week-grid__multiday-event-bar-inner:hover,
+		.tribe-events-pro .tribe-events-pro-week-grid__multiday-event-bar-inner:focus {
+			background-color: rgba(51,74,255, 0.34);
+		}
+
+.tribe-events-pro .tribe-events-pro-week-grid__multiday-event--past .tribe-events-pro-week-grid__multiday-event-bar-inner {
+			background-color: #F7F6F6;
+		}
+
+.tribe-events-pro .tribe-events-pro-week-grid__multiday-event--past .tribe-events-pro-week-grid__multiday-event-bar-inner:hover,
+			.tribe-events-pro .tribe-events-pro-week-grid__multiday-event--past .tribe-events-pro-week-grid__multiday-event-bar-inner:focus {
+				background-color: #F0EEEE;
+			}
+
+.tribe-events-pro .tribe-events-pro-week-grid__multiday-event--past .tribe-events-pro-week-grid__multiday-event-bar-inner--focus,
+		.tribe-events-pro .tribe-events-pro-week-grid__multiday-event--past .tribe-events-pro-week-grid__multiday-event-bar-inner--hover {
+			background-color: #F0EEEE;
+		}
+
+.tribe-events-pro .tribe-events-pro-week-grid__multiday-event-bar-inner--focus,
+	.tribe-events-pro .tribe-events-pro-week-grid__multiday-event-bar-inner--hover {
+		background-color: rgba(51,74,255, 0.34);
+	}
+
+.tribe-events-pro .tribe-events-pro-week-grid__multiday-event-title {
+		text-overflow: ellipsis;
+	}
+
+.tribe-events-pro {
+
+	/* -----------------------------------------------------------------------------
+	 * Event Sequence
+	 * ----------------------------------------------------------------------------- */
+}
+
+/* If event 1 hour or less */
+
+.tribe-events-pro .tribe-events-pro-week-grid__event--h-1 .tribe-events-pro-week-grid__event-title, .tribe-events-pro [class*="tribe-events-pro-week-grid__event--h-0"] .tribe-events-pro-week-grid__event-title {
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+		}
+
+.tribe-events-pro .tribe-events-pro-week-grid__event--featured .tribe-events-pro-week-grid__event-link-inner {
+			background-color: rgba(51,74,255, 0.04);
+		}
+
+.tribe-events-pro .tribe-events-pro-week-grid__event--featured .tribe-events-pro-week-grid__event-link-inner:before {
+				background: #334AFF;
+				content: '';
+				height: 100%;
+				left: 0;
+				top: 0;
+				position: absolute;
+				width: 2px;
+			}
+
+.tribe-events-pro .tribe-events-pro-week-grid__event--featured .tribe-events-pro-week-grid__event-link:hover .tribe-events-pro-week-grid__event-link-inner, .tribe-events-pro .tribe-events-pro-week-grid__event--featured .tribe-events-pro-week-grid__event-link:focus .tribe-events-pro-week-grid__event-link-inner {
+					background-color: rgba(51,74,255, 0.14);
+				}
+
+.tribe-events-pro .tribe-events-pro-week-grid__event--past .tribe-events-pro-week-grid__event-link-inner {
+			background-color: #F7F6F6;
+		}
+
+.tribe-events-pro .tribe-events-pro-week-grid__event--past .tribe-events-pro-week-grid__event-link:hover .tribe-events-pro-week-grid__event-link-inner, .tribe-events-pro .tribe-events-pro-week-grid__event--past .tribe-events-pro-week-grid__event-link:focus .tribe-events-pro-week-grid__event-link-inner {
+					background-color: #F0EEEE;
+				}
+
+.tribe-events-pro .tribe-events-pro-week-grid__event-link {
+		border: 2px solid #FFFFFF;
+		border-radius: 6px;
+	}
+
+.tribe-events-pro .tribe-events-pro-week-grid__event-link:hover .tribe-events-pro-week-grid__event-link-inner, .tribe-events-pro .tribe-events-pro-week-grid__event-link:focus .tribe-events-pro-week-grid__event-link-inner {
+				background-color: rgba(51,74,255, 0.2);
+			}
+
+.tribe-events-pro .tribe-events-pro-week-grid__event-link-inner {
+		background-color: rgba(51,74,255, 0.1);
+		transition: background-color 0.2s ease;
+	}
+
+/* -----------------------------------------------------------------------------
+	 * Event details
+	 * ----------------------------------------------------------------------------- */
+
+.tribe-events-pro .tribe-events-pro-week-grid__event-datetime {
+		color: #141827;
+		font-family: "Helvetica Neue", Helvetica, -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif;
+		font-size: 11px;
+		font-weight: 400;
+		line-height: 1.5;
+
+		color: #5D5D5D;
+		white-space: nowrap;
+	}
+
+/* -----------------------------------------------------------------------------
+	 * Event Tooltip
+	 * ----------------------------------------------------------------------------- */
+
+.tribe-events-pro .tribe-events-pro-week-grid__event-tooltip-featured-image-link {
+		transition: opacity 0.2s ease;
+	}
+
+.tribe-events-pro .tribe-events-pro-week-grid__event-tooltip-featured-image-link:hover,
+		.tribe-events-pro .tribe-events-pro-week-grid__event-tooltip-featured-image-link:focus {
+			opacity: 0.8;
+		}
+
+.tribe-events-pro .tribe-events-pro-week-grid__event-tooltip-featured-image-link:active {
+			opacity: 0.9;
+		}
+
+/* -----------------------------------------------------------------------------
+	 * Event time positioning (top)
+	 * ----------------------------------------------------------------------------- */
+
+.tribe-events-pro .tribe-events-pro-week-grid__event-tooltip-datetime {
+		color: #141827;
+		font-family: "Helvetica Neue", Helvetica, -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif;
+		font-size: 11px;
+		font-weight: 400;
+		line-height: 1.5;
+	}
+
+/* -----------------------------------------------------------------------------
+	 * Event Height / Duration
+	 * ----------------------------------------------------------------------------- */
+
+.tribe-events-pro .tribe-events-pro-week-grid__event-tooltip-datetime-recurring-link:hover .tribe-events-pro-week-grid__event-tooltip-datetime-recurring-icon, .tribe-events-pro .tribe-events-pro-week-grid__event-tooltip-datetime-recurring-link:focus .tribe-events-pro-week-grid__event-tooltip-datetime-recurring-icon {
+				background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='20' height='20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M13.333 3.826c0 .065 0 .13-.02.174 0 .022-.02.065-.02.087a.9.9 0 0 1-.197.37L10.45 7.37a.797.797 0 0 1-.592.26.797.797 0 0 1-.593-.26c-.316-.348-.316-.935 0-1.305l1.225-1.348H6.3C3.753 4.717 1.66 7 1.66 9.827c0 1.369.474 2.651 1.363 3.608.316.348.316.935 0 1.304A.797.797 0 0 1 2.43 15a.797.797 0 0 1-.593-.26C.652 13.434 0 11.695 0 9.847c0-3.826 2.825-6.935 6.301-6.935h4.208L9.284 1.565c-.316-.348-.316-.935 0-1.304.316-.348.85-.348 1.185 0l2.647 2.913c.099.109.158.239.198.37 0 .021.02.065.02.086v.196zM20 10.152c0 3.826-2.825 6.935-6.301 6.935H9.49l1.225 1.348c.336.348.336.935 0 1.304a.797.797 0 0 1-.593.261.83.83 0 0 1-.592-.26l-2.627-2.936a.948.948 0 0 1-.198-.37c0-.021-.02-.064-.02-.086-.02-.065-.02-.109-.02-.174 0-.065 0-.13.02-.174 0-.022.02-.065.02-.087a.9.9 0 0 1 .198-.37L9.55 12.63c.316-.347.849-.347 1.185 0 .336.348.336.935 0 1.305L9.51 15.283h4.208c2.548 0 4.641-2.283 4.641-5.11 0-1.369-.474-2.651-1.362-3.608a.97.97 0 0 1 0-1.304c.316-.348.849-.348 1.185 0C19.348 6.543 20 8.283 20 10.152z' fill='%23334AFF'/%3E%3C/svg%3E");
+			}
+
+/* -----------------------------------------------------------------------------
+	 * Mobile Events
+	 * ----------------------------------------------------------------------------- */
+
+.tribe-events-pro .tribe-events-pro-week-mobile-events__event--featured:before {
+			background: #334AFF;
+			content: '';
+			height: 100%;
+			left: 21px;
+			position: absolute;
+			width: 3px;
+		}
+
+.tribe-events-pro .tribe-events-pro-week-mobile-events__event-featured-image-link {
+		transition: opacity 0.2s ease;
+	}
+
+.tribe-events-pro .tribe-events-pro-week-mobile-events__event-featured-image-link:hover,
+		.tribe-events-pro .tribe-events-pro-week-mobile-events__event-featured-image-link:focus {
+			opacity: 0.8;
+		}
+
+.tribe-events-pro .tribe-events-pro-week-mobile-events__event-featured-image-link:active {
+			opacity: 0.9;
+		}
+
+.tribe-events-pro .tribe-events-pro-week-mobile-events__event-datetime-recurring-link:hover .tribe-events-pro-week-mobile-events__event-datetime-recurring-icon, .tribe-events-pro .tribe-events-pro-week-mobile-events__event-datetime-recurring-link:focus .tribe-events-pro-week-mobile-events__event-datetime-recurring-icon {
+				background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='20' height='20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M13.333 3.826c0 .065 0 .13-.02.174 0 .022-.02.065-.02.087a.9.9 0 0 1-.197.37L10.45 7.37a.797.797 0 0 1-.592.26.797.797 0 0 1-.593-.26c-.316-.348-.316-.935 0-1.305l1.225-1.348H6.3C3.753 4.717 1.66 7 1.66 9.827c0 1.369.474 2.651 1.363 3.608.316.348.316.935 0 1.304A.797.797 0 0 1 2.43 15a.797.797 0 0 1-.593-.26C.652 13.434 0 11.695 0 9.847c0-3.826 2.825-6.935 6.301-6.935h4.208L9.284 1.565c-.316-.348-.316-.935 0-1.304.316-.348.85-.348 1.185 0l2.647 2.913c.099.109.158.239.198.37 0 .021.02.065.02.086v.196zM20 10.152c0 3.826-2.825 6.935-6.301 6.935H9.49l1.225 1.348c.336.348.336.935 0 1.304a.797.797 0 0 1-.593.261.83.83 0 0 1-.592-.26l-2.627-2.936a.948.948 0 0 1-.198-.37c0-.021-.02-.064-.02-.086-.02-.065-.02-.109-.02-.174 0-.065 0-.13.02-.174 0-.022.02-.065.02-.087a.9.9 0 0 1 .198-.37L9.55 12.63c.316-.347.849-.347 1.185 0 .336.348.336.935 0 1.305L9.51 15.283h4.208c2.548 0 4.641-2.283 4.641-5.11 0-1.369-.474-2.651-1.362-3.608a.97.97 0 0 1 0-1.304c.316-.348.849-.348 1.185 0C19.348 6.543 20 8.283 20 10.152z' fill='%23334AFF'/%3E%3C/svg%3E");
+			}
+
+/* -----------------------------------------------------------------------------
+	 * Time separator
+	 * ----------------------------------------------------------------------------- */
+
+.tribe-events-pro .tribe-events-pro-week-mobile-events__event-time-separator:after {
+			background-color: #D5D5D5;
+			content: '';
+			display: block;
+			flex: auto;
+			height: 1px;
+			margin-left: 20px;
+		}
+
+/* -----------------------------------------------------------------------------
+	 * Type separator
+	 * ----------------------------------------------------------------------------- */
+
+.tribe-events-pro .tribe-events-pro-week-mobile-events__event-type-separator:after {
+			background-color: #D5D5D5;
+			content: '';
+			display: block;
+			flex: auto;
+			height: 1px;
+			margin-left: 20px;
+		}
+
+/* Map */
+
+/**
+ * The Events Calendar Tribe Map V2 Stylesheet
+ *
+ * @package TribeEventsCalendarPro
+ *
+ */
+
+/* -----------------------------------------------------------------------------
+	 * Map
+	 * ----------------------------------------------------------------------------- */
+
+.tribe-events-pro .tribe-events-pro-map__map {
+		border-color: #D5D5D5;
+		border-style: solid;
+		border-width: 1px 1px 0px 1px;
+	}
+
+.tribe-common--breakpoint-medium.tribe-events-pro .tribe-events-pro-map__map {
+			border-width: 1px 0 1px 1px;
+		}
+
+/* -----------------------------------------------------------------------------
+	 * No Venue Modal
+	 * ----------------------------------------------------------------------------- */
+
+.tribe-events-pro .tribe-events-pro-map__no-venue-modal--premium {
+		box-shadow: 0 2px 5px 0 rgba(0,0,0, 0.14);
+	}
+
+/* -----------------------------------------------------------------------------
+	 * Event Cards
+	 * ----------------------------------------------------------------------------- */
+
+.tribe-events-pro .tribe-events-pro-map__event-column:before,
+		.tribe-events-pro .tribe-events-pro-map__event-column:after {
+			background-color: #D5D5D5;
+			content: '';
+			height: 100%;
+			top: 0;
+			position: absolute;
+			width: 1px;
+		}
+
+.tribe-events-pro .tribe-events-pro-map__event-column:before {
+			left: 0;
+		}
+
+.tribe-events-pro .tribe-events-pro-map__event-column:after {
+			right: 0;
+		}
+
+.tribe-events-pro .tribe-events-pro-map__event-cards-wrapper:hover .tribe-events-pro-map__event-cards-scroll-pane {
+			opacity: 1;
+		}
+
+.tribe-events-pro .tribe-events-pro-map__event-cards-wrapper:before,
+		.tribe-events-pro .tribe-events-pro-map__event-cards-wrapper:after {
+			background-color: #D5D5D5;
+			content: '';
+			height: 1px;
+			position: absolute;
+			left: 0;
+			width: 100%;
+		}
+
+.tribe-events-pro .tribe-events-pro-map__event-cards-wrapper:before {
+			top: 0;
+		}
+
+.tribe-events-pro .tribe-events-pro-map__event-cards-wrapper:after {
+			bottom: 0;
+		}
+
+.tribe-events-pro .tribe-events-pro-map__event-cards:focus + .tribe-events-pro-map__event-cards-scroll-pane {
+			opacity: 1;
+		}
+
+.tribe-events-pro .tribe-events-pro-map__event-cards-scroll-pane {
+		opacity: 0;
+		transition: opacity 0.2s ease;
+	}
+
+.tribe-events-pro .tribe-events-pro-map__event-cards-scroll-pane.active {
+			opacity: 1;
+		}
+
+/* -----------------------------------------------------------------------------
+	 * Event Card
+	 * ----------------------------------------------------------------------------- */
+
+.tribe-events-pro .tribe-events-pro-map__event-card-wrapper:not(:first-child) {
+			margin-top: -1px;
+		}
+
+.tribe-events-pro .tribe-events-pro-map__event-card-button {
+		border: 1px solid #D5D5D5;
+		text-align: left;
+	}
+
+.tribe-events-pro .tribe-events-pro-map__event-card-button:hover,
+		.tribe-events-pro .tribe-events-pro-map__event-card-button:focus {
+			border: 1px solid #5D5D5D;
+		}
+
+.tribe-events-pro .tribe-events-pro-map__event-card-wrapper--active .tribe-events-pro-map__event-card-button {
+			border: 1px solid #334AFF;
+			box-shadow: 0 1px 6px 2px rgba(0,0,0, 0.14);
+		}
+
+.tribe-events-pro .tribe-events-pro-map__event-date-tag-month {
+		color: #141827;
+		font-family: "Helvetica Neue", Helvetica, -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif;
+		font-size: 11px;
+		font-weight: 400;
+		line-height: 1.5;
+
+		color: #5D5D5D;
+		text-transform: uppercase;
+	}
+
+.tribe-events-pro .tribe-events-pro-map__event-featured-image-link {
+		transition: opacity 0.2s ease;
+	}
+
+.tribe-events-pro .tribe-events-pro-map__event-featured-image-link:hover,
+		.tribe-events-pro .tribe-events-pro-map__event-featured-image-link:focus {
+			opacity: 0.8;
+		}
+
+.tribe-events-pro .tribe-events-pro-map__event-featured-image-link:active {
+			opacity: 0.9;
+		}
+
+.tribe-common--breakpoint-medium.tribe-events-pro .tribe-events-pro-map__event-datetime-featured-text {
+			color: #334AFF;
+			font-weight: 700;
+		}
+
+.tribe-events-pro .tribe-events-pro-map__event-title {
+		line-height: 1.38;
+	}
+
+.tribe-events-pro .tribe-events-pro-map__event-venue {
+		font-style: normal;
+	}
+
+.tribe-common--breakpoint-medium.tribe-events-pro .tribe-events-pro-map__event-distance {
+			color: #5D5D5D;
+		}
+
+/* -----------------------------------------------------------------------------
+	 * Tooltip
+	 * ----------------------------------------------------------------------------- */
+
+.tribe-events-pro .tribe-events-pro-map__event-tooltip-venue {
+		font-style: normal;
+	}
+
+.tribe-events-pro .tribe-events-pro-map__event-tooltip-navigation-button:hover,
+		.tribe-events-pro .tribe-events-pro-map__event-tooltip-navigation-button:focus {
+			opacity: 0.8;
+		}
+
+.tribe-events-pro .tribe-events-pro-map__event-tooltip-navigation-button:active {
+			opacity: 0.9;
+		}
+
+.tribe-events-pro .tribe-events-pro-map__event-tooltip-navigation-button--prev:before,
+	.tribe-events-pro .tribe-events-pro-map__event-tooltip-navigation-button--next:after {
+		background: center / contain no-repeat;
+		background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='22' height='19' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11.648 0L9.62 1.956l6.23 6.005H0v2.793h15.85L9.62 16.76l2.028 1.956 9.705-9.358z' fill='%23141827'/%3E%3C/svg%3E");
+		content: '';
+		flex: none;
+		height: 10px;
+		width: 13px;
+	}
+
+.tribe-events-pro .tribe-events-pro-map__event-tooltip-navigation-button--prev:before {
+			margin-right: 8px;
+			-webkit-transform: rotateZ(180deg);
+			        transform: rotateZ(180deg);
+		}
+
+.tribe-events-pro .tribe-events-pro-map__event-tooltip-navigation-button--next:after {
+			margin-left: 8px;
+		}
+
+.tribe-events-pro .tribe-events-pro-map__event-tooltip-navigation-button--disabled {
+		color: #BABABA;
+	}
+
+.tribe-events-pro .tribe-events-pro-map__event-tooltip-navigation-button--disabled:hover,
+		.tribe-events-pro .tribe-events-pro-map__event-tooltip-navigation-button--disabled:focus,
+		.tribe-events-pro .tribe-events-pro-map__event-tooltip-navigation-button--disabled:active {
+			opacity: 1;
+		}
+
+.tribe-events-pro .tribe-events-pro-map__event-tooltip-navigation-button--disabled:before,
+		.tribe-events-pro .tribe-events-pro-map__event-tooltip-navigation-button--disabled:after {
+			background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='22' height='19' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11.648 0L9.62 1.956l6.23 6.005H0v2.793h15.85L9.62 16.76l2.028 1.956 9.705-9.358z' fill='%23BABABA'/%3E%3C/svg%3E");
+		}
+
+/* -----------------------------------------------------------------------------
+	 * Google Maps InfoWindow
+	 * ----------------------------------------------------------------------------- */
+
+.tribe-events-pro .gm-style .gm-style-iw-c {
+		border-radius: 4px;
+	}
+
+/* -----------------------------------------------------------------------------
+	 * Nav
+	 * ----------------------------------------------------------------------------- */
+
+.tribe-events-pro .tribe-events-pro-map__nav {
+		border-color: #D5D5D5;
+		border-style: solid;
+		border-width: 0px 1px 1px 1px;
+	}
+
+.tribe-common--breakpoint-medium.tribe-events-pro .tribe-events-pro-map__nav .tribe-events-c-nav__prev, .tribe-common--breakpoint-medium.tribe-events-pro .tribe-events-pro-map__nav .tribe-events-c-nav__next {
+				font-weight: 400;
+			}
+
+.tribe-events-pro .tribe-events-pro-map__nav .tribe-events-c-nav__prev:before {
+			height: 12px;
+			margin-right: 8px;
+			width: 7px;
+		}
+
+.tribe-events-pro .tribe-events-pro-map__nav .tribe-events-c-nav__next:after {
+			height: 12px;
+			margin-left: 8px;
+			width: 7px;
+		}
+
+/* Organizer */
+
+/**
+ * The Events Calendar Tribe Organizer V2 Stylesheet
+ *
+ * @package TribeEventsCalendarPro
+ *
+ */
+
+/* -----------------------------------------------------------------------------
+	 * Organizer
+	 * ----------------------------------------------------------------------------- */
+
+.tribe-events-pro .tribe-events-pro-organizer__meta {
+		border: 1px solid #D5D5D5;
+	}
+
+.tribe-events-pro .tribe-events-pro-organizer__meta-email-link,
+	.tribe-events-pro .tribe-events-pro-organizer__meta-website-link {
+		color: #334AFF;
+	}
+
+/* Venue */
+
+/**
+ * The Events Calendar Tribe Venue V2 Stylesheet
+ *
+ * @package TribeEventsCalendarPro
+ *
+ */
+
+/* -----------------------------------------------------------------------------
+	 * Venue
+	 * ----------------------------------------------------------------------------- */
+
+.tribe-events-pro .tribe-events-pro-venue__meta {
+		border: 1px solid #D5D5D5;
+	}
+
+.tribe-events-pro .tribe-events-pro-venue__meta-map {
+		border: 1px solid #D5D5D5;
+	}
+
+.tribe-common--breakpoint-medium.tribe-events-pro .tribe-events-pro-venue__meta-map {
+			border: 0;
+		}
+
+.tribe-events-pro .tribe-events-pro-venue__meta-address-directions-link,
+	.tribe-events-pro .tribe-events-pro-venue__meta-website-link {
+		color: #334AFF;
+	}

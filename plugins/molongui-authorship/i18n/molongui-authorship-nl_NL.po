@@ -1,0 +1,3717 @@
+#: config/customizer.php:33 config/customizer.php:382 config/customizer.php:462
+#: config/customizer.php:517 config/customizer.php:553
+#: config/customizer.php:585 config/customizer.php:617
+#: config/customizer.php:656 config/customizer.php:727
+#: config/customizer.php:905 config/customizer.php:933
+#: config/customizer.php:969 config/customizer.php:1036
+#: config/customizer.php:1091 config/customizer.php:1146
+#: config/customizer.php:1168 config/customizer.php:1275
+#: config/customizer.php:1307 config/customizer.php:1339
+#: config/customizer.php:1555 config/customizer.php:1643
+#: config/customizer.php:1750 config/customizer.php:1835
+#: config/customizer.php:1932 config/customizer.php:1954
+#: config/customizer.php:2075 config/customizer.php:2136
+#: config/customizer.php:2172 config/customizer.php:2300
+#: config/customizer.php:2332 config/customizer.php:2354
+#: config/customizer.php:2375 config/customizer.php:2403
+#: config/customizer.php:2439 config/customizer.php:2506
+#: config/customizer.php:2561 config/customizer.php:2616
+#: config/customizer.php:2720 config/customizer.php:2741
+#: config/customizer.php:2769 config/customizer.php:2805
+#: config/customizer.php:2872 config/customizer.php:2927
+#: config/customizer.php:2982 config/customizer.php:3290
+#: config/customizer.php:3311 config/customizer.php:3339
+#: config/customizer.php:3375 config/customizer.php:3411
+#: config/customizer.php:3466 config/customizer.php:3521
+#: config/customizer.php:3576 config/customizer.php:3598
+#: config/customizer.php:3670 config/customizer.php:3761
+#: config/customizer.php:3793 config/customizer.php:3819
+#: config/customizer.php:3896 config/customizer.php:3952
+#: config/customizer.php:3973 config/customizer.php:4001
+#: config/customizer.php:4037 config/customizer.php:4092
+#: config/customizer.php:4147 config/settings.php:226 config/settings.php:256
+#: config/settings.php:265 config/settings.php:303 config/settings.php:315
+#: config/settings.php:341 config/settings.php:357 config/settings.php:366
+#: config/settings.php:394 config/settings.php:403 config/settings.php:429
+#: config/settings.php:441 config/settings.php:455 config/settings.php:499
+#: config/settings.php:527 config/settings.php:536 config/settings.php:1061
+#: config/settings.php:1073 config/settings.php:1094 config/settings.php:1139
+#: config/settings.php:1148 config/settings.php:1160 config/settings.php:1174
+#: config/settings.php:1183 config/settings.php:1227 config/settings.php:1239
+#: config/settings.php:1251 config/settings.php:1295 config/settings.php:1304
+#: config/settings.php:1332 config/settings.php:1341 config/settings.php:1367
+#: config/settings.php:1395 config/settings.php:1404 config/settings.php:1458
+#: config/settings.php:1467 config/settings.php:1493 config/settings.php:1519
+#: config/settings.php:1545 config/settings.php:1557 config/settings.php:1569
+#: config/settings.php:1583 config/settings.php:1592 config/settings.php:1618
+#: config/settings.php:1644 config/settings.php:1670 config/settings.php:1682
+#: config/settings.php:1694 config/settings.php:1705 config/settings.php:1764
+#: config/settings.php:1773 config/settings.php:1787 config/settings.php:1796
+#: config/settings.php:1822 config/settings.php:1848 config/settings.php:1874
+#: config/settings.php:1900 config/settings.php:1962
+msgid ""
+msgstr ""
+"Project-Id-Version: Molongui Authorship\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-13 11:10+0200\n"
+"PO-Revision-Date: 2016-09-12 12:31+0100\n"
+"Last-Translator: Amitzy <molongui@amitzy.com>\n"
+"Language-Team: Amitzy\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Loco-Source-Locale: nl_NL\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: molongui-authorship.php\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Loco-Parser: loco_parse_po\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/plugin-class-admin.php:347 includes/molongui-class-author.php:3123
+msgid "Remove author from selection"
+msgstr ""
+
+#: admin/plugin-class-admin.php:678 admin/plugin-class-admin.php:685
+#: admin/plugin-class-admin.php:917 admin/plugin-class-admin.php:918
+#: config/customizer.php:717 config/customizer.php:735
+#: config/customizer.php:1577 config/customizer.php:1595
+#: public/views/parts/html-author-box-headline.php:34
+#: public/views/parts/html-author-box-tabs.php:37
+msgid "About the author"
+msgstr "Over de auteur"
+
+#: admin/plugin-class-admin.php:680 admin/plugin-class-admin.php:921
+#: config/customizer.php:3004 config/customizer.php:3022
+#: premium/public/views/html-author-list-basic.php:32
+#: public/views/parts/html-author-box-meta.php:36
+msgid "at"
+msgstr "bij"
+
+#: admin/plugin-class-admin.php:681 config/customizer.php:3037
+#: config/customizer.php:3055 includes/molongui-class-author.php:4087
+#: premium/public/views/html-author-list-basic.php:83
+#: public/views/parts/html-author-box-meta.php:81
+msgid "Website"
+msgstr ""
+
+#: admin/plugin-class-admin.php:682 admin/plugin-class-admin.php:923
+#: config/customizer.php:3070 config/customizer.php:3088
+#: public/views/parts/html-author-box-meta.php:100
+#: public/views/parts/html-author-box-meta.php:119
+msgid "+ posts"
+msgstr "+ berichten"
+
+#: admin/plugin-class-admin.php:683 admin/plugin-class-admin.php:924
+#: config/customizer.php:3103 config/customizer.php:3121
+#: includes/molongui-class-author.php:3388
+#: public/views/parts/html-author-box-meta.php:100
+msgid "Bio"
+msgstr "Bio"
+
+#: admin/plugin-class-admin.php:686 admin/plugin-class-admin.php:919
+#: admin/plugin-class-admin.php:925 config/customizer.php:1610
+#: config/customizer.php:1628 config/customizer.php:3886
+#: config/customizer.php:3904 config/settings-2.php:321 config/settings.php:393
+#: public/views/parts/html-author-box-related-title.php:18
+#: public/views/parts/html-author-box-tabs.php:45
+msgid "Related posts"
+msgstr "Gerelateerde berichten"
+
+#: admin/plugin-class-admin.php:688 admin/plugin-class-admin.php:920
+#: config/customizer.php:1740 config/customizer.php:1758
+#, fuzzy
+msgid "Author profile"
+msgstr "Functieprofiel"
+
+#: admin/plugin-class-admin.php:689
+#, fuzzy
+msgid "Related entries"
+msgstr "Gerelateerde berichten"
+
+#: admin/plugin-class-admin.php:691 admin/plugin-class-admin.php:926
+#: config/customizer.php:3919 config/customizer.php:3937
+#: customizer/plugin-customizer-preview.php:100
+#: premium/public/views/html-author-box-profile-layout-7.php:92
+#: public/views/html-author-box-layout.php:166
+#: public/views/html-author-box-profile-layout-1.php:97
+#: public/views/html-multiauthor-box-layout.php:134
+msgid "This author does not have any more posts."
+msgstr "Deze auteur heeft geen more posts."
+
+#: admin/plugin-class-admin.php:922
+#, fuzzy
+msgid "Web"
+msgstr "Weibo"
+
+#: admin/plugin-class-admin.php:1125 admin/plugin-class-admin.php:1259
+#: config/settings.php:1286 includes/molongui-class-author.php:3738
+#: premium/admin/plugin-class-admin-premium.php:117
+#, fuzzy
+msgid "Authors"
+msgstr "Auteur"
+
+#: admin/plugin-class-admin.php:1128
+#, fuzzy
+msgid "Author Box"
+msgstr "auteurschap doos"
+
+#: admin/plugin-class-admin.php:1172
+msgid "guest"
+msgstr ""
+
+#: admin/plugin-class-admin.php:1179 includes/molongui-class-author.php:379
+#: includes/molongui-class-author.php:440
+#: includes/molongui-class-author.php:502
+#: includes/molongui-class-author.php:581
+#: includes/molongui-class-author.php:694
+#: includes/molongui-class-author.php:755 premium/includes/shortcodes.php:347
+msgid "user"
+msgstr ""
+
+#: admin/plugin-class-admin.php:1202 admin/plugin-class-admin.php:1289
+#: config/customizer.php:1990 config/customizer.php:3634
+#: config/settings-2.php:234 config/settings.php:275
+#: includes/molongui-class-author.php:3428
+#: includes/molongui-class-author.php:3570
+#: includes/molongui-class-author.php:3899
+#: includes/molongui-class-author.php:3956 includes/molongui-class-user.php:84
+#: includes/molongui-class-user.php:95 includes/molongui-class-user.php:352
+#: premium/admin/plugin-class-admin-premium.php:148
+#: premium/includes/molongui-class-author-premium.php:142
+msgid "Show"
+msgstr "Toon"
+
+#: admin/plugin-class-admin.php:1202 admin/plugin-class-admin.php:1290
+#: config/customizer.php:1995 config/customizer.php:3639
+#: config/settings-2.php:237 config/settings.php:293
+#: includes/molongui-class-author.php:3428
+#: includes/molongui-class-author.php:3571
+#: includes/molongui-class-author.php:3900
+#: includes/molongui-class-author.php:3957 includes/molongui-class-user.php:88
+#: includes/molongui-class-user.php:94 includes/molongui-class-user.php:353
+#: premium/admin/plugin-class-admin-premium.php:149
+#: premium/includes/molongui-class-author-premium.php:143
+msgid "Hide"
+msgstr "Verberg"
+
+#: admin/plugin-class-admin.php:1256
+#: premium/admin/plugin-class-admin-premium.php:114
+#, fuzzy
+msgid "Authorship data"
+msgstr "auteurschap doos"
+
+#: admin/plugin-class-admin.php:1286 config/settings-2.php:176
+#: config/settings.php:208 includes/molongui-class-author.php:3567
+#: includes/molongui-class-user.php:53
+#: premium/admin/plugin-class-admin-premium.php:144
+#: premium/includes/molongui-class-author-premium.php:138
+#, fuzzy
+msgid "Author box"
+msgstr "auteurschap doos"
+
+#: admin/plugin-class-admin.php:1288 config/customizer.php:3679
+#: includes/molongui-class-author.php:3569
+#: includes/molongui-class-author.php:3898
+#: includes/molongui-class-author.php:3908
+#: includes/molongui-class-author.php:3955 includes/molongui-class-user.php:351
+#: premium/admin/plugin-class-admin-premium.php:147
+#: premium/includes/molongui-class-author-premium.php:141
+msgid "Default"
+msgstr "Standaard"
+
+#: admin/views/html-settings-box-preview.php:49
+msgid ""
+"How the author box is displayed in your site's frontend could differ "
+"slightly from what is shown here."
+msgstr ""
+
+#: config/customizer.php:19
+#, fuzzy
+msgid "Molongui Author Box"
+msgstr "Molongui Authorship"
+
+#: config/customizer.php:20
+msgid "Customize visual settings to your like."
+msgstr ""
+
+#: config/customizer.php:32
+msgid "Pre-defined appearance schemes"
+msgstr ""
+
+#: config/customizer.php:60
+msgid "Pre-defined schemes"
+msgstr ""
+
+#: config/customizer.php:61
+msgid ""
+"Choose the pre-defined appearance scheme you would like to use. Once loaded, "
+"you can customize any setting you need."
+msgstr ""
+
+#: config/customizer.php:69
+msgid "Scheme 1"
+msgstr ""
+
+#: config/customizer.php:75
+msgid "Scheme 2"
+msgstr ""
+
+#: config/customizer.php:81
+msgid "Scheme 3"
+msgstr ""
+
+#: config/customizer.php:99 includes/molongui-class-author.php:3387
+#, fuzzy
+msgid "Box"
+msgstr "Boxed"
+
+#: config/customizer.php:100
+msgid ""
+"Customize to your likings the author box that will be displayed on your "
+"posts by selecting which layout to use, the position where to display it, "
+"and many more color, size and styling options. Make it fit the best with "
+"your site. You can preview Premium settings. Upgrade to Premium to unlock "
+"them all :)"
+msgstr ""
+
+#: config/customizer.php:175
+msgid "Layout"
+msgstr "Lay-out"
+
+#: config/customizer.php:176
+msgid ""
+"The template used to render the author box. The first two displays the "
+"author profile or the related posts in the same space while the third one "
+"shows related entries below author profile."
+msgstr ""
+
+#: config/customizer.php:185
+msgid "Slim"
+msgstr ""
+
+#: config/customizer.php:191
+msgid "Tabbed"
+msgstr "Tabbed"
+
+#: config/customizer.php:197
+msgid "Stacked"
+msgstr ""
+
+#: config/customizer.php:224 config/customizer.php:1195
+msgid "Position"
+msgstr ""
+
+#: config/customizer.php:225
+msgid ""
+"Whether to show the author box above the post content, below or on both "
+"places."
+msgstr ""
+
+#: config/customizer.php:234
+msgid "Above content"
+msgstr "Boven de inhoud"
+
+#: config/customizer.php:240
+msgid "Below content"
+msgstr "beneden de inhoud"
+
+#: config/customizer.php:246
+#, fuzzy
+msgid "Above and below content"
+msgstr "Bovenstaande post inhoud"
+
+#: config/customizer.php:273 config/settings-2.php:275
+#: config/settings-2.php:395 config/settings.php:340 config/settings.php:498
+msgid "Order"
+msgstr "Ordenen"
+
+#: config/customizer.php:274
+msgid ""
+"Author box is added to post content in the configured position. Nonetheless, "
+"other plugins may also add their stuff, making the author box appear above/"
+"below it. Reduce the number below until the box goes up there where you like "
+"or increase it to make it go down."
+msgstr ""
+
+#: config/customizer.php:308
+msgid "Margin"
+msgstr ""
+
+#: config/customizer.php:309
+msgid "Space in pixels to add above and below the author box."
+msgstr ""
+
+#: config/customizer.php:344
+msgid "Width"
+msgstr ""
+
+#: config/customizer.php:345
+msgid "Amount of space in percentage the author box can take."
+msgstr ""
+
+#: config/customizer.php:381
+msgid "Border"
+msgstr ""
+
+#: config/customizer.php:391 config/customizer.php:632
+#: config/customizer.php:1844 config/customizer.php:2035
+#: config/customizer.php:2084 config/customizer.php:2254
+msgid "None"
+msgstr "Geen"
+
+#: config/customizer.php:397
+msgid "All"
+msgstr ""
+
+#: config/customizer.php:403
+msgid "Horizontals"
+msgstr ""
+
+#: config/customizer.php:409
+msgid "Verticals"
+msgstr ""
+
+#: config/customizer.php:415 config/customizer.php:626
+#: config/customizer.php:1100 config/customizer.php:2570
+#: config/customizer.php:2936 config/customizer.php:3530
+msgid "Left"
+msgstr "Links"
+
+#: config/customizer.php:421
+msgid "Top"
+msgstr ""
+
+#: config/customizer.php:427 config/customizer.php:638
+#: config/customizer.php:1112 config/customizer.php:2582
+#: config/customizer.php:2948 config/customizer.php:3542
+msgid "Right"
+msgstr "Rechts"
+
+#: config/customizer.php:433
+#, fuzzy
+msgid "Bottom"
+msgstr "Onderrand"
+
+#: config/customizer.php:461 config/customizer.php:2074
+#, fuzzy
+msgid "Border style"
+msgstr "Bio tekststijl"
+
+#: config/customizer.php:471 config/customizer.php:1850
+#: config/customizer.php:2090
+msgid "Solid"
+msgstr ""
+
+#: config/customizer.php:477 config/customizer.php:1856
+#: config/customizer.php:2096
+msgid "Double"
+msgstr ""
+
+#: config/customizer.php:483 config/customizer.php:1862
+#: config/customizer.php:2102
+msgid "Dotted"
+msgstr ""
+
+#: config/customizer.php:489 config/customizer.php:1868
+#: config/customizer.php:2108
+msgid "Dashed"
+msgstr ""
+
+#: config/customizer.php:516 config/customizer.php:2135
+msgid "Border width"
+msgstr ""
+
+#: config/customizer.php:552 config/customizer.php:2171
+msgid "Border color"
+msgstr ""
+
+#: config/customizer.php:584 config/customizer.php:1338
+msgid "Background color"
+msgstr ""
+
+#: config/customizer.php:616
+msgid "Shadow"
+msgstr ""
+
+#: config/customizer.php:655
+msgid "Headline"
+msgstr ""
+
+#: config/customizer.php:683 config/customizer.php:1981
+#: config/settings-2.php:218 config/settings.php:254
+msgid "Display"
+msgstr ""
+
+#: config/customizer.php:684
+#, fuzzy
+msgid "Whether to show a headline above the author box."
+msgstr "Aanpassen verwante posten van auteurs."
+
+#: config/customizer.php:693
+#, fuzzy
+msgid "Show headline"
+msgstr "Toon sociale pictogrammen"
+
+#: config/customizer.php:699
+#, fuzzy
+msgid "Hide headline"
+msgstr "Toon sociale pictogrammen"
+
+#: config/customizer.php:726
+msgid "Text"
+msgstr ""
+
+#: config/customizer.php:904 config/customizer.php:2374
+#: config/customizer.php:2740 config/customizer.php:3310
+#: config/customizer.php:3972
+msgid "Typography"
+msgstr ""
+
+#: config/customizer.php:932 config/customizer.php:2402
+#: config/customizer.php:2768 config/customizer.php:3338
+#: config/customizer.php:4000
+msgid "Size"
+msgstr ""
+
+#: config/customizer.php:968 config/customizer.php:2438
+#: config/customizer.php:2804 config/customizer.php:3410
+#: config/customizer.php:3669 config/customizer.php:4036
+msgid "Style"
+msgstr ""
+
+#: config/customizer.php:978 config/customizer.php:2448
+#: config/customizer.php:2814 config/customizer.php:3420
+#: config/customizer.php:4046
+msgid "Normal"
+msgstr "Normaal"
+
+#: config/customizer.php:984 config/customizer.php:2454
+#: config/customizer.php:2820 config/customizer.php:3426
+#: config/customizer.php:4052
+msgid "Bold"
+msgstr "Vet"
+
+#: config/customizer.php:990 config/customizer.php:2460
+#: config/customizer.php:2826 config/customizer.php:3432
+#: config/customizer.php:4058
+#, fuzzy
+msgid "Italic"
+msgstr "Cursief"
+
+#: config/customizer.php:996 config/customizer.php:2466
+#: config/customizer.php:2832 config/customizer.php:3438
+#: config/customizer.php:4064
+msgid "Underline"
+msgstr ""
+
+#: config/customizer.php:1002 config/customizer.php:2472
+#: config/customizer.php:2838
+msgid "Overline"
+msgstr ""
+
+#: config/customizer.php:1008 config/customizer.php:2478
+#: config/customizer.php:2844
+msgid "Overline and underline"
+msgstr ""
+
+#: config/customizer.php:1035 config/customizer.php:2505
+#: config/customizer.php:2871 config/customizer.php:3465
+#: config/customizer.php:4091
+msgid "Case"
+msgstr ""
+
+#: config/customizer.php:1045 config/customizer.php:2515
+#: config/customizer.php:2881 config/customizer.php:3475
+#: config/customizer.php:4101
+msgid "Leave as is"
+msgstr ""
+
+#: config/customizer.php:1051 config/customizer.php:2521
+#: config/customizer.php:2887 config/customizer.php:3481
+#: config/customizer.php:4107
+msgid "Capitalize"
+msgstr ""
+
+#: config/customizer.php:1057 config/customizer.php:2527
+#: config/customizer.php:2893 config/customizer.php:3487
+#: config/customizer.php:4113
+msgid "Uppercase"
+msgstr ""
+
+#: config/customizer.php:1063 config/customizer.php:2533
+#: config/customizer.php:2899 config/customizer.php:3493
+#: config/customizer.php:4119
+msgid "Lowercase"
+msgstr ""
+
+#: config/customizer.php:1090 config/customizer.php:2560
+#: config/customizer.php:2926 config/customizer.php:3520
+msgid "Align"
+msgstr ""
+
+#: config/customizer.php:1106 config/customizer.php:2576
+#: config/customizer.php:2942 config/customizer.php:3536
+msgid "Center"
+msgstr ""
+
+#: config/customizer.php:1118 config/customizer.php:2588
+#: config/customizer.php:2954 config/customizer.php:3548
+msgid "Justify"
+msgstr "Uitvullen"
+
+#: config/customizer.php:1145 config/customizer.php:2615
+#: config/customizer.php:2981 config/customizer.php:3575
+#: config/customizer.php:3760 config/customizer.php:4146
+msgid "Color"
+msgstr ""
+
+#: config/customizer.php:1167
+msgid "Tabs"
+msgstr ""
+
+#: config/customizer.php:1196
+msgid "Where to display the tabs."
+msgstr ""
+
+#: config/customizer.php:1205
+msgid "Top full width"
+msgstr ""
+
+#: config/customizer.php:1211
+#, fuzzy
+msgid "Top left"
+msgstr "Hoogste niveau"
+
+#: config/customizer.php:1217
+#, fuzzy
+msgid "Top center"
+msgstr "Hoogste niveau"
+
+#: config/customizer.php:1223
+msgid "Top right"
+msgstr ""
+
+#: config/customizer.php:1274
+#, fuzzy
+msgid "Tabs color"
+msgstr "Naam kleur"
+
+#: config/customizer.php:1306
+#, fuzzy
+msgid "Active tab color"
+msgstr "Meta kleur"
+
+#: config/customizer.php:1554
+#, fuzzy
+msgid "Text color"
+msgstr "Meta kleur"
+
+#: config/customizer.php:1586
+#, fuzzy
+msgid "\"About the author\" label"
+msgstr "Over de auteur"
+
+#: config/customizer.php:1587
+msgid "Text to show as author bio tab label."
+msgstr ""
+
+#: config/customizer.php:1619
+#, fuzzy
+msgid "\"Related posts\" label"
+msgstr "Gerelateerde berichten"
+
+#: config/customizer.php:1620
+#, fuzzy
+msgid "Text to show as author related posts tab label"
+msgstr "Toon gerelateerde berichten"
+
+#: config/customizer.php:1642 config/customizer.php:3818
+#: config/settings-2.php:705 config/settings-2.php:797 config/settings.php:1544
+#: config/settings.php:1669
+msgid "Template"
+msgstr "Sjabloon"
+
+#: config/customizer.php:1670
+#, fuzzy
+msgid "Profile template"
+msgstr "Profielfoto "
+
+#: config/customizer.php:1671
+msgid "The template to be used to render the author profile section."
+msgstr ""
+
+#: config/customizer.php:1680 config/customizer.php:3856
+#, fuzzy
+msgid "Template 1"
+msgstr "Sjabloon"
+
+#: config/customizer.php:1686 config/customizer.php:3862
+#, fuzzy
+msgid "Template 2"
+msgstr "Sjabloon"
+
+#: config/customizer.php:1692 config/customizer.php:3868
+#, fuzzy
+msgid "Template 3"
+msgstr "Sjabloon"
+
+#: config/customizer.php:1698
+#, fuzzy
+msgid "Template 4"
+msgstr "Sjabloon"
+
+#: config/customizer.php:1704
+#, fuzzy
+msgid "Template 5"
+msgstr "Sjabloon"
+
+#: config/customizer.php:1710
+#, fuzzy
+msgid "Template 6"
+msgstr "Sjabloon"
+
+#: config/customizer.php:1716
+#, fuzzy
+msgid "Template 7"
+msgstr "Sjabloon"
+
+#: config/customizer.php:1722
+#, fuzzy
+msgid "Template 8"
+msgstr "Sjabloon"
+
+#: config/customizer.php:1749 config/customizer.php:3895
+msgid "Section label"
+msgstr ""
+
+#: config/customizer.php:1802
+msgid "Bottom background color"
+msgstr "Achtergrondkleur van de bodem"
+
+#: config/customizer.php:1803
+msgid ""
+"The color used to fill the background of the bottom section on a \"ribbon\" "
+"layout."
+msgstr ""
+
+#: config/customizer.php:1834
+#, fuzzy
+msgid "Bottom border style"
+msgstr "Onderrand"
+
+#: config/customizer.php:1895
+#, fuzzy
+msgid "Bottom border width"
+msgstr "Onderrand"
+
+#: config/customizer.php:1896
+msgid ""
+"Width of the border to add at the top of bottom section on a \"ribbon\" "
+"layout."
+msgstr ""
+
+#: config/customizer.php:1931
+msgid "Bottom border color"
+msgstr "Onderrand kleur"
+
+#: config/customizer.php:1953
+msgid "Avatar"
+msgstr ""
+
+#: config/customizer.php:1982
+msgid "Whether to show author avatar."
+msgstr ""
+
+#: config/customizer.php:2025
+msgid "Shape"
+msgstr ""
+
+#: config/customizer.php:2026
+msgid "Whether and how to shape the author avatar."
+msgstr ""
+
+#: config/customizer.php:2041
+msgid "Rounded"
+msgstr "Afgerond"
+
+#: config/customizer.php:2047 config/customizer.php:3691
+msgid "Circled"
+msgstr "Omcirkeld"
+
+#: config/customizer.php:2203 config/customizer.php:2647
+msgid "Link to archive"
+msgstr ""
+
+#: config/customizer.php:2204
+msgid "Whether to make the author avatar link to the author's archive page."
+msgstr ""
+
+#: config/customizer.php:2204
+msgid ""
+"Whether to make the author avatar link to the author's archive page. "
+"Regardless of this setting being enabled, the author avatar might not become "
+"a link. i.e. When author archive pages are disabled."
+msgstr ""
+
+#: config/customizer.php:2215 config/customizer.php:2659
+#, fuzzy
+msgid "Link"
+msgstr "LinkedIN"
+
+#: config/customizer.php:2220 config/customizer.php:2664
+#, fuzzy
+msgid "No link"
+msgstr "Blog link"
+
+#: config/customizer.php:2244
+msgid "Default image"
+msgstr "Default afbeelding"
+
+#: config/customizer.php:2245
+msgid "Avatar to show if none uploaded and no gravatar configured."
+msgstr ""
+
+#: config/customizer.php:2260
+msgid "Blank"
+msgstr "Blanco"
+
+#: config/customizer.php:2266
+msgid "Mistery man"
+msgstr "Mistery man"
+
+#: config/customizer.php:2272
+msgid "Author acronym"
+msgstr ""
+
+#: config/customizer.php:2299
+msgid " Acronym font color"
+msgstr ""
+
+#: config/customizer.php:2331
+#, fuzzy
+msgid "Acronym background color"
+msgstr "Box achtergrondkleur"
+
+#: config/customizer.php:2353 includes/molongui-class-author.php:3386
+msgid "Name"
+msgstr "Naam"
+
+#: config/customizer.php:2648
+msgid "Whether to make the author name link to the author's archive page."
+msgstr ""
+
+#: config/customizer.php:2648
+msgid ""
+"Whether to make the author name link to the author's archive page. "
+"Regardless of this setting being enabled, the author name might not become a "
+"link. i.e. When author archive pages are disabled."
+msgstr ""
+
+#: config/customizer.php:2688
+msgid "Remove inherited underline"
+msgstr ""
+
+#: config/customizer.php:2689
+msgid ""
+"Whether to (try to) remove the underline added by your theme or any other "
+"third plugin."
+msgstr ""
+
+#: config/customizer.php:2700
+#, fuzzy
+msgid "Keep as is"
+msgstr "gegevens te bewaren?"
+
+#: config/customizer.php:2705
+#, fuzzy
+msgid "Remove it"
+msgstr "Verwijder"
+
+#: config/customizer.php:2719
+msgid "Metadata"
+msgstr "Metadata"
+
+#: config/customizer.php:3013
+msgid "\"at\" label"
+msgstr ""
+
+#: config/customizer.php:3014
+msgid "Text to show between author's job position and company."
+msgstr ""
+
+#: config/customizer.php:3046
+msgid "\"Website\" label"
+msgstr ""
+
+#: config/customizer.php:3047
+msgid "Text to show as link name to author's personal website."
+msgstr ""
+
+#: config/customizer.php:3079
+#, fuzzy
+msgid "\"+ posts\" label"
+msgstr "+ berichten"
+
+#: config/customizer.php:3080
+msgid ""
+"Text to show as toggle button to display author's related posts when "
+"displaying author bio."
+msgstr ""
+
+#: config/customizer.php:3112
+msgid "\"Bio\" label"
+msgstr ""
+
+#: config/customizer.php:3113
+msgid ""
+"Text to show as toggle button to display author's bio when displaying "
+"related posts."
+msgstr ""
+
+#: config/customizer.php:3145
+msgid "Separator"
+msgstr ""
+
+#: config/customizer.php:3146
+msgid "Character used to separate author meta data information"
+msgstr ""
+
+#: config/customizer.php:3156
+msgid "|"
+msgstr ""
+
+#: config/customizer.php:3163
+msgid "||"
+msgstr ""
+
+#: config/customizer.php:3170
+msgid "/"
+msgstr ""
+
+#: config/customizer.php:3177
+msgid "//"
+msgstr ""
+
+#: config/customizer.php:3184 config/customizer.php:3198
+msgid "–"
+msgstr ""
+
+#: config/customizer.php:3191
+msgid "--"
+msgstr ""
+
+#: config/customizer.php:3205
+msgid "·"
+msgstr ""
+
+#: config/customizer.php:3212
+msgid "•"
+msgstr ""
+
+#: config/customizer.php:3219
+msgid ">"
+msgstr ""
+
+#: config/customizer.php:3226
+msgid ">>"
+msgstr ""
+
+#: config/customizer.php:3233
+msgid "~"
+msgstr ""
+
+#: config/customizer.php:3240
+msgid "*"
+msgstr ""
+
+#: config/customizer.php:3247
+msgid "⇄"
+msgstr ""
+
+#: config/customizer.php:3254
+msgid "⊥"
+msgstr ""
+
+#: config/customizer.php:3261
+msgid "⋄"
+msgstr ""
+
+#: config/customizer.php:3268
+msgid "Line break"
+msgstr ""
+
+#: config/customizer.php:3289 includes/molongui-class-author.php:3832
+#, fuzzy
+msgid "Biography"
+msgstr "Biografische informatie"
+
+#: config/customizer.php:3374
+msgid "Line height"
+msgstr ""
+
+#: config/customizer.php:3597 config/customizer.php:3625
+#, fuzzy
+msgid "Social icons"
+msgstr "Sociale pictogrammen maat"
+
+#: config/customizer.php:3626
+#, fuzzy
+msgid "Whether to show social media icons."
+msgstr "Toon sociale pictogrammen"
+
+#: config/customizer.php:3685
+msgid "Squared"
+msgstr "Vierkant"
+
+#: config/customizer.php:3697
+msgid "Boxed"
+msgstr "Boxed"
+
+#: config/customizer.php:3703
+msgid "Branded"
+msgstr "Branded"
+
+#: config/customizer.php:3709
+msgid "Branded squared"
+msgstr ""
+
+#: config/customizer.php:3715
+msgid "Branded squared reverse"
+msgstr ""
+
+#: config/customizer.php:3721
+msgid "Branded circled"
+msgstr ""
+
+#: config/customizer.php:3727
+msgid "Branded circled reverse"
+msgstr ""
+
+#: config/customizer.php:3733
+msgid "Branded boxed"
+msgstr ""
+
+#: config/customizer.php:3792
+#, fuzzy
+msgid "Font size"
+msgstr "Lettergrootte van de bio"
+
+#: config/customizer.php:3846
+msgid "Related entries template"
+msgstr ""
+
+#: config/customizer.php:3847
+msgid "The template to be used to render related entries section."
+msgstr ""
+
+#: config/customizer.php:3928
+#, fuzzy
+msgid "\"No related posts found\" label"
+msgstr "Toon gerelateerde berichten"
+
+#: config/customizer.php:3929
+msgid "Text to display when no related entries are found."
+msgstr ""
+
+#: config/customizer.php:3951 includes/molongui-class-author.php:3396
+#: includes/molongui-class-user.php:50
+msgid "Entries"
+msgstr ""
+
+#: config/settings-2.php:19
+msgid "Main"
+msgstr "Hoofdinstellingen"
+
+#: config/settings-2.php:27
+msgid "Features"
+msgstr ""
+
+#: config/settings-2.php:37 config/settings-2.php:655
+#: includes/molongui-class-author.php:3228
+#, fuzzy
+msgid "Guest Authors"
+msgstr "Gast auteurs"
+
+#: config/settings-2.php:38
+#, fuzzy
+msgid "Whether to enable the guest authors feature."
+msgstr "Voer gast auteur naam hier in"
+
+#: config/settings-2.php:50 config/settings-2.php:445 config/settings.php:1053
+msgid "Byline"
+msgstr ""
+
+#: config/settings-2.php:51
+msgid "Whether to enable the byline feature."
+msgstr ""
+
+#: config/settings-2.php:63 includes/molongui-class-user.php:165
+msgid "Local Avatar"
+msgstr ""
+
+#: config/settings-2.php:64
+msgid "Whether to enable the local avatar feature."
+msgstr ""
+
+#: config/settings-2.php:76
+#, fuzzy
+msgid "Author Archives"
+msgstr "Auteur link"
+
+#: config/settings-2.php:77
+msgid "Whether to enable the author archives feature."
+msgstr ""
+
+#: config/settings-2.php:89
+#, fuzzy
+msgid "Search by Author"
+msgstr "Zoek Gast Auteur"
+
+#: config/settings-2.php:90
+msgid "Whether to extend search functionality enabling to search by author."
+msgstr ""
+
+#: config/settings-2.php:103 config/settings-2.php:344 config/settings.php:428
+#, fuzzy
+msgid "Post types"
+msgstr "Berichten"
+
+#: config/settings-2.php:104
+msgid "Extend plugin functionality to the selected post types"
+msgstr ""
+
+#: config/settings-2.php:115 config/settings.php:1331
+#, fuzzy
+msgid "Search results"
+msgstr "Zoek Gast Auteur"
+
+#: config/settings-2.php:125 config/settings.php:1366
+#, fuzzy
+msgid "Include guest authors in search"
+msgstr "Voer gast auteur naam hier in"
+
+#: config/settings-2.php:126 config/settings.php:1368
+msgid "Whether to make guest authors searchable."
+msgstr ""
+
+#: config/settings-2.php:139
+#, fuzzy
+msgid "Menu items"
+msgstr "Admin menu"
+
+#: config/settings-2.php:149
+#, fuzzy
+msgid "Where to add the 'Guest Authors' menu"
+msgstr "Kies waar u de link \"Guest auteurs\" toe te voegen in het admin menu."
+
+#: config/settings-2.php:150
+#, fuzzy
+msgid "Choose where to add the 'Guest Authors' link in the admin menu."
+msgstr "Kies waar u de link \"Guest auteurs\" toe te voegen in het admin menu."
+
+#: config/settings-2.php:155 config/settings.php:1414
+msgid "Top level"
+msgstr "Hoogste niveau"
+
+#: config/settings-2.php:156 config/settings.php:1421
+msgid "Users"
+msgstr "Gebruikers"
+
+#: config/settings-2.php:157 config/settings.php:1428
+msgid "Posts"
+msgstr "Berichten"
+
+#: config/settings-2.php:158 config/settings.php:1435
+msgid "Pages"
+msgstr "Pagina’s"
+
+#: config/settings-2.php:184 config/settings.php:216
+#, fuzzy
+msgid "Styling"
+msgstr "Box Styling"
+
+#: config/settings-2.php:197 config/settings.php:235
+#, fuzzy
+msgid "Author box styles"
+msgstr "auteurschap doos"
+
+#: config/settings-2.php:198 config/settings.php:236
+#, php-format
+msgid ""
+"All author box styling settings are available in the WordPress Customizer. "
+"Go there and customize your author box to your likings with %sfull live "
+"preview%s."
+msgstr ""
+
+#: config/settings-2.php:206 config/settings.php:245
+#: includes/plugin-class-highlights.php:237
+#: includes/plugin-class-highlights.php:303
+msgid "Open customizer"
+msgstr ""
+
+#: config/settings-2.php:228
+#, fuzzy
+msgid "By default"
+msgstr "Standaard"
+
+#: config/settings-2.php:229
+msgid ""
+"Whether to automatically display the author box by default. This setting "
+"might be overridden by author and post configuration."
+msgstr ""
+
+#: config/settings-2.php:235
+#, fuzzy
+msgid "Show only on posts"
+msgstr "Alleen op berichten"
+
+#: config/settings-2.php:236
+#, fuzzy
+msgid "Show only on pages"
+msgstr "Alleen op pagina 's"
+
+#: config/settings-2.php:248 config/settings.php:314
+msgid "Hide if no author biography"
+msgstr ""
+
+#: config/settings-2.php:249 config/settings.php:316
+msgid ""
+"Whether to hide the author box if there is not biographical information to "
+"show."
+msgstr ""
+
+#: config/settings-2.php:261 config/settings.php:302
+msgid "Hide on these post categories"
+msgstr ""
+
+#: config/settings-2.php:262 config/settings.php:304
+msgid ""
+"Select the post categories on which the author box won't be displayed. This "
+"setting is overridden by post configuration."
+msgstr ""
+
+#: config/settings-2.php:276 config/settings.php:342
+msgid ""
+"Author box is added to post content in the configured position. Nonetheless, "
+"other plugins may also add their stuff, making the author box appear above/"
+"below it. Reduce the number below until the box goes up there where you like "
+"or increase it to make it go down. Be aware that setting this value below 10 "
+"might cause issues with your content."
+msgstr ""
+
+#: config/settings-2.php:292 config/settings-2.php:562
+#, fuzzy
+msgid "Multi-author"
+msgstr "Gast auteur"
+
+#: config/settings-2.php:302 config/settings.php:365
+#, fuzzy
+msgid "Author box layout"
+msgstr "auteurschap doos"
+
+#: config/settings-2.php:303 config/settings.php:367
+msgid "How to show multiple author boxes."
+msgstr ""
+
+#: config/settings-2.php:308 config/settings.php:376
+msgid "As many author boxes as authors"
+msgstr ""
+
+#: config/settings-2.php:309 config/settings.php:382
+msgid "All authors in one single box"
+msgstr ""
+
+#: config/settings-2.php:331 config/settings.php:402
+msgid "Show related posts"
+msgstr "Toon gerelateerde berichten"
+
+#: config/settings-2.php:332
+#, fuzzy
+msgid "Whether to show related posts within the author box."
+msgstr "Aanpassen verwante posten van auteurs."
+
+#: config/settings-2.php:345 config/settings.php:430
+#, fuzzy
+msgid "Type of posts to show as related."
+msgstr "Aantal artikelen om te tonen"
+
+#: config/settings-2.php:358 config/settings.php:440
+msgid "Number of posts"
+msgstr ""
+
+#: config/settings-2.php:359 config/settings.php:442
+#, fuzzy
+msgid "Amount of related posts to show in the author box."
+msgstr "Aanpassen verwante posten van auteurs."
+
+#: config/settings-2.php:374 config/settings.php:454
+msgid "Order by"
+msgstr "Sorteer op"
+
+#: config/settings-2.php:375 config/settings.php:456
+#, fuzzy
+msgid "The criteria to sort related posts."
+msgstr "Toon gerelateerde berichten"
+
+#: config/settings-2.php:380 config/settings.php:465
+msgid "Title"
+msgstr "Titel"
+
+#: config/settings-2.php:381 config/settings.php:471
+msgid "Date"
+msgstr "Datum"
+
+#: config/settings-2.php:382 config/settings.php:477
+msgid "Modified"
+msgstr "Gewijzigd"
+
+#: config/settings-2.php:383 config/settings.php:483
+msgid "Comment count"
+msgstr "Aantal opmerkingen"
+
+#: config/settings-2.php:384 config/settings.php:489
+msgid "Random order"
+msgstr "Willekeurige volgorde"
+
+#: config/settings-2.php:396 config/settings.php:500
+#, fuzzy
+msgid "The order to sort related posts."
+msgstr "Toon gerelateerde berichten"
+
+#: config/settings-2.php:401 config/settings.php:509
+msgid "Ascending order"
+msgstr "Oplopende volgorde"
+
+#: config/settings-2.php:402 config/settings.php:515
+msgid "Descending order"
+msgstr "Aflopende volgorde"
+
+#: config/settings-2.php:414 config/settings.php:526 config/settings.php:535
+msgid "Social networks"
+msgstr "Sociale netwerken"
+
+#: config/settings-2.php:415
+#, fuzzy
+msgid ""
+"There are many social networking websites out there and this plugin allows "
+"you to link to the most of them. Not to glut the edit page, choose the ones "
+"you want to be able to configure."
+msgstr ""
+"Er zijn vele social networking websites die er zijn en deze plugin maakt het "
+"mogelijk om te linken naar de meest populaire. Niet te glut de "
+"bewerkingspagina, kies degene die u wilt configureren."
+
+#: config/settings-2.php:453 config/settings-2.php:484 config/settings.php:1084
+#: config/settings.php:1093
+msgid "Integration"
+msgstr ""
+
+#: config/settings-2.php:463 config/settings-2.php:472
+#, fuzzy
+msgid "Messages"
+msgstr "Pagina’s"
+
+#: config/settings-2.php:464 config/settings.php:1064
+msgid ""
+"The byline on a post gives the name of the writer. Molongui Authorship "
+"automatically updates any byline displayed on your site showing the "
+"author(s) you have added to each post. This automation may not always work "
+"or it can even cause unexpected issues with other plugins. That's why it is "
+"recommended to use the provided template tags instead."
+msgstr ""
+
+#: config/settings-2.php:473 config/settings.php:1075
+msgid ""
+"Displaying fully customized and functional bylines can be achieved using the "
+"provided template tags. It requires some basic coding skills, but using "
+"template tags is the best way to go in order to avoid issues with other "
+"plugins. Some parameters can be provided to the template tags so bylines can "
+"be fully localized and customized with custom HTML code and CSS styles."
+msgstr ""
+
+#: config/settings-2.php:485 config/settings.php:1095
+msgid ""
+"Whether to automatically update byline everywhere on your site by default. "
+"Activating this option may cause issues with other plugins. It is "
+"recommended to use provided template tags instead. Check out the "
+"documentation."
+msgstr ""
+
+#: config/settings-2.php:490 config/settings.php:1104
+msgid "I want the plugin to implement an automatic partial integration"
+msgstr ""
+
+#: config/settings-2.php:491 config/settings.php:1110
+msgid "I will integrate template tags to get a full integration"
+msgstr ""
+
+#: config/settings-2.php:502 config/settings.php:1119
+#, fuzzy
+msgid "Template tags documentation"
+msgstr "Bekijk documenten"
+
+#: config/settings-2.php:503 config/settings.php:1120
+#, php-format
+msgid ""
+"Using template tags requires you to make some small modifications to your "
+"theme. %sIf you are a skilled coder, you may want to take a look at "
+"\"%stemplate-tags.php%s\" file."
+msgstr ""
+
+#: config/settings-2.php:511 config/settings.php:1129
+#, fuzzy
+msgid "Read documentation"
+msgstr "Bekijk documenten"
+
+#: config/settings-2.php:523 config/settings.php:1138
+#, fuzzy
+msgid "Display modifiers"
+msgstr "Toon opties"
+
+#: config/settings-2.php:533 config/settings.php:1147
+msgid "Code to prepend to the byline"
+msgstr ""
+
+#: config/settings-2.php:534 config/settings.php:1149
+msgid ""
+"String to be prepended before the author name(s). Defaults to an empty "
+"string."
+msgstr ""
+
+#: config/settings-2.php:536
+msgid "Written by "
+msgstr ""
+
+#: config/settings-2.php:547 config/settings.php:1159
+msgid "Code to append to the byline"
+msgstr ""
+
+#: config/settings-2.php:548 config/settings.php:1161
+msgid ""
+"String to be appended after the author name(s). Defaults to an empty string."
+msgstr ""
+
+#: config/settings-2.php:572 config/settings.php:1182
+msgid "How to handle multiple author names"
+msgstr ""
+
+#: config/settings-2.php:573 config/settings.php:1184
+msgid "How to display author name when there is more than one."
+msgstr ""
+
+#: config/settings-2.php:578 config/settings.php:1193
+msgid "Show all authors names"
+msgstr ""
+
+#: config/settings-2.php:579 config/settings.php:1199
+msgid "Show just the name of the main author"
+msgstr ""
+
+#: config/settings-2.php:580 config/settings.php:1205
+msgid "Show the name of main author and remaining authors count as number"
+msgstr ""
+
+#: config/settings-2.php:581 config/settings.php:1211
+msgid "Show the name of 2 authors and remaining authors count as number"
+msgstr ""
+
+#: config/settings-2.php:582 config/settings.php:1217
+msgid "Show the name of 3 authors and remaining authors count as number"
+msgstr ""
+
+#: config/settings-2.php:593 config/settings.php:1226
+#, fuzzy
+msgid "Delimiter between author names"
+msgstr "Voer gast auteur naam hier in"
+
+#: config/settings-2.php:594 config/settings.php:1228
+msgid "Delimiter that should appear between the authors. Defaults to a comma."
+msgstr ""
+
+#: config/settings-2.php:607 config/settings.php:1238
+msgid "Delimiter between last two names"
+msgstr ""
+
+#: config/settings-2.php:608
+msgid ""
+"Delimiter that should appear between the last two authors. Defaults to 'and'."
+msgstr ""
+
+#: config/settings-2.php:621 config/settings.php:1250
+msgid "Byline link behavior"
+msgstr ""
+
+#: config/settings-2.php:622 config/settings.php:1252
+msgid ""
+"Default WordPress behaviour makes the byline a link to the author page. "
+"Despite showing more than one author, there can only be a link, so choose "
+"whether to disable that link when multiauthor or make it link to the main "
+"author page. Check documentation to know how to avoid this and make each "
+"author name a link to their page."
+msgstr ""
+
+#: config/settings-2.php:627 config/settings.php:1261
+msgid ""
+"Make each name link to author's archive page &mdash; Might not always work! "
+"&mdash;"
+msgstr ""
+
+#: config/settings-2.php:628 config/settings.php:1267
+msgid "Make it point to the main author archive page"
+msgstr ""
+
+#: config/settings-2.php:629 config/settings.php:1273
+msgid "Disable it. Don't link"
+msgstr ""
+
+#: config/settings-2.php:647 config/settings.php:1449
+#, fuzzy
+msgid "Author archives"
+msgstr "Auteur link"
+
+#: config/settings-2.php:666
+#, fuzzy
+msgid "Enable 'guest author' archives"
+msgstr "Voer gast auteur naam hier in"
+
+#: config/settings-2.php:666
+#, fuzzy
+msgid "Disable 'guest author' archives"
+msgstr "Voer gast auteur naam hier in"
+
+#: config/settings-2.php:667 config/settings.php:1468
+msgid ""
+"Whether to enable the use of guest author archive pages. Disabling this "
+"option, author name link is disabled."
+msgstr ""
+
+#: config/settings-2.php:679 config/settings-2.php:771 config/settings.php:1492
+#: config/settings.php:1617
+#, fuzzy
+msgid "Include pages on archive"
+msgstr "Voer gast auteur naam hier in"
+
+#: config/settings-2.php:680 config/settings-2.php:772 config/settings.php:1494
+#: config/settings.php:1619
+msgid ""
+"Whether to display 'pages' post type on author archives. By default, "
+"WordPress just displays 'posts'."
+msgstr ""
+
+#: config/settings-2.php:692 config/settings-2.php:784 config/settings.php:1518
+#: config/settings.php:1643
+#, fuzzy
+msgid "Include custom post types on archive"
+msgstr "Voer gast auteur naam hier in"
+
+#: config/settings-2.php:693 config/settings-2.php:785 config/settings.php:1520
+#: config/settings.php:1645
+msgid ""
+"Whether to display custom post types where the plugin functionality is "
+"extended to on author archives. By default, WordPress just displays 'posts'."
+msgstr ""
+
+#: config/settings-2.php:706 config/settings.php:1546
+msgid "Template to be used on guest author archive pages."
+msgstr ""
+
+#: config/settings-2.php:719 config/settings.php:1556
+msgid "Permalink"
+msgstr "Permalink"
+
+#: config/settings-2.php:720 config/settings.php:1558
+msgid ""
+"Permastruct to add after your installation URI and before the slug set below."
+msgstr ""
+
+#: config/settings-2.php:733 config/settings-2.php:811 config/settings.php:1568
+#: config/settings.php:1681
+#, fuzzy
+msgid "Author base"
+msgstr "auteurschap doos"
+
+#: config/settings-2.php:734 config/settings-2.php:812 config/settings.php:1570
+#: config/settings.php:1683
+msgid "Part of the permalink that identifies your author archive page."
+msgstr ""
+
+#: config/settings-2.php:748
+#, fuzzy
+msgid "Registered Users"
+msgstr "Geregistreerde auteurs"
+
+#: config/settings-2.php:758 config/settings.php:1591
+msgid "Disable user archives"
+msgstr ""
+
+#: config/settings-2.php:759 config/settings.php:1593
+msgid ""
+"Whether to disable author archive pages. Disabling this option, author name "
+"links are disabled too."
+msgstr ""
+
+#: config/settings-2.php:798 config/settings.php:1671
+msgid "Template to be used on author archive pages."
+msgstr ""
+
+#: config/settings-2.php:825 config/settings.php:1693
+msgid "Redirect URL access to"
+msgstr ""
+
+#: config/settings-2.php:826 config/settings.php:1695
+msgid ""
+"Select the page the user will be redirected to if author archive page is "
+"introduced manually."
+msgstr ""
+
+#: config/settings-2.php:839 config/settings.php:1704
+msgid "Redirection status code"
+msgstr ""
+
+#: config/settings-2.php:840 config/settings.php:1706
+msgid "Select the status code the web server will return upon redirection."
+msgstr ""
+
+#: config/settings-2.php:845 config/settings.php:1715
+msgid "301 - Moved Permanently"
+msgstr ""
+
+#: config/settings-2.php:846 config/settings.php:1721
+msgid "307 - Temporary Redirect"
+msgstr ""
+
+#: config/settings-2.php:847 config/settings.php:1727
+msgid "308 - Permanent Redirect"
+msgstr ""
+
+#: config/settings-2.php:848 config/settings.php:1733
+msgid "403 - Forbidden"
+msgstr ""
+
+#: config/settings-2.php:849 config/settings.php:1739
+msgid "404 - Not Found"
+msgstr ""
+
+#: config/settings-2.php:867 config/settings.php:1786
+msgid "SEO"
+msgstr ""
+
+#: config/settings-2.php:875
+#, fuzzy
+msgid "Author tags"
+msgstr "Auteur"
+
+#: config/settings-2.php:885
+msgid "Add Open Graph"
+msgstr "Voeg Open Graph"
+
+#: config/settings-2.php:886 config/settings.php:1797
+msgid ""
+"Whether to add Open Graph metadata for author details (useful for rich "
+"snippets)."
+msgstr ""
+
+#: config/settings-2.php:898
+msgid "Add Facebook Authorship"
+msgstr "Voeg Facebook Authorship"
+
+#: config/settings-2.php:899 config/settings.php:1849
+msgid ""
+"Whether to add Facebook Authorship metadata for author details (useful for "
+"rich snippets)."
+msgstr ""
+
+#: config/settings-2.php:911
+msgid "Add Google Authorship"
+msgstr "Voeg Google Authorship"
+
+#: config/settings-2.php:912 config/settings.php:1823
+msgid ""
+"Whether to add Google Authorship metadata for author details (useful for "
+"rich snippets)."
+msgstr ""
+
+#: config/settings-2.php:925
+#, fuzzy
+msgid "Links"
+msgstr "LinkedIN"
+
+#: config/settings-2.php:935 config/settings.php:1873
+msgid "Add 'nofollow' attribute"
+msgstr ""
+
+#: config/settings-2.php:936 config/settings.php:1875
+msgid "Whether to add 'nofollow' attribute to social networks links."
+msgstr ""
+
+#: config/settings-2.php:949
+#, fuzzy
+msgid "Headings"
+msgstr "Instellingen"
+
+#: config/settings-2.php:959 config/settings.php:1899
+#, fuzzy
+msgid "Author box headline tag"
+msgstr "Auteur box positie"
+
+#: config/settings-2.php:960 config/settings.php:1901
+msgid ""
+"Choose the correct HTML tag to use for the headline shown above the author "
+"box. Selecting a value inline with the structure of your page might improve "
+"SEO."
+msgstr ""
+
+#: config/settings-2.php:965 config/settings-2.php:989 config/settings.php:1910
+#: config/settings.php:1972
+msgid "h1"
+msgstr ""
+
+#: config/settings-2.php:966 config/settings-2.php:990 config/settings.php:1916
+#: config/settings.php:1978
+#, fuzzy
+msgid "h2"
+msgstr "2"
+
+#: config/settings-2.php:967 config/settings-2.php:991 config/settings.php:1922
+#: config/settings.php:1984
+#, fuzzy
+msgid "h3"
+msgstr "3"
+
+#: config/settings-2.php:968 config/settings-2.php:992 config/settings.php:1928
+#: config/settings.php:1990
+#, fuzzy
+msgid "h4"
+msgstr "4"
+
+#: config/settings-2.php:969 config/settings-2.php:993 config/settings.php:1934
+#: config/settings.php:1996
+#, fuzzy
+msgid "h5"
+msgstr "5"
+
+#: config/settings-2.php:970 config/settings-2.php:994 config/settings.php:1940
+#: config/settings.php:2002
+#, fuzzy
+msgid "h6"
+msgstr "6"
+
+#: config/settings-2.php:971 config/settings-2.php:995 config/settings.php:1946
+#: config/settings.php:2008
+msgid "div"
+msgstr ""
+
+#: config/settings-2.php:972 config/settings-2.php:996 config/settings.php:1952
+#: config/settings.php:2014
+msgid "p"
+msgstr ""
+
+#: config/settings-2.php:983 config/settings.php:1961
+#, fuzzy
+msgid "Author box author name tag"
+msgstr "Auteur box positie"
+
+#: config/settings-2.php:984 config/settings.php:1963
+msgid ""
+"Choose the correct HTML tag to use for the author name shown within the "
+"author box. Selecting a value inline with the structure of your page might "
+"improve SEO."
+msgstr ""
+
+#: config/settings-2.php:1014 config/settings.php:1763
+#, fuzzy
+msgid "Compatibility"
+msgstr "Bedrijf"
+
+#: config/settings-2.php:1024 config/settings.php:1772
+msgid "Elements to hide"
+msgstr ""
+
+#: config/settings-2.php:1025 config/settings.php:1774
+msgid ""
+"Comma-separated DOM elements IDs or Classes to hide from being displayed on "
+"the front-end."
+msgstr ""
+
+#: config/settings-2.php:1039
+msgid "Themes"
+msgstr ""
+
+#: config/settings-2.php:1052
+#, fuzzy
+msgid "Plugins"
+msgstr "Instellingen"
+
+#: config/settings-2.php:1070
+msgid "Tools"
+msgstr ""
+
+#: config/settings-2.php:1078
+#, fuzzy
+msgid "Plugin settings"
+msgstr "Instellingen"
+
+#: config/settings-2.php:1088 config/settings-2.php:1127
+msgid "Export"
+msgstr ""
+
+#: config/settings-2.php:1089
+msgid "Click the button to download a backup of the plugin settings."
+msgstr ""
+
+#: config/settings-2.php:1102 config/settings-2.php:1141
+msgid "Import"
+msgstr ""
+
+#: config/settings-2.php:1103 config/settings-2.php:1142
+msgid "Provide a file to import."
+msgstr ""
+
+#: config/settings-2.php:1117 config/settings.php:1457
+#: includes/molongui-class-author.php:3230
+msgid "Guest authors"
+msgstr "Gast auteurs"
+
+#: config/settings-2.php:1128
+msgid "Click the button to download a backup of the guest authors."
+msgstr ""
+
+#: config/settings.php:225
+msgid "Preview"
+msgstr ""
+
+#: config/settings.php:227
+msgid ""
+"This is how author boxes will be displayed in your site. Use the Customizer "
+"to make it look like you want."
+msgstr ""
+
+#: config/settings.php:237
+msgid ""
+"From plugin version 2.1.0 on, all styling settings are available in the "
+"WordPress Customizer. Click the button on the right to open it."
+msgstr ""
+
+#: config/settings.php:264
+#, fuzzy
+msgid "Default setting"
+msgstr "Default afbeelding"
+
+#: config/settings.php:266
+msgid ""
+"Whether to show the author box by default. This setting might be overridden "
+"by author and post configuration."
+msgstr ""
+
+#: config/settings.php:281
+msgid "Only on posts"
+msgstr "Alleen op berichten"
+
+#: config/settings.php:287
+msgid "Only on pages"
+msgstr "Alleen op pagina 's"
+
+#: config/settings.php:325 config/settings.php:413 config/settings.php:1314
+#: config/settings.php:1351 config/settings.php:1377 config/settings.php:1477
+#: config/settings.php:1503 config/settings.php:1529 config/settings.php:1602
+#: config/settings.php:1628 config/settings.php:1654 config/settings.php:1806
+#: config/settings.php:1832 config/settings.php:1858 config/settings.php:1884
+msgid "Yes"
+msgstr "Ja"
+
+#: config/settings.php:331 config/settings.php:419 config/settings.php:1320
+#: config/settings.php:1357 config/settings.php:1383 config/settings.php:1483
+#: config/settings.php:1509 config/settings.php:1535 config/settings.php:1608
+#: config/settings.php:1634 config/settings.php:1660 config/settings.php:1812
+#: config/settings.php:1838 config/settings.php:1864 config/settings.php:1890
+msgid "No"
+msgstr "Geen"
+
+#: config/settings.php:356 config/settings.php:1173
+#, fuzzy
+msgid "Multiauthor"
+msgstr "Gast auteur"
+
+#: config/settings.php:404
+msgid "Whether to show \"related posts\" link on the author box."
+msgstr ""
+
+#: config/settings.php:537
+msgid ""
+"There are many social networking websites out there and this plugin allows "
+"you to link to the most popular. Not to glut the edit page, choose the ones "
+"you want to be able to configure."
+msgstr ""
+"Er zijn vele social networking websites die er zijn en deze plugin maakt het "
+"mogelijk om te linken naar de meest populaire. Niet te glut de "
+"bewerkingspagina, kies degene die u wilt configureren."
+
+#: config/settings.php:1121
+msgid ""
+"Check out the documentation to know how to integrate the provided template "
+"tags into your child theme."
+msgstr ""
+
+#: config/settings.php:1240
+msgid ""
+"Delimiter that should appear between the last two authors. Defaults to \"and"
+"\""
+msgstr ""
+
+#: config/settings.php:1294
+msgid "Functionality"
+msgstr ""
+
+#: config/settings.php:1303
+#, fuzzy
+msgid "Enable \"guest authors\" feature"
+msgstr "Voer gast auteur naam hier in"
+
+#: config/settings.php:1305
+msgid "Whether to enable guest authors feature."
+msgstr ""
+
+#: config/settings.php:1340
+#, fuzzy
+msgid "Enable search by author"
+msgstr "Zoek Gast Auteur"
+
+#: config/settings.php:1342
+msgid "Whether to extend search functionality enabling search by author."
+msgstr ""
+
+#: config/settings.php:1394
+#, fuzzy
+msgid "Admin menu item"
+msgstr "Admin menu"
+
+#: config/settings.php:1403
+#, fuzzy
+msgid "Where to add \"Guest authors\" menu"
+msgstr "Kies waar u de link \"Guest auteurs\" toe te voegen in het admin menu."
+
+#: config/settings.php:1405
+msgid "Choose where to add the \"Guest authors\" link in the admin menu."
+msgstr "Kies waar u de link \"Guest auteurs\" toe te voegen in het admin menu."
+
+#: config/settings.php:1466
+#, fuzzy
+msgid "Enable \"guest author\" archives"
+msgstr "Voer gast auteur naam hier in"
+
+#: config/settings.php:1466
+#, fuzzy
+msgid "Disable \"guest author\" archives"
+msgstr "Voer gast auteur naam hier in"
+
+#: config/settings.php:1582
+#, fuzzy
+msgid "Registered users"
+msgstr "Geregistreerde auteurs"
+
+#: config/settings.php:1795
+#, fuzzy
+msgid "Add Open Graph Author Tags"
+msgstr "Voeg Open Graph"
+
+#: config/settings.php:1821
+#, fuzzy
+msgid "Add Google Author Tags"
+msgstr "Voeg Google Authorship"
+
+#: config/settings.php:1847
+#, fuzzy
+msgid "Add Facebook Author Tags"
+msgstr "Voeg Facebook Authorship"
+
+#: customizer/plugin-customizer-callbacks.php:39
+msgid "You must supply a valid width."
+msgstr ""
+
+#: customizer/plugin-customizer-callbacks.php:43
+msgid "Box width is too small."
+msgstr ""
+
+#: customizer/plugin-customizer-callbacks.php:47
+msgid "Box width cannot be bigger than 100%."
+msgstr ""
+
+#: includes/compatibility.php:376
+msgid "Anonymous"
+msgstr ""
+
+#: includes/molongui-class-author.php:189
+#: includes/molongui-class-author.php:197
+msgid "No author ID nor author type provided. Please, indicate both values."
+msgstr ""
+
+#: includes/molongui-class-author.php:202
+msgid "No author ID or author type provided. Please, indicate both values."
+msgstr ""
+
+#: includes/molongui-class-author.php:205
+msgid "Wrong ID provided. It must be an integer higher than 0."
+msgstr ""
+
+#: includes/molongui-class-author.php:211
+msgid "No accepted author type provided. Please, indicate 'user' or 'guest'."
+msgstr ""
+
+#: includes/molongui-class-author.php:217
+#, php-format
+msgid "No user exists with the given ID (%s)."
+msgstr ""
+
+#: includes/molongui-class-author.php:221
+#, php-format
+msgid "No guest author exists with the given ID (%s)."
+msgstr ""
+
+#: includes/molongui-class-author.php:379
+#: includes/molongui-class-author.php:440
+#: includes/molongui-class-author.php:502
+#: includes/molongui-class-author.php:581
+#: includes/molongui-class-author.php:694
+#: includes/molongui-class-author.php:755
+#, php-format
+msgid "No %s exists with the given ID (%s)."
+msgstr ""
+
+#: includes/molongui-class-author.php:379
+#: includes/molongui-class-author.php:440
+#: includes/molongui-class-author.php:502
+#: includes/molongui-class-author.php:581
+#: includes/molongui-class-author.php:694
+#: includes/molongui-class-author.php:755 premium/includes/shortcodes.php:347
+#, fuzzy
+msgid "guest author"
+msgstr "Gast auteur"
+
+#: includes/molongui-class-author.php:787
+msgid ""
+"Which meta do you want to retrieve? You need to provide a 'key' attribute."
+msgstr ""
+
+#: includes/molongui-class-author.php:813
+#, php-format
+msgid "No %s exists for this author (%s)."
+msgstr ""
+
+#: includes/molongui-class-author.php:2466 public/plugin-class-public.php:256
+#, fuzzy
+msgid "and"
+msgstr "Branded"
+
+#: includes/molongui-class-author.php:2487
+#, php-format
+msgid "%s %d more"
+msgstr ""
+
+#: includes/molongui-class-author.php:3088
+#, fuzzy
+msgid "Add an(other) author..."
+msgstr "Over de auteur"
+
+#: includes/molongui-class-author.php:3098 premium/includes/shortcodes.php:611
+#, fuzzy
+msgid "No authors found."
+msgstr "Geen Gast Auteurs Gevonden"
+
+#: includes/molongui-class-author.php:3226
+#, fuzzy
+msgctxt "post type general name"
+msgid "Guest Authors"
+msgstr "Gast auteur [ Achternaam ]"
+
+#: includes/molongui-class-author.php:3227
+#, fuzzy
+msgctxt "post type singular name"
+msgid "Guest Author"
+msgstr "Gast auteur [ Voornaam ]"
+
+#: includes/molongui-class-author.php:3229
+#, fuzzy
+msgid "Guest Author"
+msgstr "Gast auteur"
+
+#: includes/molongui-class-author.php:3230
+msgid "All Guest authors"
+msgstr "Alle Gast Auteurs"
+
+#: includes/molongui-class-author.php:3231
+msgctxt "molongui_guestauthor"
+msgid "Add New"
+msgstr "Nieuwe toevoegen"
+
+#: includes/molongui-class-author.php:3232
+#, fuzzy
+msgid "Add New Guest Author"
+msgstr "Nieuwe Gast Auteur Toevoegen"
+
+#: includes/molongui-class-author.php:3233
+#, fuzzy
+msgid "Edit Guest Author"
+msgstr "Gast Auteur Aanpassen"
+
+#: includes/molongui-class-author.php:3234
+#, fuzzy
+msgid "New Guest Author"
+msgstr "Nieuwe Gast Auteur"
+
+#: includes/molongui-class-author.php:3235
+#, fuzzy
+msgid "View Guest Author"
+msgstr "Bekijk Gast Auteur"
+
+#: includes/molongui-class-author.php:3236
+#, fuzzy
+msgid "Search Guest Authors"
+msgstr "Zoek Gast Auteur"
+
+#: includes/molongui-class-author.php:3237
+#, fuzzy
+msgid "No Guest Authors Found"
+msgstr "Geen Gast Auteurs Gevonden"
+
+#: includes/molongui-class-author.php:3238
+#, fuzzy
+msgid "No Guest Authors Found in the Trash"
+msgstr "Geen gast auteurs gevonden in de prullenbak"
+
+#: includes/molongui-class-author.php:3240
+#, fuzzy
+msgid "Profile Image"
+msgstr "Profielfoto "
+
+#: includes/molongui-class-author.php:3241
+#, fuzzy
+msgid "Set Profile Image"
+msgstr "Profielfoto "
+
+#: includes/molongui-class-author.php:3242
+#, fuzzy
+msgid "Remove Profile Pmage"
+msgstr "Profielfoto "
+
+#: includes/molongui-class-author.php:3243
+#, fuzzy
+msgid "Use as Profile Pmage"
+msgstr "Profielfoto "
+
+#: includes/molongui-class-author.php:3344
+msgid "Enter guest author name here"
+msgstr "Voer gast auteur naam hier in"
+
+#: includes/molongui-class-author.php:3385
+msgid "Photo"
+msgstr "Foto"
+
+#: includes/molongui-class-author.php:3389
+msgid "Email"
+msgstr "E-mail"
+
+#: includes/molongui-class-author.php:3390
+#: includes/molongui-class-author.php:4094 includes/molongui-class-user.php:244
+msgid "Phone"
+msgstr ""
+
+#: includes/molongui-class-author.php:3391
+msgid "URL"
+msgstr "URL"
+
+#: includes/molongui-class-author.php:3392
+msgid "Job"
+msgstr ""
+
+#: includes/molongui-class-author.php:3393
+msgid "Co."
+msgstr ""
+
+#: includes/molongui-class-author.php:3394
+msgid "Co. URL"
+msgstr ""
+
+#: includes/molongui-class-author.php:3395
+#, fuzzy
+msgid "Social"
+msgstr "Social Media"
+
+#: includes/molongui-class-author.php:3397 includes/molongui-class-user.php:56
+msgid "ID"
+msgstr ""
+
+#: includes/molongui-class-author.php:3748
+msgid "Authorship box"
+msgstr "auteurschap doos"
+
+#: includes/molongui-class-author.php:3762
+#, fuzzy
+msgid "Author box settings"
+msgstr "Auteur box positie"
+
+#: includes/molongui-class-author.php:3772
+#, fuzzy
+msgid "Profile"
+msgstr "Vk profile"
+
+#: includes/molongui-class-author.php:3782
+msgid "Social Media"
+msgstr "Social Media"
+
+#: includes/molongui-class-author.php:3851
+msgid ""
+"Add as many authors as needed by selecting them from the dropdown below. "
+"Drag to change their order and click on trash icon to remove them. First "
+"listed author will be the main author."
+msgstr ""
+
+#: includes/molongui-class-author.php:3895
+#, fuzzy
+msgid "Show the author box in this post?"
+msgstr "Laat het auteurschap doos voor dit bericht?"
+
+#: includes/molongui-class-author.php:3905
+msgid "Where to display the author box?"
+msgstr ""
+
+#: includes/molongui-class-author.php:3909
+msgid "Above"
+msgstr ""
+
+#: includes/molongui-class-author.php:3910
+msgid "Below"
+msgstr ""
+
+#: includes/molongui-class-author.php:3911
+msgid "Both"
+msgstr ""
+
+#: includes/molongui-class-author.php:3944
+msgid ""
+"Check the box below to disable the author box for this guest author "
+"regardless of other post or plugin settings."
+msgstr ""
+
+#: includes/molongui-class-author.php:3949
+msgid ""
+"Display the author box for this author regardless of other post or plugin "
+"settings?"
+msgstr ""
+
+#: includes/molongui-class-author.php:3950
+#, fuzzy, php-format
+msgid ""
+"Disabled options are only available in the %sPremium version%s of the plugin."
+msgstr ""
+"Deze optie is alleen beschikbaar in de map %spremium versie%s van de plugin."
+
+#: includes/molongui-class-author.php:3965
+msgid ""
+"Display e-mail in the author meta line, which is displayed below author name."
+msgstr ""
+
+#: includes/molongui-class-author.php:3973
+msgid ""
+"Display phone in the author meta line, which is displayed below author name."
+msgstr ""
+
+#: includes/molongui-class-author.php:3981
+msgid "Display website as an icon with social icons."
+msgstr ""
+
+#: includes/molongui-class-author.php:3989
+msgid "Display e-mail as an icon with social icons."
+msgstr ""
+
+#: includes/molongui-class-author.php:3997
+msgid "Display phone as an icon with social icons."
+msgstr ""
+
+#: includes/molongui-class-author.php:4055
+msgid "First name"
+msgstr ""
+
+#: includes/molongui-class-author.php:4056
+#, fuzzy
+msgid "Author's name"
+msgstr "Auteur link"
+
+#: includes/molongui-class-author.php:4063
+#, fuzzy
+msgid "Last name"
+msgstr "Last fm"
+
+#: includes/molongui-class-author.php:4064
+#, fuzzy
+msgid "Author's last name"
+msgstr "Auteur link"
+
+#: includes/molongui-class-author.php:4071
+msgid "Display name"
+msgstr ""
+
+#: includes/molongui-class-author.php:4072
+msgid ""
+"This is a phrase that refers to the author's name. Most of the time, it is "
+"the name of the author, but you can write in whatever you wish. This will be "
+"shown as author name."
+msgstr ""
+
+#: includes/molongui-class-author.php:4079
+#, fuzzy
+msgid "E-mail"
+msgstr "E-mail"
+
+#: includes/molongui-class-author.php:4080
+msgid ""
+"Author's e-mail address. Used to retrieve author's Gravatar if it exists and "
+"no local avatar is uploaded. This field is not displayed in the front-end "
+"unless configured so. See 'Author box settings' on this same page."
+msgstr ""
+
+#: includes/molongui-class-author.php:4088
+msgid ""
+"URL to the author's website, blog or profile page. Leave blank to prevent "
+"this field to be displayed in the front-end."
+msgstr ""
+
+#: includes/molongui-class-author.php:4095
+msgid ""
+"Author's telephone number. This field is not displayed in the front-end "
+"unless configured so. See 'Author box settings' on this same page."
+msgstr ""
+
+#: includes/molongui-class-author.php:4108 includes/molongui-class-user.php:257
+msgid "Job title"
+msgstr ""
+
+#: includes/molongui-class-author.php:4109
+msgid ""
+"Name used to describe what the author does for a business or another "
+"enterprise. It will be displayed in the author box, just below the author "
+"name. Leave blank to prevent this field to be displayed in the front-end."
+msgstr ""
+
+#: includes/molongui-class-author.php:4116 includes/molongui-class-user.php:270
+msgid "Company"
+msgstr "Bedrijf"
+
+#: includes/molongui-class-author.php:4117
+msgid ""
+"The name of the company the author works for. It will be displayed in the "
+"author box, just below the author name. Leave blank to prevent this field to "
+"be displayed in the front-end."
+msgstr ""
+
+#: includes/molongui-class-author.php:4124
+#, fuzzy
+msgid "Company URL"
+msgstr "Bedrijf"
+
+#: includes/molongui-class-author.php:4125
+msgid "URL the company name will link to. Leave blank to disable link feature."
+msgstr ""
+
+#: includes/molongui-class-author.php:4175 includes/molongui-class-user.php:317
+msgid "Premium feature"
+msgstr "Premium optie"
+
+#: includes/molongui-class-author.php:4197
+#, php-format
+msgid ""
+"%sPremium feature%s. You are using the free version of this plugin. Consider "
+"purchasing the Premium Version to enable this feature."
+msgstr ""
+
+#: includes/molongui-class-user.php:160
+msgid "Molongui Authorship"
+msgstr "Molongui Authorship"
+
+#: includes/molongui-class-user.php:167
+msgid ""
+"Want to use a custom local avatar instead of Gravatar's? User's avatar is "
+"displayed in the author box, comments and other relevant sections. WordPress "
+"uses Gravatar service to display user's profile picture which is based on "
+"the email address. If you do not have a Gravatar account then your profile "
+"picture will be replaced with a default image placeholder which is called "
+"'Mystery Man'. Molongui Authorship enables you to use any photo you upload "
+"here as your avatar. If none is uploaded, your Gravatar avatar or Default "
+"Avatar will be displayed."
+msgstr ""
+
+#: includes/molongui-class-user.php:174
+msgid "Profile image"
+msgstr "Profielfoto "
+
+#: includes/molongui-class-user.php:186
+msgid "Upload New Image"
+msgstr "Nieuwe Foto Uploaden"
+
+#: includes/molongui-class-user.php:187
+msgid "Change Current Image"
+msgstr "Verander Huidige Foto"
+
+#: includes/molongui-class-user.php:198
+msgid "Remove"
+msgstr "Verwijder"
+
+#: includes/molongui-class-user.php:199
+msgid "Edit"
+msgstr "Aanpassen"
+
+#: includes/molongui-class-user.php:223
+msgid ""
+"You do not have permission to upload a profile picture. Please, contact the "
+"administrator of this site."
+msgstr ""
+
+#: includes/molongui-class-user.php:233
+msgid "Professional Info"
+msgstr ""
+
+#: includes/molongui-class-user.php:235
+#, php-format
+msgid ""
+"Information below will be displayed on the author box and other relevant "
+"sections (i.e. authors list) below the user's name. %sPhone number won't be "
+"displayed unless configured%s using the %sdisplay settings%s. Any blank "
+"field will not be displayed either."
+msgstr ""
+
+#: includes/molongui-class-user.php:283
+#, fuzzy
+msgid "Company website"
+msgstr "Company koppeling"
+
+#: includes/molongui-class-user.php:284
+#, fuzzy
+msgid "https://www.example.com/"
+msgstr "http://www.example.com/"
+
+#: includes/molongui-class-user.php:293
+#, fuzzy
+msgid "Social Profiles"
+msgstr "Spotify profile"
+
+#: includes/molongui-class-user.php:295
+#, php-format
+msgid ""
+"Social profiles will be displayed as icons on the author box and other "
+"relevant sections. Any blank profile will not be displayed. Molongui "
+"Authorship allows you to add %smore than 90 different social network profiles"
+"%s, so if you don't see here the ones you want to add, just go to the "
+"%splugin settings page%s and check those you need to edit."
+msgstr ""
+
+#: includes/molongui-class-user.php:318 includes/molongui-class-user.php:356
+msgid "Premium"
+msgstr "Premium"
+
+#: includes/molongui-class-user.php:319
+#, php-format
+msgid "This option is available only in the %spremium version%s of the plugin."
+msgstr ""
+"Deze optie is alleen beschikbaar in de map %spremium versie%s van de plugin."
+
+#: includes/molongui-class-user.php:336
+#, fuzzy
+msgid "Author Box Settings"
+msgstr "Auteur box positie"
+
+#: includes/molongui-class-user.php:338
+#, php-format
+msgid ""
+"On the %splugin settings page%s you can configure all the display settings "
+"that affects how the author box is displayed by default. Nonetheless, below "
+"you have some settings that override that global configuration for this user."
+msgstr ""
+
+#: includes/molongui-class-user.php:349
+#, fuzzy
+msgid "Disable author box"
+msgstr "auteurschap doos"
+
+#: includes/molongui-class-user.php:357
+#, fuzzy, php-format
+msgid ""
+"Disabled options are available only in the %spremium version%s of the plugin."
+msgstr ""
+"Deze optie is alleen beschikbaar in de map %spremium versie%s van de plugin."
+
+#: includes/molongui-class-user.php:372
+#, fuzzy
+msgid "Display e-mail"
+msgstr "email"
+
+#: includes/molongui-class-user.php:374
+msgid ""
+"Check this box to display the user's e-mail publicly in the author meta "
+"line, which is displayed below the author name."
+msgstr ""
+
+#: includes/molongui-class-user.php:387
+msgid "Display phone"
+msgstr ""
+
+#: includes/molongui-class-user.php:389
+msgid ""
+"Check this box to display the user's phone publicly in the author meta line, "
+"which is displayed below the author name."
+msgstr ""
+
+#: includes/molongui-class-user.php:402
+#, fuzzy
+msgid "Show website icon"
+msgstr "Toon sociale pictogrammen"
+
+#: includes/molongui-class-user.php:404
+msgid "Check this box to display a website icon with other social icons."
+msgstr ""
+
+#: includes/molongui-class-user.php:417
+#, fuzzy
+msgid "Show e-mail icon"
+msgstr "Toon sociale pictogrammen"
+
+#: includes/molongui-class-user.php:419
+msgid "Check this box to display an e-mail icon with other social icons."
+msgstr ""
+
+#: includes/molongui-class-user.php:432
+#, fuzzy
+msgid "Show phone icon"
+msgstr "Toon sociale pictogrammen"
+
+#: includes/molongui-class-user.php:434
+msgid "Check this box to display a phone icon with other social icons."
+msgstr ""
+
+#: includes/molongui-class-user.php:472
+#, php-format
+msgid ""
+"Or you can upload a custom local profile picture using %sMolongui Authorship "
+"field%s"
+msgstr ""
+
+#: includes/plugin-class-activator.php:545
+msgid "Contributors"
+msgstr ""
+
+#: includes/plugin-class-activator.php:546
+msgid ""
+"Many people have contributed to this website and we are thankful to them all "
+"for their hard work."
+msgstr ""
+
+#: includes/plugin-class-highlights.php:60
+msgid ""
+"Molongui Authorship is probably the most complete suite on all about authors "
+"and authorship. Check below some of its awesome features:"
+msgstr ""
+
+#: includes/plugin-class-highlights.php:62
+#, php-format
+msgid ""
+"%sCo-authors%s. Assign multiple authors to your posts. Just locate the "
+"'Authors' module on the right of your post edit screen and start adding "
+"authors."
+msgstr ""
+
+#: includes/plugin-class-highlights.php:63
+#, php-format
+msgid ""
+"%sGuest authors%s. Assign guest authors to your posts without creating "
+"WordPress user accounts. Open the 'Guest authors' menu and define your guest "
+"authors."
+msgstr ""
+
+#: includes/plugin-class-highlights.php:64
+#, php-format
+msgid ""
+"%sAuthor box%s. Display the author profile in all your posts or just on "
+"those you define. Customize the box to your likings to best fit your site "
+"with %slive-preview%s!."
+msgstr ""
+
+#: includes/plugin-class-highlights.php:65
+#: includes/plugin-class-highlights.php:67
+#: includes/plugin-class-highlights.php:147
+#: includes/plugin-class-highlights.php:148
+#: includes/plugin-class-highlights.php:149
+#: includes/plugin-class-highlights.php:215
+#: includes/plugin-class-highlights.php:216
+#: includes/plugin-class-highlights.php:217
+#, fuzzy
+msgid "Premium only"
+msgstr "Premium"
+
+#: includes/plugin-class-highlights.php:65
+#, php-format
+msgid ""
+"%sShortcodes%s. Display author boxes on your sidebar or anywhere you like, a "
+"list of authors and contributors of your blog and a list of posts by author."
+msgstr ""
+
+#: includes/plugin-class-highlights.php:67
+#, php-format
+msgid ""
+"%sPremium features%s. More layouts, more styles, more customization "
+"settings, guest author archive pages and Premium support."
+msgstr ""
+
+#: includes/plugin-class-highlights.php:77
+#, php-format
+msgid "Thanks for choosing %s plugin!"
+msgstr ""
+
+#: includes/plugin-class-highlights.php:87
+msgid "Customizer"
+msgstr ""
+
+#: includes/plugin-class-highlights.php:96
+msgid "Settings"
+msgstr "Instellingen"
+
+#: includes/plugin-class-highlights.php:105
+#, fuzzy
+msgid "Documentation"
+msgstr "Bekijk documenten"
+
+#: includes/plugin-class-highlights.php:114
+msgid "Go Premium"
+msgstr "Neem Premium"
+
+#: includes/plugin-class-highlights.php:139
+msgid ""
+"We have listened to you and we have focused this update on improving the "
+"customization of the author box."
+msgstr ""
+
+#: includes/plugin-class-highlights.php:141
+#, php-format
+msgid ""
+"The author box can be now customized with %slive preview%s from the "
+"WordPress Customizer."
+msgstr ""
+
+#: includes/plugin-class-highlights.php:142
+msgid "Settings page reorganization for clarity's sake."
+msgstr ""
+
+#: includes/plugin-class-highlights.php:144
+#, php-format
+msgid ""
+"Added the options to display the author box %sonly on posts%s or %sonly on "
+"pages%s."
+msgstr ""
+
+#: includes/plugin-class-highlights.php:145
+msgid "Author name color is now customizable."
+msgstr ""
+
+#: includes/plugin-class-highlights.php:147
+#, php-format
+msgid ""
+"Added setting to %sdisable user archive pages%s and redirect pages to any "
+"given destination."
+msgstr ""
+
+#: includes/plugin-class-highlights.php:148
+#, php-format
+msgid ""
+"Added setting to %schange author archives template and the author base%s."
+msgstr ""
+
+#: includes/plugin-class-highlights.php:149
+msgid "Added more customization settings: text style, border style..."
+msgstr ""
+
+#: includes/plugin-class-highlights.php:151
+msgid ""
+"Some styling modifications have been introduced. Please, make sure the "
+"author box looks like you want and customize it required."
+msgstr ""
+
+#: includes/plugin-class-highlights.php:159
+#: includes/plugin-class-highlights.php:227
+#: includes/plugin-class-highlights.php:293
+#, php-format
+msgid "What's new on %s %s"
+msgstr ""
+
+#: includes/plugin-class-highlights.php:169
+msgid "Open new customizer"
+msgstr ""
+
+#: includes/plugin-class-highlights.php:177
+#: includes/plugin-class-highlights.php:245
+#: includes/plugin-class-highlights.php:311
+#, fuzzy
+msgid "Settings page"
+msgstr "Instellingen"
+
+#: includes/plugin-class-highlights.php:185
+#: includes/plugin-class-highlights.php:253
+#: includes/plugin-class-highlights.php:319
+msgid "See changelog"
+msgstr ""
+
+#: includes/plugin-class-highlights.php:209
+#: includes/plugin-class-highlights.php:277
+msgid "Huge update with endless author box layout combinations!"
+msgstr ""
+
+#: includes/plugin-class-highlights.php:211
+#, php-format
+msgid ""
+"Added a %snew box layout%s that displays author profile above related posts "
+"in the same author box."
+msgstr ""
+
+#: includes/plugin-class-highlights.php:212
+msgid "Added settings to customize box tabs."
+msgstr ""
+
+#: includes/plugin-class-highlights.php:213
+#, php-format
+msgid ""
+"Added a %snew template to display related entries%s into the author box."
+msgstr ""
+
+#: includes/plugin-class-highlights.php:214
+msgid ""
+"Added 'Hide on these post categories' setting to control on which categories "
+"the author box won't be displayed by default."
+msgstr ""
+
+#: includes/plugin-class-highlights.php:215
+#, php-format
+msgid "Added 7 %snew profile templates%s."
+msgstr ""
+
+#: includes/plugin-class-highlights.php:216
+#, php-format
+msgid ""
+"Added a %sthird new template%s to display related entries into the author "
+"box."
+msgstr ""
+
+#: includes/plugin-class-highlights.php:217
+#, php-format
+msgid ""
+"New %s'Contributors' page%s featuring a list of all authors in your site."
+msgstr ""
+
+#: includes/plugin-class-highlights.php:219
+msgid ""
+"Some styling modifications have been introduced. Please, make sure the "
+"author box looks like you want and customize it if required."
+msgstr ""
+
+#: includes/plugin-class-highlights.php:279
+#, php-format
+msgid ""
+"Now you can edit 'first name', 'last name' and 'display name' %sseparately%s "
+"for your guest authors. Just like you do for regular users."
+msgstr ""
+
+#: includes/plugin-class-highlights.php:280
+msgid "Added setting to align name and author meta within the author box."
+msgstr ""
+
+#: includes/plugin-class-highlights.php:281
+msgid ""
+"Added 'Entries' column to 'Users list' to display number of entries for each "
+"user."
+msgstr ""
+
+#: includes/plugin-class-highlights.php:282
+msgid ""
+"Removed 'e-mail' and 'website' from social networks list. Both can be "
+"optionally displayed as an icon."
+msgstr ""
+
+#: includes/plugin-class-highlights.php:283
+msgid ""
+"Now it is possible to show phone number as another icon within the social "
+"icons section."
+msgstr ""
+
+#: includes/plugin-class-highlights.php:284
+msgid ""
+"Restyled 'Support' page. Now you can open support tickets and chat with "
+"Molongui without leaving the Dashboard :)"
+msgstr ""
+
+#: premium/admin/plugin-class-admin-premium.php:146
+#: premium/includes/molongui-class-author-premium.php:140
+msgid "&mdash; No Change &mdash;"
+msgstr ""
+
+#: premium/includes/shortcodes.php:347
+#, php-format
+msgid "No avatar available for %s with id %s."
+msgstr ""
+
+#: premium/includes/shortcodes.php:712
+#, fuzzy
+msgid "There are no posts to list."
+msgstr "Aantal artikelen om te tonen"
+
+#: premium/public/views/html-author-list-select.php:20
+#: premium/public/views/html-author-list-select.php:29
+#, fuzzy
+msgid "Select an author"
+msgstr "Gast auteur"
+
+#: public/plugin-class-public.php:257
+msgid "View all posts by"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Enable 'Guest Authors' feature"
+#~ msgstr "Voer gast auteur naam hier in"
+
+#, fuzzy
+#~ msgid "Guests menu item"
+#~ msgstr "Menu onderdeel"
+
+#~ msgid "7"
+#~ msgstr "7"
+
+#~ msgid "8"
+#~ msgstr "8"
+
+#~ msgid "Slug"
+#~ msgstr "Slug"
+
+#~ msgid "Open Graph"
+#~ msgstr "Open Graph"
+
+#~ msgid "Google Authorship"
+#~ msgstr "Google Authorship"
+
+#~ msgid "Yes, on all posts and pages"
+#~ msgstr "Ja, op alle berichten en pagina 's"
+
+#~ msgid "Only on posts [PREMIUM]"
+#~ msgstr "Alleen op berichten [PREMIUM]"
+
+#~ msgid "Only on pages [PREMIUM]"
+#~ msgstr "Alleen op pagina's [PREMIUM]"
+
+#~ msgid "No, let me choose where to display it"
+#~ msgstr "Nee, laat me kiezen waar deze weer te geven"
+
+#~ msgid "Default RTL [PREMIUM]"
+#~ msgstr "Standaard RTL [PREMIUM]"
+
+#~ msgid "Default RTL"
+#~ msgstr "Standaard RTL"
+
+#~ msgid "Thin"
+#~ msgstr "Dun"
+
+#~ msgid "Thick"
+#~ msgstr "Dik"
+
+#, fuzzy
+#~ msgid "Headline font size"
+#~ msgstr "Lettergrootte van de naam"
+
+#~ msgid "Biggest"
+#~ msgstr "Grootste"
+
+#~ msgid "Bigger"
+#~ msgstr "Groter"
+
+#~ msgid "Big"
+#~ msgstr "Groot"
+
+#~ msgid "Small"
+#~ msgstr "Klein"
+
+#~ msgid "Smaller"
+#~ msgstr "Kleiner"
+
+#~ msgid "Smallest"
+#~ msgstr "Kleinste"
+
+#, fuzzy
+#~ msgid "Headline text alignment"
+#~ msgstr "Bio text align"
+
+#, fuzzy
+#~ msgid "Headline text style"
+#~ msgstr "Bio tekststijl"
+
+#~ msgid "Italics-Bold"
+#~ msgstr "Cursief-vet"
+
+#~ msgid "Image style"
+#~ msgstr "Afbeelding stijl"
+
+#, fuzzy
+#~ msgid "Image border"
+#~ msgstr "Onderrand"
+
+#, fuzzy
+#~ msgid "Thicker"
+#~ msgstr "Dik"
+
+#, fuzzy
+#~ msgid "Thickest"
+#~ msgstr "Dik"
+
+#, fuzzy
+#~ msgid "Image border color"
+#~ msgstr "Box grens kleur"
+
+#~ msgid "Name font size"
+#~ msgstr "Lettergrootte van de naam"
+
+#~ msgid "Meta font size"
+#~ msgstr "Lettergrootte van de meta"
+
+#~ msgid "Bio color"
+#~ msgstr "Bio kleur"
+
+#~ msgid "Bio text align"
+#~ msgstr "Bio text align"
+
+#~ msgid "Social icons color"
+#~ msgstr "Sociale pictogrammen kleur"
+
+#~ msgid "Social icons style"
+#~ msgstr "Sociale pictogrammen stijl"
+
+#~ msgid "Job position"
+#~ msgstr "Functie"
+
+#~ msgid "Url"
+#~ msgstr "URL"
+
+#~ msgid ""
+#~ "As author, you can choose between a registered user and a guest author:"
+#~ msgstr ""
+#~ "Als auteur, kunt u kiezen tussen een geregistreerde gebruiker en een gast "
+#~ "auteur:"
+
+#~ msgid "//www.example.com/"
+#~ msgstr "//www.example.com/"
+
+#~ msgid "Email address"
+#~ msgstr "E-mailadres"
+
+#~ msgid ""
+#~ "There is a premium version of this plugin. Grab a %spremium licence%s to "
+#~ "unlock all features and have direct support."
+#~ msgstr ""
+#~ "Er is een premium versie van deze plugin. Pak een %spremium license%s om "
+#~ "alle functies te ontgrendelen. Tevens heeft u hierdoor ook een premium "
+#~ "ondersteuning."
+
+#~ msgid "Molongui is a trademark of %1$s Amitzy%2$s."
+#~ msgstr "Molongui is een handelsmerk van %1$s Amitzy %2$s."
+
+#~ msgid "Thanks :)"
+#~ msgstr "Bedankt :)"
+
+#~ msgid "Docs"
+#~ msgstr "Documenten"
+
+#, fuzzy
+#~ msgid ""
+#~ "We are constantly looking for ways to improve the quality of our plugins. "
+#~ "How you rate them is the most important information we can obtain to "
+#~ "support our goal."
+#~ msgstr ""
+#~ "We zijn voortdurend op zoek naar manieren om de kwaliteit van onze "
+#~ "producten en diensten te verbeteren. Hoe beoordeelt u onze producten en "
+#~ "diensten is de belangrijkste informatie die we kunnen krijgen om ons doel "
+#~ "te steunen."
+
+#, fuzzy
+#~ msgid ""
+#~ "As part of our ongoing effort to provide high quality, eye-catching "
+#~ "Wordpress plugins, here you have some you might find useful for your site."
+#~ msgstr ""
+#~ "Als onderdeel van onze voortdurende inspanning om het bieden van hoge "
+#~ "kwaliteit, oog springende Wordpress plugins, heb hier je sommige die kan "
+#~ "handig zijn voor uw site:"
+
+#, fuzzy
+#~ msgid "Upgrade!"
+#~ msgstr "Upgrade"
+
+#~ msgid ""
+#~ "We are constantly looking for ways to improve the quality of our products "
+#~ "and services. How you rate our product and service is the most important "
+#~ "information we can obtain to support our goal."
+#~ msgstr ""
+#~ "We zijn voortdurend op zoek naar manieren om de kwaliteit van onze "
+#~ "producten en diensten te verbeteren. Hoe beoordeelt u onze producten en "
+#~ "diensten is de belangrijkste informatie die we kunnen krijgen om ons doel "
+#~ "te steunen."
+
+#~ msgid ""
+#~ "We would really appreciate it if you would take a second to rate this "
+#~ "plugin at the official directory of Wordpress plugins. A huge thank you "
+#~ "from Molongui in advance!"
+#~ msgstr ""
+#~ "We zouden het erg waarderen als u een tweede zou duren om deze plugin "
+#~ "tarief bij de officiële gids van Wordpress plugins. Enorm bedankt vanaf "
+#~ "Molongui bij voorbaat!"
+
+#~ msgid "Rate this plugin"
+#~ msgstr "Beordeel deze plugin"
+
+#~ msgid ""
+#~ "We would really appreciate any feedback you would like to send us. A huge "
+#~ "thank you from Molongui in advance!"
+#~ msgstr ""
+#~ "Wij waarderen uw mening en horen deze dan ook graag. Alvast vriendelijk "
+#~ "bedankt van het Molongui team."
+
+#~ msgid "Send feedback"
+#~ msgstr "Verzend feedback"
+
+#~ msgid ""
+#~ "As part of our ongoing effort to provide high quality, eye-catching "
+#~ "Wordpress plugins, here you have some you might find useful for your site:"
+#~ msgstr ""
+#~ "Als onderdeel van onze voortdurende inspanning om het bieden van hoge "
+#~ "kwaliteit, oog springende Wordpress plugins, heb hier je sommige die kan "
+#~ "handig zijn voor uw site:"
+
+#~ msgid "Free"
+#~ msgstr "Gratis"
+
+#, fuzzy
+#~ msgid "Molongui plugins"
+#~ msgstr "Molongui Authorship"
+
+#~ msgid "Plugin information"
+#~ msgstr "Plugin informatie"
+
+#, fuzzy
+#~ msgid "The name of this plugin."
+#~ msgstr "Beordeel deze plugin"
+
+#~ msgid "License"
+#~ msgstr "Licentie"
+
+#, fuzzy
+#~ msgid "The license of this plugin."
+#~ msgstr "Beordeel deze plugin"
+
+#, fuzzy
+#~ msgid "Upgrade now!"
+#~ msgstr "Nu upgraden"
+
+#~ msgid "Version"
+#~ msgstr "Versie"
+
+#, fuzzy
+#~ msgid "Database Version"
+#~ msgstr "Versie"
+
+#, fuzzy
+#~ msgid "Keep configuration"
+#~ msgstr "Houd configuratie?"
+
+#, fuzzy
+#~ msgid "Should plugin configuration be kept upon plugin uninstal?"
+#~ msgstr ""
+#~ "Kies of om te houden van de plugin configuratie en gegevens bij het "
+#~ "verwijderen van de plugin."
+
+#, fuzzy
+#~ msgid "Permalink strucutre"
+#~ msgstr "Permalink"
+
+#, fuzzy
+#~ msgid "Registered post status"
+#~ msgstr "Geregistreerde auteurs"
+
+#, fuzzy
+#~ msgid "Author URL"
+#~ msgstr "Auteur"
+
+#, fuzzy
+#~ msgid "PHP Version"
+#~ msgstr "Versie"
+
+#, fuzzy
+#~ msgid "cURL Version"
+#~ msgstr "Versie"
+
+#, fuzzy
+#~ msgid "Remote Get"
+#~ msgstr "Verwijder"
+
+#, fuzzy
+#~ msgid "Default Timezone is UTC"
+#~ msgstr "Default afbeelding"
+
+#, fuzzy
+#~ msgid "IP address"
+#~ msgstr "E-mailadres"
+
+#~ msgid "Shortcodes"
+#~ msgstr "Shortcodes"
+
+#~ msgid "Uninstalling"
+#~ msgstr "Uninstall"
+
+#~ msgid "Keep configuration?"
+#~ msgstr "Houd configuratie?"
+
+#~ msgid "Keep data?"
+#~ msgstr "gegevens te bewaren?"
+
+#~ msgid "License Key"
+#~ msgstr "Licentie Code"
+
+#~ msgid "License email"
+#~ msgstr "Licentie email"
+
+#, fuzzy
+#~ msgid "Molongui"
+#~ msgstr "%1$sMolongui%2$s"
+
+#~ msgid "About"
+#~ msgstr "Over"
+
+#, fuzzy
+#~ msgid ""
+#~ "The %s license has not been activated, so the plugin is inactive! %sClick "
+#~ "here%s to activate the license key and the plugin."
+#~ msgstr ""
+#~ "Molongui Authorship licentie is nog niet geactiveerd, waardoor de plugin "
+#~ "inactief is! %sKlik hier%s om uw licensie code en de plugin te activeren"
+
+#, fuzzy
+#~ msgid ""
+#~ "Your license for %s has expired. %sGrab a new one%s to get plugin updates "
+#~ "and have direct support."
+#~ msgstr ""
+#~ "Er is een premium versie van deze plugin. Pak een %spremium license%s om "
+#~ "alle functies te ontgrendelen. Tevens heeft u hierdoor ook een premium "
+#~ "ondersteuning."
+
+#~ msgid "Plugin activated. "
+#~ msgstr "Plugin geactiveerd."
+
+#~ msgid "Connection failed to the License Key API server. Try again later."
+#~ msgstr ""
+#~ "Aansluiting niet in geslaagd de licentiecode API server. Probeer het "
+#~ "later nogmaals."
+
+#, fuzzy
+#~ msgid ""
+#~ "The license could not be deactivated. Use the License Deactivation button "
+#~ "to manually deactivate the license before activating a new license."
+#~ msgstr ""
+#~ "De licentie code kon niet gedeactiveerd worden. Gebruik de licentie "
+#~ "deactivatie tabblad om handmatig de licentie code te activeren voordat u "
+#~ "een nieuwe code kunt gebruiken."
+
+#~ msgid ""
+#~ "The plugin has been updated, but might have not been reactivated. Please "
+#~ "reactivate it manually if needed."
+#~ msgstr ""
+#~ "De plugin is bijgewerkt, maar kan nog niet geactiveerd. Gelieve handmatig "
+#~ "activeren indien nodig."
+
+#~ msgid "Plugin reactivated successfully."
+#~ msgstr "De plugin is succesvol geactiveerd."
+
+#~ msgid ""
+#~ "The license key for %s has expired. You can reactivate or purchase a "
+#~ "license key from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+#~ "a>."
+#~ msgstr ""
+#~ "Uw licentiecode voor %s is verlopen. Uw kunt nu uw licentie opnieuw "
+#~ "activeren of een nieuwe kopen in uw account <a href=\"%s\" target=\"_blank"
+#~ "\">dashboard</a>."
+
+#~ msgid ""
+#~ "The subscription for %s is on-hold. You can reactivate the subscription "
+#~ "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+#~ msgstr ""
+#~ "Het abonnement voor %s is in de wacht. Uw kunt uw abonnement opnieuw "
+#~ "activeren in uw account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+
+#~ msgid ""
+#~ "The subscription for %s has been cancelled. You can renew the "
+#~ "subscription from your account <a href=\"%s\" target=\"_blank"
+#~ "\">dashboard</a>. A new license key will be emailed to you after your "
+#~ "order has been completed."
+#~ msgstr ""
+#~ "Uw abonnement voor %s is geannuleerd. Uw kunt een nieuw abonnement "
+#~ "afsluiten in uw account <a href=\"%s\" target=\"_blank\">dashboard</a>. "
+#~ "Een nieuwe licentie code zal naar uw email adres worden verstuurd nadat "
+#~ "uw bestelling is gelukt."
+
+#~ msgid ""
+#~ "The subscription for %s has expired. You can reactivate the subscription "
+#~ "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+#~ msgstr ""
+#~ "Het abonnement voor %s is verlopen. U kunt nu het abonnement opnieuw "
+#~ "activeren in uw account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+
+#~ msgid ""
+#~ "The subscription for %s has been suspended. You can reactivate the "
+#~ "subscription from your account <a href=\"%s\" target=\"_blank"
+#~ "\">dashboard</a>."
+#~ msgstr ""
+#~ "Het abonnement voor %s is geschorst. U kunt uw abonnement opnieuw "
+#~ "activeren in uw account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+
+#~ msgid ""
+#~ "The subscription for %s is still pending. You can check on the status of "
+#~ "the subscription from your account <a href=\"%s\" target=\"_blank"
+#~ "\">dashboard</a>."
+#~ msgstr ""
+#~ "Het abonnement voor %s is nog steeds in afwachting. U kunt de status van "
+#~ "het abonnement bekijken in uw account <a href=\"%s\" target=\"_blank"
+#~ "\">dashboard</a>."
+
+#~ msgid ""
+#~ "The subscription for %s has been placed in the trash and will be deleted "
+#~ "soon. You can purchase a new subscription from your account <a href=\"%s"
+#~ "\" target=\"_blank\">dashboard</a>."
+#~ msgstr ""
+#~ "Het abonnement voor %s is naar uw prullenbak verplaatst en zal binnenkort "
+#~ "verwijderd worden. U kunt nu een nieuw abonnement kopen in uw account <a "
+#~ "href=\"%s\" target=\"_blank\">dashboard</a>."
+
+#~ msgid ""
+#~ "A subscription for %s could not be found. You can purchase a subscription "
+#~ "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+#~ msgstr ""
+#~ "Er is geen abonnement voor %s gevonden. U kunt nu een abonnement "
+#~ "afsluiten in uw account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+
+#~ msgid ""
+#~ "A license key for %s could not be found. Maybe you forgot to enter a "
+#~ "license key when setting up %s, or the key was deactivated in your "
+#~ "account. You can reactivate or purchase a license key from your account "
+#~ "<a href=\"%s\" target=\"_blank\">dashboard</a>."
+#~ msgstr ""
+#~ "Een licentiecode voor % s kon niet worden gevonden. Misschien bent u "
+#~ "vergeten om een licentiecode in te voeren bij het opzetten van % s, of de "
+#~ "code is gedeactiveerd in uw account. U kunt uw licentie code opnieuw "
+#~ "activeren of opnieuw aanschaffen in uw account <a href=\"%s\" target="
+#~ "\"_blank\"> dashboard </a> ."
+
+#~ msgid ""
+#~ "Download permission for %s has been revoked possibly due to a license key "
+#~ "or subscription expiring. You can reactivate or purchase a license key "
+#~ "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+#~ msgstr ""
+#~ "Download toestemming voor %s is mogelijk ingetrokken als gevolg van een "
+#~ "licentiesleutel of abonnement die ten einde is. U kunt uw licentiecode "
+#~ "opnieuw activeren of een nieuwe aanschaffen in uw account <a href=\"%s\" "
+#~ "target=\"_blank\"> dashboard </a> ."
+
+#~ msgid ""
+#~ "%s has not been activated. Go to the settings page and enter the license "
+#~ "key and license email to activate %s."
+#~ msgstr ""
+#~ "%s is niet geactiveerd. Ga naar de instellingen pagina en voer uw "
+#~ "licentie code en licentie email in om %s te kunnen activeren."
+
+#~ msgid ""
+#~ "You changed the subscription for %s, so you will need to enter your new "
+#~ "API License Key in the settings page. The License Key should have arrived "
+#~ "in your email inbox, if not you can get it by logging into your account "
+#~ "<a href=\"%s\" target=\"_blank\">dashboard</a>."
+#~ msgstr ""
+#~ "Uw heeft het abonnement voor %s aangepast, hierdoor zult u uw nieuwe API "
+#~ "licentie code moeten invullen op de instelling pagina. De licentie code "
+#~ "is verzonden naar uw email adres. Als u deze nog niet heeft ontvangen "
+#~ "kunt u alsnog de licentie code vinden in uw account <a href=\"%s\" target="
+#~ "\"_blank\">dashboard</a>."
+
+#~ msgid "by"
+#~ msgstr "bij"
+
+#~ msgid "Amitzy"
+#~ msgstr "Amitzy"
+
+#~ msgid "Rate"
+#~ msgstr "Beoordeel"
+
+#~ msgid "Feedback"
+#~ msgstr "Feedback"
+
+#~ msgid "System information"
+#~ msgstr "Systeeminformatie"
+
+#~ msgid "Twitter"
+#~ msgstr "Twitter"
+
+#~ msgid "Facebook"
+#~ msgstr "Facebook"
+
+#~ msgid "Google+"
+#~ msgstr "Google+"
+
+#~ msgid "Youtube"
+#~ msgstr "Youtube"
+
+#~ msgid "Pinterest"
+#~ msgstr "Pinterest"
+
+#~ msgid "Tumblr"
+#~ msgstr "Tumblr"
+
+#~ msgid "Instagram"
+#~ msgstr "Instagram"
+
+#~ msgid "Slideshare"
+#~ msgstr "Slideshare"
+
+#~ msgid "Xing"
+#~ msgstr "Xing"
+
+#~ msgid "Renren"
+#~ msgstr "Renren"
+
+#~ msgid "Vk"
+#~ msgstr "Vk"
+
+#~ msgid "Flickr"
+#~ msgstr "Flickr"
+
+#~ msgid "Vine"
+#~ msgstr "Vine"
+
+#~ msgid "Meetup"
+#~ msgstr "Meetup"
+
+#~ msgid "Deviantart"
+#~ msgstr "Deviantart"
+
+#~ msgid "Stumbleupon"
+#~ msgstr "Stumbleupon"
+
+#~ msgid "MySpace"
+#~ msgstr "MySpace"
+
+#~ msgid "Yelp"
+#~ msgstr "Yelp"
+
+#~ msgid "Mixi"
+#~ msgstr "Mixi"
+
+#~ msgid "SoundCloud"
+#~ msgstr "SoundCloud"
+
+#~ msgid "Foursquare"
+#~ msgstr "Foursquare"
+
+#~ msgid "Spotify"
+#~ msgstr "Spotify"
+
+#~ msgid "Vimeo"
+#~ msgstr "Vimeo"
+
+#~ msgid "Dailymotion"
+#~ msgstr "Dailymotion"
+
+#~ msgid "Reddit"
+#~ msgstr "Reddit"
+
+#~ msgid "Box shadow"
+#~ msgstr "Box schaduw"
+
+#~ msgid "Box border"
+#~ msgstr "Box rand"
+
+#~ msgid "Twitter profile"
+#~ msgstr "Twitter profiel"
+
+#~ msgid "//www.twitter.com/user_name"
+#~ msgstr "//www.twitter.com/gebruikersnaam"
+
+#~ msgid "Facebook profile"
+#~ msgstr "Facebook profiel"
+
+#~ msgid "//www.facebook.com/user_name"
+#~ msgstr "//www.facebook.com/gebruikersnaam"
+
+#~ msgid "Linkedin profile"
+#~ msgstr "LinkedIN profiel"
+
+#~ msgid "//www.linkedin.com/pub/user_name"
+#~ msgstr "//www.linkedin.com/pub/gebruikersnaam"
+
+#~ msgid "Google+ profile"
+#~ msgstr "Google+ profiel"
+
+#~ msgid "//plus.google.com/+user_name"
+#~ msgstr "//plus.google.com/+gebruikersnaam"
+
+#~ msgid "Youtube profile"
+#~ msgstr "Youtube profiel"
+
+#~ msgid "//www.youtube.com/user/user_name"
+#~ msgstr "//www.youtube.com/gebruiker/naam"
+
+#~ msgid "Pinterest profile"
+#~ msgstr "Pinterest profile"
+
+#~ msgid "//www.pinterest.com/user_name"
+#~ msgstr "//www.pinterest.com/gebruikersnaam"
+
+#~ msgid "Tumblr profile"
+#~ msgstr "Tumblr profile"
+
+#~ msgid "//user_name.tumblr.com"
+#~ msgstr "//gebruikersnaam.tumblr.com"
+
+#~ msgid "Instagram profile"
+#~ msgstr "Instagram profile"
+
+#~ msgid "//instagram.com/user_name"
+#~ msgstr "//instagram.com/gebruikersnaam"
+
+#~ msgid "Xing profile"
+#~ msgstr "Xing profile"
+
+#~ msgid "//www.xing.com/profile/user_name"
+#~ msgstr "//www.xing.com/profile/gebruikersnaam"
+
+#~ msgid "Renren profile"
+#~ msgstr "Renren profile"
+
+#~ msgid "//www.renren.com/user_name"
+#~ msgstr "//www.renren.com/gebruikersnaam"
+
+#~ msgid "//www.vk.com/user_name"
+#~ msgstr "//www.vk.com/gebruikersnaam"
+
+#~ msgid "Flickr profile"
+#~ msgstr "Flickr profile"
+
+#~ msgid "//www.flickr.com/photos/user_name"
+#~ msgstr "//www.flickr.com/photos/gebruikersnaam"
+
+#~ msgid "Vine profile"
+#~ msgstr "Vine profile"
+
+#~ msgid "//vine.co/user_name"
+#~ msgstr "//vine.co/gebruikersnaam"
+
+#~ msgid "Meetup profile"
+#~ msgstr "Meetup profile"
+
+#~ msgid "//www.meetup.com/user_name"
+#~ msgstr "//www.meetup.com/gebruikersnaam"
+
+#~ msgid "Weibo profile"
+#~ msgstr "Weibo profile"
+
+#~ msgid "//www.weibo.com/user_name"
+#~ msgstr "//www.weibo.com/gebruikersnaam"
+
+#~ msgid "DeviantArt profile"
+#~ msgstr "DeviantArt profile"
+
+#~ msgid "//user_name.deviantart.com"
+#~ msgstr "//gebruikersnaam.deviantart.com"
+
+#~ msgid "StumbleUpon profile"
+#~ msgstr "StumbleUpon profile"
+
+#~ msgid "//stumbleupon.com/stumbler/user_name"
+#~ msgstr "//stumbleupon.com/stumbler/gebruikersnaam"
+
+#~ msgid "MySpace profile"
+#~ msgstr "MySpace profile"
+
+#~ msgid "//myspace.com/user_name"
+#~ msgstr "//myspace.com/gebruikersnaam"
+
+#~ msgid "Yelp profile"
+#~ msgstr "Yelp profile"
+
+#~ msgid "//www.yelp.com/biz/name"
+#~ msgstr "//www.yelp.com/biz/naam"
+
+#~ msgid "Mixi profile"
+#~ msgstr "Mixi profile"
+
+#~ msgid "//mixi.jp/view_community.pl?id=12345"
+#~ msgstr "//mixi.jp/view_community.pl?id=12345"
+
+#~ msgid "SoundCloud profile"
+#~ msgstr "SoundCloud profile"
+
+#~ msgid "//soundcloud.com/user_name"
+#~ msgstr "//soundcloud.com/user_name"
+
+#~ msgid "Last.fm profile"
+#~ msgstr "Last.fm profile"
+
+#~ msgid "//www.last.fm/user/name"
+#~ msgstr "//www.last.fm/gebruiker/naam"
+
+#~ msgid "Foursquare profile"
+#~ msgstr "Foursquare profile"
+
+#~ msgid "//foursquare.com/user_name"
+#~ msgstr "//foursquare.com/gebruikersnaam"
+
+#~ msgid "//play.spotify.com/user/name"
+#~ msgstr "//play.spotify.com/gebruiker/naam"
+
+#~ msgid "Vimeo profile"
+#~ msgstr "Vimeo profile"
+
+#~ msgid "//vimeo.com/user_name"
+#~ msgstr "//vimeo.com/gebruikersnaam"
+
+#~ msgid "Google +"
+#~ msgstr "Google +"
+
+#~ msgid "DeviantArt"
+#~ msgstr "DeviantArt"
+
+#~ msgid "StumbleUpon"
+#~ msgstr "StumbleUpon"
+
+#~ msgid "Last.fm"
+#~ msgstr "Last.fm"
+
+#~ msgid "https://play.spotify.com/user/name"
+#~ msgstr "https://play.spotify.com/gebruiker/naam"
+
+#~ msgid "Molongui Authorship Premium"
+#~ msgstr "Molongui Authorship Premium"
+
+#~ msgid "https://molongui.amitzy.com/product/authorship"
+#~ msgstr "https://molongui.amitzy.com/product/authorship"
+
+#~ msgid ""
+#~ "Give credit to the authors and contributors of your blog by showing their "
+#~ "profile information in a fancy and minimalistic box within the post page."
+#~ msgstr ""
+#~ "Geef krediet aan de auteurs en medewerkers van uw blog op vertoon van hun "
+#~ "profielinformatie in een chique en minimalistisch box binnen de post "
+#~ "pagina."
+
+#~ msgid "https://molongui.amitzy.com/"
+#~ msgstr "https://molongui.amitzy.com/"
+
+#~ msgid "License Activation"
+#~ msgstr "Licentie Activatie"
+
+#~ msgid "License Deactivation"
+#~ msgstr "Licentie Deactiveren"
+
+#~ msgid "Deactivate License Key"
+#~ msgstr "Deactiveren Licentie code"
+
+#~ msgid "Plugin license deactivated. "
+#~ msgstr "Plugin licentie gedeactiveerd. "
+
+#~ msgid "There is no active license to deactivate."
+#~ msgstr "Er is geen actieve licentie die gedeactiveerd kan worden."
+
+#~ msgid "Deactivates the License Key so it can be used on another blog."
+#~ msgstr ""
+#~ "Deactiveert de Licentie Code zodat het op een ander blog kan worden "
+#~ "gebruikt."
+
+#~ msgid "Show box by default"
+#~ msgstr "Show box bij verstek"
+
+#~ msgid "Box position"
+#~ msgstr "Box positie"
+
+#~ msgid "Hide box if no description"
+#~ msgstr "Verbergen box als er geen beschrijving"
+
+#~ msgid "Box layout"
+#~ msgstr "Box lay-out"
+
+#~ msgid ""
+#~ "Set display options that will apply by default to all posts. They can be "
+#~ "changed for each post on its edit page."
+#~ msgstr ""
+#~ "Stel weergave-opties die van toepassing zijn standaard op alle berichten. "
+#~ "Ze kunnen worden gewijzigd voor elke post op de bewerkingspagina."
+
+#~ msgid ""
+#~ "%sPremium%s options are only available in the %spremium version%s of this "
+#~ "plugin. Default options will be used in the free version."
+#~ msgstr ""
+#~ "%sPremium%s zijn alleen beschikbaar in de map %spremium versie%s van deze "
+#~ "plugin. Standaardopties worden gebruikt in de vrije versie."
+
+#~ msgid "Layout 1 [PREMIUM]"
+#~ msgstr "Lay-out 1 [PREMIUM]"
+
+#~ msgid "Layout 1"
+#~ msgstr "Lay-out 1"
+
+#~ msgid "Layout 1 RTL [PREMIUM]"
+#~ msgstr "Lay-out 1 RTL [PREMIUM]"
+
+#~ msgid "Layout 1 RTL"
+#~ msgstr "Lay-out 1 RTL"
+
+#~ msgid ""
+#~ "Customize the author box by choosing the font-sizes, the layout, the "
+#~ "social media icons and the colors that you like the most to make it fit "
+#~ "the best with your site."
+#~ msgstr ""
+#~ "De auteur het aanpassen door de tekengrootte, de lay-out, de social media "
+#~ "iconen en de kleuren dat u graag de meest passen het beste met uw site te "
+#~ "kiezen."
+
+#~ msgid "Squared [PREMIUM]"
+#~ msgstr "Vierkant [PREMIUM]"
+
+#~ msgid "Circled [PREMIUM]"
+#~ msgstr "Cirkel [PREMIUM]"
+
+#~ msgid "Boxed [PREMIUM]"
+#~ msgstr "Boxed [PREMIUM]"
+
+#~ msgid "Branded [PREMIUM]"
+#~ msgstr "Merk [PREMIUM]"
+
+#~ msgid ""
+#~ "This option is available only in the %spremium version%s of the plugin. "
+#~ "Default style will be used in the free version."
+#~ msgstr ""
+#~ "Deze optie is alleen te gebruiken in de %spremium versie%s van deze "
+#~ "plugin. De standaard stijl wordt toegepast in onze gratis versie."
+
+#~ msgid ""
+#~ "Choose whether to add profile metadata for author details (useful for "
+#~ "rich snippets)."
+#~ msgstr ""
+#~ "Kies of het profiel van metadata toe te voegen voor de auteur informatie "
+#~ "(handig voor rich snippets)."
+
+#~ msgid "Insert here the URL of the page you want the user name to link to."
+#~ msgstr ""
+#~ "Plaats hier de URL van de pagina die u wilt dat de gebruikersnaam naar "
+#~ "linkt."
+
+#~ msgid ""
+#~ "Insert here the URL of the page you want the company name to link to."
+#~ msgstr ""
+#~ "Plaats hier de URL van de pagina die u wilt dat de naam van het bedrijf "
+#~ "om te linken naar."
+
+#~ msgid "Blog"
+#~ msgstr "Blog"
+
+#~ msgid ""
+#~ "Connection failed to the\n"
+#~ "\t\t\t\t\tLicense Key API server. Try again later."
+#~ msgstr ""
+#~ "Connectie met de Licentie Code API server is mislukt. Probeer het later "
+#~ "nog eens."
+
+#~ msgid "Placement"
+#~ msgstr "Plaatsing"
+
+#~ msgid "Social media icon style"
+#~ msgstr "Social Media icoon stijl"
+
+#~ msgid "Box color scheme"
+#~ msgstr "Box kleur schema"
+
+#~ msgid ""
+#~ "Choose the position relative to a post where the author box will be "
+#~ "displayed."
+#~ msgstr ""
+#~ "Kies de positie ten opzichte van een post waar de auteur box zal worden "
+#~ "weergegeven."
+
+#~ msgid "Below post content"
+#~ msgstr "Onderstaande post inhoud"
+
+#~ msgid ""
+#~ "Customize the author box choosing the layout you like the most and "
+#~ "picking up the social media icons and colors that fit best with your site."
+#~ msgstr ""
+#~ "Pas de author box door de lay-out te kiezen die u zelf wilt. Hiernaast "
+#~ "kunt u ook de Social Media iconen en kleuren aanpassen naar uw eigen "
+#~ "website"
+
+#~ msgid ""
+#~ "We are constantly looking for ways to improve the quality of our products "
+#~ "and services. How you rate our product and service\n"
+#~ "\t\t\t\t\t\t\tis the most important information we can obtain to support "
+#~ "our goal."
+#~ msgstr ""
+#~ "Wij zijn constant bezig met het verbeteren van onze producten en "
+#~ "diensten. Uw beoordeling is hierom enorm belangrijk voor ons."
+
+#~ msgid ""
+#~ "We would really appreciate it if you would take a second to rate this "
+#~ "plugin at the official directory of Wordpress\n"
+#~ "\t\t\t\t\t\t\t\tplugins. A huge thank you from Molongui in advance!"
+#~ msgstr ""
+#~ "Wij zouden het enorm waarderen als u de tijd wilt nemen om deze plugin "
+#~ "the beoordelen op de officiële website van Wordpress. Alvast vriendelijk "
+#~ "bedankt van het Molongui team!"
+
+#~ msgid ""
+#~ "As part of our ongoing effort to provide high quality, eye-catching "
+#~ "Wordpress plugins, here you have some you might find useful for your\n"
+#~ "\tsite:"
+#~ msgstr ""
+#~ "Als onderdeel van onze voortdurende inspanningen om een ​​hoge kwaliteit, "
+#~ "in het oog springende Wordpress plugins aan te bieden, vindt u wellicht "
+#~ "hier nog iets nuttigs voor uw website:"
+
+#~ msgid "https://www.twitter.com/user_name"
+#~ msgstr "https://www.twitter.com/user_name"
+
+#~ msgid "https://www.facebook.com/user_name"
+#~ msgstr "https://www.facebook.com/user_name"
+
+#~ msgid ""
+#~ "This option requires you to buy the %spremium version%s of this plugin."
+#~ msgstr ""
+#~ "Om deze optie te kunnen gebruiken moet u de %spremium%s versie hebben."
+
+#~ msgid "https://plus.google.com/+user_name"
+#~ msgstr "https://plus.google.com/+user_name"
+
+#~ msgid "https://www.youtube.com/user/user_name"
+#~ msgstr "https://www.youtube.com/user/user_name"
+
+#~ msgctxt "book"
+#~ msgid "Add New"
+#~ msgstr "Toevoegen [ boek ]"
+
+#~ msgid "http://molongui.amitzy.com/authorship/"
+#~ msgstr "http://molongui.amitzy.com/authorship/"
+
+#~ msgid ""
+#~ "Give authorship to your posts and pages with Molongui Authorship, the "
+#~ "only plugin that allows you to add Guest Authors."
+#~ msgstr ""
+#~ "Met Molongui Authorship geef je gemakkelijk een auteurschap aan uw posts "
+#~ "en pagina's, een unieke plugin."
+
+#~ msgid "http://molongui.amitzy.com/"
+#~ msgstr "http://molongui.amitzy.com/"

@@ -1,0 +1,76 @@
+.wp-core-ui .nmm-code-wrapper
+{
+	position: relative;
+	
+	span
+	{
+		display: inline-block;
+		line-height: 25px;
+		
+		&.nmm-copied
+		{
+			@include border-radius(0.5em, 0, 0, 0);
+			
+			position: absolute;
+			right: 0;
+			bottom: 0;
+			z-index: 1;
+			padding: 0 0.5em;
+			display: none;
+			background: $color-field-border;
+			color: $color-black;
+		}
+	}
+	
+	button
+	{
+		margin-right: 0.5em;
+		padding: 2px 10px 3px;
+		height: 25px;
+		line-height: 19px;
+		
+		&:first-of-type
+		{
+			margin-left: 0.5em;
+		}
+		
+		&:last-child
+		{
+			margin-right: 0;
+		}
+	}
+	
+	pre
+	{
+		@include box-shadow(0px, 1px, 2px, $color-field-shadow, true);
+		
+		margin-top: 0;
+		margin-bottom: 0;
+		border: 1px solid $color-field-border;
+		padding: 3px 5px;
+		display: none;
+		overflow: auto;
+		background: $color-white;
+		color: $color-field-text;
+		cursor: default;
+		white-space: pre-wrap;
+		
+		&:not(:first-child)
+		{
+			margin-top: 1em;
+		}
+		
+		&:first-of-type
+		{
+			display: block;
+		}
+	}
+}
+
+body.rtl.wp-core-ui .nmm-code-wrapper span.nmm-copied
+{
+	@include border-radius(0, 0.5em, 0, 0);
+	
+	right: auto;
+	left: 0;
+}

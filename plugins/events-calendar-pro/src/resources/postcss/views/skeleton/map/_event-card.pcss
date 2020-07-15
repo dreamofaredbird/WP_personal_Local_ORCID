@@ -1,0 +1,213 @@
+.tribe-events-pro {
+
+	/* -----------------------------------------------------------------------------
+	 * Event Card
+	 * ----------------------------------------------------------------------------- */
+
+	.tribe-events-pro-map__event-card-wrapper {
+		position: relative;
+	}
+
+	.tribe-events-pro-map__event-card-wrapper--has-thumbnail {
+
+		.tribe-events-pro-map__event-details,
+		.tribe-events-pro-map__event-details-spacer {
+
+			.tribe-common--breakpoint-medium& {
+				width: calc(5 * var(--grid-width-1-of-8));
+			}
+		}
+
+		.tribe-events-pro-map__event-spacer:after {
+
+			.tribe-common--breakpoint-medium& {
+				content: '';
+			}
+		}
+	}
+
+	.tribe-events-pro-map__event-card,
+	.tribe-events-pro-map__event-card-spacer {
+		padding: var(--spacer-3) var(--spacer-2);
+	}
+
+	.tribe-events-pro-map__event-card-spacer {
+		padding-top: 0;
+		padding-bottom: 0;
+		border-left: 1px solid transparent;
+		border-right: 1px solid transparent;
+	}
+
+	.tribe-events-pro-map__event-card-button {
+		position: relative;
+		width: 100%;
+
+		&:hover,
+		&:focus {
+			z-index: var(--z-index-map-event-hover);
+		}
+	}
+
+	.tribe-events-pro-map__event-card-wrapper--active {
+
+		.tribe-events-pro-map__event-card-button {
+			z-index: var(--z-index-map-event-hover);
+		}
+
+		.tribe-events-pro-map__event-actions--linked {
+			bottom: calc(var(--spacer-3) + 1px);
+			position: absolute;
+			width: calc(100% - (2 * 9px)); /* remove 9px padding from width */
+			z-index: var(--z-index-map-event-hover-actions);
+		}
+
+		.tribe-events-pro-map__event-actions--spacer {
+			display: block;
+			visibility: hidden;
+		}
+	}
+
+	.tribe-events-pro-map__event-row,
+	.tribe-events-pro-map__event-row-spacer {
+		flex-wrap: nowrap;
+		margin-left: -9px;
+		margin-right: -9px;
+
+		& > .tribe-common-g-col {
+			padding-left: 9px;
+			padding-right: 9px;
+		}
+	}
+
+	.tribe-events-pro-map__event-date-tag,
+	.tribe-events-pro-map__event-row-spacer:before {
+		flex: none;
+		margin-right: 0;
+		min-width: 52px;
+		width: var(--grid-width-1-of-8);
+	}
+
+	.tribe-events-pro-map__event-row-spacer:before {
+		content: '';
+	}
+
+	.tribe-events-pro-map__event-date-tag-datetime {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.tribe-events-pro-map__event-date-tag-month {
+		margin-bottom: calc(var(--spacer-0) * -1);
+	}
+
+	.tribe-events-pro-map__event-wrapper,
+	.tribe-events-pro-map__event-wrapper-spacer {
+		flex: auto;
+	}
+
+	.tribe-events-pro-map__event,
+	.tribe-events-pro-map__event-spacer {
+		margin-left: -9px;
+		margin-right: -9px;
+
+		& > .tribe-common-g-col {
+			padding-left: 9px;
+			padding-right: 9px;
+		}
+	}
+
+	.tribe-events-pro-map__event-featured-image-wrapper,
+	.tribe-events-pro-map__event-spacer:after {
+
+		.tribe-common--breakpoint-medium& {
+			display: block !important;
+			margin-bottom: 0;
+			visibility: visible;
+			width: calc(3 * var(--grid-width-1-of-8));
+		}
+	}
+
+	.tribe-events-pro-map__event-featured-image-link {
+		display: block;
+	}
+
+	.tribe-events-pro-map__event-details,
+	.tribe-events-pro-map__event-details-spacer {
+		flex: none;
+	}
+
+	.tribe-events-pro-map__event-details-spacer {
+		position: relative;
+	}
+
+
+	.tribe-events-pro-map__event-datetime-wrapper {
+		margin-bottom: var(--spacer-0);
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	.tribe-events-pro-map__event-datetime-featured-icon {
+		display: inline-block;
+		margin-right: var(--spacer-0);
+	}
+
+	.tribe-events-pro-map__event-datetime-featured-text {
+
+		.tribe-common--breakpoint-medium& {
+			@mixin visually-show;
+
+			margin-right: var(--spacer-1);
+		}
+	}
+
+	.tribe-events-pro-map__event-datetime-recurring-icon {
+		display: inline-block;
+		margin-left: var(--spacer-0);
+	}
+
+	.tribe-events-pro-map__event-title {
+		margin: 0 0 6px;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	.tribe-events-pro-map__event-venue {
+		margin-bottom: var(--spacer-0);
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	.tribe-events-pro-map__event-distance {
+
+		.tribe-common--breakpoint-medium& {
+			display: block !important;
+			visibility: visible;
+		}
+	}
+
+	.tribe-events-pro-map__event-actions {
+		display: none;
+		margin-top: var(--spacer-1);
+		position: relative;
+	}
+
+	/* -----------------------------------------------------------------------------
+	 * Theme Overrides - Twenty Nineteen
+	 * ----------------------------------------------------------------------------- */
+
+	.tribe-theme-twentynineteen & {
+
+		.tribe-events-pro-map__event-card.entry {
+			padding: var(--spacer-3) var(--spacer-2);
+		}
+	}
+}
+

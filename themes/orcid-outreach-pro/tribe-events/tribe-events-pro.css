@@ -1,0 +1,29 @@
+/* Button styles */
+
+tribe-events .tribe-events-calendar-month__day-cell--selected, 
+.tribe-events .tribe-events-calendar-month__day-cell--selected:focus, 
+.tribe-events .tribe-events-calendar-month__day-cell--selected:hover,
+.tribe-common .tribe-common-c-btn, .tribe-common a.tribe-common-c-btn {
+	background-color: #2e7f9f;
+	color:#fff;
+}
+
+
+
+/* Calendar date  */
+.tribe-events .tribe-events-calendar-month__day--current .tribe-events-calendar-month__day-date, .tribe-events .tribe-events-calendar-month__day--current .tribe-events-calendar-month__day-date-link {
+    color: #2e7f9f;
+    font-weight: 700;
+}
+
+
+time.tribe-events .tribe-events-calendar-month__day--current .tribe-events-calendar-month__day-date, .tribe-events .tribe-events-calendar-month__day--current .tribe-events-calendar-month__day-date-link{
+    color: #2e7f9f;
+    font-weight: 700;
+}
+
+
+span.tribe-events-pro .tribe-events-pro-week-grid__header-column--current .tribe-events-pro-week-grid__header-column-daynum, .tribe-events-pro .tribe-events-pro-week-grid__header-column--current .tribe-events-pro-week-grid__header-column-daynum-link{
+    color: #2e7f9f;
+    font-weight: 700;
+}

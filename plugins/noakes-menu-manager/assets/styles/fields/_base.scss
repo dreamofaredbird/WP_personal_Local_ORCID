@@ -1,0 +1,117 @@
+.nmm-field
+{
+	@include border-box();
+	@include transition(background);
+	
+	overflow: hidden;
+	background: $color-white;
+	
+	&:nth-child(odd)
+	{
+		background: $color-light-gray;
+	}
+	
+	label
+	{
+		display: block;
+	}
+}
+
+.nmm-field-label,
+.nmm-field-input
+{
+	@include border-box();
+	
+	overflow: hidden;
+}
+
+.nmm-meta-box > div > .nmm-field
+{
+	> .nmm-field-label,
+	> .nmm-field-input
+	{
+		padding: 12px;
+	}
+}
+
+.nmm-field-input
+{
+	input,
+	select
+	{
+		&.nmm-error
+		{
+			border: 1px solid $color-red;
+		}
+	}
+
+	div.nmm-error
+	{
+		@include border-box();
+		
+		margin-top: -1px;
+		border: 0;
+		padding: 3px 5px;
+		display: block;
+		width: 100%;
+		background: $color-red;
+		color: $color-white;
+		font-weight: bold;
+		font-size: 12px;
+	}
+}
+
+#advanced-sortables,
+#normal-sortables
+{
+	.nmm-meta-box > div > .nmm-field > .nmm-field-label
+	{
+		@include bp(above-tall-admin-bar)
+		{
+			float: left;
+			width: 25%;
+			max-width: 240px;
+			
+			> label
+			{
+				margin-top: 3px;
+			}
+		}
+
+		@include bp(up-to-tall-admin-bar)
+		{
+			margin-bottom: -8px;
+			padding-bottom: 0;
+		}
+	}
+}
+
+@include bp(above-tall-admin-bar)
+{
+	#side-sortables .nmm-meta-box > div > .nmm-field > .nmm-field-label
+	{
+		margin-bottom: -8px;
+		padding-bottom: 0;
+	}
+}
+
+.nmm-description
+{
+	color: $color-wp-gray;
+	font-style: italic;
+}
+
+@include bp(above-tall-admin-bar)
+{
+	body.rtl
+	{
+		#advanced-sortables,
+		#normal-sortables
+		{
+			.nmm-meta-box > div > .nmm-field > .nmm-field-label
+			{
+				float: right;
+			}
+		}
+	}
+}

@@ -1,0 +1,715 @@
+/*! Primary plugin stylesheet. * @since 2.0.0 * @package Nav Menu Manager */
+.nmm-hidden {
+  display: none;
+}
+
+.nmm-nav-tab:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+#poststuff .nmm-meta-box .inside {
+  margin: 0;
+  padding: 0;
+}
+
+#poststuff .nmm-meta-box :focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.nmm-help-button.dashicons {
+  -moz-transition: color 125ms ease-in-out, opacity 125ms ease-in-out;
+  -ms-transition: color 125ms ease-in-out, opacity 125ms ease-in-out;
+  -o-transition: color 125ms ease-in-out, opacity 125ms ease-in-out;
+  -webkit-transition: color 125ms ease-in-out, opacity 125ms ease-in-out;
+  transition: color 125ms ease-in-out, opacity 125ms ease-in-out;
+  display: none;
+  overflow: hidden;
+  vertical-align: text-top;
+  opacity: 0;
+}
+
+.nmm-help-button.dashicons:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.nmm-meta-box .nmm-help-button.dashicons {
+  margin-top: 1px;
+  margin-bottom: -1px;
+  font-size: 20px;
+  vertical-align: top;
+}
+
+body.rtl .nmm-help-button.dashicons::before {
+  float: right;
+}
+
+body.rtl .nmm-meta-box .nmm-help-button.dashicons,
+body.rtl .help-tab-content .nmm-help-button.dashicons {
+  margin-top: -1px;
+  margin-bottom: 1px;
+}
+
+.is-submenu {
+  display: inline-block;
+}
+
+.nmm-collapse,
+.nmm-expand {
+  display: inline-block;
+  overflow: hidden;
+  height: auto;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 18px;
+  font-family: monospace;
+  text-align: center;
+  vertical-align: text-top;
+}
+
+.menu-item.nmm-hidden {
+  display: none !important;
+}
+
+.nmm-collapse-expand-all {
+  margin-left: -0.125rem;
+  outline: 0;
+  display: none;
+  overflow: hidden;
+}
+
+.nmm-collapse-expand-all .button {
+  margin: 0.125rem;
+}
+
+.nmm-collapse-expand-all .button span {
+  margin-top: -2px;
+}
+
+.nmm-collapse-expand-all .nmm-help-button {
+  margin: 5px 0;
+}
+
+.nmm-collapse-expand {
+  -moz-transition: color 125ms ease-in-out;
+  -ms-transition: color 125ms ease-in-out;
+  -o-transition: color 125ms ease-in-out;
+  -webkit-transition: color 125ms ease-in-out;
+  transition: color 125ms ease-in-out;
+  position: absolute;
+  top: 0;
+  right: -40px;
+  display: none;
+  height: 40px;
+  width: 30px;
+  color: #72777c;
+}
+
+.nmm-collapse-expand:hover {
+  color: #23282d;
+}
+
+.nmm-collapsible .nmm-counter {
+  margin-left: 4px;
+  display: inline-block;
+  color: #72777c;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.nmm-collapsible .item-controls {
+  right: 40px;
+}
+
+.nmm-collapsible > .menu-item-bar .nmm-collapse-expand {
+  display: block;
+  overflow: hidden;
+}
+
+.nmm-collapsible > .menu-item-bar .nmm-collapse-expand span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 30px;
+  line-height: 40px;
+}
+
+.nmm-collapsible > .menu-item-bar .nmm-collapse-expand .nmm-expand {
+  display: none;
+}
+
+.nmm-collapsed > .menu-item-bar .nmm-collapse-expand .nmm-collapse {
+  display: none;
+}
+
+.nmm-collapsed > .menu-item-bar .nmm-collapse-expand .nmm-expand {
+  display: block;
+}
+
+body.rtl .nmm-collapse-expand-all {
+  margin-right: -0.125rem;
+  margin-left: 0;
+}
+
+body.rtl .nmm-collapse-expand {
+  right: auto;
+  left: -40px;
+}
+
+body.rtl .nmm-collapsible .nmm-counter {
+  margin-right: 4px;
+  margin-left: 0;
+}
+
+body.rtl .nmm-collapsible .item-controls {
+  right: auto;
+  left: 40px;
+}
+
+.nmm-field {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-transition: background 125ms ease-in-out;
+  -ms-transition: background 125ms ease-in-out;
+  -o-transition: background 125ms ease-in-out;
+  -webkit-transition: background 125ms ease-in-out;
+  transition: background 125ms ease-in-out;
+  overflow: hidden;
+  background: #fff;
+}
+
+.nmm-field:nth-child(odd) {
+  background: #f9f9f9;
+}
+
+.nmm-field label {
+  display: block;
+}
+
+.nmm-field-label,
+.nmm-field-input {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.nmm-meta-box > div > .nmm-field > .nmm-field-label,
+.nmm-meta-box > div > .nmm-field > .nmm-field-input {
+  padding: 12px;
+}
+
+.nmm-field-input input.nmm-error,
+.nmm-field-input select.nmm-error {
+  border: 1px solid #d8000c;
+}
+
+.nmm-field-input div.nmm-error {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-top: -1px;
+  border: 0;
+  padding: 3px 5px;
+  display: block;
+  width: 100%;
+  background: #d8000c;
+  color: #fff;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+@media (min-width: 783px) {
+  #advanced-sortables .nmm-meta-box > div > .nmm-field > .nmm-field-label,
+  #normal-sortables .nmm-meta-box > div > .nmm-field > .nmm-field-label {
+    float: left;
+    width: 25%;
+    max-width: 240px;
+  }
+  #advanced-sortables .nmm-meta-box > div > .nmm-field > .nmm-field-label > label,
+  #normal-sortables .nmm-meta-box > div > .nmm-field > .nmm-field-label > label {
+    margin-top: 3px;
+  }
+}
+
+@media (max-width: 782px) {
+  #advanced-sortables .nmm-meta-box > div > .nmm-field > .nmm-field-label,
+  #normal-sortables .nmm-meta-box > div > .nmm-field > .nmm-field-label {
+    margin-bottom: -8px;
+    padding-bottom: 0;
+  }
+}
+
+@media (min-width: 783px) {
+  #side-sortables .nmm-meta-box > div > .nmm-field > .nmm-field-label {
+    margin-bottom: -8px;
+    padding-bottom: 0;
+  }
+}
+
+.nmm-description {
+  color: #666;
+  font-style: italic;
+}
+
+@media (min-width: 783px) {
+  body.rtl #advanced-sortables .nmm-meta-box > div > .nmm-field > .nmm-field-label,
+  body.rtl #normal-sortables .nmm-meta-box > div > .nmm-field > .nmm-field-label {
+    float: right;
+  }
+}
+
+.nmm-field-group > .nmm-group {
+  padding: 6px;
+  overflow: hidden;
+}
+
+.nmm-field-group > .nmm-group > .nmm-field {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 6px;
+  float: left;
+  min-height: 1px;
+  width: 100%;
+  background: none;
+}
+
+.nmm-field-group > .nmm-group > .nmm-field.nmm-field-layout {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+@media (min-width: 783px) {
+  #advanced-sortables .nmm-group > .nmm-field,
+  #normal-sortables .nmm-group > .nmm-field {
+    float: left;
+    clear: none;
+    width: 50%;
+  }
+  body.rtl #advanced-sortables .nmm-group > .nmm-field,
+  body.rtl #normal-sortables .nmm-group > .nmm-field {
+    float: right;
+  }
+}
+
+.nmm-repeatable > .nmm-repeatable-layout,
+.nmm-repeatable > .nmm-repeatable-item {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  background: #e5e5e5;
+}
+
+@media (min-width: 601px) {
+  .nmm-repeatable > .nmm-repeatable-layout,
+  .nmm-repeatable > .nmm-repeatable-item {
+    padding: 1px 28px 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .nmm-repeatable > .nmm-repeatable-layout,
+  .nmm-repeatable > .nmm-repeatable-item {
+    padding: 28px 1px 0;
+  }
+}
+
+.nmm-repeatable > .nmm-repeatable-layout > div,
+.nmm-repeatable > .nmm-repeatable-item > div {
+  background: #f9f9f9;
+}
+
+.nmm-repeatable > .nmm-repeatable-layout:nth-child(odd) > div,
+.nmm-repeatable > .nmm-repeatable-item:nth-child(odd) > div {
+  background: #fff;
+}
+
+.nmm-repeatable > .nmm-repeatable-item > a,
+.nmm-repeatable > .nmm-repeatable-item > a span {
+  -moz-transition: all 125ms ease-in-out;
+  -ms-transition: all 125ms ease-in-out;
+  -o-transition: all 125ms ease-in-out;
+  -webkit-transition: all 125ms ease-in-out;
+  transition: all 125ms ease-in-out;
+  height: 28px;
+  width: 28px;
+  display: block;
+  color: #333;
+  line-height: 28px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.nmm-repeatable > .nmm-repeatable-item > .nmm-repeatable-move {
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: move;
+}
+
+.nmm-repeatable > .nmm-repeatable-item > .nmm-repeatable-move:hover {
+  background: #d4d4d4;
+}
+
+.nmm-repeatable > .nmm-repeatable-item > .nmm-repeatable-move span {
+  cursor: move;
+}
+
+.nmm-repeatable > .nmm-repeatable-item > .nmm-repeatable-move span.nmm-repeatable-count {
+  background: #d4d4d4;
+  font-size: 12px;
+  letter-spacing: -1px;
+}
+
+.nmm-repeatable > .nmm-repeatable-item.ui-sortable-helper > .nmm-repeatable-move {
+  background: #d4d4d4;
+}
+
+.nmm-repeatable > .nmm-repeatable-item > .nmm-repeatable-button,
+.nmm-repeatable > .nmm-repeatable-item > a .nmm-repeatable-button {
+  position: absolute;
+  background: rgba(212, 212, 212, 0);
+  opacity: 0;
+}
+
+.nmm-repeatable > .nmm-repeatable-item > .nmm-repeatable-button:hover,
+.nmm-repeatable > .nmm-repeatable-item > a .nmm-repeatable-button:hover {
+  background: #d4d4d4;
+}
+
+.nmm-repeatable > .nmm-repeatable-item:hover > .nmm-repeatable-button,
+.nmm-repeatable > .nmm-repeatable-item:hover > a .nmm-repeatable-button {
+  opacity: 1;
+}
+
+.nmm-repeatable > .nmm-repeatable-item > .nmm-repeatable-insert {
+  z-index: 1;
+}
+
+.nmm-repeatable > .nmm-repeatable-item > .nmm-repeatable-insert span {
+  line-height: 32px;
+}
+
+.nmm-repeatable > .nmm-repeatable-item:first-child > .nmm-repeatable-move-up,
+.nmm-repeatable > .nmm-repeatable-item:nth-last-child(3) > .nmm-repeatable-move-down {
+  display: none;
+}
+
+@media (min-width: 601px) {
+  .nmm-repeatable > .nmm-repeatable-item > .nmm-repeatable-move {
+    height: 100%;
+  }
+  .nmm-repeatable > .nmm-repeatable-item > .nmm-repeatable-move .nmm-repeatable-button {
+    position: absolute;
+    top: 50%;
+    left: 0;
+  }
+  .nmm-repeatable > .nmm-repeatable-item > .nmm-repeatable-move-up,
+  .nmm-repeatable > .nmm-repeatable-item > .nmm-repeatable-move-up span,
+  .nmm-repeatable > .nmm-repeatable-item > .nmm-repeatable-move-down,
+  .nmm-repeatable > .nmm-repeatable-item > .nmm-repeatable-move-down span {
+    height: 14px;
+    width: 14px;
+    font-size: 10px;
+    line-height: 14px;
+  }
+  .nmm-repeatable > .nmm-repeatable-item > .nmm-repeatable-move-up:hover,
+  .nmm-repeatable > .nmm-repeatable-item > .nmm-repeatable-move-up:hover span,
+  .nmm-repeatable > .nmm-repeatable-item > .nmm-repeatable-move-down:hover,
+  .nmm-repeatable > .nmm-repeatable-item > .nmm-repeatable-move-down:hover span {
+    height: 28px;
+    width: 28px;
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .nmm-repeatable > .nmm-repeatable-item > .nmm-repeatable-move-up {
+    top: 0;
+    left: 28px;
+  }
+  .nmm-repeatable > .nmm-repeatable-item > .nmm-repeatable-move-down {
+    bottom: 0;
+    left: 28px;
+  }
+  .nmm-repeatable > .nmm-repeatable-item > .nmm-repeatable-insert {
+    top: 0;
+    right: 0;
+  }
+  .nmm-repeatable > .nmm-repeatable-item > .nmm-repeatable-remove {
+    top: 50%;
+    right: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .nmm-repeatable > .nmm-repeatable-item > .nmm-repeatable-move {
+    height: 28px;
+  }
+  .nmm-repeatable > .nmm-repeatable-item > .nmm-repeatable-move .nmm-repeatable-button {
+    display: none;
+  }
+  .nmm-repeatable > .nmm-repeatable-item > .nmm-repeatable-move-up {
+    top: 0;
+    left: 28px;
+  }
+  .nmm-repeatable > .nmm-repeatable-item > .nmm-repeatable-move-down {
+    top: 0;
+    left: 56px;
+  }
+  .nmm-repeatable > .nmm-repeatable-item > .nmm-repeatable-insert {
+    top: 0;
+    left: 50%;
+    margin-left: -14px;
+  }
+  .nmm-repeatable > .nmm-repeatable-item > .nmm-repeatable-remove {
+    top: 0;
+    right: 0;
+  }
+}
+
+.nmm-repeatable.nmm-has-layout > .nmm-repeatable-item:nth-child(2) > .nmm-repeatable-move-up {
+  display: none;
+}
+
+.nmm-repeatable.ui-sortable-disabled > .nmm-repeatable-item > .nmm-repeatable-move {
+  cursor: default;
+}
+
+.nmm-repeatable.ui-sortable-disabled > .nmm-repeatable-item > .nmm-repeatable-move:hover {
+  background: none;
+}
+
+.nmm-repeatable.ui-sortable-disabled > .nmm-repeatable-item > .nmm-repeatable-move .nmm-repeatable-count {
+  cursor: default;
+}
+
+.nmm-repeatable.ui-sortable-disabled > .nmm-repeatable-item > .nmm-repeatable-move .nmm-repeatable-button {
+  display: none;
+}
+
+.nmm-repeatable > .nmm-repeatable-placeholder {
+  background: #e5e5e5;
+}
+
+.nmm-repeatable > .nmm-repeatable-template {
+  display: none;
+}
+
+.nmm-repeatable > .nmm-repeatable-add {
+  border: 1px solid #e5e5e5;
+  padding: 12px;
+  background: #eee;
+}
+
+@media (min-width: 601px) {
+  .nmm-repeatable > .nmm-repeatable-add {
+    border-right-width: 28px;
+    border-left-width: 28px;
+  }
+}
+
+body.rtl .nmm-repeatable > .nmm-repeatable-item > .nmm-repeatable-move {
+  right: 0;
+  left: auto;
+}
+
+@media (min-width: 601px) {
+  body.rtl .nmm-repeatable > .nmm-repeatable-item > .nmm-repeatable-move-up,
+  body.rtl .nmm-repeatable > .nmm-repeatable-item > .nmm-repeatable-move-down {
+    right: 28px;
+    left: auto;
+  }
+  body.rtl .nmm-repeatable > .nmm-repeatable-item > .nmm-repeatable-insert,
+  body.rtl .nmm-repeatable > .nmm-repeatable-item > .nmm-repeatable-remove {
+    right: auto;
+    left: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  body.rtl .nmm-repeatable > .nmm-repeatable-item > .nmm-repeatable-move-up {
+    right: 28px;
+    left: auto;
+  }
+  body.rtl .nmm-repeatable > .nmm-repeatable-item > .nmm-repeatable-move-down {
+    right: 56px;
+    left: auto;
+  }
+  body.rtl .nmm-repeatable > .nmm-repeatable-item > .nmm-repeatable-remove {
+    right: auto;
+    left: 0;
+  }
+}
+
+.nmm-field-select select,
+.nmm-field-text input {
+  margin: 0;
+  width: 100%;
+}
+
+.inside > .nmm-field-select > .nmm-field-input,
+.inside > .nmm-field-text > .nmm-field-input {
+  max-width: 480px;
+}
+
+.nmm-field-checkbox input[type='checkbox'] {
+  margin-top: 4px;
+  float: left;
+}
+
+@media (max-width: 782px) {
+  .nmm-field-checkbox input[type='checkbox'] {
+    margin-top: 0;
+  }
+}
+
+.nmm-field-checkbox .nmm-description {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  display: block;
+}
+
+.nmm-field-checkbox.nmm-confirmation {
+  color: #d8000c;
+  font-weight: 600;
+}
+
+.nmm-field-checkbox.nmm-confirmation .nmm-description {
+  color: #d8000c;
+}
+
+body.rtl .nmm-field-checkbox input[type='checkbox'] {
+  float: right;
+}
+
+.wp-core-ui .nmm-code-wrapper {
+  position: relative;
+}
+
+.wp-core-ui .nmm-code-wrapper span {
+  display: inline-block;
+  line-height: 25px;
+}
+
+.wp-core-ui .nmm-code-wrapper span.nmm-copied {
+  -webkit-border-radius: 0.5em 0 0 0;
+  border-radius: 0.5em 0 0 0;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  padding: 0 0.5em;
+  display: none;
+  background: #ddd;
+  color: #000;
+}
+
+.wp-core-ui .nmm-code-wrapper button {
+  margin-right: 0.5em;
+  padding: 2px 10px 3px;
+  height: 25px;
+  line-height: 19px;
+}
+
+.wp-core-ui .nmm-code-wrapper button:first-of-type {
+  margin-left: 0.5em;
+}
+
+.wp-core-ui .nmm-code-wrapper button:last-child {
+  margin-right: 0;
+}
+
+.wp-core-ui .nmm-code-wrapper pre {
+  -webkit-box-shadow: inset 0px 1px 2px 0 rgba(0, 0, 0, 0.07);
+  box-shadow: inset 0px 1px 2px 0 rgba(0, 0, 0, 0.07);
+  margin-top: 0;
+  margin-bottom: 0;
+  border: 1px solid #ddd;
+  padding: 3px 5px;
+  display: none;
+  overflow: auto;
+  background: #fff;
+  color: #32373c;
+  cursor: default;
+  white-space: pre-wrap;
+}
+
+.wp-core-ui .nmm-code-wrapper pre:not(:first-child) {
+  margin-top: 1em;
+}
+
+.wp-core-ui .nmm-code-wrapper pre:first-of-type {
+  display: block;
+}
+
+body.rtl.wp-core-ui .nmm-code-wrapper span.nmm-copied {
+  -webkit-border-radius: 0 0.5em 0 0;
+  border-radius: 0 0.5em 0 0;
+  right: auto;
+  left: 0;
+}
+
+.nmm-field-html a {
+  -moz-transition: color 125ms ease-in-out;
+  -ms-transition: color 125ms ease-in-out;
+  -o-transition: color 125ms ease-in-out;
+  -webkit-transition: color 125ms ease-in-out;
+  transition: color 125ms ease-in-out;
+}
+
+.nmm-field-html a img {
+  -moz-transition: opacity 125ms ease-in-out;
+  -ms-transition: opacity 125ms ease-in-out;
+  -o-transition: opacity 125ms ease-in-out;
+  -webkit-transition: opacity 125ms ease-in-out;
+  transition: opacity 125ms ease-in-out;
+}
+
+.nmm-field-html a:hover img {
+  opacity: 0.875;
+}
+
+.nmm-field-html p {
+  margin-top: 0;
+}
+
+.nmm-field-html p:last-child {
+  margin-bottom: 0;
+}
+
+.nmm-field-html img {
+  margin-top: 6px;
+  height: auto;
+  max-width: 100%;
+}
+
+.nmm-field-html img.robert-noakes {
+  width: 100%;
+  max-width: 257px;
+}
+
+.nmm-field-radio .nmm-field-input label {
+  padding: 3px 12px 3px 0;
+  display: inline-block;
+}
+
+.nmm-field-radio .nmm-field-input label input[type='radio'] {
+  margin-top: 1px;
+  float: left;
+}
+
+@media (max-width: 782px) {
+  .nmm-field-radio .nmm-field-input label input[type='radio'] {
+    margin-top: -2px;
+  }
+}
+
+body.rtl .nmm-field-radio .nmm-field-input label input[type='radio'] {
+  float: right;
+}
