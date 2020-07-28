@@ -1155,14 +1155,17 @@ Site Header
 	line-height: 1;
 	text-transform: uppercase;
 	display: none;
+	
 }
 
 .site-title a{
 	color:rgba(0, 0, 0, 0.0);
+	
 }
 
 .site-title a:hover {
 	color: #447405;
+	
 }
 
 .header-image .title-area {

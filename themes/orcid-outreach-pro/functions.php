@@ -218,24 +218,30 @@ add_filter( 'get_custom_logo', 'sp_custom_logo_link' );
 
 function sp_custom_logo_link( $html ) {
 
-return str_replace( 'href="http://localhost:10000/', 'href="http://qa.orcid.org/', $html );
+return str_replace( 'href="/', 'href="http://qa.orcid.org/', $html );
 
 }
 
 
-//* Remove the site title
-remove_action( 'genesis_site_title', 'genesis_seo_site_title' );
+// //* Remove the site title
+// remove_action( 'genesis_site_title', 'genesis_seo_site_title' );
 
 
-//* Remove the site description
-remove_action( 'genesis_site_description', 'genesis_seo_site_description' );
+// //* Remove the site description
+// remove_action( 'genesis_site_description', 'genesis_seo_site_description' );
 
 
-//* Remove the header right widget area
-unregister_sidebar( 'header-right' );
+// //* Remove the header right widget area
+// unregister_sidebar( 'header-right' );
 
 
-//* Reposition the primary navigation menu
-remove_action( 'genesis_after_header', 'genesis_do_nav' );
-add_action( 'genesis_before_header', 'genesis_do_nav' );
+// //* Reposition the primary navigation menu
+// remove_action( 'genesis_after_header', 'genesis_do_nav' );
+// add_action( 'genesis_before_header', 'genesis_do_nav' );
 
+//* Modify the header URL - HTML5 Version
+add_filter( 'genesis_seo_title', 'child_header_title', 10, 3 );
+function child_header_title( $title, $inside, $wrap ) {
+    $inside = sprintf( '<a href="http://qa.orcid.org/" title="%s">%s</a>', esc_attr( get_bloginfo( 'name' ) ), get_bloginfo( 'name' ) );
+    return sprintf( '<%1$s class="site-title">%2$s</%1$s>', $wrap, $inside );
+}
