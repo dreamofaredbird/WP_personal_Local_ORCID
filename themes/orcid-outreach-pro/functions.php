@@ -202,18 +202,6 @@ remove_action( 'genesis_after_header', 'genesis_do_subnav' );
 add_action( 'genesis_after_sidebar_alt_widget_area', 'genesis_do_subnav' );
 
 
-
-// Redirect Header Image to orcid.org 
-
-// remove_action( 'genesis_header', 'genesis_do_header' );
-
-// add_action( 'genesis_header', 'after_header_home_image' );
-// function after_header_home_image() {
-// echo '<div class="custom-header">';
-// echo '<a href="' . esc_url( 'https://qa.orcid.org/' )  . '"><img src="' . '/wp-content/uploads/2020/05/ORCID_logo_with_subtitle_340px.png" /></a>';
-// echo '</div>';
-// }
-
 add_filter( 'get_custom_logo', 'sp_custom_logo_link' );
 
 function sp_custom_logo_link( $html ) {
@@ -222,22 +210,6 @@ return str_replace( 'href="/', 'href="http://qa.orcid.org/', $html );
 
 }
 
-
-// //* Remove the site title
-// remove_action( 'genesis_site_title', 'genesis_seo_site_title' );
-
-
-// //* Remove the site description
-// remove_action( 'genesis_site_description', 'genesis_seo_site_description' );
-
-
-// //* Remove the header right widget area
-// unregister_sidebar( 'header-right' );
-
-
-// //* Reposition the primary navigation menu
-// remove_action( 'genesis_after_header', 'genesis_do_nav' );
-// add_action( 'genesis_before_header', 'genesis_do_nav' );
 
 //* Modify the header URL - HTML5 Version
 add_filter( 'genesis_seo_title', 'child_header_title', 10, 3 );
