@@ -1125,7 +1125,7 @@ Site Header
 .site-header {
 	background-color: #fff;
 	color: #fff;
-	/* min-height: 180px; */
+	min-height: 180px;
 }
 
 .site-header .widget {
