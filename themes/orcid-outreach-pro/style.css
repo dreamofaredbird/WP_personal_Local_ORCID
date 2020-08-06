@@ -1691,7 +1691,7 @@ Sidebars
 ---------------------------------------------------------------------------------------------------- */
 
 .sidebar {
-	color: color: rgba 0, 0, 0, 0.9;;
+	color: rgba 0, 0, 0, 0.9;;
 	font-size: 14px;
 }
 
@@ -1709,7 +1709,7 @@ Sidebars
 
 .sidebar li a:hover,
 .sidebar .entry-meta a:hover {
-	ccolor: #447405;
+	color: #447405;
 	font-weight: 700;
 	text-decoration: underline;
 }
