@@ -242,6 +242,21 @@ cite {
 	font-style: normal;
 }
 
+/* Download buttons */
+
+.wp-block-file .wp-block-file__button{
+	background-color: #2e7f9f;
+	border: none;
+	border-radius: 3px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 16px 24px;
+	text-transform: uppercase;
+	width: auto;
+}
+
 /* Headings
 --------------------------------------------- */
 
@@ -452,7 +467,7 @@ input[type="search"]::-webkit-search-results-button {
 }
 
 input.mailpoet_submit:hover{
-	background-color: #085c77;
+	background-color: #2e7f9f;
 	color: #fff;
 }
 
@@ -508,7 +523,7 @@ Structure and Layout
 
 .site-inner {
 	clear: both;
-	font-size: 18px;
+	font-size: 16px;
 	overflow: hidden;
 	padding-top: 30px;
 }
@@ -550,6 +565,7 @@ Structure and Layout
 	margin-bottom: 30px;
 	padding: 20px;
 	width: 760px;
+	border-radius: 10px;
 }
 
 .outreach-pro-home .content {
@@ -740,19 +756,14 @@ Common Classes
 .genesis-nav-menu .search input[type="submit"],
 .widget_search input[type="submit"] {
 	border: 0;
-	clip: rect(0, 0, 0, 0);
-	height: 1px;
+	clip: rect(0, 0, 0, 0);	
 	margin: -1px;
-	padding: 20px;
-	position: absolute;
-	width: 1px;
 }
 
 .search-form input[type="search"] {
 	width: 180px;
-	margin-right:20px;
+	margin-right:10px;
 }
-
 
 /* Titles
 --------------------------------------------- */
@@ -762,7 +773,7 @@ Common Classes
 }
 
 .entry-title {
-	font-size: 32px;
+	font-size: 40px;
 	font-weight: 600;
 	line-height: 1.5;
 	letter-spacing: 0.5px;
@@ -1105,7 +1116,7 @@ html > body .content .slide-excerpt-border {
 
 
 button.tribe-common .tribe-common-c-btn:focus, .tribe-common .tribe-common-c-btn:hover, .tribe-common a.tribe-common-c-btn:focus, .tribe-common a.tribe-common-c-btn:hover{
-	background-color: #065b77;
+	background-color: #2e7f9f;
 	color:#fff;
 	
 }
@@ -1125,7 +1136,8 @@ Site Header
 .site-header {
 	background-color: #fff;
 	color: #fff;
-	min-height: 180px;
+	height: 108px;
+	border-bottom: 2px solid #F5F5F5;
 }
 
 .site-header .widget {
@@ -1133,7 +1145,7 @@ Site Header
 }
 
 .site-header .wrap {
-	padding: 20px 0;
+	padding: 2px 0;
 }
 
 /* Title Area
@@ -1150,11 +1162,12 @@ Site Header
 }
 
 .site-title {
-	font-size: 43px;
+	font-size: 18px;
 	font-weight: 700;
 	line-height: 1;
 	text-transform: uppercase;
 	display: none;
+	margin-top: 8px;
 	
 }
 
@@ -1174,15 +1187,13 @@ Site Header
 
 .header-image .site-title > a {
 	float: left;
-	min-height: 100px;
+	min-height: 44px;
 	width: 100%;
 }
 
 .site-description {
 	color: #999;
 	font-size: 16px;
-	font-weight: 400;
-	height: 0;
 	line-height: 1.5;
 	/* text-indent: -9999px; */
 }
@@ -1699,7 +1710,11 @@ Sidebars
 	background-color: #fff;
 	padding: 30px;
 	border:none;
+	border-radius:10px;
+}
 
+#search-6{
+	padding: 30px 30px 10px 30px;
 }
 
 .sidebar li a {
@@ -1958,7 +1973,7 @@ Media Queries
 	}
 	
 	.site-header .wrap {
-		padding: 20px 5% 16px;
+		padding: 2px 5% 16px;
 	}
 	
 	.header-image .site-title a {
