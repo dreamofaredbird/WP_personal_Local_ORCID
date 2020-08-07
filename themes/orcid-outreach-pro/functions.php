@@ -40,7 +40,7 @@ add_image_size( 'sidebar', 300, 150, TRUE );
 add_theme_support( 'custom-header', array(
 	'header-selector' => '.site-title a',
 	'header-text'     => false,
-	'height'          => 100,
+	'height'          => 40,
 	'width'           => 340,
 ) );
 
@@ -48,12 +48,12 @@ add_theme_support( 'custom-header', array(
 add_theme_support( 'custom-background' );
 
 //* Add support for additional color style options
-add_theme_support( 'genesis-style-selector', array(
-	'outreach-pro-blue' 	=>	__( 'Outreach Pro Blue', 'outreach' ),
-	'outreach-pro-orange' 	=> 	__( 'Outreach Pro Orange', 'outreach' ),
-	'outreach-pro-purple' 	=> 	__( 'Outreach Pro Purple', 'outreach' ),
-	'outreach-pro-red' 		=> 	__( 'Outreach Pro Red', 'outreach' ),
-) );
+// add_theme_support( 'genesis-style-selector', array(
+// 	'outreach-pro-blue' 	=>	__( 'Outreach Pro Blue', 'outreach' ),
+// 	'outreach-pro-orange' 	=> 	__( 'Outreach Pro Orange', 'outreach' ),
+// 	'outreach-pro-purple' 	=> 	__( 'Outreach Pro Purple', 'outreach' ),
+// 	'outreach-pro-red' 		=> 	__( 'Outreach Pro Red', 'outreach' ),
+// ) );
 
 //* Add support for structural wraps
 add_theme_support( 'genesis-structural-wraps', array(
@@ -214,6 +214,6 @@ return str_replace( 'href="/', 'href="http://qa.orcid.org/', $html );
 //* Modify the header URL - HTML5 Version
 add_filter( 'genesis_seo_title', 'child_header_title', 10, 3 );
 function child_header_title( $title, $inside, $wrap ) {
-    $inside = sprintf( '<a href="http://qa.orcid.org/" title="%s">%s</a>', esc_attr( get_bloginfo( 'name' ) ), get_bloginfo( 'name' ) );
+    $inside = sprintf( '<a href="https://qa.orcid.org/" title="%s">%s</a>', esc_attr( get_bloginfo( 'name' ) ), get_bloginfo( 'name' ) );
     return sprintf( '<%1$s class="site-title">%2$s</%1$s>', $wrap, $inside );
 }
