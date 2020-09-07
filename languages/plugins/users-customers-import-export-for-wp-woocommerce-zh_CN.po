@@ -1,0 +1,536 @@
+# Translation of Plugins - Import Export WordPress Users - Stable (latest release) in Chinese (China)
+# This file is distributed under the same license as the Plugins - Import Export WordPress Users - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-12-12 10:07:16+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Plugins - Import Export WordPress Users - Stable (latest release)\n"
+
+#: includes/views/export/market.php:120 includes/views/market.php:119
+msgid "Ultimate Member – User Profile & Membership Plugin compatible,"
+msgstr "兼容Ultimate Member – User Profile & Membership插件"
+
+#: includes/views/export/market.php:121 includes/views/market.php:120
+msgid "Ultimate Membership Pro Plugin compatible,"
+msgstr "兼容Ultimate Membership Pro插件，"
+
+#: includes/views/export/html-wf-export-customers.php:58
+msgid "Select all"
+msgstr "全选"
+
+#: includes/views/export/html-wf-export-customers.php:59
+msgid "Unselect all"
+msgstr "取消全选"
+
+#: includes/views/export/market.php:119 includes/views/market.php:118
+msgid "BuddyPress Plugin compatible,"
+msgstr "兼容BuddyPress插件"
+
+#: includes/views/export/market.php:122 includes/views/market.php:121
+msgid "Better Notifications for WP Plugin compatible,"
+msgstr "兼容Better Notifications for WP插件"
+
+#: includes/views/export/market.php:123 includes/views/market.php:122
+msgid "Advanced Custom Fields (ACF) Plugin compatible,"
+msgstr "兼容Advanced Custom Fields (ACF) 插件"
+
+#: includes/views/html-wf-help-guide.php:40
+msgid "Troubleshoot any issues with our extensive documentation"
+msgstr "使用我们广泛的文档解决任何问题"
+
+#: includes/views/html-wf-help-guide.php:53
+msgid "Sample-CSV"
+msgstr "样本CSV"
+
+#: includes/views/html-wf-help-guide.php:34
+msgid "Read the set-up guide to get started with the plugin"
+msgstr "阅读设置指南以开始使用该插件"
+
+#: includes/importer/views/html-wf-import-greeting.php:28
+msgid "Please upload UTF-8 encoded CSV"
+msgstr "请上传UTF-8编码的CSV"
+
+#: includes/views/html-wf-help-guide.php:55
+msgid "Get Sample CSV"
+msgstr "获取CSV样本"
+
+#: includes/views/html-wf-help-guide.php:54
+msgid "Familiarize yourself with the CSV format."
+msgstr "熟悉CSV格式。"
+
+#: users-customers-import-export-for-wp-woocommerce.php:146
+msgid "By default, admin and store manager are given access to export users. Please visit <a href=\"https://www.webtoffee.com/how-to-export-items-from-your-site-without-user-role-restriction/\" target=\"_blank\">here</a> for more details"
+msgstr "默认情况下，授予管理员和商店管理员访问导出用户的权限。请访问<a href=\"https://www.webtoffee.com/how-to-export-items-from-your-site-without-user-role-restriction/\" target=\"_blank\">此处</a>了解更多信息"
+
+#: includes/importer/class-wf-customerimpexpcsv-customer-import.php:422
+msgid "Parsing users CSV."
+msgstr "解析用户CSV。"
+
+#: includes/importer/class-wf-customerimpexpcsv-customer-import.php:428
+msgid "Finished parsing users CSV."
+msgstr "已完成对用户CSV的解析。"
+
+#: includes/importer/class-wf-customerimpexpcsv-customer-import.php:108
+msgid "Basic version supports only ',' as delimiter. Your file's delimiter seems to be unsupported."
+msgstr "基本版本仅支持',' 作为分隔符。您文件的分隔符似乎不受支持。"
+
+#: includes/importer/class-wf-customerimpexpcsv-customer-import.php:117
+msgid "User ID"
+msgstr "用户ID"
+
+#: users-customers-import-export-for-wp-woocommerce.php:26
+msgid "You already have the Premium version installed. For any issues, kindly contact our <a target='_blank' href='https://www.webtoffee.com/support/'>support</a>."
+msgstr "您已经安装了高级版。如有任何问题，请联系我们的<a target='_blank' href='https://www.webtoffee.com/support/'> support</a>。"
+
+#: includes/class-wt-userimport-uninstall-feedback.php:27
+msgid "Would you like us to assist you?"
+msgstr "您想要我们协助您吗？"
+
+#: includes/class-wt-userimport-uninstall-feedback.php:33
+msgid "Which plugin?"
+msgstr "哪个插件？"
+
+#: includes/class-wt-userimport-uninstall-feedback.php:57
+msgid "What did you expect?"
+msgstr "您期望什么？"
+
+#: includes/views/export/market.php:109 includes/views/market.php:108
+msgid "WebToffee Import Export Users Plugin Premium version helps you to seamlessly import/export Customer details into your Woocommerce Store."
+msgstr "WebToffee导入导出用户插件高级版可帮助您无缝地将客户详细信息导入/导出到Woocommerce商店。"
+
+#: includes/views/html-wf-help-guide.php:48
+msgid "We would love to help you on any queries or issues."
+msgstr "我们很乐意为您解决任何疑问或问题。"
+
+#: includes/views/export/market.php:112 includes/views/market.php:111
+#: includes/importer/views/market.php:97
+msgid "Various Filter options for exporting Customers."
+msgstr "用于导出客户的各种过滤器选项。"
+
+#: includes/views/export/html-wf-export-customers.php:23
+msgid "Users with these roles will be exported."
+msgstr "具有这些角色的用户将被导出。"
+
+#: includes/views/html-wf-common-header.php:3
+msgid "User/Customer Import"
+msgstr "用户/客户导入"
+
+#: includes/views/html-wf-common-header.php:2
+msgid "User/Customer Export"
+msgstr "用户/客户导出"
+
+#: includes/class-wf-customerimpexpcsv-admin-screen.php:22
+msgid "User/Customer CSV Import Export requires the function <code>mb_detect_encoding</code> to import and export CSV files. Please ask your hosting provider to enable this function."
+msgstr "用户/客户CSV导入导出需要功能<code> mb_detect_encoding</code>来导入和导出CSV文件。请要求您的托管服务提供商启用此功能。"
+
+#: includes/importer/class-wf-customerimpexpcsv-customer-import.php:118
+msgid "User Status"
+msgstr "用户状态"
+
+#: includes/views/export/html-wf-export-customers.php:9
+msgid "User Roles"
+msgstr "用户角色"
+
+#: includes/class-wf-customerimpexpcsv-admin-screen.php:30
+msgid "User Import Export"
+msgstr "用户导入导出"
+
+#: includes/importer/class-wf-customerimpexpcsv-customer-import.php:638
+msgid "User could not be created without Email."
+msgstr "没有电子邮件无法创建用户。"
+
+#: includes/class-wt-userimport-uninstall-feedback.php:19
+msgid "Used it successfully. Don't need anymore."
+msgstr "成功使用了它。不需要了。"
+
+#: includes/importer/views/html-wf-import-greeting.php:34
+msgid "Upload file and import"
+msgstr "上传文件并导入"
+
+#: includes/importer/views/market.php:89
+msgid "Upgrade to Premium Version"
+msgstr "升级到高级版"
+
+#: includes/views/html-wf-common-header.php:5
+msgid "Upgrade to Premium for More Features"
+msgstr "升级到高级以获得更多功能"
+
+#: includes/views/export/html-wf-export-customers.php:40
+msgid "Unlimited"
+msgstr "无限"
+
+#: includes/class-wt-userimport-uninstall-feedback.php:43
+msgid "The plugin is not working"
+msgstr "插件无法正常工作"
+
+#: includes/class-wt-userimport-uninstall-feedback.php:37
+msgid "The plugin is great, but I need specific feature that you don't support"
+msgstr "该插件很棒，但是我需要您不支持的特定功能"
+
+#: includes/class-wt-userimport-uninstall-feedback.php:55
+msgid "The plugin didn't work as expected"
+msgstr "插件未按预期工作"
+
+#: includes/views/export/html-wf-export-customers.php:32
+msgid "The number of users to skip before returning."
+msgstr "返回之前要跳过的用户数。"
+
+#: includes/views/export/html-wf-export-customers.php:41
+msgid "The number of users to return."
+msgstr "返回的用户数。"
+
+#: includes/views/export/market.php:93 includes/views/market.php:92
+#: includes/importer/views/market.php:112
+msgid "Thanks for the review."
+msgstr "感谢您的评论。"
+
+#: users-customers-import-export-for-wp-woocommerce.php:220
+msgid "Thanks :)"
+msgstr "谢谢 ：）"
+
+#: users-customers-import-export-for-wp-woocommerce.php:232
+msgid "Thank you for your review."
+msgstr "感谢您的评论。"
+
+#: users-customers-import-export-for-wp-woocommerce.php:96
+#: includes/views/html-wf-help-guide.php:47
+msgid "Support"
+msgstr "支持"
+
+#: includes/class-wt-userimport-uninstall-feedback.php:94
+msgid "Submit & Deactivate"
+msgstr "提交并停用"
+
+#: includes/importer/views/html-wf-import-options.php:8
+msgid "Submit"
+msgstr "提交"
+
+#: includes/importer/class-wf-customerimpexpcsv-customer-import.php:311
+msgid "Step 2..."
+msgstr "第2步..."
+
+#: includes/importer/class-wf-customerimpexpcsv-customer-import.php:306
+msgid "Step 1..."
+msgstr "第1步..."
+
+#: includes/importer/class-wf-customerimpexpcsv-customer-import.php:119
+msgid "Status Msg"
+msgstr "状态讯息"
+
+#: includes/importer/class-wf-customerimpexpcsv-customer-import.php:462
+#: includes/importer/class-wf-customerimpexpcsv-customer-import.php:473
+msgid "Sorry, there has been an error."
+msgstr "抱歉，出现错误。"
+
+#: includes/importer/class-wf-customerimpexpcsv-customer-import.php:496
+msgid "skipped: Email is not valid."
+msgstr "已跳过：电子邮件无效。"
+
+#: includes/views/html-wf-help-guide.php:35
+msgid "Setup Guide"
+msgstr "设定指南"
+
+#: includes/importer/views/html-wf-import-greeting.php:22
+msgid "Select a file from your computer"
+msgstr "从您的计算机中选择一个文件"
+
+#: includes/importer/class-wf-customerimpexpcsv-customer-import.php:116
+msgid "Row"
+msgstr "行"
+
+#: users-customers-import-export-for-wp-woocommerce.php:97
+msgid "Review"
+msgstr "评论"
+
+#: includes/importer/class-wf-customerimpexpcsv-customer-import.php:381
+msgid "Processing users."
+msgstr "处理用户。"
+
+#: users-customers-import-export-for-wp-woocommerce.php:95
+msgid "Premium Upgrade"
+msgstr "高级版升级"
+
+#: includes/class-wt-userimport-uninstall-feedback.php:61
+msgid "Other"
+msgstr "其他"
+
+#: includes/views/export/html-wf-export-customers.php:28
+msgid "Offset"
+msgstr "偏移量"
+
+#: includes/importer/views/html-wf-import-greeting.php:28
+msgid "Maximum size: %s"
+msgstr "最大大小： %s"
+
+#: includes/views/export/market.php:113 includes/views/market.php:112
+#: includes/importer/views/market.php:98
+msgid "Map and Transform fields while Importing Customers."
+msgstr "导入客户时映射和转换字段。"
+
+#: includes/views/export/html-wf-export-customers.php:37
+msgid "Limit"
+msgstr "限制"
+
+#: includes/class-wt-userimport-uninstall-feedback.php:49
+msgid "It's not what I was looking for"
+msgstr "不是我要找的"
+
+#: includes/views/export/market.php:117 includes/views/market.php:116
+#: includes/importer/views/market.php:102
+msgid "Import/Export file from/to a remote server via FTP in Scheduled time interval with Cron Job."
+msgstr "使用Cron Job在计划的时间间隔内通过FTP将文件从远程服务器导入/导出到远程服务器。"
+
+#: includes/views/import/html-wf-import-customers.php:2
+#: includes/importer/views/html-wf-import-greeting.php:10
+msgid "Import Users in CSV Format:"
+msgstr "以CSV格式导入用户："
+
+#: includes/importer/views/html-wf-import-greeting.php:11
+msgid "Import Users in CSV format from your computer.You can import users/customers (in CSV format) in to the shop."
+msgstr "从计算机以CSV格式导入用户。您可以将用户/客户（以CSV格式）导入商店。"
+
+#: includes/views/import/html-wf-import-customers.php:3
+msgid "Import Users in CSV format from your computer"
+msgstr "从计算机以CSV格式导入用户"
+
+#: includes/views/import/html-wf-import-customers.php:6
+msgid "Import Users"
+msgstr "导入用户"
+
+#: users-customers-import-export-for-wp-woocommerce.php:94
+msgid "Import Export Users"
+msgstr "导入导出用户"
+
+#: users-customers-import-export-for-wp-woocommerce.php:154
+msgid "Import <strong>users/customers</strong> to your site via a csv file."
+msgstr "通过csv文件将<strong>用户/客户</strong>导入您的网站。"
+
+#: users-customers-import-export-for-wp-woocommerce.php:220
+msgid "If you like the plugin please leave us a %1$s review."
+msgstr "如果您喜欢该插件，请给我们%1$s评论。"
+
+#: includes/class-wt-userimport-uninstall-feedback.php:81
+msgid "If you have a moment, please let us know why you are deactivating:"
+msgstr "如果您有时间，请告诉我们您为何停用的原因："
+
+#: includes/class-wt-userimport-uninstall-feedback.php:93
+msgid "I rather wouldn't say"
+msgstr "我宁愿不说"
+
+#: includes/class-wt-userimport-uninstall-feedback.php:31
+msgid "I found a better plugin"
+msgstr "我找到了一个更好的插件"
+
+#: includes/class-wt-userimport-uninstall-feedback.php:25
+msgid "I couldn't understand how to make it work"
+msgstr "我不明白该如何运作"
+
+#: includes/views/html-wf-help-guide.php:33
+msgid "How-to-setup"
+msgstr "如何设定"
+
+#: includes/importer/views/market.php:94
+msgid "HikeForce Import Export Users Plugin Premium version helps you to seamlessly import/export Customer details into your Woocommerce Store."
+msgstr "HikeForce导入导出用户插件高级版可帮助您无缝地将客户详细信息导入/导出到Woocommerce商店。"
+
+#: includes/views/html-wf-common-header.php:4
+msgid "Help"
+msgstr "救命"
+
+#: includes/class-wt-userimport-uninstall-feedback.php:21
+msgid "Have used it successfully and aint in need of it anymore"
+msgstr "已成功使用它，不再需要它"
+
+#: includes/importer/class-wf-customerimpexpcsv-customer-import.php:318
+msgid "Finished. Import complete."
+msgstr "完了导入完成。"
+
+#: includes/importer/class-wf-customerimpexpcsv-customer-import.php:398
+msgid "Finished processing Users."
+msgstr "完成处理用户。"
+
+#: includes/importer/class-wf-customerimpexpcsv-customer-import.php:315
+msgid "Finalizing..."
+msgstr "正在完成..."
+
+#: includes/views/export/market.php:100 includes/views/market.php:99
+msgid "Fast and Superior Support"
+msgstr "快速优质的支持"
+
+#: includes/views/export/market.php:111 includes/views/market.php:110
+#: includes/importer/views/market.php:96
+msgid "Export/Import WooCommerce Customer details into a CSV file."
+msgstr "将WooCommerce客户详细信息导出/导入到CSV文件中。"
+
+#: includes/views/export/html-wf-export-customers.php:2
+msgid "Export Users in CSV Format:"
+msgstr "以CSV格式导出用户："
+
+#: includes/views/export/html-wf-export-customers.php:77
+msgid "Export Users"
+msgstr "导出用户"
+
+#: includes/views/export/html-wf-export-customers.php:3
+msgid "Export and download your Users in CSV format. This file can be used to import users back into your Website."
+msgstr "以CSV格式导出和下载您的用户。此文件可用于将用户导入回您的网站。"
+
+#: includes/views/export/market.php:118 includes/views/market.php:117
+#: includes/importer/views/market.php:103
+msgid "Excellent Support for setting it up!"
+msgstr "出色的设置支持！"
+
+#: includes/importer/class-wf-customerimpexpcsv-customer-import.php:86
+msgid "Error with handle_upload!"
+msgstr "handle_upload错误！"
+
+#: includes/importer/class-wf-customerimpexpcsv-customer-import.php:254
+msgid "Error finding uploaded file!"
+msgstr "查找上传的文件时出错！"
+
+#: includes/views/html-wf-help-guide.php:39
+#: includes/views/html-wf-help-guide.php:41
+#: includes/views/export/market.php:130 includes/views/market.php:129
+#: includes/importer/views/market.php:108
+msgid "Documentation"
+msgstr "文献资料"
+
+#: users-customers-import-export-for-wp-woocommerce.php:187
+msgid "Dismiss this notice."
+msgstr "取消此通知。"
+
+#: includes/class-wt-userimport-uninstall-feedback.php:174
+msgid "Deactivate and leave a review"
+msgstr "停用并留下评论"
+
+#: includes/class-wf-customerimpexpcsv-admin-screen.php:31
+msgid "Customer Import Export"
+msgstr "客户导入导出"
+
+#: includes/class-wt-userimport-uninstall-feedback.php:39
+msgid "Could you tell us more about that feature?"
+msgstr "您能告诉我们更多有关该功能的信息吗？"
+
+#: includes/class-wt-userimport-uninstall-feedback.php:63
+msgid "Could you tell us a bit more?"
+msgstr "你能告诉我们更多吗？"
+
+#: includes/class-wt-userimport-uninstall-feedback.php:45
+msgid "Could you tell us a bit more whats not working?"
+msgstr "您能告诉我们更多不起作用的内容吗？"
+
+#: includes/views/html-wf-help-guide.php:49
+msgid "Contact Us"
+msgstr "联系我们"
+
+#: includes/views/export/html-wf-export-customers.php:46
+msgid "Columns"
+msgstr "列"
+
+#: includes/views/export/html-wf-export-customers.php:53
+msgid "Column Name"
+msgstr "栏名"
+
+#: includes/views/export/market.php:115 includes/views/market.php:114
+#: includes/importer/views/market.php:100
+msgid "Choice to Update or Skip existing imported Customers."
+msgstr "选择更新或跳过现有的导入客户。"
+
+#: includes/views/export/market.php:116 includes/views/market.php:115
+#: includes/importer/views/market.php:101
+msgid "Choice to Send or Skip Emails for newly imported Customers."
+msgstr "选择为新导入的客户发送或跳过电子邮件。"
+
+#: includes/views/export/market.php:114 includes/views/market.php:113
+#: includes/importer/views/market.php:99
+msgid "Change values while importing Customers using Evaluation Fields."
+msgstr "使用评估字段导入客户时更改值。"
+
+#: includes/importer/class-wf-customerimpexpcsv-customer-import.php:492
+msgid "Cannot insert user without email"
+msgstr "没有电子邮件无法插入用户"
+
+#: includes/class-wt-userimport-uninstall-feedback.php:95
+msgid "Cancel"
+msgstr "取消"
+
+#: includes/importer/views/html-wf-import-greeting.php:13
+msgid "Before you can upload your import file, you will need to fix the following error:"
+msgstr "在上传导入文件之前，您需要修复以下错误："
+
+#: includes/importer/class-wf-customerimpexpcsv-customer-import.php:526
+#: includes/importer/class-wf-customerimpexpcsv-customer-import.php:527
+msgid "An error occurred with the customer information provided."
+msgstr "提供的客户信息发生错误。"
+
+#: includes/views/export/html-wf-export-customers.php:12
+msgid "All Roles"
+msgstr "所有角色"
+
+#: includes/importer/class-wf-customerimpexpcsv-customer-import.php:172
+msgid "AJAX Error"
+msgstr "AJAX错误"
+
+#: includes/importer/class-wf-csv-parser.php:115
+msgid "> Row %s - skipped: Email is not valid."
+msgstr ">行%s跳过：电子邮件无效。"
+
+#: includes/importer/class-wf-csv-parser.php:110
+msgid "> Row %s - skipped: cannot insert user without email."
+msgstr "> %s行-已跳过：无法插入没有电子邮件的用户。"
+
+#: includes/importer/class-wf-csv-parser.php:104
+msgid "> Row %s - skipped due to record offset."
+msgstr ">行%s由于记录偏移而被跳过。"
+
+#: includes/importer/class-wf-customerimpexpcsv-customer-import.php:519
+msgid "> Error inserting %s: %s"
+msgstr ">插入%s出错： %s"
+
+#: includes/importer/class-wf-customerimpexpcsv-customer-import.php:509
+#: includes/importer/class-wf-customerimpexpcsv-customer-import.php:541
+msgid "> &#8220;%s&#8221;"
+msgstr "> &#8220;%s&#8221;"
+
+#: users-customers-import-export-for-wp-woocommerce.php:184
+msgid "<h3>Use StoreFrog Migration Services.</h3>"
+msgstr "<h3>使用StoreFrog迁移服务。</h3>"
+
+#: users-customers-import-export-for-wp-woocommerce.php:183
+msgid "<h3>Save Time, Money & Hassle on Your WooCommerce Data Migration?</h3>"
+msgstr "<h3>在WooCommerce数据迁移上节省时间，金钱和麻烦吗？</h3>"
+
+#: includes/views/export/market.php:93 includes/views/market.php:92
+#: includes/importer/views/market.php:112
+msgid "<div class=\"\"><p><i>If you like the plugin please leave us a %1$s review!</i><p></div>"
+msgstr "<div class=\"\"><p><i>如果您喜欢该插件，请给我们%1$s评论！</i><p></div>"
+
+#: includes/views/export/market.php:99 includes/views/market.php:98
+msgid "30 Day Money Back Guarantee"
+msgstr "30天退款保证"
+
+#: includes/views/export/html-wf-export-customers.php:31
+msgid "0"
+msgstr "0"
+
+#: includes/views/export/market.php:111 includes/views/market.php:110
+#: includes/importer/views/market.php:96
+msgid "( Basic version supports only WordPress User details )"
+msgstr "（基本版本仅支持WordPress用户详细信息）"
+
+#: includes/views/export/market.php:107 includes/views/market.php:106
+#: includes/importer/views/market.php:92
+msgid "Your Business is precious! Go Premium!"
+msgstr "您的业务非常宝贵！ 请选高级版！"
+
+#: includes/views/export/market.php:102 includes/views/market.php:101
+msgid "Upgrade to Premium"
+msgstr "升级至高级版"
+
+#: includes/views/export/html-wf-export-customers.php:50
+msgid "Column"
+msgstr "列"

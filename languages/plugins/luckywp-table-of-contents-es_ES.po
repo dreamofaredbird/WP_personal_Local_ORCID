@@ -1,0 +1,680 @@
+# Translation of Plugins - LuckyWP Table of Contents - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - LuckyWP Table of Contents - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-08-03 08:07:26+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - LuckyWP Table of Contents - Stable (latest release)\n"
+
+#: config/settings.php:492 admin/Admin.php:237
+#: admin/widgets/customizeModal/views/modal.php:636
+msgid "Additional CSS Class(es)"
+msgstr "Clases adicionales de CSS"
+
+#: config/settings.php:494 admin/widgets/customizeModal/views/modal.php:645
+msgid "Separate multiple classes with spaces."
+msgstr "Separa múltiples clases con espacios."
+
+#: plugin/WpWidget.php:24
+msgid "Creates a table of contents for your posts and pages."
+msgstr "Crea una tabla de contenidos para tus entradas y páginas."
+
+#: config/settings.php:502
+msgid "LuckyWP Plugins"
+msgstr "Plugins de LuckyWP"
+
+#: admin/SiteHealth.php:38
+msgid "ICU Version"
+msgstr "Versión ICU"
+
+#: admin/SiteHealth.php:34
+msgid "intl Version"
+msgstr "Versión intl"
+
+#. translators: 1: LuckyWP Table of Contents 2: DOM (Document Object Model)
+#: luckywp-table-of-contents.php:33
+msgid "%1$s plugin require PHP extension %2$s to work."
+msgstr "Para funcionar, el plugin %1$s necesita la extensión %2$s de PHP."
+
+#: admin/SiteHealth.php:26
+msgid "DOM/XML Version"
+msgstr "Versión DOM/XML"
+
+#: admin/SiteHealth.php:27 admin/SiteHealth.php:31 admin/SiteHealth.php:35
+#: admin/SiteHealth.php:39
+msgid "not loaded"
+msgstr "no cargado"
+
+#: admin/SiteHealth.php:30
+msgid "libXML Version"
+msgstr "Versión libXML"
+
+#: admin/SiteHealth.php:43
+msgid "encoded data to copy"
+msgstr "datos codificados para copiar"
+
+#. translators: User select DIV or UL/LI
+#: config/settings.php:484
+msgid "List Markup Tags"
+msgstr "Etiquetas de marcado de listas"
+
+#: config/settings.php:472
+msgid "Other Settings"
+msgstr "Otros ajustes"
+
+#: plugin/Plugin.php:271
+msgid "Inherit from theme"
+msgstr "Heredado del tema"
+
+#: admin/views/rate/notice.php:34
+msgid "Don't show again"
+msgstr "No volver a mostrar"
+
+#. translators: %s: rel="nofollow"
+#: config/settings.php:462 admin/Admin.php:224
+#: admin/widgets/customizeModal/views/modal.php:611
+msgid "Use %s for links"
+msgstr "Usar %s para los enlaces"
+
+#: config/settings.php:437
+msgid "SEO"
+msgstr "SEO"
+
+#. translators: %s: <!--noindex-->
+#: config/settings.php:447 admin/Admin.php:214
+#: admin/widgets/customizeModal/views/modal.php:584
+msgid "Wrap table of contents with %s tag"
+msgstr "Envolver la tabla de contenidos con la etiqueta %s"
+
+#. translators: %s: LuckyWP Table of Contents
+#: admin/views/rate/notice.php:14
+msgid "We are very pleased that you by now have been using the %s plugin a few days."
+msgstr "Estamos encantados de que hayas estado usando el plugin %s unos cuantos días."
+
+#. translators: 1: _ 2: -
+#: config/settings.php:426
+msgid "Replace underscores %1$s with dashes %2$s"
+msgstr "Reemplazar los guiones bajos %1$s con guiones %2$s"
+
+#: config/settings.php:413
+msgid "Convert to lowercase"
+msgstr "Convertir a minúsculas"
+
+#. translators: Here, hash is a unique tracking string that is added to the URL
+#. after a # character
+#: config/settings.php:395
+msgid "Hash"
+msgstr "Hash"
+
+#. translators: 1: Attribute name 2: True 3: False
+#: core/validators/BooleanValidator.php:29
+msgid "%1$s must be either \"%2$s\" or \"%3$s\"."
+msgstr "%1$s debe ser «%2$s» o «%3$s»."
+
+#. translators: %s: Attribute name
+#: core/validators/RangeValidator.php:29
+msgid "%s is invalid."
+msgstr "%s no es válido."
+
+#. translators: %s: Attribute name
+#: core/validators/RequiredValidator.php:18
+msgid "%s cannot be blank."
+msgstr "%s no puede estar vacío."
+
+#. translators: %s: (#lwptoc1, #lwptoc2, …)
+#: plugin/Plugin.php:285
+msgid "Counter %s"
+msgstr "Contador %s"
+
+#: plugin/Plugin.php:282
+msgid "As heading without transliterate (#Example_Heading_Text)"
+msgstr "Como encabezado sin transliterar (#Texto_ejemplo_de_encabezado)"
+
+#. translators: %s: 1.3)
+#: config/settings.php:78
+msgid "The symbol will be added after numeration. For example, %s"
+msgstr "El símbolo se añadirá después de la numeración. Por ejemplo, %s"
+
+#: config/settings.php:67 admin/Admin.php:157
+#: admin/widgets/customizeModal/views/modal.php:167
+#: admin/forms/CustomizeForm.php:248
+msgid "Numeration Suffix"
+msgstr "Sufijo de la numeración"
+
+#. translators: %s: ★★★★★
+#: admin/views/settings/index.php:10
+msgid "Leave a %s plugin review on WordPress.org"
+msgstr "Deja una valoración del plugin de %s en WordPress.org"
+
+#: admin/views/rate/notice.php:42
+msgid "Thank you very much!"
+msgstr "¡Muchas gracias!"
+
+#: admin/views/rate/notice.php:28
+msgid "Remind later"
+msgstr "Recordar más tarde"
+
+#: admin/views/rate/notice.php:21
+msgid "Rate the plugin"
+msgstr "Valora el plugin"
+
+#: admin/views/rate/notice.php:18
+msgid "Please rate plugin. It will help us a lot."
+msgstr "Por favor, valora el plugin. Nos ayudará mucho."
+
+#: admin/views/rate/notice.php:10
+msgid "Hello!"
+msgstr "¡Hola!"
+
+#: admin/widgets/metabox/views/box.php:75
+msgid "Enable TOC"
+msgstr "Activar TOC"
+
+#: admin/widgets/metabox/views/box.php:64
+msgid "Enable Processing"
+msgstr "Activar el procesamiento"
+
+#: admin/widgets/metabox/views/box.php:61
+msgid "Click \"Enable Processing\" for headings processing in this post."
+msgstr "Haz clic en «Activar el procesamiento» para el procesamiento de encabezados en esta entrada."
+
+#: admin/widgets/metabox/views/box.php:49
+msgid "Disable Processing"
+msgstr "Desactivar el procesamiento"
+
+#: admin/widgets/metabox/views/box.php:44
+msgid "Disable TOC"
+msgstr "Desactivar TOC"
+
+#: admin/widgets/metabox/views/box.php:18
+msgid "The headings will be processing in this post for use in table of contents in widget or custom shortcode."
+msgstr "Los encabezados se procesarán en esta entrada para usarlos en la tabla de contenidos en forma de widget o de shortcode personalizado."
+
+#: config/settings.php:475
+msgid "Show Panel \"Table of Contents\" in Post Types"
+msgstr "Mostrar el panel «Tabla de contenidos» en los tipos de contenido"
+
+#: config/settings.php:340
+msgid "Always for Post Types"
+msgstr "Siempre para los tipos de contenido"
+
+#: config/settings.php:335
+msgid "Processing Headings"
+msgstr "Procesar los encabezados"
+
+#: admin/widgets/customizeModal/views/modal.php:541
+msgid "Skip heading by text"
+msgstr "Omitir el encabezado por texto"
+
+#: admin/widgets/customizeModal/views/modal.php:518
+msgid "Skip heading by level"
+msgstr "Omitir el encabezado por nivel"
+
+#: admin/Admin.php:231 admin/Admin.php:234
+msgid "Skip headings"
+msgstr "Omitir los encabezados"
+
+#. translators: %s: Asterisk symbol (*)
+#: config/settings.php:382 admin/widgets/customizeModal/views/modal.php:559
+msgid "Use an asterisk %s as a wildcard to match any text."
+msgstr "Usa un asterisco %s como comodín que coincida con cualquier texto."
+
+#: config/settings.php:378 admin/widgets/customizeModal/views/modal.php:555
+msgid "Specify headings (one per line) to be excluded from the table of contents."
+msgstr "Especifica los encabezados (uno por línea) a excluir de la tabla de contenidos."
+
+#: config/settings.php:370
+msgid "By Text"
+msgstr "Por texto"
+
+#: config/settings.php:360
+msgid "By Level"
+msgstr "Por nivel"
+
+#: config/settings.php:357
+msgid "Skip Headings"
+msgstr "Omitir los encabezados"
+
+#: plugin/Plugin.php:281
+msgid "As heading (#Example_Heading_Text)"
+msgstr "Como encabezado (#Texto_encabezado_de_ejemplo)"
+
+#: plugin/Plugin.php:257
+msgid "Center"
+msgstr "Centrar"
+
+#: plugin/Plugin.php:256
+msgid "Right without flow"
+msgstr "A la derecha sin flotar"
+
+#. translators: Here, hash is a unique tracking string that is added to the URL
+#. after a # character
+#: config/settings.php:400
+msgid "Hash Format"
+msgstr "Formato del hash"
+
+#: config/settings.php:354 admin/widgets/customizeModal/views/modal.php:46
+msgid "Misc."
+msgstr "Varios"
+
+#: plugin/Plugin.php:299
+msgid "Full Width"
+msgstr "Ancho completo"
+
+#: plugin/Plugin.php:298
+msgid "Auto"
+msgstr "Automático"
+
+#: plugin/Plugin.php:268
+msgid "Dark Colors"
+msgstr "Colores oscuros"
+
+#: plugin/Plugin.php:267
+msgid "Light Colors"
+msgstr "Colores claros"
+
+#: plugin/Plugin.php:300 admin/widgets/fontSizeField/views/widget.php:17
+msgid "Custom Value"
+msgstr "Valor personalizado"
+
+#: plugin/Plugin.php:335 admin/widgets/fontSizeField/views/widget.php:16
+msgid "Default"
+msgstr "Por defecto"
+
+#. Description of the plugin
+#: plugin/Plugin.php:486
+msgid "Creates a table of contents for your posts/pages. Works automatically or manually (via shortcode, Gutenberg block or widget)."
+msgstr "Crea una tabla de contenidos en tus entradas/páginas. Funciona de manera automática o manual (mediante shortcode, bloque de Gutenberg o widget)."
+
+#: plugin/Plugin.php:270
+msgid "Transparent"
+msgstr "Transparente"
+
+#: plugin/Plugin.php:269
+msgid "White"
+msgstr "Blanco"
+
+#: plugin/Plugin.php:255
+msgid "Right"
+msgstr "Derecha"
+
+#: plugin/Plugin.php:254
+msgid "Left"
+msgstr "Izquierda"
+
+#: plugin/Plugin.php:166 plugin/Plugin.php:253 plugin/Plugin.php:398
+msgid "None"
+msgstr "Ninguna"
+
+#: plugin/Plugin.php:224
+msgid "Heavy"
+msgstr "Pesada"
+
+#: plugin/Plugin.php:223
+msgid "Extra Bold"
+msgstr "Extra negrita"
+
+#: plugin/Plugin.php:222
+msgid "Bold"
+msgstr "Negrita"
+
+#: plugin/Plugin.php:221
+msgid "Semi Bold"
+msgstr "Semi negrita"
+
+#: plugin/Plugin.php:220
+msgid "Medium"
+msgstr "Media"
+
+#: plugin/Plugin.php:219
+msgid "Normal"
+msgstr "Normal"
+
+#: plugin/Plugin.php:218
+msgid "Light"
+msgstr "Claro"
+
+#: plugin/Plugin.php:217
+msgid "Extra Light"
+msgstr "Extra claro"
+
+#: plugin/Plugin.php:216
+msgid "Thin"
+msgstr "Delgada"
+
+#: plugin/Plugin.php:182
+msgid "Bottom"
+msgstr "Fondo"
+
+#: plugin/Plugin.php:181
+msgid "Top"
+msgstr "Arriba"
+
+#: plugin/Plugin.php:180
+msgid "After first block (paragraph or heading)"
+msgstr "Después del primer bloque (párrafo o encabezado)"
+
+#: plugin/Plugin.php:179
+msgid "After first heading"
+msgstr "Después del primer encabezado"
+
+#: plugin/Plugin.php:178
+msgid "Before first heading"
+msgstr "Antes del primer encabezado"
+
+#: plugin/Plugin.php:156
+msgid "Roman numbers"
+msgstr "Números romanos"
+
+#: plugin/Plugin.php:155
+msgid "Roman numbers (nested)"
+msgstr "Números romanos (anidados)"
+
+#: plugin/Plugin.php:154
+msgid "Decimal numbers"
+msgstr "Números decimales"
+
+#: plugin/Plugin.php:153
+msgid "Decimal numbers (nested)"
+msgstr "Números decimales (anidados)"
+
+#: plugin/Plugin.php:152
+msgid "Without numeration"
+msgstr "Sin numeración"
+
+#: core/admin/AdminController.php:46
+msgid "Sorry, you are not allowed to access this page."
+msgstr "Lo siento, no tienes permisos para acceder a esta página."
+
+#: config/settings.php:317
+msgid "Post Types"
+msgstr "Tipos de contenido"
+
+#: config/settings.php:293
+msgid "Auto Insert Table of Contents"
+msgstr "Insertar automáticamente la tabla de contenidos"
+
+#: config/settings.php:287
+msgid "Auto Insert"
+msgstr "Insertar automáticamente"
+
+#: config/settings.php:278
+msgid "Visited Link Color"
+msgstr "Color de enlace visitado"
+
+#: config/settings.php:273
+msgid "Hover Link Color"
+msgstr "Color de enlace al pasar el cursor"
+
+#: config/settings.php:268
+msgid "Link Color"
+msgstr "Color de enlace"
+
+#: config/settings.php:263
+msgid "Title Color"
+msgstr "Color del título"
+
+#: config/settings.php:258
+msgid "Border Color"
+msgstr "Color del borde"
+
+#: config/settings.php:253
+msgid "Background Color"
+msgstr "Color de fondo"
+
+#: config/settings.php:248
+msgid "Override Color Scheme Colors"
+msgstr "Omitir los colores del esquema de color"
+
+#: config/settings.php:158
+msgid "Scroll Offset Top"
+msgstr "Scroll en la parte superior"
+
+#: config/settings.php:142
+msgid "Behavior"
+msgstr "Comportamiento"
+
+#: config/settings.php:125 plugin/Settings.php:124
+msgid "hide"
+msgstr "ocultar"
+
+#: config/settings.php:114 plugin/Settings.php:116
+msgid "show"
+msgstr "mostrar"
+
+#: config/settings.php:91 plugin/Settings.php:100
+msgid "Contents"
+msgstr "Contenidos"
+
+#: config/settings.php:85
+msgid "Header"
+msgstr "Cabecera"
+
+#: admin/widgets/metabox/views/box.php:72
+msgid "Click \"Enable TOC\" for automatic add table of contents to this post."
+msgstr "Haz clic en «Activar TOC» para añadir automáticamente una tabla de contenidos a esta entrada."
+
+#: admin/widgets/widget/views/form.php:19
+#: admin/widgets/metabox/views/box.php:39
+msgid "Customize"
+msgstr "Personalizar"
+
+#: admin/widgets/widget/views/_override.php:12
+#: admin/widgets/metabox/views/box.php:27
+msgid "Overridden settings:"
+msgstr "Ajustes omitidos:"
+
+#: admin/widgets/metabox/views/box.php:14
+msgid "The table of contents will be automatic added to this post."
+msgstr "La tabla de contenidos se añadirá automáticamente a esta entrada."
+
+#: admin/widgets/customizeSuccess/views/widget.php:9
+msgid "Saved!"
+msgstr "¡Guardado!"
+
+#: admin/widgets/customizeModal/views/modal.php:671
+msgid "Save"
+msgstr "Guardar"
+
+#: config/settings.php:133 admin/widgets/customizeModal/views/modal.php:278
+msgid "By default, items of contents will be hidden"
+msgstr "Por defecto, los elementos de los contenidos estarán ocultos"
+
+#: admin/widgets/customizeModal/views/modal.php:204
+msgid "Without title"
+msgstr "Sin título"
+
+#: config/settings.php:48 config/settings.php:99 config/settings.php:150
+#: config/settings.php:297 admin/widgets/customizeModal/views/modal.php:131
+#: admin/widgets/customizeModal/views/modal.php:224
+#: admin/widgets/customizeModal/views/modal.php:287
+#: admin/widgets/customizeModal/views/modal.php:310
+#: admin/widgets/customizeModal/views/modal.php:595
+#: admin/widgets/customizeModal/views/modal.php:622
+msgid "Enable"
+msgstr "Activar"
+
+#: config/settings.php:31 admin/widgets/customizeModal/views/modal.php:90
+msgid "If the count of headings in the post is less, then table of contents is not displayed."
+msgstr "Si el número de cabeceras de la entrada es menor, entonces no se mostrará la tabla de contenidos."
+
+#: admin/widgets/customizeModal/views/modal.php:19
+msgid "Click to override default value"
+msgstr "Haz clic para anular el valor por defecto"
+
+#: admin/widgets/customizeModal/views/modal.php:20
+msgid "default"
+msgstr "por defecto"
+
+#: config/settings.php:176 admin/widgets/customizeModal/views/modal.php:45
+msgid "Appearance"
+msgstr "Apariencia"
+
+#: config/settings.php:17 admin/widgets/customizeModal/views/modal.php:44
+msgid "General"
+msgstr "General"
+
+#: admin/widgets/customizeModal/views/modal.php:30
+msgid "Customize Table of Contents"
+msgstr "Personalizar tabla de contenidos"
+
+#: admin/widgets/customizeModal/views/modal.php:29
+#: admin/widgets/customizeModal/views/modal.php:667
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: admin/widgets/OverrideColorBadge.php:21
+msgid "from scheme"
+msgstr "del esquema"
+
+#: admin/views/settings/index.php:13
+msgid "Table of Contents Settings"
+msgstr "Ajustes de tabla de contenidos"
+
+#: admin/controllers/ShortcodeController.php:66
+#: admin/controllers/EditorBlockController.php:71
+#: admin/widgets/widget/views/_override.php:18
+#: admin/widgets/customizeModal/views/modal.php:571
+#: admin/widgets/customizeModal/views/modal.php:654
+#: admin/widgets/metabox/views/box.php:33
+msgid "empty"
+msgstr "vacío"
+
+#: config/settings.php:238 admin/Admin.php:196
+#: admin/widgets/customizeModal/views/modal.php:463
+#: admin/forms/CustomizeForm.php:254
+msgid "Color Scheme"
+msgstr "Esquema de color"
+
+#: config/settings.php:225 admin/Admin.php:193
+#: admin/widgets/customizeModal/views/modal.php:439
+msgid "Items Font Size"
+msgstr "Tamaño de fuente de los elementos"
+
+#: config/settings.php:216 admin/Admin.php:190
+#: admin/widgets/customizeModal/views/modal.php:417
+#: admin/forms/CustomizeForm.php:253
+msgid "Title Font Weight"
+msgstr "Peso de fuente del título"
+
+#: config/settings.php:203 admin/Admin.php:187
+#: admin/widgets/customizeModal/views/modal.php:393
+msgid "Title Font Size"
+msgstr "Tamaño de fuente del título"
+
+#: config/settings.php:194 admin/Admin.php:184
+#: admin/widgets/customizeModal/views/modal.php:371
+#: admin/forms/CustomizeForm.php:252
+msgid "Float"
+msgstr "Flotar"
+
+#: config/settings.php:182 admin/Admin.php:181
+#: admin/widgets/customizeModal/views/modal.php:348
+msgid "Width"
+msgstr "Ancho"
+
+#: admin/Admin.php:178 admin/widgets/customizeModal/views/modal.php:324
+msgid "Smooth Scroll Offset Top"
+msgstr "Scroll suave en la parte superior"
+
+#: config/settings.php:146 admin/Admin.php:175
+#: admin/widgets/customizeModal/views/modal.php:301
+msgid "Smooth Scroll"
+msgstr "Scroll suave"
+
+#: admin/Admin.php:172
+msgid "Hide Items"
+msgstr "Ocultar elementos"
+
+#: config/settings.php:118 admin/Admin.php:169
+#: admin/widgets/customizeModal/views/modal.php:258
+#: admin/forms/CustomizeForm.php:250
+msgid "Label Hide"
+msgstr "Etiqueta «Ocultar»"
+
+#: config/settings.php:107 admin/Admin.php:166
+#: admin/widgets/customizeModal/views/modal.php:238
+#: admin/forms/CustomizeForm.php:249
+msgid "Label Show"
+msgstr "Etiqueta «Mostrar»"
+
+#: config/settings.php:95 admin/Admin.php:163
+#: admin/widgets/customizeModal/views/modal.php:215
+msgid "Toggle Show/Hide"
+msgstr "Alternar Mostrar/Ocultar"
+
+#: config/settings.php:89 admin/Admin.php:160
+#: admin/widgets/customizeModal/views/modal.php:189
+msgid "Title"
+msgstr "Título"
+
+#: config/settings.php:55 admin/Admin.php:154
+#: admin/widgets/customizeModal/views/modal.php:145
+#: admin/forms/CustomizeForm.php:247
+msgid "Numeration"
+msgstr "Numeración"
+
+#: admin/Admin.php:151 admin/Admin.php:163 admin/Admin.php:172
+#: admin/Admin.php:175 admin/Admin.php:217 admin/Admin.php:227
+#: admin/widgets/customizeModal/views/modal.php:138
+#: admin/widgets/customizeModal/views/modal.php:231
+#: admin/widgets/customizeModal/views/modal.php:294
+#: admin/widgets/customizeModal/views/modal.php:317
+#: admin/widgets/customizeModal/views/modal.php:602
+#: admin/widgets/customizeModal/views/modal.php:629
+msgid "Disabled"
+msgstr "Desactivada"
+
+#: admin/Admin.php:151 admin/Admin.php:163 admin/Admin.php:172
+#: admin/Admin.php:175 admin/Admin.php:217 admin/Admin.php:227
+#: admin/widgets/customizeModal/views/modal.php:138
+#: admin/widgets/customizeModal/views/modal.php:231
+#: admin/widgets/customizeModal/views/modal.php:294
+#: admin/widgets/customizeModal/views/modal.php:317
+#: admin/widgets/customizeModal/views/modal.php:602
+#: admin/widgets/customizeModal/views/modal.php:629
+msgid "Enabled"
+msgstr "Activada"
+
+#: config/settings.php:44 admin/Admin.php:151
+#: admin/widgets/customizeModal/views/modal.php:122
+msgid "Hierarchical View"
+msgstr "Vista jerárquica"
+
+#: config/settings.php:35 admin/Admin.php:148
+#: admin/widgets/customizeModal/views/modal.php:100
+#: admin/forms/CustomizeForm.php:246
+msgid "Depth"
+msgstr "Profundidad"
+
+#: config/settings.php:23 admin/Admin.php:145
+#: admin/widgets/customizeModal/views/modal.php:77
+msgid "Minimal Count of Headings"
+msgstr "Número mínimo de encabezados"
+
+#: config/settings.php:305 admin/Admin.php:142
+#: admin/widgets/customizeModal/views/modal.php:54
+#: admin/forms/CustomizeForm.php:251
+msgid "Position"
+msgstr "Posición"
+
+#. translators: verb
+#: admin/Admin.php:115
+msgid "Edit"
+msgstr "Editar"
+
+#: plugin/WpWidget.php:22 plugin/Plugin.php:481 admin/Admin.php:54
+#: admin/Admin.php:55 admin/Admin.php:75 admin/Admin.php:113
+#: admin/controllers/ShortcodeController.php:60
+#: admin/controllers/EditorBlockController.php:65
+msgid "Table of Contents"
+msgstr "Tabla de contenidos"
+
+#: admin/Admin.php:34 admin/SiteHealth.php:42
+msgid "Settings"
+msgstr "Ajustes"

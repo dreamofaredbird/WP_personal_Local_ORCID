@@ -217,3 +217,5 @@ function child_header_title( $title, $inside, $wrap ) {
     $inside = sprintf( '<a href="https://qa.orcid.org/" title="%s">%s</a>', esc_attr( get_bloginfo( 'name' ) ), get_bloginfo( 'name' ) );
     return sprintf( '<%1$s class="site-title">%2$s</%1$s>', $wrap, $inside );
 }
+
+

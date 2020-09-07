@@ -1400,6 +1400,7 @@ Site Navigation
 .nav-primary {
 	background-color: #fff;
 	border: 1px, solid, #2e7f9f;
+	width: 100%;
 }
 
 /* Secondary Navigation
@@ -2040,8 +2041,8 @@ Media Queries
 @media only screen and (max-width: 860px) {
 	
 	.wrap {
-		padding-left: 5%;
-		padding-right: 5%;
+		/* padding-left: 5%;
+		padding-right: 5%; */
 	}
 	
 	.outreach-pro-home .site-inner .wrap {
@@ -2104,6 +2105,9 @@ Media Queries
 		flex-direction: column;
 	}
 	
+	.site-header{
+		display: none;
+	}
 }
 
 @media only screen and (max-width: 600px) {

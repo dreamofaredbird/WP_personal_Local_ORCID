@@ -1,0 +1,246 @@
+# Translation of Plugins - Cookie Notice for GDPR &amp; CCPA - Stable (latest release) in Portuguese (Portugal)
+# This file is distributed under the same license as the Plugins - Cookie Notice for GDPR &amp; CCPA - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-11-13 13:55:18+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha\n"
+"Language: pt\n"
+"Project-Id-Version: Plugins - Cookie Notice for GDPR &amp; CCPA - Stable (latest release)\n"
+
+#: cookie-notice.php:969
+msgid "Select the privacy policy link position."
+msgstr "Seleccione a posição da ligação para a política de privacidade."
+
+#: cookie-notice.php:223
+msgid "Banner"
+msgstr "Banner"
+
+#: cookie-notice.php:696
+msgid "Reloading"
+msgstr "A recarregar"
+
+#: cookie-notice.php:695
+msgid "Script blocking"
+msgstr "Bloqueio de scripts"
+
+#: cookie-notice.php:660
+msgid "Check out our other <a href=\"%s\" target=\"_blank\">WordPress plugins</a>."
+msgstr "Veja os nossos outros <a href=\"%s\" target=\"_blank\">plugins para WordPress</a>."
+
+#: cookie-notice.php:659
+msgid "Blog about it & link to the <a href=\"%s\" target=\"_blank\">plugin page</a>."
+msgstr "Divulgue no seu blog e crie uma ligação para a <a href=\"%s\" target=\"_blank\">página do plugin</a>."
+
+#: cookie-notice.php:658
+msgid "<a href=\"%s\" target=\"_blank\">Rate it 5</a> on WordPress.org"
+msgstr "<a href=\"%s\" target=\"_blank\">Classifique com 5</a> em WordPress.org"
+
+#: cookie-notice.php:655
+msgid "If you are having problems with this plugin, please browse it's <a href=\"%s\" target=\"_blank\">Documentation</a> or talk about them in the <a href=\"%s\" target=\"_blank\">Support forum</a>"
+msgstr "Se tiver problemas com este plugin, por favor leia a sua <a href=\"%s\" target=\"_blank\">documentação</a> ou partilhe os seus problemas no <a href=\"%s\" target=\"_blank\">Fórum de suporte</a>"
+
+#: cookie-notice.php:228
+msgid "Text color"
+msgstr "Cor do texto"
+
+#: cookie-notice.php:229
+msgid "Bar color"
+msgstr "Cor da barra"
+
+#: cookie-notice.php:236
+msgid "1 day"
+msgstr "1 dia"
+
+#: cookie-notice.php:237
+msgid "1 week"
+msgstr "1 semana"
+
+#: cookie-notice.php:238
+msgid "1 month"
+msgstr "1 mês"
+
+#: cookie-notice.php:239
+msgid "3 months"
+msgstr "3 meses"
+
+#: cookie-notice.php:240
+msgid "6 months"
+msgstr "6 meses"
+
+#: cookie-notice.php:241
+msgid "1 year"
+msgstr "1 ano"
+
+#: cookie-notice.php:242
+msgid "infinity"
+msgstr "infinito"
+
+#: cookie-notice.php:248
+msgid "Fade"
+msgstr "Desvanecer"
+
+#: cookie-notice.php:249
+msgid "Slide"
+msgstr "Deslizar"
+
+#: cookie-notice.php:654
+msgid "Need support?"
+msgstr "Precisa de suporte?"
+
+#: cookie-notice.php:657
+msgid "Do you like this plugin?"
+msgstr "Gosta deste plugin?"
+
+#: cookie-notice.php:689
+msgid "Configuration"
+msgstr "Configuração"
+
+#: cookie-notice.php:224 cookie-notice.php:690
+msgid "Message"
+msgstr "Mensagem"
+
+#: cookie-notice.php:712
+msgid "Position"
+msgstr "Posição"
+
+#: cookie-notice.php:714
+msgid "Button style"
+msgstr "Estilo do botão"
+
+#: cookie-notice.php:716
+msgid "Colors"
+msgstr "Cores"
+
+#: cookie-notice.php:1441
+msgid "Support"
+msgstr "Suporte"
+
+#: cookie-notice.php:1458
+msgid "Settings"
+msgstr "Definições"
+
+#: cookie-notice.php:259
+msgid "Ok"
+msgstr "Ok"
+
+#: cookie-notice.php:253
+msgid "Header"
+msgstr "Cabeçalho"
+
+#: cookie-notice.php:254
+msgid "Footer"
+msgstr "Rodapé"
+
+#: cookie-notice.php:260
+msgid "No"
+msgstr "Não"
+
+#: cookie-notice.php:673
+msgid "Reset to defaults"
+msgstr "Repor valores por omissão"
+
+#: cookie-notice.php:697
+msgid "On scroll"
+msgstr "Ao deslocar"
+
+#: cookie-notice.php:701
+msgid "Script placement"
+msgstr "Posicionamento do script"
+
+#: cookie-notice.php:702
+msgid "Deactivation"
+msgstr "Desactivação"
+
+#: cookie-notice.php:713
+msgid "Animation"
+msgstr "Animação"
+
+#: cookie-notice.php:1033
+msgid "Select where all the plugin scripts should be placed."
+msgstr "Seleccione onde todos os scripts de plugins deverão ser posicionados."
+
+#: cookie-notice.php:1532
+msgid "Are you sure you want to reset these settings to defaults?"
+msgstr "Tem a certeza que quer repor estas definições para valores por omissão?"
+
+#. Plugin URI of the plugin
+msgid "http://www.dfactory.eu/plugins/cookie-notice/"
+msgstr "http://www.dfactory.eu/plugins/cookie-notice/"
+
+#. Author of the plugin
+msgid "dFactory"
+msgstr "dFactory"
+
+#. Author URI of the plugin
+msgid "http://www.dfactory.eu/"
+msgstr "http://www.dfactory.eu/"
+
+#: cookie-notice.php:214
+msgid "Custom link"
+msgstr "Ligação personalizada"
+
+#: cookie-notice.php:213
+msgid "Page link"
+msgstr "Ligação de página"
+
+#: cookie-notice.php:258
+msgid "We use cookies to ensure that we give you the best experience on our website. If you continue to use this site we will assume that you are happy with it."
+msgstr "Este site utiliza cookies para permitir uma melhor experiência por parte do utilizador. Ao navegar no site estará a consentir a sua utilização."
+
+#: cookie-notice.php:691
+msgid "Button text"
+msgstr "Texto do botão"
+
+#: cookie-notice.php:711
+msgid "Design"
+msgstr "Design"
+
+#: cookie-notice.php:1109
+msgid "Enable if you want all plugin data to be deleted on deactivation."
+msgstr "Seleccionar caso pretenda eliminar todos os dados do plugin ao desactivar."
+
+#: cookie-notice.php:925
+msgid "-- select page --"
+msgstr "-- seleccionar página --"
+
+#: cookie-notice.php:791
+msgid "Enter the cookie notice message."
+msgstr "Insira a mensagem de informação do cookie"
+
+#. Plugin Name of the plugin
+#: cookie-notice.php:638 cookie-notice.php:649 cookie-notice.php:652
+#: cookie-notice.php:1355
+msgid "Cookie Notice"
+msgstr "Cookie Notice"
+
+#: cookie-notice.php:1301
+msgid "Settings restored to defaults."
+msgstr "Definições repostas."
+
+#: cookie-notice.php:936
+msgid "Select from one of your site's pages."
+msgstr "Seleccione uma das suas páginas do seu site."
+
+#: cookie-notice.php:949
+msgid "Enter the full URL starting with http(s)://"
+msgstr "Insira o URL completo a começar com http(s)://"
+
+#: cookie-notice.php:815
+msgid "Enable to give to the user the possibility to refuse third party non functional cookies."
+msgstr "Active para dar ao utilizador a opção de rejeitar cookies não funcionais de terceiros."
+
+#: cookie-notice.php:197
+msgid "Top"
+msgstr "Topo"
+
+#: cookie-notice.php:198
+msgid "Bottom"
+msgstr "Fundo"
+
+#: cookie-notice.php:202 cookie-notice.php:247
+msgid "None"
+msgstr "Nenhuma"
