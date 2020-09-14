@@ -219,3 +219,20 @@ function child_header_title( $title, $inside, $wrap ) {
 }
 
 
+//* Enable Genesis Accessibility Components
+
+add_theme_support( 'genesis-accessibility', array(
+
+    '404-page',
+
+    'drop-down-menu',
+
+    'headings',
+
+    'rems',
+
+    'search-form',
+
+    'skip-links',
+
+) );	
