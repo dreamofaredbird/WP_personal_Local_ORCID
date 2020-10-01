@@ -1,0 +1,693 @@
+# Translation of Plugins - LuckyWP Table of Contents - Stable (latest release) in Arabic
+# This file is distributed under the same license as the Plugins - LuckyWP Table of Contents - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-09-16 12:30:42+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5))));\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ar\n"
+"Project-Id-Version: Plugins - LuckyWP Table of Contents - Stable (latest release)\n"
+
+#: plugin/WpWidget.php:24
+msgid "Creates a table of contents for your posts and pages."
+msgstr "إنشاء جدول محتويات لمقالاتك وصفحاتك."
+
+#: config/settings.php:494 admin/widgets/customizeModal/views/modal.php:645
+msgid "Separate multiple classes with spaces."
+msgstr "افصل بين فئات classes المتعددة بمسافة."
+
+#: config/settings.php:492 admin/Admin.php:237
+#: admin/widgets/customizeModal/views/modal.php:636
+msgid "Additional CSS Class(es)"
+msgstr "وضع فئات CSS Class إضافية"
+
+#: config/settings.php:502
+msgid "LuckyWP Plugins"
+msgstr "إضافات LuckyWP"
+
+#: admin/SiteHealth.php:38
+msgid "ICU Version"
+msgstr "نسخة ICU"
+
+#: admin/SiteHealth.php:34
+msgid "intl Version"
+msgstr "نسخة intl"
+
+#: admin/SiteHealth.php:43
+msgid "encoded data to copy"
+msgstr "بيانات مشفرة للنسخ"
+
+#: admin/SiteHealth.php:30
+msgid "libXML Version"
+msgstr "نسخة libXML "
+
+#: admin/SiteHealth.php:27 admin/SiteHealth.php:31 admin/SiteHealth.php:35
+#: admin/SiteHealth.php:39
+msgid "not loaded"
+msgstr "لم تحمل "
+
+#: admin/SiteHealth.php:26
+msgid "DOM/XML Version"
+msgstr "نسخة DOM/XML"
+
+#. translators: 1: LuckyWP Table of Contents 2: DOM (Document Object Model)
+#: luckywp-table-of-contents.php:33
+msgid "%1$s plugin require PHP extension %2$s to work."
+msgstr "الإضافة %1$s تتطلب إمتداد %2$s ل PHP لتعمل."
+
+#: plugin/Plugin.php:271
+msgid "Inherit from theme"
+msgstr "توريث من القالب"
+
+#. translators: User select DIV or UL/LI
+#: config/settings.php:484
+msgid "List Markup Tags"
+msgstr "قائمة علامات ‫الوسوم"
+
+#: config/settings.php:472
+msgid "Other Settings"
+msgstr "إعدادات اخرى"
+
+#: admin/views/rate/notice.php:34
+msgid "Don't show again"
+msgstr "لا تظهر مرة أخرى"
+
+#. translators: %s: rel="nofollow"
+#: config/settings.php:462 admin/Admin.php:224
+#: admin/widgets/customizeModal/views/modal.php:611
+msgid "Use %s for links"
+msgstr "استخدام %s للروابط"
+
+#: config/settings.php:437
+msgid "SEO"
+msgstr "SEO"
+
+#. translators: 1: _ 2: -
+#: config/settings.php:426
+msgid "Replace underscores %1$s with dashes %2$s"
+msgstr "استبدال تسطير أسفل السطر %1$s بشرطات %2$s"
+
+#: config/settings.php:413
+msgid "Convert to lowercase"
+msgstr "تحويل إلى أحرف صغيرة"
+
+#. translators: Here, hash is a unique tracking string that is added to the URL
+#. after a # character
+#: config/settings.php:395
+msgid "Hash"
+msgstr "الدالة"
+
+#. translators: 1: Attribute name 2: True 3: False
+#: core/validators/BooleanValidator.php:29
+msgid "%1$s must be either \"%2$s\" or \"%3$s\"."
+msgstr "يجب أن يكون %1$s إما \"%2$s\" أو \"%3$s\"."
+
+#. translators: %s: Attribute name
+#: core/validators/RangeValidator.php:29
+msgid "%s is invalid."
+msgstr "%s غير صالح."
+
+#. translators: %s: Attribute name
+#: core/validators/RequiredValidator.php:18
+msgid "%s cannot be blank."
+msgstr "لا يمكن أن يكون %s فارغاً."
+
+#. translators: %s: (#lwptoc1, #lwptoc2, …)
+#: plugin/Plugin.php:285
+msgid "Counter %s"
+msgstr "عداد %s"
+
+#. translators: %s: LuckyWP Table of Contents
+#: admin/views/rate/notice.php:14
+msgid "We are very pleased that you by now have been using the %s plugin a few days."
+msgstr "نحن سعداء للغاية باستخدامك إضافة %s لعدة أيام"
+
+#. translators: %s: <!--noindex-->
+#: config/settings.php:447 admin/Admin.php:214
+#: admin/widgets/customizeModal/views/modal.php:584
+msgid "Wrap table of contents with %s tag"
+msgstr "التفاف جدول المحتويات بعلامة %s"
+
+#: plugin/Plugin.php:282
+msgid "As heading without transliterate (#Example_Heading_Text)"
+msgstr "كما التوجه بدون كتابة للغة أخرى (#مثال_نص_عنواني)"
+
+#. translators: %s: 1.3)
+#: config/settings.php:78
+msgid "The symbol will be added after numeration. For example, %s"
+msgstr "هذا الرمز سيكتب بعد الرقم المتسلسل. على سبيل المثال، %s"
+
+#: config/settings.php:67 admin/Admin.php:157 admin/forms/CustomizeForm.php:248
+#: admin/widgets/customizeModal/views/modal.php:167
+msgid "Numeration Suffix"
+msgstr "لاحقة الأرقام"
+
+#. translators: %s: ★★★★★
+#: admin/views/settings/index.php:10
+msgid "Leave a %s plugin review on WordPress.org"
+msgstr "قم بالتصويت لنا %s على WordPress.org"
+
+#: admin/views/rate/notice.php:42
+msgid "Thank you very much!"
+msgstr "شكرا جزيلا!"
+
+#: admin/views/rate/notice.php:28
+msgid "Remind later"
+msgstr "تذكير لاحقاً"
+
+#: admin/views/rate/notice.php:21
+msgid "Rate the plugin"
+msgstr "قم بالتصويت لنا"
+
+#: admin/views/rate/notice.php:18
+msgid "Please rate plugin. It will help us a lot."
+msgstr "يرجى تقييم الإضافة. سوف يساعدنا كثيرا."
+
+#: admin/views/rate/notice.php:10
+msgid "Hello!"
+msgstr "مرحبًا!"
+
+#: admin/widgets/metabox/views/box.php:75
+msgid "Enable TOC"
+msgstr "تمكين TOC"
+
+#: admin/widgets/metabox/views/box.php:64
+msgid "Enable Processing"
+msgstr "تمكين المعالجة"
+
+#: admin/widgets/metabox/views/box.php:61
+msgid "Click \"Enable Processing\" for headings processing in this post."
+msgstr "انقر فوق \"تمكين المعالجة\" لمعالجة العناوين في هذا المقال."
+
+#: admin/widgets/metabox/views/box.php:49
+msgid "Disable Processing"
+msgstr "تعطيل المعالجة"
+
+#: admin/widgets/metabox/views/box.php:44
+msgid "Disable TOC"
+msgstr "تعطيل ‫TOC"
+
+#: admin/widgets/metabox/views/box.php:18
+msgid "The headings will be processing in this post for use in table of contents in widget or custom shortcode."
+msgstr "سيتم معالجة العناوين في هذا المقال لاستخدامها في جدول المحتويات في عنصر واجهة المستخدم أو الرمز القصير المخصص."
+
+#: config/settings.php:475
+msgid "Show Panel \"Table of Contents\" in Post Types"
+msgstr "إظهار لوحة \"جدول المحتويات\" في المقالات"
+
+#: config/settings.php:340
+msgid "Always for Post Types"
+msgstr "السماح دائما في هذا النوع من المواضيع"
+
+#: config/settings.php:335
+msgid "Processing Headings"
+msgstr "معالجة العناوين"
+
+#: admin/widgets/customizeModal/views/modal.php:541
+msgid "Skip heading by text"
+msgstr "تخطي العنوان حسب النص"
+
+#: admin/widgets/customizeModal/views/modal.php:518
+msgid "Skip heading by level"
+msgstr "تخطي العنوان حسب المستوى"
+
+#: admin/Admin.php:231 admin/Admin.php:234
+msgid "Skip headings"
+msgstr "تخطي العناوين"
+
+#. translators: %s: Asterisk symbol (*)
+#: config/settings.php:382 admin/widgets/customizeModal/views/modal.php:559
+msgid "Use an asterisk %s as a wildcard to match any text."
+msgstr "إستعمل رمز النجمة %s كبديل لمطابقة أي نص"
+
+#: config/settings.php:378 admin/widgets/customizeModal/views/modal.php:555
+msgid "Specify headings (one per line) to be excluded from the table of contents."
+msgstr "حدد العناوين (واحد لكل سطر) ليستبعد من الفهرست."
+
+#: config/settings.php:370
+msgid "By Text"
+msgstr "حسب النص"
+
+#: config/settings.php:360
+msgid "By Level"
+msgstr "حسب المستوى"
+
+#: config/settings.php:357
+msgid "Skip Headings"
+msgstr "تخطي العناوين"
+
+#: plugin/Plugin.php:281
+msgid "As heading (#Example_Heading_Text)"
+msgstr "كعنوان (#Example_Heading_Text)"
+
+#: plugin/Plugin.php:257
+msgid "Center"
+msgstr "وسط"
+
+#: plugin/Plugin.php:256
+msgid "Right without flow"
+msgstr "يمين بدون تدفق "
+
+#. translators: Here, hash is a unique tracking string that is added to the URL
+#. after a # character
+#: config/settings.php:400
+msgid "Hash Format"
+msgstr "نسق الدالة"
+
+#: config/settings.php:354 admin/widgets/customizeModal/views/modal.php:46
+msgid "Misc."
+msgstr "منوعات"
+
+#: plugin/Plugin.php:299
+msgid "Full Width"
+msgstr "العرض الكامل"
+
+#: plugin/Plugin.php:298
+msgid "Auto"
+msgstr "تلقائي"
+
+#: plugin/Plugin.php:268
+msgid "Dark Colors"
+msgstr "ألوان داكنة"
+
+#: plugin/Plugin.php:267
+msgid "Light Colors"
+msgstr "ألوان فاتحة"
+
+#: plugin/Plugin.php:300 admin/widgets/fontSizeField/views/widget.php:17
+msgid "Custom Value"
+msgstr "قيمة مخصصة"
+
+#: plugin/Plugin.php:335 admin/widgets/fontSizeField/views/widget.php:16
+msgid "Default"
+msgstr "افتراضي"
+
+#. Author URI of the plugin
+msgid "https://theluckywp.com/"
+msgstr "https://theluckywp.com/"
+
+#. Author of the plugin
+msgid "LuckyWP"
+msgstr "LuckyWP"
+
+#. Description of the plugin
+#: plugin/Plugin.php:486
+msgid "Creates a table of contents for your posts/pages. Works automatically or manually (via shortcode, Gutenberg block or widget)."
+msgstr "إنشاء جدول محتويات للمشاركات/الصفحات. يعمل تلقائيا أو يدويا (عن طريق الرمز القصير، كتلة غوتنبرغ أو ودجات)."
+
+#. Plugin URI of the plugin
+msgid "https://theluckywp.com/product/table-of-contents/"
+msgstr "https://theluckywp.com/product/table-of-contents/"
+
+#. Plugin Name of the plugin
+msgid "LuckyWP Table of Contents"
+msgstr "جدول محتويات LuckyWP"
+
+#: plugin/Plugin.php:270
+msgid "Transparent"
+msgstr "شفاف"
+
+#: plugin/Plugin.php:269
+msgid "White"
+msgstr "أبيض"
+
+#: plugin/Plugin.php:255
+msgid "Right"
+msgstr "يمين"
+
+#: plugin/Plugin.php:254
+msgid "Left"
+msgstr "يسار"
+
+#: plugin/Plugin.php:166 plugin/Plugin.php:253 plugin/Plugin.php:398
+msgid "None"
+msgstr "بدون"
+
+#: plugin/Plugin.php:224
+msgid "Heavy"
+msgstr "الثقيله"
+
+#: plugin/Plugin.php:223
+msgid "Extra Bold"
+msgstr "عريض جدًا"
+
+#: plugin/Plugin.php:222
+msgid "Bold"
+msgstr "عريض"
+
+#: plugin/Plugin.php:221
+msgid "Semi Bold"
+msgstr "غامق"
+
+#: plugin/Plugin.php:220
+msgid "Medium"
+msgstr "متوسط"
+
+#: plugin/Plugin.php:219
+msgid "Normal"
+msgstr "عادي"
+
+#: plugin/Plugin.php:218
+msgid "Light"
+msgstr "فاتح"
+
+#: plugin/Plugin.php:217
+msgid "Extra Light"
+msgstr "خفيف جدًا"
+
+#: plugin/Plugin.php:216
+msgid "Thin"
+msgstr "رفيع"
+
+#: plugin/Plugin.php:182
+msgid "Bottom"
+msgstr "أسفل"
+
+#: plugin/Plugin.php:181
+msgid "Top"
+msgstr "أعلى"
+
+#: plugin/Plugin.php:180
+msgid "After first block (paragraph or heading)"
+msgstr "بعد الفقرة الأولى (فقرة أو عنوان)"
+
+#: plugin/Plugin.php:179
+msgid "After first heading"
+msgstr "بعد العنوان الأول"
+
+#: plugin/Plugin.php:178
+msgid "Before first heading"
+msgstr "قبل العنوان الأول"
+
+#: plugin/Plugin.php:156
+msgid "Roman numbers"
+msgstr "أرقام رومانيّة"
+
+#: plugin/Plugin.php:155
+msgid "Roman numbers (nested)"
+msgstr "أرقام رومانيّة (متداخلة)"
+
+#: plugin/Plugin.php:154
+msgid "Decimal numbers"
+msgstr "أرقام عشرية"
+
+#: plugin/Plugin.php:153
+msgid "Decimal numbers (nested)"
+msgstr "الأرقام العشرية (المتداخلة)"
+
+#: plugin/Plugin.php:152
+msgid "Without numeration"
+msgstr "بدون أراقام"
+
+#: core/admin/AdminController.php:46
+msgid "Sorry, you are not allowed to access this page."
+msgstr "عذرًا، غير مسموح لك الوصول إلى هذه الصفحة."
+
+#: config/settings.php:317
+msgid "Post Types"
+msgstr "أنواع المقالات"
+
+#: config/settings.php:293
+msgid "Auto Insert Table of Contents"
+msgstr "إدراج تلقائي لجدول المحتويات"
+
+#: config/settings.php:287
+msgid "Auto Insert"
+msgstr "إدراج تلقائي"
+
+#: config/settings.php:278
+msgid "Visited Link Color"
+msgstr "لون الرابط الذي تمت زيارته"
+
+#: config/settings.php:273
+msgid "Hover Link Color"
+msgstr "لون الرابط عند التمرير"
+
+#: config/settings.php:268
+msgid "Link Color"
+msgstr "لون الرابط"
+
+#: config/settings.php:263
+msgid "Title Color"
+msgstr "لون العنوان"
+
+#: config/settings.php:258
+msgid "Border Color"
+msgstr "لون الإطار"
+
+#: config/settings.php:253
+msgid "Background Color"
+msgstr "لون الخلفية"
+
+#: config/settings.php:248
+msgid "Override Color Scheme Colors"
+msgstr "تجاوز ألوان نظام الألوان"
+
+#: config/settings.php:158
+msgid "Scroll Offset Top"
+msgstr "التمرير السلس"
+
+#: config/settings.php:142
+msgid "Behavior"
+msgstr "السلوك"
+
+#: config/settings.php:125 plugin/Settings.php:124
+msgid "hide"
+msgstr "إخفاء"
+
+#: config/settings.php:114 plugin/Settings.php:116
+msgid "show"
+msgstr "عرض"
+
+#: config/settings.php:91 plugin/Settings.php:100
+msgid "Contents"
+msgstr "المحتويات"
+
+#: config/settings.php:85
+msgid "Header"
+msgstr "ترويسة"
+
+#: admin/widgets/metabox/views/box.php:72
+msgid "Click \"Enable TOC\" for automatic add table of contents to this post."
+msgstr "انقر فوق \"تمكين جدول المحتويات\" لإضافة جدول محتويات تلقائي إلى هذا المقال."
+
+#: admin/widgets/widget/views/form.php:19
+#: admin/widgets/metabox/views/box.php:39
+msgid "Customize"
+msgstr "تخصيص"
+
+#: admin/widgets/widget/views/_override.php:12
+#: admin/widgets/metabox/views/box.php:27
+msgid "Overridden settings:"
+msgstr "تجاوز الإعدادات:"
+
+#: admin/widgets/metabox/views/box.php:14
+msgid "The table of contents will be automatic added to this post."
+msgstr "سيتم إضافة جدول المحتويات تلقائيًا إلى هذا المنشور."
+
+#: admin/widgets/customizeSuccess/views/widget.php:9
+msgid "Saved!"
+msgstr "تم الحفظ!"
+
+#: admin/widgets/customizeModal/views/modal.php:671
+msgid "Save"
+msgstr "حفظ"
+
+#: config/settings.php:133 admin/widgets/customizeModal/views/modal.php:278
+msgid "By default, items of contents will be hidden"
+msgstr "بشكل افتراضي، سيتم إخفاء عناصر المحتويات"
+
+#: admin/widgets/customizeModal/views/modal.php:204
+msgid "Without title"
+msgstr "بدون عنوان"
+
+#: config/settings.php:48 config/settings.php:99 config/settings.php:150
+#: config/settings.php:297 admin/widgets/customizeModal/views/modal.php:131
+#: admin/widgets/customizeModal/views/modal.php:224
+#: admin/widgets/customizeModal/views/modal.php:287
+#: admin/widgets/customizeModal/views/modal.php:310
+#: admin/widgets/customizeModal/views/modal.php:595
+#: admin/widgets/customizeModal/views/modal.php:622
+msgid "Enable"
+msgstr "تفعيل"
+
+#: config/settings.php:31 admin/widgets/customizeModal/views/modal.php:90
+msgid "If the count of headings in the post is less, then table of contents is not displayed."
+msgstr "إذا كان عدد العناوين في المقال قليل، حينها لن يتم عرض جدول المحتويات."
+
+#: admin/widgets/customizeModal/views/modal.php:19
+msgid "Click to override default value"
+msgstr "انقر لتجاوز القيمة الافتراضية"
+
+#: admin/widgets/customizeModal/views/modal.php:20
+msgid "default"
+msgstr "افتراضي"
+
+#: config/settings.php:176 admin/widgets/customizeModal/views/modal.php:45
+msgid "Appearance"
+msgstr "المظهر"
+
+#: config/settings.php:17 admin/widgets/customizeModal/views/modal.php:44
+msgid "General"
+msgstr "عام"
+
+#: admin/widgets/customizeModal/views/modal.php:30
+msgid "Customize Table of Contents"
+msgstr "تخصيص جدول المحتويات"
+
+#: admin/widgets/customizeModal/views/modal.php:29
+#: admin/widgets/customizeModal/views/modal.php:667
+msgid "Cancel"
+msgstr "إلغاء"
+
+#: admin/widgets/OverrideColorBadge.php:21
+msgid "from scheme"
+msgstr "من المخطط"
+
+#: admin/views/settings/index.php:13
+msgid "Table of Contents Settings"
+msgstr "إعدادات جدول المحتويات"
+
+#: admin/widgets/customizeModal/views/modal.php:571
+#: admin/widgets/customizeModal/views/modal.php:654
+#: admin/widgets/widget/views/_override.php:18
+#: admin/widgets/metabox/views/box.php:33
+#: admin/controllers/ShortcodeController.php:66
+#: admin/controllers/EditorBlockController.php:71
+msgid "empty"
+msgstr "فارغ"
+
+#: config/settings.php:238 admin/Admin.php:196
+#: admin/forms/CustomizeForm.php:254
+#: admin/widgets/customizeModal/views/modal.php:463
+msgid "Color Scheme"
+msgstr "نظام الألوان"
+
+#: config/settings.php:225 admin/Admin.php:193
+#: admin/widgets/customizeModal/views/modal.php:439
+msgid "Items Font Size"
+msgstr "حجم خط العناصر"
+
+#: config/settings.php:216 admin/Admin.php:190
+#: admin/forms/CustomizeForm.php:253
+#: admin/widgets/customizeModal/views/modal.php:417
+msgid "Title Font Weight"
+msgstr " وزن طول الخط"
+
+#: config/settings.php:203 admin/Admin.php:187
+#: admin/widgets/customizeModal/views/modal.php:393
+msgid "Title Font Size"
+msgstr "حجم خط العنوان"
+
+#: config/settings.php:194 admin/Admin.php:184
+#: admin/forms/CustomizeForm.php:252
+#: admin/widgets/customizeModal/views/modal.php:371
+msgid "Float"
+msgstr "عائم"
+
+#: config/settings.php:182 admin/Admin.php:181
+#: admin/widgets/customizeModal/views/modal.php:348
+msgid "Width"
+msgstr "العرض"
+
+#: admin/Admin.php:178 admin/widgets/customizeModal/views/modal.php:324
+msgid "Smooth Scroll Offset Top"
+msgstr "التمرير السلس"
+
+#: config/settings.php:146 admin/Admin.php:175
+#: admin/widgets/customizeModal/views/modal.php:301
+msgid "Smooth Scroll"
+msgstr "التمرير اللطيف"
+
+#: admin/Admin.php:172
+msgid "Hide Items"
+msgstr "إخفاء العناصر"
+
+#: config/settings.php:118 admin/Admin.php:169
+#: admin/forms/CustomizeForm.php:250
+#: admin/widgets/customizeModal/views/modal.php:258
+msgid "Label Hide"
+msgstr "إخفاء التسمية"
+
+#: config/settings.php:107 admin/Admin.php:166
+#: admin/forms/CustomizeForm.php:249
+#: admin/widgets/customizeModal/views/modal.php:238
+msgid "Label Show"
+msgstr "عرض التسمية"
+
+#: config/settings.php:95 admin/Admin.php:163
+#: admin/widgets/customizeModal/views/modal.php:215
+msgid "Toggle Show/Hide"
+msgstr "تبديل إظهار/إخفاء"
+
+#: config/settings.php:89 admin/Admin.php:160
+#: admin/widgets/customizeModal/views/modal.php:189
+msgid "Title"
+msgstr "العنوان"
+
+#: config/settings.php:55 admin/Admin.php:154 admin/forms/CustomizeForm.php:247
+#: admin/widgets/customizeModal/views/modal.php:145
+msgid "Numeration"
+msgstr "الترقيم"
+
+#: admin/Admin.php:151 admin/Admin.php:163 admin/Admin.php:172
+#: admin/Admin.php:175 admin/Admin.php:217 admin/Admin.php:227
+#: admin/widgets/customizeModal/views/modal.php:138
+#: admin/widgets/customizeModal/views/modal.php:231
+#: admin/widgets/customizeModal/views/modal.php:294
+#: admin/widgets/customizeModal/views/modal.php:317
+#: admin/widgets/customizeModal/views/modal.php:602
+#: admin/widgets/customizeModal/views/modal.php:629
+msgid "Disabled"
+msgstr "مُعطّل"
+
+#: admin/Admin.php:151 admin/Admin.php:163 admin/Admin.php:172
+#: admin/Admin.php:175 admin/Admin.php:217 admin/Admin.php:227
+#: admin/widgets/customizeModal/views/modal.php:138
+#: admin/widgets/customizeModal/views/modal.php:231
+#: admin/widgets/customizeModal/views/modal.php:294
+#: admin/widgets/customizeModal/views/modal.php:317
+#: admin/widgets/customizeModal/views/modal.php:602
+#: admin/widgets/customizeModal/views/modal.php:629
+msgid "Enabled"
+msgstr "مُفعّل"
+
+#: config/settings.php:44 admin/Admin.php:151
+#: admin/widgets/customizeModal/views/modal.php:122
+msgid "Hierarchical View"
+msgstr "طريقة العرض الهرمية"
+
+#: config/settings.php:35 admin/Admin.php:148 admin/forms/CustomizeForm.php:246
+#: admin/widgets/customizeModal/views/modal.php:100
+msgid "Depth"
+msgstr "تعمق"
+
+#: config/settings.php:23 admin/Admin.php:145
+#: admin/widgets/customizeModal/views/modal.php:77
+msgid "Minimal Count of Headings"
+msgstr "الحد الأدنى لعدد العناوين"
+
+#: config/settings.php:305 admin/Admin.php:142
+#: admin/forms/CustomizeForm.php:251
+#: admin/widgets/customizeModal/views/modal.php:54
+msgid "Position"
+msgstr "الموضع"
+
+#. translators: verb
+#: admin/Admin.php:115
+msgid "Edit"
+msgstr "تحرير"
+
+#: plugin/WpWidget.php:22 plugin/Plugin.php:481 admin/Admin.php:54
+#: admin/Admin.php:55 admin/Admin.php:75 admin/Admin.php:113
+#: admin/controllers/ShortcodeController.php:60
+#: admin/controllers/EditorBlockController.php:65
+msgid "Table of Contents"
+msgstr "جدول المحتويات"
+
+#: admin/Admin.php:34 admin/SiteHealth.php:42
+msgid "Settings"
+msgstr "الإعدادات"

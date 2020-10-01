@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - LuckyWP Table of Contents - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-08-03 14:06:20+0000\n"
+"PO-Revision-Date: 2020-08-20 12:01:45+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -39,7 +39,7 @@ msgstr "intl版本"
 #. translators: 1: LuckyWP Table of Contents 2: DOM (Document Object Model)
 #: luckywp-table-of-contents.php:33
 msgid "%1$s plugin require PHP extension %2$s to work."
-msgstr "%1$s 插件必需PHP扩展 %2$s才能运行。"
+msgstr "%1$s插件需要PHP扩展%2$s才能工作。"
 
 #: admin/SiteHealth.php:26
 msgid "DOM/XML Version"
@@ -52,7 +52,7 @@ msgstr "未加载"
 
 #: admin/SiteHealth.php:30
 msgid "libXML Version"
-msgstr "libXML 版本"
+msgstr "libXML版本"
 
 #: admin/SiteHealth.php:43
 msgid "encoded data to copy"
@@ -79,7 +79,7 @@ msgstr "不再显示"
 #: config/settings.php:462 admin/Admin.php:224
 #: admin/widgets/customizeModal/views/modal.php:611
 msgid "Use %s for links"
-msgstr "使用%s链接"
+msgstr "将%s用于链接"
 
 #: config/settings.php:437
 msgid "SEO"
@@ -89,21 +89,21 @@ msgstr "搜索引擎优化"
 #: config/settings.php:447 admin/Admin.php:214
 #: admin/widgets/customizeModal/views/modal.php:584
 msgid "Wrap table of contents with %s tag"
-msgstr "用%s标签包住目录"
+msgstr "用%s标记换行目录"
 
 #. translators: %s: LuckyWP Table of Contents
 #: admin/views/rate/notice.php:14
 msgid "We are very pleased that you by now have been using the %s plugin a few days."
-msgstr "我们很高兴你已经使用%s插件好几天了。"
+msgstr "我们很高兴您已经使用了%s插件几天了。"
 
 #. translators: 1: _ 2: -
 #: config/settings.php:426
 msgid "Replace underscores %1$s with dashes %2$s"
-msgstr "将下划线 %1$s替换为破折号 %2$s"
+msgstr "将下划线%1$s替换为破折号%2$s"
 
 #: config/settings.php:413
 msgid "Convert to lowercase"
-msgstr "转换成小写"
+msgstr "转换为小写"
 
 #. translators: Here, hash is a unique tracking string that is added to the URL
 #. after a # character
@@ -114,7 +114,7 @@ msgstr "哈希值"
 #. translators: 1: Attribute name 2: True 3: False
 #: core/validators/BooleanValidator.php:29
 msgid "%1$s must be either \"%2$s\" or \"%3$s\"."
-msgstr "%1$s必须是“%2$s”或者“%3$s”。"
+msgstr "%1$s必须是“%2$s”或“%3$s”。"
 
 #. translators: %s: Attribute name
 #: core/validators/RangeValidator.php:29
@@ -129,21 +129,21 @@ msgstr "%s不能为空。"
 #. translators: %s: (#lwptoc1, #lwptoc2, …)
 #: plugin/Plugin.php:285
 msgid "Counter %s"
-msgstr "累计%s"
+msgstr "计数器%s"
 
 #: plugin/Plugin.php:282
 msgid "As heading without transliterate (#Example_Heading_Text)"
-msgstr "标题不带音译（#Example_Heading_Text）"
+msgstr "不带音译的标题（#示例#标题_文本）"
 
 #. translators: %s: 1.3)
 #: config/settings.php:78
 msgid "The symbol will be added after numeration. For example, %s"
-msgstr "符号将在计算后添加。 举例, %s"
+msgstr "符号将在编号后添加。例如%s"
 
 #: config/settings.php:67 admin/Admin.php:157 admin/forms/CustomizeForm.php:248
 #: admin/widgets/customizeModal/views/modal.php:167
 msgid "Numeration Suffix"
-msgstr "数字后缀"
+msgstr "计数后缀"
 
 #. translators: %s: ★★★★★
 #: admin/views/settings/index.php:10
@@ -152,7 +152,7 @@ msgstr "在WordPress.org上对%s插件评论"
 
 #: admin/views/rate/notice.php:42
 msgid "Thank you very much!"
-msgstr "非常感谢！"
+msgstr "非常感谢您！"
 
 #: admin/views/rate/notice.php:28
 msgid "Remind later"
@@ -160,7 +160,7 @@ msgstr "稍后提醒"
 
 #: admin/views/rate/notice.php:21
 msgid "Rate the plugin"
-msgstr "评价插件"
+msgstr "为插件评分"
 
 #: admin/views/rate/notice.php:18
 msgid "Please rate plugin. It will help us a lot."
@@ -180,7 +180,7 @@ msgstr "启用处理"
 
 #: admin/widgets/metabox/views/box.php:61
 msgid "Click \"Enable Processing\" for headings processing in this post."
-msgstr "单击“启用处理”以在文章中进行标题处理。"
+msgstr "点击“启用处理”来处理这篇文章中的标题。"
 
 #: admin/widgets/metabox/views/box.php:49
 msgid "Disable Processing"
@@ -188,7 +188,7 @@ msgstr "禁用处理"
 
 #: admin/widgets/metabox/views/box.php:44
 msgid "Disable TOC"
-msgstr "关闭目录"
+msgstr "禁用目录"
 
 #: admin/widgets/metabox/views/box.php:18
 msgid "The headings will be processing in this post for use in table of contents in widget or custom shortcode."
@@ -208,11 +208,11 @@ msgstr "处理标题"
 
 #: admin/widgets/customizeModal/views/modal.php:541
 msgid "Skip heading by text"
-msgstr "按文字跳过标题"
+msgstr "按文本跳过标题"
 
 #: admin/widgets/customizeModal/views/modal.php:518
 msgid "Skip heading by level"
-msgstr "按级别跳过标题"
+msgstr "按层级跳过标题"
 
 #: admin/Admin.php:231 admin/Admin.php:234
 msgid "Skip headings"
@@ -221,7 +221,7 @@ msgstr "跳过标题"
 #. translators: %s: Asterisk symbol (*)
 #: config/settings.php:382 admin/widgets/customizeModal/views/modal.php:559
 msgid "Use an asterisk %s as a wildcard to match any text."
-msgstr "使用星号 %s 作为通配符以匹配任何文本。"
+msgstr "使用星号%s作为通配符匹配任何文本。"
 
 #: config/settings.php:378 admin/widgets/customizeModal/views/modal.php:555
 msgid "Specify headings (one per line) to be excluded from the table of contents."
@@ -229,11 +229,11 @@ msgstr "指定要从目录中排除的标题（每行一个）。"
 
 #: config/settings.php:370
 msgid "By Text"
-msgstr "按文字"
+msgstr "按文本"
 
 #: config/settings.php:360
 msgid "By Level"
-msgstr "按级别"
+msgstr "按层级"
 
 #: config/settings.php:357
 msgid "Skip Headings"
@@ -241,11 +241,15 @@ msgstr "跳过标题"
 
 #: plugin/Plugin.php:281
 msgid "As heading (#Example_Heading_Text)"
-msgstr "作为标题（#Example_Heading_Text）"
+msgstr "作为标题（#示例_标题_文本）"
 
 #: plugin/Plugin.php:257
 msgid "Center"
 msgstr "中间"
+
+#: plugin/Plugin.php:256
+msgid "Right without flow"
+msgstr "右浮动"
 
 #. translators: Here, hash is a unique tracking string that is added to the URL
 #. after a # character
@@ -255,7 +259,7 @@ msgstr "哈希格式"
 
 #: config/settings.php:354 admin/widgets/customizeModal/views/modal.php:46
 msgid "Misc."
-msgstr "其他."
+msgstr "其他"
 
 #: plugin/Plugin.php:299
 msgid "Full Width"
@@ -267,11 +271,11 @@ msgstr "自动"
 
 #: plugin/Plugin.php:268
 msgid "Dark Colors"
-msgstr "深色主题"
+msgstr "深色"
 
 #: plugin/Plugin.php:267
 msgid "Light Colors"
-msgstr "浅色主题"
+msgstr "浅色"
 
 #: plugin/Plugin.php:300 admin/widgets/fontSizeField/views/widget.php:17
 msgid "Custom Value"
@@ -284,7 +288,7 @@ msgstr "默认"
 #. Description of the plugin
 #: plugin/Plugin.php:486
 msgid "Creates a table of contents for your posts/pages. Works automatically or manually (via shortcode, Gutenberg block or widget)."
-msgstr "为你的文章/页面创建目录。支持自动或手动（通过简码, 古藤堡 区块 或者小工具）"
+msgstr "为您的文章或页面创建目录。自动或手动工作（通过简码、古腾堡区块或小工具）。"
 
 #: plugin/Plugin.php:270
 msgid "Transparent"
@@ -292,7 +296,7 @@ msgstr "透明"
 
 #: plugin/Plugin.php:269
 msgid "White"
-msgstr "白"
+msgstr "白色"
 
 #: plugin/Plugin.php:255
 msgid "Right"
@@ -308,11 +312,11 @@ msgstr "无"
 
 #: plugin/Plugin.php:224
 msgid "Heavy"
-msgstr "特粗"
+msgstr "极粗"
 
 #: plugin/Plugin.php:223
 msgid "Extra Bold"
-msgstr "超粗"
+msgstr "特粗"
 
 #: plugin/Plugin.php:222
 msgid "Bold"
@@ -320,7 +324,7 @@ msgstr "粗"
 
 #: plugin/Plugin.php:221
 msgid "Semi Bold"
-msgstr "加粗"
+msgstr "中粗"
 
 #: plugin/Plugin.php:220
 msgid "Medium"
@@ -336,11 +340,11 @@ msgstr "细"
 
 #: plugin/Plugin.php:217
 msgid "Extra Light"
-msgstr "超细"
+msgstr "特细"
 
 #: plugin/Plugin.php:216
 msgid "Thin"
-msgstr "纤细"
+msgstr "极细"
 
 #: plugin/Plugin.php:182
 msgid "Bottom"
@@ -352,15 +356,15 @@ msgstr "顶部"
 
 #: plugin/Plugin.php:180
 msgid "After first block (paragraph or heading)"
-msgstr "在第一个区块之后（段落，列表或者标题）"
+msgstr "在第一个区块之后（段落或标题）"
 
 #: plugin/Plugin.php:179
 msgid "After first heading"
-msgstr "第一个前进后"
+msgstr "在第一个标题之后"
 
 #: plugin/Plugin.php:178
 msgid "Before first heading"
-msgstr "第一次前进前"
+msgstr "在第一个标题之前"
 
 #: plugin/Plugin.php:156
 msgid "Roman numbers"
@@ -372,19 +376,19 @@ msgstr "罗马数字（嵌套）"
 
 #: plugin/Plugin.php:154
 msgid "Decimal numbers"
-msgstr "小数"
+msgstr "十进制数"
 
 #: plugin/Plugin.php:153
 msgid "Decimal numbers (nested)"
-msgstr "小数（嵌套）"
+msgstr "十进制数（嵌套）"
 
 #: plugin/Plugin.php:152
 msgid "Without numeration"
-msgstr "没有计数"
+msgstr "不计算"
 
 #: core/admin/AdminController.php:46
 msgid "Sorry, you are not allowed to access this page."
-msgstr "抱歉，您不能访问此页面。"
+msgstr "对不起，您不能访问此页面。"
 
 #: config/settings.php:317
 msgid "Post Types"
@@ -400,7 +404,7 @@ msgstr "自动插入"
 
 #: config/settings.php:278
 msgid "Visited Link Color"
-msgstr "访问过的链接颜色"
+msgstr "访问链接颜色"
 
 #: config/settings.php:273
 msgid "Hover Link Color"
@@ -424,11 +428,11 @@ msgstr "背景颜色"
 
 #: config/settings.php:248
 msgid "Override Color Scheme Colors"
-msgstr "覆盖配色方案颜色"
+msgstr "替代配色方案颜色"
 
 #: config/settings.php:158
 msgid "Scroll Offset Top"
-msgstr "滚动到顶部"
+msgstr "滚动偏移顶部"
 
 #: config/settings.php:142
 msgid "Behavior"
@@ -448,11 +452,11 @@ msgstr "内容"
 
 #: config/settings.php:85
 msgid "Header"
-msgstr "标头"
+msgstr "标题"
 
 #: admin/widgets/metabox/views/box.php:72
 msgid "Click \"Enable TOC\" for automatic add table of contents to this post."
-msgstr "单击“启用目录”以自动向此文章添加目录。"
+msgstr "点击“启用目录”自动将目录添加到此文章。"
 
 #: admin/widgets/widget/views/form.php:19
 #: admin/widgets/metabox/views/box.php:39
@@ -462,11 +466,11 @@ msgstr "自定义"
 #: admin/widgets/widget/views/_override.php:12
 #: admin/widgets/metabox/views/box.php:27
 msgid "Overridden settings:"
-msgstr "覆盖设置:"
+msgstr "覆盖设置："
 
 #: admin/widgets/metabox/views/box.php:14
 msgid "The table of contents will be automatic added to this post."
-msgstr "目录将自动添加到该文章中。"
+msgstr "目录将自动添加到此文章中。"
 
 #: admin/widgets/customizeSuccess/views/widget.php:9
 msgid "Saved!"
@@ -478,7 +482,7 @@ msgstr "保存"
 
 #: config/settings.php:133 admin/widgets/customizeModal/views/modal.php:278
 msgid "By default, items of contents will be hidden"
-msgstr "默认情况下，内容项将被隐藏"
+msgstr "默认情况下，将隐藏内容项"
 
 #: admin/widgets/customizeModal/views/modal.php:204
 msgid "Without title"
@@ -496,7 +500,7 @@ msgstr "启用"
 
 #: config/settings.php:31 admin/widgets/customizeModal/views/modal.php:90
 msgid "If the count of headings in the post is less, then table of contents is not displayed."
-msgstr "如果文章中的标题数较少，则不会显示目录。"
+msgstr "如果文章中的标题数较少，则不显示目录。"
 
 #: admin/widgets/customizeModal/views/modal.php:19
 msgid "Click to override default value"
@@ -544,23 +548,23 @@ msgstr "空"
 #: admin/forms/CustomizeForm.php:254
 #: admin/widgets/customizeModal/views/modal.php:463
 msgid "Color Scheme"
-msgstr "配色方案"
+msgstr "颜色方案"
 
 #: config/settings.php:225 admin/Admin.php:193
 #: admin/widgets/customizeModal/views/modal.php:439
 msgid "Items Font Size"
-msgstr "项目字体大小"
+msgstr "项目字型大小"
 
 #: config/settings.php:216 admin/Admin.php:190
 #: admin/forms/CustomizeForm.php:253
 #: admin/widgets/customizeModal/views/modal.php:417
 msgid "Title Font Weight"
-msgstr "标题字体粗细"
+msgstr "标题字型粗细"
 
 #: config/settings.php:203 admin/Admin.php:187
 #: admin/widgets/customizeModal/views/modal.php:393
 msgid "Title Font Size"
-msgstr "标题字号"
+msgstr "标题字型大小"
 
 #: config/settings.php:194 admin/Admin.php:184
 #: admin/forms/CustomizeForm.php:252

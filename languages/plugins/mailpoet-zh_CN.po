@@ -1,15 +1,15 @@
-# Translation of Plugins - MailPoet &#8211; emails and newsletters in WordPress - Stable (latest release) in Chinese (China)
-# This file is distributed under the same license as the Plugins - MailPoet &#8211; emails and newsletters in WordPress - Stable (latest release) package.
+# Translation of Plugins - MailPoet &#8211; emails and newsletters in WordPress - Development (trunk) in Chinese (China)
+# This file is distributed under the same license as the Plugins - MailPoet &#8211; emails and newsletters in WordPress - Development (trunk) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-05-27 16:32:07+0000\n"
+"PO-Revision-Date: 2020-05-27 16:32:09+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: GlotPress/3.0.0-alpha.2\n"
 "Language: zh_CN\n"
-"Project-Id-Version: Plugins - MailPoet &#8211; emails and newsletters in WordPress - Stable (latest release)\n"
+"Project-Id-Version: Plugins - MailPoet &#8211; emails and newsletters in WordPress - Development (trunk)\n"
 
 #: lib/Subscription/Pages.php:337
 msgid "Confirm you want to unsubscribe"
@@ -85,10 +85,6 @@ msgstr "MailPoet需要PHP 7.0或更高版本（建议7.3）。您正在运行版
 msgid "Please read our [link]instructions[/link] on how to upgrade your site."
 msgstr "请阅读我们的[link]说明[/link]，了解如何升级您的站点。"
 
-#: mailpoet.php:76
-msgid "If you can’t upgrade the PHP version, [link]install this version[/link] of MailPoet. Remember not to update MailPoet ever again!"
-msgstr "如果您无法升级PHP版本，请[link]安装此版本的MailPoet [/link]。记住不要再更新MailPoet！"
-
 #: lib/API/JSON/v1/Premium.php:40 lib/API/JSON/v1/Premium.php:62
 msgid "Premium key is not valid."
 msgstr "Premium密钥无效。"
@@ -109,8 +105,8 @@ msgstr "您的密钥对 MailPoet Sending Service 无效。"
 msgid "Your key is not valid for MailPoet Premium"
 msgstr "您的密钥对于MailPoet Premium无效"
 
-#: lib/API/JSON/v1/Newsletters.php:164 lib/API/JSON/v1/SendingQueue.php:35
-#: lib/API/JSON/v1/SendingQueue.php:152
+#: lib/API/JSON/v1/SendingQueue.php:35 lib/API/JSON/v1/SendingQueue.php:152
+#: lib/API/JSON/v1/Newsletters.php:164
 msgid "Subscribers limit reached."
 msgstr "已达到订阅人数上限。"
 
@@ -314,9 +310,15 @@ msgstr "请填写验证码。"
 msgid "The characters you entered did not match the CAPTCHA image. Please try again with this new image."
 msgstr "您输入的字符与CAPTCHA图像不匹配。请使用此新图片重试。"
 
-#: lib/Config/Populator.php:352
-msgid "Newsletter mailing list"
-msgstr "通讯邮件列表"
+#: lib/Config/PopulatorData/Templates/NewsletterBlank121Column.php:167
+#: lib/Config/PopulatorData/Templates/NewsletterBlank12Column.php:167
+msgid "This template has..."
+msgstr "这个模板有......"
+
+#: lib/Config/PopulatorData/Templates/NewsletterBlank121Column.php:186
+#: lib/Config/PopulatorData/Templates/NewsletterBlank12Column.php:186
+msgid "... a 2-column layout."
+msgstr "......一个2列的布局。"
 
 #: lib/Config/PopulatorData/Templates/NewsletterBlank13Column.php:167
 msgid "This template..."
@@ -330,13 +332,9 @@ msgstr "... 有个..."
 msgid "3-column layout."
 msgstr "3列布局。"
 
-#: lib/Config/PrivacyPolicy.php:48
-msgid "MailPoet creates and stores two cookies if you are using WooCommerce and MailPoet together. Those cookies are:"
-msgstr "如果您同时使用WooCommerce和MailPoet，MailPoet会创建并存储两个Cookie。那些饼干是："
-
-#: lib/Config/PrivacyPolicy.php:55
-msgid "Cookie description: The purpose of this cookie is to track which newsletter sent from your website has acquired a click-through and a subsequent purchase in your WooCommerce store."
-msgstr "Cookie说明：此Cookie的目的是跟踪从您的站点发送的新闻稿是否已在您的WooCommerce商店中获得点击和后续购买。"
+#: lib/Config/Populator.php:350
+msgid "Newsletter mailing list"
+msgstr "通讯邮件列表"
 
 #: lib/Config/PrivacyPolicy.php:62
 msgid "Cookie description: The purpose of this cookie is to track a user that has abandoned their cart in your WooCommerce store to then be able to send them an abandoned cart newsletter from MailPoet."
@@ -372,20 +370,18 @@ msgstr ""
 "\n"
 "团队"
 
-#: lib/Config/Populator.php:283
+#: lib/Config/Populator.php:286
 msgctxt "default email opt-in message displayed on checkout page for ecommerce websites"
 msgid "I would like to receive exclusive emails with discounts and product information"
 msgstr "我希望收到包含折扣和产品信息的独家电子邮件"
 
-#: lib/Config/PopulatorData/Templates/NewsletterBlank121Column.php:167
-#: lib/Config/PopulatorData/Templates/NewsletterBlank12Column.php:167
-msgid "This template has..."
-msgstr "这个模板有......"
+#: lib/Config/PrivacyPolicy.php:48
+msgid "MailPoet creates and stores two cookies if you are using WooCommerce and MailPoet together. Those cookies are:"
+msgstr "如果您同时使用WooCommerce和MailPoet，MailPoet会创建并存储两个Cookie。那些饼干是："
 
-#: lib/Config/PopulatorData/Templates/NewsletterBlank121Column.php:186
-#: lib/Config/PopulatorData/Templates/NewsletterBlank12Column.php:186
-msgid "... a 2-column layout."
-msgstr "......一个2列的布局。"
+#: lib/Config/PrivacyPolicy.php:55
+msgid "Cookie description: The purpose of this cookie is to track which newsletter sent from your website has acquired a click-through and a subsequent purchase in your WooCommerce store."
+msgstr "Cookie说明：此Cookie的目的是跟踪从您的站点发送的新闻稿是否已在您的WooCommerce商店中获得点击和后续购买。"
 
 #: lib/API/JSON/v1/Subscribers.php:368
 msgid "Please regenerate the CAPTCHA."
@@ -410,10 +406,6 @@ msgstr "输入您在上图中看到的字符："
 #: lib/Subscription/CaptchaRenderer.php:68
 msgid "Subscribe"
 msgstr "订阅"
-
-#: lib/Subscription/CaptchaRenderer.php:117
-msgid "Click to refresh the captcha"
-msgstr "单击以刷新验证码"
 
 #: lib/Subscription/Throttling.php:69
 msgid "%d hours"
@@ -455,8 +447,8 @@ msgstr "您可能已达到计划的订户限制。 [link]管理您的订阅[/lin
 msgid "You may have had a poor deliverability rate. Please [link]contact our support team[/link] to resolve the issue."
 msgstr "您的可传递率可能很差。 请[link]联系我们的支持团队[/link]以解决问题。"
 
-#: lib/Subscribers/ConfirmationEmailMailer.php:102
-#: lib/Subscribers/ConfirmationEmailMailer.php:111
+#: lib/Subscribers/ConfirmationEmailMailer.php:117
+#: lib/Subscribers/ConfirmationEmailMailer.php:128
 msgid "Something went wrong with your subscription. Please contact the website owner."
 msgstr "您的订阅出了问题。 请联系点站主。"
 
@@ -499,15 +491,6 @@ msgctxt "status when the sending of a newsletter has not been processed"
 msgid "Unprocessed"
 msgstr "未处理"
 
-#: lib/Util/Notices/UnauthorizedEmailInNewslettersNotice.php:49
-msgid "<b>Your automatic emails have been paused</b> because some email addresses haven’t been authorized yet."
-msgstr "<b>您的自动电子邮件已暂停，</b>因为某些电子邮件地址尚未获得授权。"
-
-#: lib/Util/Notices/UnauthorizedEmailInNewslettersNotice.php:56
-msgctxt "%s will be replaced by a newsletter subject"
-msgid "Update the from address of %s"
-msgstr "更新%s的发件人地址"
-
 #: lib/CustomFields/ApiDataSanitizer.php:46
 msgid "Params has to be array"
 msgstr "参数必须是阵列"
@@ -540,19 +523,27 @@ msgstr "您需要为此类型传递一些值"
 msgid "Value cannot be empty"
 msgstr "值不能为空"
 
-#: lib/Form/Templates/TemplateRepository.php:64 lib/Models/Form.php:136
-#: lib/Models/Form.php:143
+#: lib/Util/Notices/UnauthorizedEmailInNewslettersNotice.php:49
+msgid "<b>Your automatic emails have been paused</b> because some email addresses haven’t been authorized yet."
+msgstr "<b>您的自动电子邮件已暂停，</b>因为某些电子邮件地址尚未获得授权。"
+
+#: lib/Util/Notices/UnauthorizedEmailInNewslettersNotice.php:56
+msgctxt "%s will be replaced by a newsletter subject"
+msgid "Update the from address of %s"
+msgstr "更新%s的发件人地址"
+
+#: lib/Models/Form.php:137 lib/Models/Form.php:144 lib/Form/FormFactory.php:68
 msgid "You’ve been successfully subscribed to our newsletter!"
 msgstr "您已成功订阅我们的时事通讯！"
+
+#: lib/Config/Populator.php:285
+msgctxt "default email opt-in message displayed on checkout page for ecommerce websites"
+msgid "Yes, I would like to be added to your mailing list"
+msgstr "是的，我想加入您的邮件列表"
 
 #: lib/Config/AccessControl.php:74
 msgid "Manage features"
 msgstr "管理功能"
-
-#: lib/Config/Populator.php:282
-msgctxt "default email opt-in message displayed on checkout page for ecommerce websites"
-msgid "Yes, I would like to be added to your mailing list"
-msgstr "是的，我想加入您的邮件列表"
 
 #: lib/Util/Notices/PHPVersionWarnings.php:30
 msgid "[link]Yes, I want MailPoet to help me upgrade for free[/link]"
@@ -562,6 +553,7 @@ msgstr "[link]是的，我要MailPoet帮助我免费升级[/link]"
 msgid "Failed to add list"
 msgstr "无法添加列表"
 
+#: lib/Models/Subscriber.php:820
 #: lib/Subscription/ManageSubscriptionFormRenderer.php:192
 #: lib/Subscribers/SubscriberListingRepository.php:117
 msgid "Inactive"
@@ -663,10 +655,6 @@ msgstr "品牌代理新闻"
 msgid "City News"
 msgstr "城市新闻"
 
-#: lib/Config/PopulatorData/Templates/College.php:22
-msgid "College"
-msgstr "学院"
-
 #: lib/Config/PopulatorData/Templates/ComputerRepair.php:22
 msgid "Computer Repair"
 msgstr "电脑维修"
@@ -674,10 +662,6 @@ msgstr "电脑维修"
 #: lib/Config/PopulatorData/Templates/Engineering.php:21
 msgid "Engineering"
 msgstr "工程"
-
-#: lib/Config/PopulatorData/Templates/FarmersMarket.php:21
-msgid "Farmers Market"
-msgstr "农贸市场"
 
 #: lib/Config/PopulatorData/Templates/HealthyFoodBlog.php:21
 msgid "Healthy Food Blog"
@@ -694,6 +678,14 @@ msgstr "再生能源"
 #: lib/Config/PopulatorData/Templates/Software.php:21
 msgid "Software"
 msgstr "软件"
+
+#: lib/Config/PopulatorData/Templates/College.php:22
+msgid "College"
+msgstr "学院"
+
+#: lib/Config/PopulatorData/Templates/FarmersMarket.php:21
+msgid "Farmers Market"
+msgstr "农贸市场"
 
 #: lib/Config/PopulatorData/Templates/WordPressTheme.php:22
 msgid "WordPress Theme"
@@ -740,34 +732,39 @@ msgstr "传统报纸"
 msgid "No subject"
 msgstr "无题"
 
-#: lib/Form/Templates/Templates/DefaultForm.php:15
+#: lib/Form/Templates/Templates/DefaultForm.php:17
 msgctxt "default name of form (GDPR friendly) to capture emails"
 msgid "My First Form"
 msgstr "我的第一个表格"
 
-#: lib/Form/Templates/Templates/DemoForm.php:37
-#: lib/Form/Templates/Templates/DemoForm.php:39
-#: lib/Form/Templates/Templates/DefaultForm.php:22
-#: lib/Form/Templates/Templates/DefaultForm.php:26
+#: lib/Form/Templates/Templates/DefaultForm.php:24
+#: lib/Form/Templates/Templates/DefaultForm.php:28
 msgctxt "Form label"
 msgid "First name"
 msgstr "姓"
 
-#: lib/Form/Templates/Templates/DemoForm.php:30
-#: lib/Form/Templates/Templates/DemoForm.php:32
-#: lib/Form/Templates/Templates/DefaultForm.php:31
-#: lib/Form/Templates/Templates/DefaultForm.php:35
+#: lib/Form/Templates/Templates/Template1Popup.php:62
+#: lib/Form/Templates/Templates/Template3BelowPages.php:84
+#: lib/Form/Templates/Templates/DefaultForm.php:33
+#: lib/Form/Templates/Templates/DefaultForm.php:37
+#: lib/Form/Templates/Templates/Template3SlideIn.php:66
+#: lib/Form/Templates/Templates/Template3Popup.php:66
+#: lib/Form/Templates/Templates/Template1SlideIn.php:62
+#: lib/Form/Templates/Templates/Template1BelowPages.php:56
+#: lib/Form/Templates/Templates/Template3Widget.php:66
+#: lib/Form/Templates/Templates/Template3FixedBar.php:87
+#: lib/Form/Templates/Templates/Template1Widget.php:62
+#: lib/Form/Templates/Templates/Template1FixedBar.php:97
 msgctxt "Form label"
 msgid "Email"
 msgstr "邮件"
 
-#: lib/Form/Templates/Templates/DefaultForm.php:40
+#: lib/Form/Templates/Templates/DefaultForm.php:42
 msgctxt "Form label"
 msgid "Submit"
 msgstr "提交"
 
-#: lib/Form/Templates/Templates/DemoForm.php:73
-#: lib/Form/Templates/Templates/DefaultForm.php:44
+#: lib/Form/Templates/Templates/DefaultForm.php:46
 msgctxt "Form label"
 msgid "Subscribe!"
 msgstr "订阅！"
@@ -892,34 +889,29 @@ msgstr "发送时出错。"
 msgid "Note that it doesn't work on localhost."
 msgstr "请注意，它不适用于在localhost。"
 
-#: lib/AdminPages/Pages/Newsletters.php:164
 #: lib/AutomaticEmails/WooCommerce/WooCommerce.php:55
+#: lib/AdminPages/Pages/Newsletters.php:164
 msgid "WooCommerce"
 msgstr "WooCommerce"
-
-#: lib/AdminPages/Pages/Newsletters.php:165
-#: lib/AutomaticEmails/WooCommerce/WooCommerce.php:56
-msgid "Automatically send an email when there is a new WooCommerce product, order and some other action takes place."
-msgstr "当有新的 WooCommerce 产品，订单和其他一些行动发生，自动发送电子邮件。"
 
 #: lib/AdminPages/Pages/Newsletters.php:169
 msgid "Abandoned Shopping Cart"
 msgstr "放弃购物车"
 
+#: lib/AutomaticEmails/WooCommerce/Events/FirstPurchase.php:69
+#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:50
 #: lib/AdminPages/Pages/Newsletters.php:173
 #: lib/AdminPages/Pages/Newsletters.php:182
-#: lib/AutomaticEmails/WooCommerce/Events/AbandonedCart.php:50
-#: lib/AutomaticEmails/WooCommerce/Events/FirstPurchase.php:69
 msgid "Must-have"
 msgstr "必要的"
 
-#: lib/AdminPages/Pages/Newsletters.php:179
 #: lib/AutomaticEmails/WooCommerce/Events/FirstPurchase.php:65
+#: lib/AdminPages/Pages/Newsletters.php:179
 msgid "First Purchase"
 msgstr "首次购买"
 
-#: lib/AdminPages/Pages/Newsletters.php:180
 #: lib/AutomaticEmails/WooCommerce/Events/FirstPurchase.php:66
+#: lib/AdminPages/Pages/Newsletters.php:180
 msgid "Let MailPoet send an email to customers who make their first purchase."
 msgstr "让 MailPoet 发电子邮件给第一次购买的客户。"
 
@@ -927,18 +919,18 @@ msgstr "让 MailPoet 发电子邮件给第一次购买的客户。"
 msgid "Purchased In This Category"
 msgstr "在这一类别购买"
 
-#: lib/AdminPages/Pages/Newsletters.php:189
 #: lib/AutomaticEmails/WooCommerce/Events/PurchasedInCategory.php:42
+#: lib/AdminPages/Pages/Newsletters.php:189
 msgid "Let MailPoet send an email to customers who purchase a product from a specific category."
 msgstr "让 MailPoet 向从特定类别购买产品的客户发电子邮件。"
 
-#: lib/AdminPages/Pages/Newsletters.php:194
 #: lib/AutomaticEmails/WooCommerce/Events/PurchasedProduct.php:62
+#: lib/AdminPages/Pages/Newsletters.php:194
 msgid "Purchased This Product"
 msgstr "购买此产品"
 
-#: lib/AdminPages/Pages/Newsletters.php:195
 #: lib/AutomaticEmails/WooCommerce/Events/PurchasedProduct.php:63
+#: lib/AdminPages/Pages/Newsletters.php:195
 msgid "Let MailPoet send an email to customers who purchase a specific product."
 msgstr "让 MailPoet 向购买特定产品的客户发送电子邮件。"
 
@@ -1196,17 +1188,17 @@ msgstr "无效的 API 端点方法。"
 msgid "Unable to connect to the database (the database is unable to open a file or folder), the connection is likely not configured correctly. Please read our [link] Knowledge Base article [/link] for steps how to resolve it."
 msgstr "无法连接到数据库（数据库无法打开文件或文件夹），连接可能没有正确配置。请阅读我们的[link]知识文库文章[/link]以了解步骤如何解决此事。"
 
+#: lib/API/JSON/v1/Services.php:130
+msgid "Your MailPoet Sending Service key is already used on another site"
+msgstr "您的 MailPoet Sending Service 密钥已在其他站点上使用。"
+
 #: lib/Config/ServicesChecker.php:87
 msgid "[link1]Register[/link1] your copy of the MailPoet Premium plugin to receive access to automatic upgrades and support. Need a license key? [link2]Purchase one now.[/link2]"
 msgstr "[link1]注册[/link1]您的 MailPoet 付费版插件的副本, 以获得自动升级和支持的访问权。需要许可证密钥吗？[link2]现在就买一个。[/link2]"
 
-#: lib/Form/Renderer.php:83
+#: lib/Form/Renderer.php:84
 msgid "Please leave this field empty"
 msgstr "请将此字段留空"
-
-#: lib/API/JSON/v1/Services.php:130
-msgid "Your MailPoet Sending Service key is already used on another site"
-msgstr "您的 MailPoet Sending Service 密钥已在其他站点上使用。"
 
 #: lib/API/JSON/v1/Subscribers.php:219
 msgid "Please leave the first field empty."
@@ -1231,20 +1223,6 @@ msgstr "请与宿主支持联系以检查主机和 https://bridge.mailpoet.com �
 #: lib/Config/MP2Migrator.php:1101
 msgid "Settings imported"
 msgstr "已导入设置"
-
-#: lib/Config/MP2Migrator.php:314
-msgid "%d form"
-msgid_plural "%d forms"
-msgstr[0] "%d 表单"
-
-#: lib/Config/MP2Migrator.php:818
-msgid "Importing forms..."
-msgstr "正在导入表单..."
-
-#: lib/Config/MP2Migrator.php:837
-msgid "%d form imported"
-msgid_plural "%d forms imported"
-msgstr[0] "已导入 %d 个表单"
 
 #: lib/Config/Menu.php:306 lib/Config/Menu.php:307
 msgid "Help"
@@ -1290,13 +1268,35 @@ msgstr "世界杯"
 msgid "Yoga Studio"
 msgstr "瑜伽馆"
 
+#: lib/Config/PopulatorData/Templates/NewsDay.php:22
+msgid "News Day"
+msgstr "新闻日报"
+
+#: lib/Config/MP2Migrator.php:314
+msgid "%d form"
+msgid_plural "%d forms"
+msgstr[0] "%d 表单"
+
+#: lib/Config/MP2Migrator.php:818
+msgid "Importing forms..."
+msgstr "正在导入表单..."
+
+#: lib/Config/MP2Migrator.php:837
+msgid "%d form imported"
+msgid_plural "%d forms imported"
+msgstr[0] "已导入 %d 个表单"
+
 #: lib/Form/AssetsController.php:89
 msgid "An error has happened while performing a request, please try again later."
 msgstr "执行请求时发生错误，请稍后再试。"
 
-#: lib/Config/PopulatorData/Templates/NewsDay.php:22
-msgid "News Day"
-msgstr "新闻日报"
+#: lib/Config/PluginActivatedHook.php:19
+msgid "We noticed that you're using an unsupported environment. While MailPoet might work within a MultiSite environment, we don’t support it."
+msgstr "我们注意到您使用的是不受支持的环境。虽然 MailPoet 可能在多站点环境中动用, 但该环境不受支持。"
+
+#: mailpoet.php:96
+msgid "MailPoet plugin cannot run under Microsoft's Internet Information Services (IIS) web server. We recommend that you use a web server powered by Apache or NGINX."
+msgstr "MailPoet 插件无法在 Microsoft Internet 信息服务（IIS）服务器下运行。我们建议您使用由 Apache 或 NGINX 提供支持的服务器。"
 
 #: lib/Config/MP2Migrator.php:229
 msgid "MailPoet data erased"
@@ -1347,13 +1347,9 @@ msgstr[0] "已导入 %d 个订阅人"
 msgid "Migration"
 msgstr "迁移"
 
-#: lib/Config/PluginActivatedHook.php:19
-msgid "We noticed that you're using an unsupported environment. While MailPoet might work within a MultiSite environment, we don’t support it."
-msgstr "我们注意到您使用的是不受支持的环境。虽然 MailPoet 可能在多站点环境中动用, 但该环境不受支持。"
-
-#: mailpoet.php:96
-msgid "MailPoet plugin cannot run under Microsoft's Internet Information Services (IIS) web server. We recommend that you use a web server powered by Apache or NGINX."
-msgstr "MailPoet 插件无法在 Microsoft Internet 信息服务（IIS）服务器下运行。我们建议您使用由 Apache 或 NGINX 提供支持的服务器。"
+#: lib/API/JSON/v1/Services.php:109
+msgid "Your MailPoet Sending Service key has been successfully validated"
+msgstr "您的 MailPoet Sending Service 密钥已成功验证。"
 
 #: lib/API/JSON/v1/Services.php:112
 msgid "Your MailPoet Sending Service key expires on %s!"
@@ -1367,13 +1363,9 @@ msgstr "验证 MailPoet Sending Service 密钥时出错，请稍后重试（%s�
 msgid "Premium"
 msgstr "付费版"
 
-#: lib/Subscribers/ImportExport/Import/Import.php:87
+#: lib/Subscribers/ImportExport/Import/Import.php:89
 msgid "No valid subscribers were found."
 msgstr "找不到有效的订阅人。"
-
-#: lib/API/JSON/v1/Services.php:109
-msgid "Your MailPoet Sending Service key has been successfully validated"
-msgstr "您的 MailPoet Sending Service 密钥已成功验证。"
 
 #: lib/API/JSON/v1/Services.php:174
 msgid "Your Premium key expires on %s"
@@ -1423,7 +1415,7 @@ msgstr "MailPoet 需要一个 PDO_MYSQL PHP 扩展。请阅读我们的[link]说
 msgid "MailPoet requires an XML PHP extension. Please read our [link]instructions[/link] on how to resolve this issue."
 msgstr "MailPoet 需要一个 XML PHP 扩展。请阅读我们的[link]说明[/link]了解如何解决此问题。"
 
-#: lib/Subscribers/ImportExport/Import/Import.php:79
+#: lib/Subscribers/ImportExport/Import/Import.php:81
 msgid "Missing or invalid import data."
 msgstr "导入数据丢失或无效。"
 
@@ -1476,14 +1468,15 @@ msgstr "发送已暂停。"
 msgid "Sending is waiting to be retried."
 msgstr "发送正在等待重试。"
 
-#: lib/Mailer/Methods/ErrorMappers/SendGridMapper.php:22
-#: lib/Mailer/Methods/ErrorMappers/SMTPMapper.php:44
-#: lib/Mailer/Methods/ErrorMappers/AmazonSESMapper.php:36
 #: lib/Mailer/Methods/ErrorMappers/PHPMailMapper.php:30
+#: lib/Mailer/Methods/ErrorMappers/AmazonSESMapper.php:36
+#: lib/Mailer/Methods/ErrorMappers/SMTPMapper.php:44
+#: lib/Mailer/Methods/ErrorMappers/SendGridMapper.php:22
 #: lib/Mailer/Methods/ErrorMappers/BlacklistErrorMapperTrait.php:14
 msgid "%s has returned an unknown error."
 msgstr "%s 已返回未知错误。"
 
+#: lib/Models/Subscriber.php:825
 #: lib/Subscription/ManageSubscriptionFormRenderer.php:180
 #: lib/Subscribers/SubscriberListingRepository.php:122
 msgid "Bounced"
@@ -1501,7 +1494,7 @@ msgstr "MailPoet 无法启动，因为它缺少核心文件。请重新安装插
 msgid "Please select a list."
 msgstr "请选择订阅组。"
 
-#: lib/Config/Renderer.php:110
+#: lib/Config/Renderer.php:111
 msgid "Failed to render template \"%s\". Please ensure the template cache folder \"%s\" exists and has write permissions. Terminated with error: \"%s\""
 msgstr "无法呈现模板 “%s”。请确保模板缓存文件夹 “%s” 存在并且具有写入权限。因错误而终止：”%s”"
 
@@ -1525,8 +1518,8 @@ msgstr "<h3>接下来是什么？</h3>"
 msgid "You do not have the required permissions."
 msgstr "您没有所需的权限。"
 
-#: lib/API/JSON/ErrorHandler.php:18 lib/API/JSON/ErrorResponse.php:26
-#: lib/API/JSON/Endpoint.php:33
+#: lib/API/JSON/ErrorHandler.php:18 lib/API/JSON/Endpoint.php:33
+#: lib/API/JSON/ErrorResponse.php:26
 msgid "An unknown error occurred."
 msgstr "出现未知错误。"
 
@@ -1538,31 +1531,32 @@ msgstr "无效的请求参数"
 msgid "This custom field does not exist."
 msgstr "此自定义字段不存在。"
 
-#: lib/API/JSON/v1/Forms.php:63 lib/API/JSON/v1/Forms.php:123
-#: lib/API/JSON/v1/Forms.php:215 lib/API/JSON/v1/Forms.php:233
-#: lib/API/JSON/v1/Forms.php:247 lib/API/JSON/v1/Forms.php:276
+#: lib/API/JSON/v1/Forms.php:71 lib/API/JSON/v1/Forms.php:89
+#: lib/API/JSON/v1/Forms.php:170 lib/API/JSON/v1/Forms.php:264
+#: lib/API/JSON/v1/Forms.php:282 lib/API/JSON/v1/Forms.php:296
+#: lib/API/JSON/v1/Forms.php:325
 msgid "This form does not exist."
 msgstr "这个表单不存在。"
 
-#: lib/API/JSON/v1/Forms.php:129
+#: lib/API/JSON/v1/Forms.php:176
 msgid "New form"
 msgstr "新表单"
 
-#: lib/Form/Templates/Templates/InitialForm.php:32
+#: lib/Form/Templates/Templates/InitialForm.php:34
 msgid "Submit"
 msgstr "提交"
 
-#: lib/Form/Templates/Templates/InitialForm.php:35
+#: lib/Form/Templates/Templates/InitialForm.php:37
 msgid "Subscribe!"
 msgstr "订阅！"
 
-#: lib/Form/Templates/TemplateRepository.php:62 lib/Models/Form.php:134
-#: lib/Models/Form.php:142 lib/Models/Form.php:144
+#: lib/Models/Form.php:135 lib/Models/Form.php:143 lib/Models/Form.php:145
+#: lib/Form/FormFactory.php:66
 msgid "Check your inbox or spam folder to confirm your subscription."
 msgstr "检查您的收件箱或垃圾邮件文件夹以确认您的订阅。"
 
-#: lib/API/JSON/v1/Newsletters.php:258 lib/API/JSON/v1/Forms.php:257
-#: lib/API/JSON/v1/Segments.php:145
+#: lib/API/JSON/v1/Segments.php:145 lib/API/JSON/v1/Forms.php:306
+#: lib/API/JSON/v1/Newsletters.php:258
 msgid "Copy of %s"
 msgstr "备份 %s"
 
@@ -1576,7 +1570,7 @@ msgstr "此模板不存在。"
 msgid "This newsletter does not exist."
 msgstr "此时事通讯不存在。"
 
-#: lib/API/JSON/v1/Newsletters.php:158
+#: lib/API/JSON/v1/Forms.php:80 lib/API/JSON/v1/Newsletters.php:158
 msgid "You need to specify a status."
 msgstr "您需要指定一个状态。"
 
@@ -1614,8 +1608,9 @@ msgstr "您尚未指定要保存的任何设置。"
 
 #: lib/API/JSON/v1/Subscribers.php:135 lib/API/JSON/v1/Subscribers.php:477
 #: lib/API/JSON/v1/Subscribers.php:495 lib/API/JSON/v1/Subscribers.php:508
-#: lib/API/JSON/v1/Subscribers.php:523 lib/API/MP/v1/API.php:132
-#: lib/API/MP/v1/API.php:207 lib/API/MP/v1/API.php:357
+#: lib/API/JSON/v1/Subscribers.php:523 lib/API/JSON/v1/SubscriberStats.php:42
+#: lib/API/MP/v1/API.php:132 lib/API/MP/v1/API.php:207
+#: lib/API/MP/v1/API.php:357
 msgid "This subscriber does not exist."
 msgstr "此订阅人不存在。"
 
@@ -1632,8 +1627,8 @@ msgid "Last name"
 msgstr "名"
 
 #. Author of the plugin
-#: lib/Config/PrivacyPolicy.php:15 lib/Config/Menu.php:469
-#: lib/Config/Capabilities.php:80
+#: lib/Config/PrivacyPolicy.php:15 lib/Config/Capabilities.php:80
+#: lib/Config/Menu.php:469
 msgid "MailPoet"
 msgstr "MailPoet"
 
@@ -1690,11 +1685,7 @@ msgstr "更新"
 msgid "In any WordPress role"
 msgstr "在任何 WordPress 角色"
 
-#: lib/Config/Populator.php:347
-msgid "My First List"
-msgstr "我的第一个订阅组"
-
-#: lib/Config/Populator.php:349
+#: lib/Config/Populator.php:352
 msgid "This list is automatically created when you install MailPoet."
 msgstr "此订阅组在安装 MailPoet 时自动创建。"
 
@@ -1702,13 +1693,13 @@ msgstr "此订阅组在安装 MailPoet 时自动创建。"
 msgid "Newsletter: Blank 1:2:1 Column"
 msgstr "时事通讯：空白 1:2:1 列"
 
-#: lib/Config/PopulatorData/Templates/NewsletterBlank13Column.php:117
-#: lib/Config/PopulatorData/Templates/WelcomeBlank1Column.php:117
-#: lib/Config/PopulatorData/Templates/SimpleText.php:76
 #: lib/Config/PopulatorData/Templates/NewsletterBlank121Column.php:117
-#: lib/Config/PopulatorData/Templates/NewsletterBlank1Column.php:117
 #: lib/Config/PopulatorData/Templates/NewsletterBlank12Column.php:117
+#: lib/Config/PopulatorData/Templates/WelcomeBlank1Column.php:117
+#: lib/Config/PopulatorData/Templates/NewsletterBlank1Column.php:117
+#: lib/Config/PopulatorData/Templates/SimpleText.php:76
 #: lib/Config/PopulatorData/Templates/WelcomeBlank12Column.php:117
+#: lib/Config/PopulatorData/Templates/NewsletterBlank13Column.php:117
 msgid "Fake logo"
 msgstr "假徽标"
 
@@ -1942,9 +1933,8 @@ msgstr "月份"
 msgid "Please select a year"
 msgstr "请选择一年"
 
-#: lib/Form/Block/Date.php:83 lib/Form/Block/Date.php:99
-#: lib/Form/Block/Date.php:166
-#: lib/Newsletter/Shortcodes/ShortcodesHelper.php:79
+#: lib/Newsletter/Shortcodes/ShortcodesHelper.php:79 lib/Form/Block/Date.php:83
+#: lib/Form/Block/Date.php:99 lib/Form/Block/Date.php:166
 msgid "Year"
 msgstr "年"
 
@@ -2048,8 +2038,8 @@ msgstr "已达到发送频率限制。"
 msgid "Unsupported Amazon SES region"
 msgstr "不受支持的亚马逊 SES 地区"
 
-#: lib/Models/NewsletterOptionField.php:21 lib/Models/Segment.php:32
-#: lib/Models/CustomField.php:29
+#: lib/Models/NewsletterOptionField.php:21 lib/Models/CustomField.php:29
+#: lib/Models/Segment.php:32
 msgid "Please specify a name."
 msgstr "請指定名称。"
 
@@ -2057,16 +2047,17 @@ msgstr "請指定名称。"
 msgid "Please specify a type."
 msgstr "请指定类型。"
 
-#: lib/Newsletter/Listing/NewsletterListingRepository.php:107
-#: lib/Models/ScheduledTaskSubscriber.php:112 lib/Models/Segment.php:231
-#: lib/Models/Form.php:113 lib/Models/DynamicSegment.php:72
+#: lib/Models/ScheduledTaskSubscriber.php:112 lib/Models/DynamicSegment.php:72
+#: lib/Models/Form.php:114 lib/Models/Segment.php:231
+#: lib/Models/Subscriber.php:800
+#: lib/Newsletter/Listing/NewsletterListingRepository.php:108
 #: lib/Subscribers/SubscriberListingRepository.php:97
 msgid "All"
 msgstr "所有"
 
-#: lib/Newsletter/Listing/NewsletterListingRepository.php:174
-#: lib/Models/Segment.php:236 lib/Models/Form.php:118
-#: lib/Models/DynamicSegment.php:77
+#: lib/Models/DynamicSegment.php:77 lib/Models/Form.php:119
+#: lib/Models/Segment.php:236 lib/Models/Subscriber.php:830
+#: lib/Newsletter/Listing/NewsletterListingRepository.php:175
 #: lib/Subscribers/SubscriberListingRepository.php:127
 msgid "Trash"
 msgstr "回收站"
@@ -2075,35 +2066,35 @@ msgstr "回收站"
 msgid "Another record already exists. Please specify a different \"%1$s\"."
 msgstr "另一条记录已存在。请指定不同的 \"%1$s\"。"
 
-#: lib/Newsletter/Listing/NewsletterListingRepository.php:63
 #: lib/Models/Subscriber.php:164
-#: lib/Subscribers/SubscriberListingRepository.php:173
+#: lib/Newsletter/Listing/NewsletterListingRepository.php:64
+#: lib/Subscribers/SubscriberListingRepository.php:171
 msgid "All Lists"
 msgstr "所有订阅组"
 
-#: lib/Newsletter/Listing/NewsletterListingRepository.php:118
+#: lib/Newsletter/Listing/NewsletterListingRepository.php:119
 msgid "Draft"
 msgstr "草稿"
 
-#: lib/Newsletter/Listing/NewsletterListingRepository.php:123
+#: lib/Newsletter/Listing/NewsletterListingRepository.php:124
 msgid "Scheduled"
 msgstr "已排程"
 
-#: lib/Newsletter/Listing/NewsletterListingRepository.php:128
-#: lib/Newsletter/Listing/NewsletterListingRepository.php:143
+#: lib/Newsletter/Listing/NewsletterListingRepository.php:129
+#: lib/Newsletter/Listing/NewsletterListingRepository.php:144
 msgid "Sending"
 msgstr "发送中"
 
-#: lib/Newsletter/Listing/NewsletterListingRepository.php:133
-#: lib/Newsletter/Listing/NewsletterListingRepository.php:148
+#: lib/Newsletter/Listing/NewsletterListingRepository.php:134
+#: lib/Newsletter/Listing/NewsletterListingRepository.php:149
 msgid "Sent"
 msgstr "已发送"
 
-#: lib/Newsletter/Listing/NewsletterListingRepository.php:160
+#: lib/Newsletter/Listing/NewsletterListingRepository.php:161
 msgid "Active"
 msgstr "已启用"
 
-#: lib/Newsletter/Listing/NewsletterListingRepository.php:165
+#: lib/Newsletter/Listing/NewsletterListingRepository.php:166
 msgid "Not active"
 msgstr "未启用"
 
@@ -2119,7 +2110,7 @@ msgstr "WordPress 用户"
 msgid "This list contains all of your WordPress users."
 msgstr "此订阅组包含您的 WordPress 用户。"
 
-#: lib/Models/Segment.php:301
+#: lib/Models/Segment.php:302
 msgid "Not in a List"
 msgstr "不在任何订阅组中"
 
@@ -2140,15 +2131,18 @@ msgstr "您的电子邮件地址无效！"
 msgid "Subscribers without a list (%s)"
 msgstr "未有订阅组的订阅服人（%s）"
 
+#: lib/Models/Subscriber.php:805
 #: lib/Subscription/ManageSubscriptionFormRenderer.php:164
 #: lib/Subscribers/SubscriberListingRepository.php:102
 msgid "Subscribed"
 msgstr "已订阅"
 
+#: lib/Models/Subscriber.php:810
 #: lib/Subscribers/SubscriberListingRepository.php:107
 msgid "Unconfirmed"
 msgstr "未确认"
 
+#: lib/Models/Subscriber.php:815
 #: lib/Subscription/ManageSubscriptionFormRenderer.php:172
 #: lib/Subscribers/SubscriberListingRepository.php:112
 msgid "Unsubscribed"
@@ -2277,7 +2271,7 @@ msgstr "导出要求在主机上安装 ZIP 扩展。"
 msgid "List"
 msgstr "订阅组"
 
-#: lib/Subscribers/ImportExport/Import/Import.php:137
+#: lib/Subscribers/ImportExport/Import/Import.php:139
 msgid "Unable to save imported subscribers."
 msgstr "无法保存导入的订阅人。"
 
@@ -2337,133 +2331,133 @@ msgstr "系统字段"
 msgid "User fields"
 msgstr "用户字段"
 
-#: lib/Config/PopulatorData/Templates/CityLocalNews.php:1044
-#: lib/Config/PopulatorData/Templates/CityLocalNews.php:1326
-#: lib/Config/PopulatorData/Templates/RetroComputingMagazine.php:595
-#: lib/Config/PopulatorData/Templates/FashionStore.php:1067
-#: lib/Config/PopulatorData/Templates/FashionStore.php:1280
-#: lib/Config/PopulatorData/Templates/BuddhistTemple.php:899
-#: lib/Config/PopulatorData/Templates/BuddhistTemple.php:1133
-#: lib/Config/PopulatorData/Templates/NewsletterBlank13Column.php:287
-#: lib/Config/PopulatorData/Templates/Engineering.php:825
-#: lib/Config/PopulatorData/Templates/Engineering.php:1114
-#: lib/Config/PopulatorData/Templates/Software.php:910
-#: lib/Config/PopulatorData/Templates/Software.php:1155
-#: lib/Config/PopulatorData/Templates/BrandingAgencyNews.php:1690
-#: lib/Config/PopulatorData/Templates/BrandingAgencyNews.php:1936
-#: lib/Config/PopulatorData/Templates/Hotels.php:1035
-#: lib/Config/PopulatorData/Templates/Hotels.php:1268
-#: lib/Config/PopulatorData/Templates/FestivalEvent.php:467
-#: lib/Config/PopulatorData/Templates/Painter.php:1038
-#: lib/Config/PopulatorData/Templates/Painter.php:1251
-#: lib/Config/PopulatorData/Templates/Minimal.php:785
-#: lib/Config/PopulatorData/Templates/Minimal.php:1071
-#: lib/Config/PopulatorData/Templates/FashionBlogA.php:1048
-#: lib/Config/PopulatorData/Templates/FashionBlogA.php:1281
-#: lib/Config/PopulatorData/Templates/PostNotificationsBlank1Column.php:290
-#: lib/Config/PopulatorData/Templates/College.php:715
-#: lib/Config/PopulatorData/Templates/College.php:979
-#: lib/Config/PopulatorData/Templates/NotSoMedium.php:607
-#: lib/Config/PopulatorData/Templates/NotSoMedium.php:862
-#: lib/Config/PopulatorData/Templates/Fitness.php:747
-#: lib/Config/PopulatorData/Templates/Fitness.php:971
-#: lib/Config/PopulatorData/Templates/FarmersMarket.php:1106
-#: lib/Config/PopulatorData/Templates/FarmersMarket.php:1399
-#: lib/Config/PopulatorData/Templates/Faith.php:356
-#: lib/Config/PopulatorData/Templates/BookStoreWithCoupon.php:804
-#: lib/Config/PopulatorData/Templates/BookStoreWithCoupon.php:1062
-#: lib/Config/PopulatorData/Templates/ScienceWeekly.php:775
-#: lib/Config/PopulatorData/Templates/ScienceWeekly.php:1042
-#: lib/Config/PopulatorData/Templates/Phone.php:419
-#: lib/Config/PopulatorData/Templates/Phone.php:633
-#: lib/Config/PopulatorData/Templates/JazzClub.php:856
-#: lib/Config/PopulatorData/Templates/JazzClub.php:1096
-#: lib/Config/PopulatorData/Templates/DogFood.php:761
-#: lib/Config/PopulatorData/Templates/DogFood.php:993
-#: lib/Config/PopulatorData/Templates/GiftWelcome.php:301
-#: lib/Config/PopulatorData/Templates/WineCity.php:507
-#: lib/Config/PopulatorData/Templates/WineCity.php:804
-#: lib/Config/PopulatorData/Templates/NewsDay.php:565
-#: lib/Config/PopulatorData/Templates/NewsDay.php:952
+#: lib/Config/PopulatorData/Templates/NewsletterBlank121Column.php:324
 #: lib/Config/PopulatorData/Templates/RealEstate.php:726
 #: lib/Config/PopulatorData/Templates/RealEstate.php:970
-#: lib/Config/PopulatorData/Templates/Coffee.php:937
-#: lib/Config/PopulatorData/Templates/RenewableEnergy.php:980
-#: lib/Config/PopulatorData/Templates/RenewableEnergy.php:1194
-#: lib/Config/PopulatorData/Templates/Sunglasses.php:663
-#: lib/Config/PopulatorData/Templates/Music.php:1093
-#: lib/Config/PopulatorData/Templates/Music.php:1339
-#: lib/Config/PopulatorData/Templates/KidsClothing.php:1318
-#: lib/Config/PopulatorData/Templates/KidsClothing.php:1568
-#: lib/Config/PopulatorData/Templates/RssSimpleNews.php:454
-#: lib/Config/PopulatorData/Templates/RssSimpleNews.php:692
-#: lib/Config/PopulatorData/Templates/ModularStyleStories.php:1025
-#: lib/Config/PopulatorData/Templates/ModularStyleStories.php:1293
-#: lib/Config/PopulatorData/Templates/WelcomeBlank1Column.php:203
-#: lib/Config/PopulatorData/Templates/HealthyFoodBlog.php:2071
-#: lib/Config/PopulatorData/Templates/HealthyFoodBlog.php:2305
-#: lib/Config/PopulatorData/Templates/AppWelcome.php:322
-#: lib/Config/PopulatorData/Templates/IndustryConference.php:1069
-#: lib/Config/PopulatorData/Templates/IndustryConference.php:1309
-#: lib/Config/PopulatorData/Templates/WideStoryLayout.php:363
-#: lib/Config/PopulatorData/Templates/WideStoryLayout.php:629
-#: lib/Config/PopulatorData/Templates/ClearNews.php:1427
-#: lib/Config/PopulatorData/Templates/ClearNews.php:1721
+#: lib/Config/PopulatorData/Templates/Phone.php:419
+#: lib/Config/PopulatorData/Templates/Phone.php:633
+#: lib/Config/PopulatorData/Templates/Hotels.php:1035
+#: lib/Config/PopulatorData/Templates/Hotels.php:1268
 #: lib/Config/PopulatorData/Templates/Motor.php:793
 #: lib/Config/PopulatorData/Templates/Motor.php:1055
+#: lib/Config/PopulatorData/Templates/RockBand.php:846
+#: lib/Config/PopulatorData/Templates/RockBand.php:1080
+#: lib/Config/PopulatorData/Templates/NotSoMedium.php:607
+#: lib/Config/PopulatorData/Templates/NotSoMedium.php:862
+#: lib/Config/PopulatorData/Templates/Engineering.php:825
+#: lib/Config/PopulatorData/Templates/Engineering.php:1114
+#: lib/Config/PopulatorData/Templates/NewsletterBlank12Column.php:264
+#: lib/Config/PopulatorData/Templates/Music.php:1093
+#: lib/Config/PopulatorData/Templates/Music.php:1339
+#: lib/Config/PopulatorData/Templates/LifestyleBlogA.php:894
+#: lib/Config/PopulatorData/Templates/LifestyleBlogA.php:1126
+#: lib/Config/PopulatorData/Templates/YogaStudio.php:701
+#: lib/Config/PopulatorData/Templates/FestivalEvent.php:467
+#: lib/Config/PopulatorData/Templates/WelcomeBlank1Column.php:203
+#: lib/Config/PopulatorData/Templates/NewsletterBlank1Column.php:203
+#: lib/Config/PopulatorData/Templates/Charity.php:777
+#: lib/Config/PopulatorData/Templates/Charity.php:990
+#: lib/Config/PopulatorData/Templates/Faith.php:356
+#: lib/Config/PopulatorData/Templates/NewsDay.php:565
+#: lib/Config/PopulatorData/Templates/NewsDay.php:952
+#: lib/Config/PopulatorData/Templates/WineCity.php:507
+#: lib/Config/PopulatorData/Templates/WineCity.php:804
+#: lib/Config/PopulatorData/Templates/ClearNews.php:1427
+#: lib/Config/PopulatorData/Templates/ClearNews.php:1721
+#: lib/Config/PopulatorData/Templates/IndustryConference.php:1069
+#: lib/Config/PopulatorData/Templates/IndustryConference.php:1309
+#: lib/Config/PopulatorData/Templates/BookStoreWithCoupon.php:804
+#: lib/Config/PopulatorData/Templates/BookStoreWithCoupon.php:1062
+#: lib/Config/PopulatorData/Templates/WordPressTheme.php:1035
+#: lib/Config/PopulatorData/Templates/WordPressTheme.php:1269
+#: lib/Config/PopulatorData/Templates/FashionStore.php:1067
+#: lib/Config/PopulatorData/Templates/FashionStore.php:1280
+#: lib/Config/PopulatorData/Templates/FarmersMarket.php:1106
+#: lib/Config/PopulatorData/Templates/FarmersMarket.php:1399
+#: lib/Config/PopulatorData/Templates/FoodBox.php:690
+#: lib/Config/PopulatorData/Templates/WideStoryLayout.php:363
+#: lib/Config/PopulatorData/Templates/WideStoryLayout.php:629
+#: lib/Config/PopulatorData/Templates/RenewableEnergy.php:980
+#: lib/Config/PopulatorData/Templates/RenewableEnergy.php:1194
+#: lib/Config/PopulatorData/Templates/AppWelcome.php:322
+#: lib/Config/PopulatorData/Templates/GiftWelcome.php:301
+#: lib/Config/PopulatorData/Templates/FashionBlog.php:659
+#: lib/Config/PopulatorData/Templates/FashionBlog.php:946
+#: lib/Config/PopulatorData/Templates/Sunglasses.php:663
+#: lib/Config/PopulatorData/Templates/SimpleText.php:148
+#: lib/Config/PopulatorData/Templates/KidsClothing.php:1318
+#: lib/Config/PopulatorData/Templates/KidsClothing.php:1568
+#: lib/Config/PopulatorData/Templates/Vlogger.php:1006
+#: lib/Config/PopulatorData/Templates/Vlogger.php:1258
+#: lib/Config/PopulatorData/Templates/ModularStyleStories.php:1025
+#: lib/Config/PopulatorData/Templates/ModularStyleStories.php:1293
+#: lib/Config/PopulatorData/Templates/PieceOfCake.php:370
+#: lib/Config/PopulatorData/Templates/PostNotificationsBlank1Column.php:290
+#: lib/Config/PopulatorData/Templates/Minimal.php:785
+#: lib/Config/PopulatorData/Templates/Minimal.php:1071
+#: lib/Config/PopulatorData/Templates/TakeAHike.php:650
+#: lib/Config/PopulatorData/Templates/HealthyFoodBlog.php:2071
+#: lib/Config/PopulatorData/Templates/HealthyFoodBlog.php:2305
+#: lib/Config/PopulatorData/Templates/Photography.php:1703
+#: lib/Config/PopulatorData/Templates/Photography.php:1949
+#: lib/Config/PopulatorData/Templates/Guitarist.php:1341
+#: lib/Config/PopulatorData/Templates/Guitarist.php:1587
+#: lib/Config/PopulatorData/Templates/Poet.php:870
+#: lib/Config/PopulatorData/Templates/Poet.php:1103
+#: lib/Config/PopulatorData/Templates/Birds.php:1352
+#: lib/Config/PopulatorData/Templates/Birds.php:1586
+#: lib/Config/PopulatorData/Templates/Software.php:910
+#: lib/Config/PopulatorData/Templates/Software.php:1155
+#: lib/Config/PopulatorData/Templates/LifestyleBlogB.php:1113
+#: lib/Config/PopulatorData/Templates/LifestyleBlogB.php:1346
+#: lib/Config/PopulatorData/Templates/DogFood.php:761
+#: lib/Config/PopulatorData/Templates/DogFood.php:993
+#: lib/Config/PopulatorData/Templates/Avocado.php:646
+#: lib/Config/PopulatorData/Templates/Avocado.php:879
 #: lib/Config/PopulatorData/Templates/Mosque.php:1415
 #: lib/Config/PopulatorData/Templates/Mosque.php:1649
+#: lib/Config/PopulatorData/Templates/Shoes.php:512
+#: lib/Config/PopulatorData/Templates/Synagogue.php:1355
+#: lib/Config/PopulatorData/Templates/Synagogue.php:1643
+#: lib/Config/PopulatorData/Templates/BuddhistTemple.php:899
+#: lib/Config/PopulatorData/Templates/BuddhistTemple.php:1133
+#: lib/Config/PopulatorData/Templates/Coffee.php:937
+#: lib/Config/PopulatorData/Templates/Painter.php:1038
+#: lib/Config/PopulatorData/Templates/Painter.php:1251
+#: lib/Config/PopulatorData/Templates/ComputerRepair.php:608
+#: lib/Config/PopulatorData/Templates/ComputerRepair.php:961
+#: lib/Config/PopulatorData/Templates/BrandingAgencyNews.php:1690
+#: lib/Config/PopulatorData/Templates/BrandingAgencyNews.php:1936
 #: lib/Config/PopulatorData/Templates/WorldCup.php:727
 #: lib/Config/PopulatorData/Templates/NewspaperTraditional.php:725
 #: lib/Config/PopulatorData/Templates/NewspaperTraditional.php:1067
-#: lib/Config/PopulatorData/Templates/SimpleText.php:148
-#: lib/Config/PopulatorData/Templates/Guitarist.php:1341
-#: lib/Config/PopulatorData/Templates/Guitarist.php:1587
-#: lib/Config/PopulatorData/Templates/TakeAHike.php:650
-#: lib/Config/PopulatorData/Templates/Drone.php:815
-#: lib/Config/PopulatorData/Templates/Drone.php:1047
-#: lib/Config/PopulatorData/Templates/NewsletterBlank121Column.php:324
-#: lib/Config/PopulatorData/Templates/Poet.php:870
-#: lib/Config/PopulatorData/Templates/Poet.php:1103
-#: lib/Config/PopulatorData/Templates/Retro.php:835
-#: lib/Config/PopulatorData/Templates/Retro.php:1188
-#: lib/Config/PopulatorData/Templates/ComputerRepair.php:608
-#: lib/Config/PopulatorData/Templates/ComputerRepair.php:961
-#: lib/Config/PopulatorData/Templates/Birds.php:1352
-#: lib/Config/PopulatorData/Templates/Birds.php:1586
-#: lib/Config/PopulatorData/Templates/Shoes.php:512
-#: lib/Config/PopulatorData/Templates/Vlogger.php:1006
-#: lib/Config/PopulatorData/Templates/Vlogger.php:1258
-#: lib/Config/PopulatorData/Templates/FashionShop.php:642
-#: lib/Config/PopulatorData/Templates/FashionShop.php:874
-#: lib/Config/PopulatorData/Templates/YogaStudio.php:701
-#: lib/Config/PopulatorData/Templates/NewsletterBlank1Column.php:203
-#: lib/Config/PopulatorData/Templates/RockBand.php:846
-#: lib/Config/PopulatorData/Templates/RockBand.php:1080
-#: lib/Config/PopulatorData/Templates/FoodBox.php:690
-#: lib/Config/PopulatorData/Templates/WordPressTheme.php:1035
-#: lib/Config/PopulatorData/Templates/WordPressTheme.php:1269
 #: lib/Config/PopulatorData/Templates/PrimarySchool.php:962
 #: lib/Config/PopulatorData/Templates/PrimarySchool.php:1196
-#: lib/Config/PopulatorData/Templates/LifestyleBlogA.php:894
-#: lib/Config/PopulatorData/Templates/LifestyleBlogA.php:1126
-#: lib/Config/PopulatorData/Templates/NewsletterBlank12Column.php:264
+#: lib/Config/PopulatorData/Templates/Fitness.php:747
+#: lib/Config/PopulatorData/Templates/Fitness.php:971
+#: lib/Config/PopulatorData/Templates/Retro.php:835
+#: lib/Config/PopulatorData/Templates/Retro.php:1188
+#: lib/Config/PopulatorData/Templates/CityLocalNews.php:1044
+#: lib/Config/PopulatorData/Templates/CityLocalNews.php:1326
+#: lib/Config/PopulatorData/Templates/College.php:715
+#: lib/Config/PopulatorData/Templates/College.php:979
+#: lib/Config/PopulatorData/Templates/RssSimpleNews.php:454
+#: lib/Config/PopulatorData/Templates/RssSimpleNews.php:692
 #: lib/Config/PopulatorData/Templates/WelcomeBlank12Column.php:294
-#: lib/Config/PopulatorData/Templates/PieceOfCake.php:370
-#: lib/Config/PopulatorData/Templates/Avocado.php:646
-#: lib/Config/PopulatorData/Templates/Avocado.php:879
-#: lib/Config/PopulatorData/Templates/Photography.php:1703
-#: lib/Config/PopulatorData/Templates/Photography.php:1949
-#: lib/Config/PopulatorData/Templates/Synagogue.php:1355
-#: lib/Config/PopulatorData/Templates/Synagogue.php:1643
+#: lib/Config/PopulatorData/Templates/RetroComputingMagazine.php:595
 #: lib/Config/PopulatorData/Templates/FlowersWithCoupon.php:1124
 #: lib/Config/PopulatorData/Templates/FlowersWithCoupon.php:1357
-#: lib/Config/PopulatorData/Templates/LifestyleBlogB.php:1113
-#: lib/Config/PopulatorData/Templates/LifestyleBlogB.php:1346
-#: lib/Config/PopulatorData/Templates/FashionBlog.php:659
-#: lib/Config/PopulatorData/Templates/FashionBlog.php:946
-#: lib/Config/PopulatorData/Templates/Charity.php:777
-#: lib/Config/PopulatorData/Templates/Charity.php:990
+#: lib/Config/PopulatorData/Templates/NewsletterBlank13Column.php:287
+#: lib/Config/PopulatorData/Templates/ScienceWeekly.php:775
+#: lib/Config/PopulatorData/Templates/ScienceWeekly.php:1042
+#: lib/Config/PopulatorData/Templates/Drone.php:815
+#: lib/Config/PopulatorData/Templates/Drone.php:1047
+#: lib/Config/PopulatorData/Templates/JazzClub.php:856
+#: lib/Config/PopulatorData/Templates/JazzClub.php:1096
+#: lib/Config/PopulatorData/Templates/FashionBlogA.php:1048
+#: lib/Config/PopulatorData/Templates/FashionBlogA.php:1281
+#: lib/Config/PopulatorData/Templates/FashionShop.php:642
+#: lib/Config/PopulatorData/Templates/FashionShop.php:874
 #: lib/Newsletter/Shortcodes/ShortcodesHelper.php:89
 msgid "Unsubscribe"
 msgstr "退订"
@@ -2501,132 +2495,132 @@ msgstr "你现在未订阅。"
 msgid "Yup, we've added you to our email list. You'll hear from us shortly."
 msgstr "是的，我们已将您添加到我们的电子邮件订阅组中。你很快就会收到我们的来信。"
 
-#: lib/Config/PopulatorData/Templates/CityLocalNews.php:1044
-#: lib/Config/PopulatorData/Templates/CityLocalNews.php:1326
-#: lib/Config/PopulatorData/Templates/RetroComputingMagazine.php:595
-#: lib/Config/PopulatorData/Templates/FashionStore.php:1067
-#: lib/Config/PopulatorData/Templates/FashionStore.php:1280
-#: lib/Config/PopulatorData/Templates/BuddhistTemple.php:899
-#: lib/Config/PopulatorData/Templates/BuddhistTemple.php:1133
-#: lib/Config/PopulatorData/Templates/NewsletterBlank13Column.php:287
-#: lib/Config/PopulatorData/Templates/Engineering.php:826
-#: lib/Config/PopulatorData/Templates/Engineering.php:1114
-#: lib/Config/PopulatorData/Templates/Software.php:910
-#: lib/Config/PopulatorData/Templates/Software.php:1155
-#: lib/Config/PopulatorData/Templates/BrandingAgencyNews.php:1690
-#: lib/Config/PopulatorData/Templates/BrandingAgencyNews.php:1936
-#: lib/Config/PopulatorData/Templates/Hotels.php:1035
-#: lib/Config/PopulatorData/Templates/Hotels.php:1268
-#: lib/Config/PopulatorData/Templates/Painter.php:1038
-#: lib/Config/PopulatorData/Templates/Painter.php:1251
-#: lib/Config/PopulatorData/Templates/Minimal.php:786
-#: lib/Config/PopulatorData/Templates/Minimal.php:1071
-#: lib/Config/PopulatorData/Templates/FashionBlogA.php:1048
-#: lib/Config/PopulatorData/Templates/FashionBlogA.php:1281
-#: lib/Config/PopulatorData/Templates/PostNotificationsBlank1Column.php:290
-#: lib/Config/PopulatorData/Templates/College.php:715
-#: lib/Config/PopulatorData/Templates/College.php:979
-#: lib/Config/PopulatorData/Templates/NotSoMedium.php:607
-#: lib/Config/PopulatorData/Templates/NotSoMedium.php:862
-#: lib/Config/PopulatorData/Templates/Fitness.php:747
-#: lib/Config/PopulatorData/Templates/Fitness.php:971
-#: lib/Config/PopulatorData/Templates/FarmersMarket.php:1106
-#: lib/Config/PopulatorData/Templates/FarmersMarket.php:1399
-#: lib/Config/PopulatorData/Templates/Faith.php:356
-#: lib/Config/PopulatorData/Templates/BookStoreWithCoupon.php:804
-#: lib/Config/PopulatorData/Templates/BookStoreWithCoupon.php:1062
-#: lib/Config/PopulatorData/Templates/ScienceWeekly.php:775
-#: lib/Config/PopulatorData/Templates/ScienceWeekly.php:1042
-#: lib/Config/PopulatorData/Templates/Phone.php:420
-#: lib/Config/PopulatorData/Templates/Phone.php:633
-#: lib/Config/PopulatorData/Templates/JazzClub.php:856
-#: lib/Config/PopulatorData/Templates/JazzClub.php:1096
-#: lib/Config/PopulatorData/Templates/DogFood.php:761
-#: lib/Config/PopulatorData/Templates/DogFood.php:993
-#: lib/Config/PopulatorData/Templates/GiftWelcome.php:301
-#: lib/Config/PopulatorData/Templates/WineCity.php:507
-#: lib/Config/PopulatorData/Templates/WineCity.php:804
-#: lib/Config/PopulatorData/Templates/NewsDay.php:565
-#: lib/Config/PopulatorData/Templates/NewsDay.php:952
+#: lib/Subscription/Pages.php:325 lib/Subscription/Pages.php:407
+#: lib/Config/PopulatorData/Templates/NewsletterBlank121Column.php:324
 #: lib/Config/PopulatorData/Templates/RealEstate.php:726
 #: lib/Config/PopulatorData/Templates/RealEstate.php:970
-#: lib/Config/PopulatorData/Templates/Coffee.php:937
-#: lib/Config/PopulatorData/Templates/RenewableEnergy.php:980
-#: lib/Config/PopulatorData/Templates/RenewableEnergy.php:1194
-#: lib/Config/PopulatorData/Templates/Sunglasses.php:663
-#: lib/Config/PopulatorData/Templates/Music.php:1094
-#: lib/Config/PopulatorData/Templates/Music.php:1339
-#: lib/Config/PopulatorData/Templates/KidsClothing.php:1318
-#: lib/Config/PopulatorData/Templates/KidsClothing.php:1568
-#: lib/Config/PopulatorData/Templates/RssSimpleNews.php:454
-#: lib/Config/PopulatorData/Templates/RssSimpleNews.php:692
-#: lib/Config/PopulatorData/Templates/ModularStyleStories.php:1025
-#: lib/Config/PopulatorData/Templates/ModularStyleStories.php:1293
-#: lib/Config/PopulatorData/Templates/WelcomeBlank1Column.php:203
-#: lib/Config/PopulatorData/Templates/HealthyFoodBlog.php:2071
-#: lib/Config/PopulatorData/Templates/HealthyFoodBlog.php:2305
-#: lib/Config/PopulatorData/Templates/AppWelcome.php:322
-#: lib/Config/PopulatorData/Templates/IndustryConference.php:1069
-#: lib/Config/PopulatorData/Templates/IndustryConference.php:1309
-#: lib/Config/PopulatorData/Templates/WideStoryLayout.php:363
-#: lib/Config/PopulatorData/Templates/WideStoryLayout.php:629
-#: lib/Config/PopulatorData/Templates/ClearNews.php:1428
-#: lib/Config/PopulatorData/Templates/ClearNews.php:1721
+#: lib/Config/PopulatorData/Templates/Phone.php:420
+#: lib/Config/PopulatorData/Templates/Phone.php:633
+#: lib/Config/PopulatorData/Templates/Hotels.php:1035
+#: lib/Config/PopulatorData/Templates/Hotels.php:1268
 #: lib/Config/PopulatorData/Templates/Motor.php:793
 #: lib/Config/PopulatorData/Templates/Motor.php:1055
+#: lib/Config/PopulatorData/Templates/RockBand.php:846
+#: lib/Config/PopulatorData/Templates/RockBand.php:1080
+#: lib/Config/PopulatorData/Templates/NotSoMedium.php:607
+#: lib/Config/PopulatorData/Templates/NotSoMedium.php:862
+#: lib/Config/PopulatorData/Templates/Engineering.php:826
+#: lib/Config/PopulatorData/Templates/Engineering.php:1114
+#: lib/Config/PopulatorData/Templates/NewsletterBlank12Column.php:264
+#: lib/Config/PopulatorData/Templates/Music.php:1094
+#: lib/Config/PopulatorData/Templates/Music.php:1339
+#: lib/Config/PopulatorData/Templates/LifestyleBlogA.php:894
+#: lib/Config/PopulatorData/Templates/LifestyleBlogA.php:1126
+#: lib/Config/PopulatorData/Templates/YogaStudio.php:701
+#: lib/Config/PopulatorData/Templates/WelcomeBlank1Column.php:203
+#: lib/Config/PopulatorData/Templates/NewsletterBlank1Column.php:203
+#: lib/Config/PopulatorData/Templates/Charity.php:777
+#: lib/Config/PopulatorData/Templates/Charity.php:990
+#: lib/Config/PopulatorData/Templates/Faith.php:356
+#: lib/Config/PopulatorData/Templates/NewsDay.php:565
+#: lib/Config/PopulatorData/Templates/NewsDay.php:952
+#: lib/Config/PopulatorData/Templates/WineCity.php:507
+#: lib/Config/PopulatorData/Templates/WineCity.php:804
+#: lib/Config/PopulatorData/Templates/ClearNews.php:1428
+#: lib/Config/PopulatorData/Templates/ClearNews.php:1721
+#: lib/Config/PopulatorData/Templates/IndustryConference.php:1069
+#: lib/Config/PopulatorData/Templates/IndustryConference.php:1309
+#: lib/Config/PopulatorData/Templates/BookStoreWithCoupon.php:804
+#: lib/Config/PopulatorData/Templates/BookStoreWithCoupon.php:1062
+#: lib/Config/PopulatorData/Templates/WordPressTheme.php:1035
+#: lib/Config/PopulatorData/Templates/WordPressTheme.php:1269
+#: lib/Config/PopulatorData/Templates/FashionStore.php:1067
+#: lib/Config/PopulatorData/Templates/FashionStore.php:1280
+#: lib/Config/PopulatorData/Templates/FarmersMarket.php:1106
+#: lib/Config/PopulatorData/Templates/FarmersMarket.php:1399
+#: lib/Config/PopulatorData/Templates/FoodBox.php:690
+#: lib/Config/PopulatorData/Templates/WideStoryLayout.php:363
+#: lib/Config/PopulatorData/Templates/WideStoryLayout.php:629
+#: lib/Config/PopulatorData/Templates/RenewableEnergy.php:980
+#: lib/Config/PopulatorData/Templates/RenewableEnergy.php:1194
+#: lib/Config/PopulatorData/Templates/AppWelcome.php:322
+#: lib/Config/PopulatorData/Templates/GiftWelcome.php:301
+#: lib/Config/PopulatorData/Templates/FashionBlog.php:659
+#: lib/Config/PopulatorData/Templates/FashionBlog.php:946
+#: lib/Config/PopulatorData/Templates/Sunglasses.php:663
+#: lib/Config/PopulatorData/Templates/SimpleText.php:148
+#: lib/Config/PopulatorData/Templates/KidsClothing.php:1318
+#: lib/Config/PopulatorData/Templates/KidsClothing.php:1568
+#: lib/Config/PopulatorData/Templates/Vlogger.php:1006
+#: lib/Config/PopulatorData/Templates/Vlogger.php:1258
+#: lib/Config/PopulatorData/Templates/ModularStyleStories.php:1025
+#: lib/Config/PopulatorData/Templates/ModularStyleStories.php:1293
+#: lib/Config/PopulatorData/Templates/PostNotificationsBlank1Column.php:290
+#: lib/Config/PopulatorData/Templates/Minimal.php:786
+#: lib/Config/PopulatorData/Templates/Minimal.php:1071
+#: lib/Config/PopulatorData/Templates/TakeAHike.php:650
+#: lib/Config/PopulatorData/Templates/HealthyFoodBlog.php:2071
+#: lib/Config/PopulatorData/Templates/HealthyFoodBlog.php:2305
+#: lib/Config/PopulatorData/Templates/Photography.php:1703
+#: lib/Config/PopulatorData/Templates/Photography.php:1949
+#: lib/Config/PopulatorData/Templates/Guitarist.php:1341
+#: lib/Config/PopulatorData/Templates/Guitarist.php:1587
+#: lib/Config/PopulatorData/Templates/Poet.php:870
+#: lib/Config/PopulatorData/Templates/Poet.php:1103
+#: lib/Config/PopulatorData/Templates/Birds.php:1352
+#: lib/Config/PopulatorData/Templates/Birds.php:1586
+#: lib/Config/PopulatorData/Templates/Software.php:910
+#: lib/Config/PopulatorData/Templates/Software.php:1155
+#: lib/Config/PopulatorData/Templates/LifestyleBlogB.php:1113
+#: lib/Config/PopulatorData/Templates/LifestyleBlogB.php:1346
+#: lib/Config/PopulatorData/Templates/DogFood.php:761
+#: lib/Config/PopulatorData/Templates/DogFood.php:993
+#: lib/Config/PopulatorData/Templates/Avocado.php:646
+#: lib/Config/PopulatorData/Templates/Avocado.php:879
 #: lib/Config/PopulatorData/Templates/Mosque.php:1415
 #: lib/Config/PopulatorData/Templates/Mosque.php:1649
+#: lib/Config/PopulatorData/Templates/Shoes.php:512
+#: lib/Config/PopulatorData/Templates/Synagogue.php:1355
+#: lib/Config/PopulatorData/Templates/Synagogue.php:1643
+#: lib/Config/PopulatorData/Templates/BuddhistTemple.php:899
+#: lib/Config/PopulatorData/Templates/BuddhistTemple.php:1133
+#: lib/Config/PopulatorData/Templates/Coffee.php:937
+#: lib/Config/PopulatorData/Templates/Painter.php:1038
+#: lib/Config/PopulatorData/Templates/Painter.php:1251
+#: lib/Config/PopulatorData/Templates/ComputerRepair.php:608
+#: lib/Config/PopulatorData/Templates/ComputerRepair.php:961
+#: lib/Config/PopulatorData/Templates/BrandingAgencyNews.php:1690
+#: lib/Config/PopulatorData/Templates/BrandingAgencyNews.php:1936
 #: lib/Config/PopulatorData/Templates/WorldCup.php:727
 #: lib/Config/PopulatorData/Templates/NewspaperTraditional.php:725
 #: lib/Config/PopulatorData/Templates/NewspaperTraditional.php:1067
-#: lib/Config/PopulatorData/Templates/SimpleText.php:148
-#: lib/Config/PopulatorData/Templates/Guitarist.php:1341
-#: lib/Config/PopulatorData/Templates/Guitarist.php:1587
-#: lib/Config/PopulatorData/Templates/TakeAHike.php:650
-#: lib/Config/PopulatorData/Templates/Drone.php:815
-#: lib/Config/PopulatorData/Templates/Drone.php:1047
-#: lib/Config/PopulatorData/Templates/NewsletterBlank121Column.php:324
-#: lib/Config/PopulatorData/Templates/Poet.php:870
-#: lib/Config/PopulatorData/Templates/Poet.php:1103
-#: lib/Config/PopulatorData/Templates/Retro.php:835
-#: lib/Config/PopulatorData/Templates/Retro.php:1188
-#: lib/Config/PopulatorData/Templates/ComputerRepair.php:608
-#: lib/Config/PopulatorData/Templates/ComputerRepair.php:961
-#: lib/Config/PopulatorData/Templates/Birds.php:1352
-#: lib/Config/PopulatorData/Templates/Birds.php:1586
-#: lib/Config/PopulatorData/Templates/Shoes.php:512
-#: lib/Config/PopulatorData/Templates/Vlogger.php:1006
-#: lib/Config/PopulatorData/Templates/Vlogger.php:1258
-#: lib/Config/PopulatorData/Templates/FashionShop.php:642
-#: lib/Config/PopulatorData/Templates/FashionShop.php:874
-#: lib/Config/PopulatorData/Templates/YogaStudio.php:701
-#: lib/Config/PopulatorData/Templates/NewsletterBlank1Column.php:203
-#: lib/Config/PopulatorData/Templates/RockBand.php:846
-#: lib/Config/PopulatorData/Templates/RockBand.php:1080
-#: lib/Config/PopulatorData/Templates/FoodBox.php:690
-#: lib/Config/PopulatorData/Templates/WordPressTheme.php:1035
-#: lib/Config/PopulatorData/Templates/WordPressTheme.php:1269
 #: lib/Config/PopulatorData/Templates/PrimarySchool.php:962
 #: lib/Config/PopulatorData/Templates/PrimarySchool.php:1196
-#: lib/Config/PopulatorData/Templates/LifestyleBlogA.php:894
-#: lib/Config/PopulatorData/Templates/LifestyleBlogA.php:1126
-#: lib/Config/PopulatorData/Templates/NewsletterBlank12Column.php:264
+#: lib/Config/PopulatorData/Templates/Fitness.php:747
+#: lib/Config/PopulatorData/Templates/Fitness.php:971
+#: lib/Config/PopulatorData/Templates/Retro.php:835
+#: lib/Config/PopulatorData/Templates/Retro.php:1188
+#: lib/Config/PopulatorData/Templates/CityLocalNews.php:1044
+#: lib/Config/PopulatorData/Templates/CityLocalNews.php:1326
+#: lib/Config/PopulatorData/Templates/College.php:715
+#: lib/Config/PopulatorData/Templates/College.php:979
+#: lib/Config/PopulatorData/Templates/RssSimpleNews.php:454
+#: lib/Config/PopulatorData/Templates/RssSimpleNews.php:692
 #: lib/Config/PopulatorData/Templates/WelcomeBlank12Column.php:294
-#: lib/Config/PopulatorData/Templates/Avocado.php:646
-#: lib/Config/PopulatorData/Templates/Avocado.php:879
-#: lib/Config/PopulatorData/Templates/Photography.php:1703
-#: lib/Config/PopulatorData/Templates/Photography.php:1949
-#: lib/Config/PopulatorData/Templates/Synagogue.php:1355
-#: lib/Config/PopulatorData/Templates/Synagogue.php:1643
+#: lib/Config/PopulatorData/Templates/RetroComputingMagazine.php:595
 #: lib/Config/PopulatorData/Templates/FlowersWithCoupon.php:1124
 #: lib/Config/PopulatorData/Templates/FlowersWithCoupon.php:1357
-#: lib/Config/PopulatorData/Templates/LifestyleBlogB.php:1113
-#: lib/Config/PopulatorData/Templates/LifestyleBlogB.php:1346
-#: lib/Config/PopulatorData/Templates/FashionBlog.php:659
-#: lib/Config/PopulatorData/Templates/FashionBlog.php:946
-#: lib/Config/PopulatorData/Templates/Charity.php:777
-#: lib/Config/PopulatorData/Templates/Charity.php:990
-#: lib/Subscription/Pages.php:325 lib/Subscription/Pages.php:407
+#: lib/Config/PopulatorData/Templates/NewsletterBlank13Column.php:287
+#: lib/Config/PopulatorData/Templates/ScienceWeekly.php:775
+#: lib/Config/PopulatorData/Templates/ScienceWeekly.php:1042
+#: lib/Config/PopulatorData/Templates/Drone.php:815
+#: lib/Config/PopulatorData/Templates/Drone.php:1047
+#: lib/Config/PopulatorData/Templates/JazzClub.php:856
+#: lib/Config/PopulatorData/Templates/JazzClub.php:1096
+#: lib/Config/PopulatorData/Templates/FashionBlogA.php:1048
+#: lib/Config/PopulatorData/Templates/FashionBlogA.php:1281
+#: lib/Config/PopulatorData/Templates/FashionShop.php:642
+#: lib/Config/PopulatorData/Templates/FashionShop.php:874
 msgid "Manage your subscription"
 msgstr "管理您的订阅"
 
@@ -2694,11 +2688,10 @@ msgctxt "segments per page (screen options)"
 msgid "Number of segments per page"
 msgstr "每页的分细数"
 
-#: lib/Form/Templates/Templates/InitialForm.php:19
-#: lib/Form/Templates/Templates/InitialForm.php:22
-#: lib/Subscribers/ImportExport/ImportExportFactory.php:51
 #: lib/Subscribers/ImportExport/PersonalDataExporters/SubscriberExporter.php:43
-#: lib/API/MP/v1/API.php:57
+#: lib/Subscribers/ImportExport/ImportExportFactory.php:51
+#: lib/Form/Templates/Templates/InitialForm.php:21
+#: lib/Form/Templates/Templates/InitialForm.php:24 lib/API/MP/v1/API.php:57
 msgid "Email"
 msgstr "电子邮件"
 
