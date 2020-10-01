@@ -402,7 +402,7 @@ select,
 textarea {
 	background-color: #fff;
 	border: 1px solid #ddd;
-	color: #999;
+	color: rgba(0, 0, 0, 0.9);
 	font-size: 14px;
 	font-weight: 400;
 	padding: 16px;
@@ -468,10 +468,6 @@ input[type="search"]::-webkit-search-results-button {
 	display: none;
 }
 
-input.mailpoet_submit:hover{
-	background-color: #2e7f9f;
-	color: #fff;
-}
 
 /* Tables
 --------------------------------------------- */
@@ -766,6 +762,7 @@ Common Classes
 .search-form input[type="search"] {
 	width: 180px;
 	margin-right:10px;
+	color: rgba(0, 0, 0, 0.9);
 }
 
 /* Titles
@@ -1137,6 +1134,22 @@ button.tribe-common .tribe-common-c-btn:focus, .tribe-common .tribe-common-c-btn
  color:#fff;
  cursor: pointer;
 }
+
+/*Mailpoet
+---------------------------------------- */
+
+/* button */
+
+input.mailpoet_submit:hover{
+	background-color: #2e7f9f;
+	color: #fff;
+}
+
+/* Input  */
+
+.mailpoet_form .mailpoet_submit, .mailpoet_form .mailpoet_paragraph, .mailpoet_form .mailpoet_form_paragraph, .mailpoet_form .mailpoet_textarea, .mailpoet_form .mailpoet_text, .mailpoet_form .mailpoet_select, .mailpoet_form .mailpoet_form_image, .mailpoet_form .mailpoet_message, .mailpoet_form .mailpoet_paragraph select {
+	color: rgba(0, 0, 0, 0.9);
+	}
 
 /*
 Site Header
@@ -1853,7 +1866,7 @@ Sidebars
 ---------------------------------------------------------------------------------------------------- */
 
 .sidebar {
-	color: color: rgba 0, 0, 0, 0.9;;
+	color: rgba 0, 0, 0, 0.9;
 	font-size: 14px;
 }
 
