@@ -472,38 +472,50 @@ input[type="search"]::-webkit-search-results-button {
 /* Tables
 --------------------------------------------- */
 
-/* table {
-	/* border-collapse: collapse; */
-	/* border-spacing: 0;
-	line-height: 2;
-	margin-bottom: 40px;
-	width: 100%;
-	empty-cells: show;
-} */ 
+/* I've kept in rules for both standard HTML tables enetred straight into WordPress and those created through the TablePress plugin
+NOTE: Any CSS specifically targetting TablePress tables also needs to be added to the 'Custom CSS' panel at /wp-admin/admin.php?page=tablepress_options */
 
-/* tbody {
-	border-bottom: 1px solid #000;
-} */
+/* Give text in tables some breathing room */
+table,
+.tablepress {
+	line-height: 1.5;
+}
 
-/* td,
-th {
-	text-align: left;
-	border: 1px solid #013f4e;
-	empty-cells: show;
-} */
+/* Make table headers more defined */
+table thead th, 
+.tablepress thead th {
+	background-color: rgb(8,92,119);
+	color: #fff;
+	border: 0;
+	font-weight: normal;
+}
 
-/* td {
-	padding: 6px 20px 20px 20px ;
-} */
+/* Add some space around the contents of each cell */
+td,
+th,
+.tablepress td,
+.tablepress th {
+	padding: 16px;
+	border: 0;
+}
 
-/* th {
-	font-weight: 700;
-	text-transform: uppercase;
-} */
+/* Remove unwanted borders */
+table tbody td,
+table tbody th,
+.tablepress tbody td,
+.tablepress tfoot th {
+	border: 0;
+}
 
-/* Easy FAQS Container overflow so tables dispaly correctly */
+/* Stripe odd rows with a light green */
+tr:nth-child(odd),
+.tablepress .odd td {
+	background-color: rgb(245,249,232);
+}
 
-.easy-faqs-wrapper.easy-faqs-theme-modern-gray .easy-faq-body{
+/* Easy FAQS Container overflow so tables display correctly */
+
+.easy-faqs-wrapper.easy-faqs-theme-modern-gray .easy-faq-body {
 	overflow-x: auto;
 }
 
@@ -1140,14 +1152,27 @@ button.tribe-common .tribe-common-c-btn:focus, .tribe-common .tribe-common-c-btn
 
 /* button */
 
-input.mailpoet_submit:hover{
+.mailpoet_submit{
 	background-color: #2e7f9f;
+	border: none;
+	border-radius: 3px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 16px 24px;
+	text-transform: uppercase;
+	width: auto;
+	}
+
+input.mailpoet_submit:hover{
+	background-color: #085c77;
 	color: #fff;
 }
 
 /* Input  */
 
-.mailpoet_form .mailpoet_submit, .mailpoet_form .mailpoet_paragraph, .mailpoet_form .mailpoet_form_paragraph, .mailpoet_form .mailpoet_textarea, .mailpoet_form .mailpoet_text, .mailpoet_form .mailpoet_select, .mailpoet_form .mailpoet_form_image, .mailpoet_form .mailpoet_message, .mailpoet_form .mailpoet_paragraph select {
+.mailpoet_form, .mailpoet_form .mailpoet_paragraph, .mailpoet_form .mailpoet_form_paragraph, .mailpoet_form .mailpoet_textarea, .mailpoet_form .mailpoet_text, .mailpoet_form .mailpoet_select, .mailpoet_form .mailpoet_form_image, .mailpoet_form .mailpoet_message, .mailpoet_form .mailpoet_paragraph select {
 	color: rgba(0, 0, 0, 0.9);
 	}
 
