@@ -75,6 +75,38 @@
 
 */
 
+
+/* GLOBAL STYLING VARIABLES */
+
+:root {
+	/* ORCID COLOURS */
+	/* ORCID brand primary - Green */
+	--brand-primary-lightest: rgb(245, 249, 232);
+	--brand-primary-light: rgb(212, 231, 161);
+	--brand-primary: rgb(166, 206, 57);
+	--brand-primary-dark: rgb(127, 170, 38);
+	--brand-primary-darkest: rgb(68, 116, 5);
+
+	/* ORCID brand secondary - Blue */
+	--brand-secondary-lightest: rgb(208, 243, 255);
+	--brand-secondary-light: rgb(142, 194, 219);
+	--brand-secondary: rgb(46, 127, 159);
+	--brand-secondary-dark: rgb(8, 92, 119);
+	--brand-secondary-darkest: rgb(0, 52, 73);
+
+	/* SPACING - Standard spacing amounts based on factors of 8 */
+	--space: 8px;
+	--space-half: 4px;
+	--space-quarter: 2px;
+	--space-double: 16px;
+	--space-quad: 32px;
+
+	/* BORDER RADIUS - Curved corners */
+	--radius: 4px;
+	--radius-tight: 2px;
+	--radius-loose: 8px;
+}
+
 /*
 HTML5 Reset
 ---------------------------------------------------------------------------------------------------- */
@@ -174,27 +206,35 @@ textarea:focus,
 	transition:         all 0.1s ease-in-out;
 }
 
+/* Style text hilighted by the user */
 
+/* DD 16/10/20 NOTE: This styling is currently overridden by a rule for Atomic blocks accordions on line 1180 */
+
+::selection,
 ::-moz-selection {
-	background-color: #2e7e9e;
-	color: #fff;
-	font-weight: 700;
+	background-color: var(--brand-secondary-lightest);
 }
 
-::selection {
-	background-color: #2e7e9e;
-	color: #fff;
-	font-weight: 700;
-}
+/* LINKS - DEFAULT */
 
 a {
-	color:#085c77;
-
+	color: var(--brand-secondary-dark);
 }
 
-a:hover {
-	color: #447405;
+a:visited {
+	color: var(--brand-secondary-darkest);
 }
+
+a:hover,
+a:focus {
+	color: var(--brand-primary-dark);
+}
+
+a:active {
+	color: var(--brand-primary);
+}
+
+/* PARAGRAPHS */
 
 p {
 	margin: 0 0 24px;
@@ -288,8 +328,6 @@ h1 {
 
 h2 {
 	font-size: 32px;
-
-
 }
 
 h3 {
@@ -397,16 +435,15 @@ img {
 /* Forms
 --------------------------------------------- */
 
+/* FIELD DEFAULT STYLES */
 input,
 select,
 textarea {
 	background-color: #fff;
 	border: 1px solid #ddd;
 	color: rgba(0, 0, 0, 0.9);
-	font-size: 14px;
-	font-weight: 400;
-	padding: 16px;
-	margin-bottom: 20px;
+	padding: var(--space);
+	margin-bottom: var(--space-double);
 	width: 100%;
 }
 
@@ -433,20 +470,20 @@ input[type="radio"] {
 	font-weight: 400;
 }
 
+/* BUTTON DEFAULT STYLES */
 button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"],
 .button {
-	background-color: #2e7f9f;
-	border: none;
-	border-radius: 3px;
+	background-color: var(--brand-secondary-dark);
+	border: 2px solid var(--brand-secondary-dark);
+	border-radius: 4px;
 	color: #fff;
 	cursor: pointer;
-	font-size: 14px;
-	font-weight: 400;
-	padding: 16px 24px;
+	padding: var(--space) var(--space-double);
 	text-transform: uppercase;
+	letter-spacing: 0.5px;
 	width: auto;
 }
 
@@ -455,12 +492,29 @@ input:hover[type="button"],
 input:hover[type="reset"],
 input:hover[type="submit"],
 .button:hover {
-	background-color: #085c77;
-	color: #fff;
+	background-color: var(--brand-primary-dark);
+	border-color: var(--brand-primary-dark);
+}
+
+button:active,
+input:active[type="button"],
+input:active[type="reset"],
+input:active[type="submit"],
+.button:active {
+	background-color: var(--brand-primary);
+	border-color: var(--brand-primary);
+}
+
+button:focus,
+input:focus[type="button"],
+input:focus[type="reset"],
+input:focus[type="submit"],
+.button:focus {
+	border-color: var(--brand-primary);
 }
 
 .button {
-	display: inline-block;
+	/* display: inline-block; */
 }
 
 input[type="search"]::-webkit-search-cancel-button,
@@ -472,7 +526,7 @@ input[type="search"]::-webkit-search-results-button {
 /* Tables
 --------------------------------------------- */
 
-/* I've kept in rules for both standard HTML tables enetred straight into WordPress and those created through the TablePress plugin
+/* I've kept in rules for both standard HTML tables entered straight into WordPress and those created through the TablePress plugin
 NOTE: Any CSS specifically targetting TablePress tables also needs to be added to the 'Custom CSS' panel at /wp-admin/admin.php?page=tablepress_options */
 
 /* Give text in tables some breathing room */
@@ -570,12 +624,11 @@ Structure and Layout
 
 .content {
     background-color: #fff;
-    border-radius: 3px;
-    float: right;
-    margin-bottom: 32px;
-    padding: 32px;
+    border-radius: var(--radius);
+    /* float: right; */
+    margin-bottom: var(--space-quad);
+    padding: var(--space-quad);
     width: 760px;
-    border-radius: 4px;
 }
 
 .outreach-pro-home .content {
@@ -594,17 +647,9 @@ Structure and Layout
 	width: 550px;
 }
 
+/* DD 16/10/20 NOTE: We might want to revisit this to get pages without a sidebar looking nice & tight */
 .full-width-content .content {
 	width: 100%;
-}
-
-.content a{
-	color: #2e7e9e;
-	font-weight: 700;
-}
-
-.content a:hover{
-	color: #447405;
 }
 
 /* Primary Sidebar */
@@ -718,13 +763,13 @@ Common Classes
 .breadcrumb {
     background-color: #fafafa;
     font-size: 14px;
-    margin-bottom: 16px;
-    padding: 16px;
+    margin-bottom: var(--space-double);
+    padding: var(--space-double);
 }
 
 .archive-description {
-	margin-bottom: 30px;
-	padding: 30px;
+	margin-bottom: var(--space-quad);
+	padding: 0;
 	border-bottom: rgb(245, 245, 245) 2px solid;
 }
 
@@ -749,7 +794,9 @@ Common Classes
 /* Search Form
 --------------------------------------------- */
 
-.search-form {
+/* DD 16/10/20 NOTE: I don't think we need most of this any more. I've left it here for the time being just in case! */
+
+/* .search-form {
 	overflow: hidden;
 }
 
@@ -775,7 +822,7 @@ Common Classes
 	width: 180px;
 	margin-right:10px;
 	color: rgba(0, 0, 0, 0.9);
-}
+} */
 
 /* Titles
 --------------------------------------------- */
@@ -785,7 +832,7 @@ Common Classes
 	font-weight: 600;
 	line-height: 1.5;
 	letter-spacing: 0.5px;
-	margin: 0, 20, 0,20px;
+	margin: 0 0 var(--space-quad);
 }
 
 .entry-title {
@@ -793,24 +840,23 @@ Common Classes
 	font-weight: 600;
 	line-height: 1.25;
 	letter-spacing: 0.5px;
-	margin: 16px 0 32px;
+	margin: var(--space-double) 0;
 }
 
+/* Let the content titles inherit the basic link styling */
 .content .entry-title a {
-	color: #191919;
-	font-weight:inherit;
 	text-decoration: none;
 }
 
 .content .entry-title a:hover {
-	color: #2e7f9f;
+	border-bottom: 2px dotted;
 }
 
 .widget-title {
     color: rgba 0, 0, 0, 0.9;
     font-size: 16px;
-    margin: 0 0 16px;
-    text-transform: uppercase;
+	margin: 0 0 var(--space-double);
+	letter-spacing: normal;
 }
 
 .footer-widgets .widget-title,
@@ -1092,10 +1138,14 @@ html > body .content .slide-excerpt-border {
 
 /* Ninja Forms
 --------------------------------------------- */
-.nf-form-content button:hover, .nf-form-content input[type="button"]:hover, .nf-form-content input[type="submit"]:hover{
+/* DD 16/10/20 NOTE: Button now inherits default styling. We can get rid of this! */
+
+/* .nf-form-content button:hover,
+.nf-form-content input[type="button"]:hover,
+.nf-form-content input[type="submit"]:hover {
 	background-color: #2e7f9f;
 	color:#fff;
-}
+} */
 
 
 /* Jetpack
@@ -1152,7 +1202,11 @@ button.tribe-common .tribe-common-c-btn:focus, .tribe-common .tribe-common-c-btn
 
 /* button */
 
-.mailpoet_submit{
+.mailpoet_submit {
+	padding: var(--space) var(--space-double)!important;
+}
+
+/* .mailpoet_submit{
 	background-color: #2e7f9f;
 	border: none;
 	border-radius: 3px;
@@ -1168,13 +1222,21 @@ button.tribe-common .tribe-common-c-btn:focus, .tribe-common .tribe-common-c-btn
 input.mailpoet_submit:hover{
 	background-color: #085c77;
 	color: #fff;
-}
+} */
 
 /* Input  */
 
-.mailpoet_form, .mailpoet_form .mailpoet_paragraph, .mailpoet_form .mailpoet_form_paragraph, .mailpoet_form .mailpoet_textarea, .mailpoet_form .mailpoet_text, .mailpoet_form .mailpoet_select, .mailpoet_form .mailpoet_form_image, .mailpoet_form .mailpoet_message, .mailpoet_form .mailpoet_paragraph select {
+.mailpoet_form,
+.mailpoet_form .mailpoet_paragraph,
+.mailpoet_form .mailpoet_form_paragraph,
+.mailpoet_form .mailpoet_textarea,
+.mailpoet_form .mailpoet_text,
+.mailpoet_form .mailpoet_select,
+.mailpoet_form .mailpoet_form_image,
+.mailpoet_form .mailpoet_message,
+.mailpoet_form .mailpoet_paragraph select {
 	color: rgba(0, 0, 0, 0.9);
-	}
+}
 
 /*
 Site Header
@@ -1891,31 +1953,34 @@ Sidebars
 ---------------------------------------------------------------------------------------------------- */
 
 .sidebar {
-	color: rgba 0, 0, 0, 0.9;
-	font-size: 14px;
+	/* color: rgba 0, 0, 0, 0.9;
+	font-size: 14px; */
 }
 
 .sidebar .widget {
     background-color: #fff;
-    padding: 24px;
-    border: none;
+    /* padding: 24px; */
+	padding: var(--space-quad);
+	border: none;
     border-radius: 4px;
 }
 
-#search-6{
+/* #search-6{
 	padding: 30px 30px 10px 30px;
-}
+} */
 
 .sidebar li a {
-	color: #085c77;
-	font-weight: 700;
+	/* color: #085c77;
+	font-weight: 700; */
+	color: var(--brand-secondary-dark);
 }
 
 .sidebar li a:hover,
 .sidebar .entry-meta a:hover {
-	ccolor: #447405;
-	font-weight: 700;
-	text-decoration: underline;
+	/* ccolor: #447405;
+	font-weight: 700; */
+	color: var(--brand-primary-dark);
+	/* text-decoration: underline; */
 }
 
 
