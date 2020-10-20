@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Jetpack &#8211; WP Security, Backup, Speed, &amp; Growth - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-10-12 08:54:13+0000\n"
+"PO-Revision-Date: 2020-10-16 15:54:13+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -71,6 +71,14 @@ msgstr "无法激活 Jetpack 表单扩展程序。"
 #: extensions/blocks/eventbrite/eventbrite.php:114
 msgid "Expand"
 msgstr "展开"
+
+#: class.jetpack-connection-banner.php:354
+msgid "Jetpack offers security, performance, and marketing tools made for WordPress sites by the WordPress experts. Set up Jetpack to enable new features for this site; don't let your subscription go to waste!"
+msgstr "Jetpack 提供由 WordPress 专家为 WordPress 站点打造的安全、高性能和营销工具。 设置 Jetpack 以为该站点启用新功能，要让您的订阅物尽其用！"
+
+#: class.jetpack-connection-banner.php:349
+msgid "Your Jetpack purchase needs completion! Please set up the plugin for your subscription."
+msgstr "您需要完成 Jetpack 购买！ 请为您的订阅设置插件。"
 
 #: _inc/lib/debugger/class-jetpack-cxn-tests.php:223
 msgid "Jetpack is not connected. No blog token to check."
@@ -1676,6 +1684,12 @@ msgstr "需要 access_token"
 #: json-endpoints/jetpack/class.jetpack-json-api-jps-woocommerce-connect-endpoint.php:14
 msgid "WooCommerce auth data is already set."
 msgstr "已设置 WooCommerce 身份验证数据。"
+
+#: extensions/blocks/mailchimp/mailchimp.php:188 _inc/blocks/editor-beta.js:18
+#: _inc/blocks/editor-no-post-editor.js:18
+#: _inc/blocks/editor-experimental.js:18 _inc/blocks/editor.js:18
+msgid "By clicking submit, you agree to share your email address with the site owner and Mailchimp to receive marketing, updates, and other emails from the site owner. Use the unsubscribe link in those emails to opt out at any time."
+msgstr "点击“提交”即表示，您同意与站点所有者和 MailChimp 共享您的电子邮件地址，以接收站点所有者发送的关于营销、更新等内容的电子邮件。 使用这些电子邮件中的退订链接可以随时退出。"
 
 #: class.jetpack-cli.php:2008
 msgid "To start using the block, build the blocks with yarn run build-extensions"
@@ -6286,6 +6300,11 @@ msgstr "%1$s 以及 %2$s"
 #: _inc/lib/class.core-rest-api-endpoints.php:2976
 msgid "%1$s visible and hidden items must be a list of %2$s."
 msgstr "%1$s 可见和隐藏项必须是一个 %2$s 列表。"
+
+#. translators: placeholder is a unit of time (1 hour, 5 days, ...)
+#: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:1628
+msgid "Your site was successfully backed up %s ago."
+msgstr "您的站点已于 %s前成功备份。"
 
 #: class.jetpack-network-sites-list-table.php:63
 #: _inc/lib/admin-pages/class.jetpack-admin-page.php:335

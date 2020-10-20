@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Yoast SEO - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-10-14 08:47:57+0000\n"
+"PO-Revision-Date: 2020-10-16 20:35:00+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,20 @@ msgstr ""
 "X-Generator: GlotPress/3.0.0-alpha.2\n"
 "Language: ru\n"
 "Project-Id-Version: Plugins - Yoast SEO - Stable (latest release)\n"
+
+#: src/presenters/admin/indexing-notification-presenter.php:78
+msgid "Because of a change in your category URL setting, some of your SEO data needs to be reprocessed."
+msgstr "Из-за изменения настроек URL-адреса для рубрик некоторые ваши SEO-данные должны быть переработаны."
+
+#. translators: %1$s expands to Yoast SEO
+#: admin/views/tabs/network/integrations.php:24
+msgid "This tab allows you to selectively disable %1$s integrations with third-party products for all sites in the network. By default all integrations are enabled, which allows site admins to choose for themselves if they want to toggle an integration on or off for their site. When you disable an integration here, site admins will not be able to use that integration at all."
+msgstr "Эта вкладка позволяет выборочно отключить интеграцию %1$s со сторонними продуктами для всех сайтов в сети. По умолчанию все интеграции включены, что позволяет администраторам сайта самостоятельно выбирать, включать или выключать интеграцию для своего сайта. Если вы отключите интеграцию здесь, администраторы сайта вообще не смогут использовать эту интеграцию."
+
+#. translators: %s: 'SEMrush'
+#: admin/views/class-yoast-integration-toggles.php:71
+msgid "The %s integration offers suggestions and insights for keywords related to the entered focus keyphrase."
+msgstr "Интеграция %s предлагает предложения и идеи для ключевых слов, связанных с введенной фокусной ключевой фразой."
 
 #: languages/wordpress-seojs.php:327
 msgid "Trend"
@@ -79,6 +93,94 @@ msgstr "2 месяца назад"
 msgid "Last month"
 msgstr "За последний месяц"
 
+#. translators: %s: Expands to "Yoast SEO Premium".
+#: languages/wordpress-seojs.php:400
+msgid "Check out %s!"
+msgstr "Попробуйте %s !"
+
+#. translators: %s : Expands to "SEMrush".
+#: languages/wordpress-seojs.php:381
+msgid "Upgrade your %s plan"
+msgstr "Улучшите ваш тарифный план %s"
+
+#: languages/wordpress-seojs.php:333
+msgid "Keyphrase volume in the last 12 months on a scale from 0 to 100."
+msgstr "Объем ключевых фраз за последние 12 месяцев по шкале от 0 до 100."
+
+#: languages/wordpress-seojs.php:392
+msgid "We've encountered a problem trying to get related keyphrases. Please try again later."
+msgstr "Мы столкнулись с проблемой, пытаясь получить связанные ключевые фразы. Пожалуйста, попробуйте еще раз позже."
+
+#: languages/wordpress-seojs.php:463
+msgid "SEO data optimization is disabled for non-production environments."
+msgstr "SEO-оптимизация данных отключена для непроизводственных сред."
+
+#: languages/wordpress-seojs.php:466
+msgid "SEO data optimization complete"
+msgstr "SEO оптимизация данных завершена"
+
+#: languages/wordpress-seojs.php:469
+msgid "Optimizing SEO data... This may take a while."
+msgstr "Оптимизация SEO-данных... Это может занять некоторое время."
+
+#: admin/class-admin.php:238
+msgid "Activate your subscription"
+msgstr "Активируйте свою подписку"
+
+#: languages/wordpress-seojs.php:210
+msgid "Please enter a focus keyphrase first to get related keyphrases"
+msgstr "Пожалуйста, сначала введите фокусную ключевую фразу, чтобы получить связанные ключевые фразы"
+
+#: languages/wordpress-seojs.php:324
+msgid "Learn more about the related keyphrases volume"
+msgstr "Узнайте больше про объем связанных ключевых фраз"
+
+#: languages/wordpress-seojs.php:330
+msgid "Learn more about the related keyphrases trend"
+msgstr "Узнайте больше о тенденциях для связанных ключевых фраз"
+
+#. translators: %s expands to SEMrush
+#: languages/wordpress-seojs.php:337
+msgid "Get more insights at %s"
+msgstr "Узнайте больше в %s"
+
+#. translators: %1$s expands to "Yoast SEO", %2$s expands to "SEMrush".
+#: languages/wordpress-seojs.php:385
+msgid "Please wait while %1$s connects to %2$s to get related keyphrases..."
+msgstr "Пожалуйста, подождите, пока %1$s соединится с %2$s, чтобы получить связанные ключевые фразы..."
+
+#. translators: %s: Expands to "Yoast SEO".
+#: languages/wordpress-seojs.php:389
+msgid "You've reached the maximum amount of 4 related keyphrases. You can change or remove related keyphrases in the %s metabox or sidebar."
+msgstr "Вы достигли максимального количества из 4 связанных ключевых фраз. Вы можете изменить или удалить связанные ключевые фразы в метабоксе %s или на боковой панели."
+
+#. translators: %s: Expands to "Yoast SEO".
+#: languages/wordpress-seojs.php:396
+msgid "Would you like to be able to add these related keyphrases to the %s analysis so you can optimize your content even further?"
+msgstr "Хотели бы вы иметь возможность добавить эти связанные ключевые фразы в анализ %s, для ещё лучшей оптимизации содержимого на сайте?"
+
+#: languages/wordpress-seojs.php:460
+msgid "This feature includes and replaces the Text Link Counter and Internal Linking Analysis"
+msgstr "Эта возможность включает в себя и заменяет счетчик текстовых ссылок и анализ внутренних ссылок"
+
+#: languages/wordpress-seojs.php:475
+msgid "Stop SEO data optimization"
+msgstr "Остановить SEO оптимизацию данных"
+
+#. translators: %1$s expands to Yoast SEO
+#: admin/views/tabs/dashboard/integrations.php:24
+msgid "%1$s can integrate with third parties products. You can enable or disable these integrations below."
+msgstr "%1$s может интегрироваться с продуктами третьих сторон. Вы можете включить или отключить эти интеграции ниже."
+
+#. translators: %s : Expands to "SEMrush".
+#: languages/wordpress-seojs.php:377
+msgid "You've reached your request limit for today. Check back tomorrow or upgrade your plan over at %s."
+msgstr "Вы достигли предела запросов на сегодня. Попробуйте завтра или улучшите ваш тариф в %s."
+
+#: languages/wordpress-seojs.php:472
+msgid "Oops, something has gone wrong and we couldn't complete the optimization of your SEO data. Please click the button again to re-start the process."
+msgstr "Что-то пошло не так, и мы не смогли завершить оптимизацию ваших SEO-данных. Нажмите ещё раз на кнопку для перезапуска процесса."
+
 #: languages/wordpress-seojs.php:128
 msgid "Related keyphrases"
 msgstr "Связанные ключевые фразы"
@@ -86,6 +188,49 @@ msgstr "Связанные ключевые фразы"
 #: languages/wordpress-seojs.php:131
 msgid "Get related keyphrases"
 msgstr "Найти связанные ключевые фразы"
+
+#: src/presenters/admin/indexing-list-item-presenter.php:42
+msgid "Learn more about the benefits of optimized SEO data."
+msgstr "Узнайте больше о преимуществах оптимизированных SEO-данных."
+
+#: src/presenters/admin/indexing-notification-presenter.php:59
+#: languages/wordpress-seojs.php:478
+msgid "Start SEO data optimization"
+msgstr "Начните SEO оптимизацию данных"
+
+#: src/integrations/watchers/indexable-homeurl-watcher.php:123
+msgid "All permalinks were successfully reset"
+msgstr "Все постоянные ссылки были успешно сброшены"
+
+#: languages/wordpress-seojs.php:67
+msgid "The number of headers and header labels don't match."
+msgstr "Количество заголовков и меток заголовков не совпадают."
+
+#: src/presenters/admin/indexing-notification-presenter.php:84
+msgid "You can speed up your site and get insight into your internal linking structure by letting us perform a few optimizations to the way SEO data is stored. "
+msgstr "Вы можете ускорить свой сайт и получить представление о его внутренней структуре ссылок, позволив нам выполнить некоторые оптимизации способа хранения SEO-данных. "
+
+#: src/presenters/admin/indexing-list-item-presenter.php:40
+msgid "You can speed up your site and get insight into your internal linking structure by letting us perform a few optimizations to the way SEO data is stored. If you have a lot of content it might take a while, but trust us, it's worth it."
+msgstr "Вы можете ускорить свой сайт и получить представление о его внутренней структуре ссылок, позволив нам выполнить несколько оптимизаций способа хранения SEO-данных. Если у вас много содержимого, это может занять некоторое время, но поверьте нам, оно того стоит."
+
+#: languages/wordpress-seojs.php:137
+msgid "Sorry, there's no data available for that keyphrase/country combination."
+msgstr "Извините, но нет данных для этой комбинации ключевой фразы и страны."
+
+#: src/presenters/admin/indexing-list-item-presenter.php:37
+msgid "Optimize SEO Data"
+msgstr "Оптимизация данных SEO"
+
+#. Translators: %1$s expands to an opening anchor tag for a link leading to the
+#. Yoast SEO tools page, %2$s expands to a closing anchor tag.
+#: src/presenters/admin/indexing-failed-notification-presenter.php:40
+msgid "Something has gone wrong and we couldn't complete the optimization of your SEO data. Please %1$sre-start the process%2$s."
+msgstr "Что-то пошло не так, и мы не смогли завершить оптимизацию ваших SEO-данных. Пожалуйста, %1$sперезапустите процесс%2$s."
+
+#: src/presenters/admin/indexing-failed-notification-presenter.php:46
+msgid "If the problem persists, please contact support."
+msgstr "Если проблема проявится снова, обратитесь в службу поддержки."
 
 #. translators: %1$s: expands to an opening anchor tag, %2$s: expands to a
 #. closing anchor tag
