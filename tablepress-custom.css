@@ -1,27 +1,30 @@
-.tablepress-id-1,
-.tablepress-id-1 tr,
-.tablepress-id-1 tbody td,
-.tablepress-id-1 thead th,
-.tablepress-id-1 tfoot th {
-	border: 1px solid black;
-	padding: 0 5px 0 5px;
+/* Give text in tables some breathing room */
+table {
+	line-height: 1.5;
 }
 
-.tablepress-id-2,
-.tablepress-id-2 tr,
-.tablepress-id-2 tbody td,
-.tablepress-id-2 thead th,
-.tablepress-id-2 tfoot th {
-	border: 1px solid black;
-	padding: 0 5px 0 5px;
-}
-
-.tablepress-id-1 .row-4 td,
-.row-1 td,
-.row-12 td,
-.row-15 td,
-.row-23 td {
-	background-color: #003449;
+/* Make the table headers more defined */
+.tablepress thead th {
+	background-color: rgb(8,92,119);
 	color: #fff;
-	border: none;
+	border: 0;
+	font-weight: normal;
+}
+
+/* Add some space around the contents of each cell */
+.tablepress td,
+.tablepress th {
+	padding: 16px;
+	border: 0;
+}
+
+/* Remove unwanted borders */
+.tablepress tbody td,
+.tablepress tfoot th {
+	border: 0;
+}
+
+/* Stripe odd rows with an ORCID-approved light green */
+.tablepress .odd td {
+	background-color: rgb(245,249,232);
 }

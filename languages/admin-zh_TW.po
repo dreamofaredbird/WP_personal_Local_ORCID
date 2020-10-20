@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.5.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-09-05 21:46:20+0000\n"
+"PO-Revision-Date: 2020-09-27 07:19:13+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -322,7 +322,7 @@ msgctxt "theme"
 msgid "Activate &#8220;%s&#8221;"
 msgstr "啟用 %s"
 
-#: wp-admin/includes/ajax-actions.php:5326
+#: wp-admin/includes/ajax-actions.php:5327
 msgid "Sorry, you are not allowed to modify plugins."
 msgstr "很抱歉，目前的登入身分沒有修改外掛的權限。"
 
@@ -546,7 +546,7 @@ msgctxt "theme"
 msgid "Cannot Activate"
 msgstr "無法啟用"
 
-#: wp-admin/comment.php:45
+#: wp-admin/comment.php:46
 msgid "You can&#8217;t edit this comment because the associated post is in the Trash. Please restore the post first, then try again."
 msgstr "由於關聯的文章已移至 [回收桶]，因此無法編輯這則留言。請先還原這篇文章，然後再試一次。"
 
@@ -576,20 +576,20 @@ msgctxt "plugin"
 msgid "<strong>Error:</strong> Current versions of WordPress (%1$s) and PHP (%2$s) do not meet minimum requirements for %3$s. The plugin requires WordPress %4$s and PHP %5$s."
 msgstr "<strong>錯誤:</strong> 目前使用的 WordPress %1$s 及 PHP %2$s 不符合 %3$s 的最低版本需求。這個外掛需要 WordPress %4$s 及 PHP %5$s。"
 
-#: wp-admin/includes/ajax-actions.php:5348
+#: wp-admin/includes/ajax-actions.php:5349
 msgid "Invalid data. The item does not exist."
 msgstr "無效的資料。項目不存在。"
 
-#: wp-admin/includes/ajax-actions.php:5319
-#: wp-admin/includes/ajax-actions.php:5344
+#: wp-admin/includes/ajax-actions.php:5320
+#: wp-admin/includes/ajax-actions.php:5345
 msgid "Invalid data. Unknown type."
 msgstr "無效的資料。未知的類型。"
 
-#: wp-admin/includes/ajax-actions.php:5314
+#: wp-admin/includes/ajax-actions.php:5315
 msgid "Invalid data. Unknown state."
 msgstr "無效的資料。未知的狀態。"
 
-#: wp-admin/includes/ajax-actions.php:5308
+#: wp-admin/includes/ajax-actions.php:5309
 msgid "Invalid data. No selected item."
 msgstr "無效的資料。沒有選取的項目。"
 
@@ -1444,7 +1444,7 @@ msgstr "〈<a href=\"https://wordpress.org/support/article/using-themes/\" targe
 msgid "<a href=\"https://developer.wordpress.org/themes/\">Documentation on Theme Development</a>"
 msgstr "〈<a href=\"https://developer.wordpress.org/themes/\" target=\"_blank\">佈景主題開發</a>〉線上說明"
 
-#: wp-admin/comment.php:66 wp-admin/edit-comments.php:194
+#: wp-admin/comment.php:70 wp-admin/edit-comments.php:194
 msgid "<a href=\"https://wordpress.org/support/article/comments-screen/\">Documentation on Comments</a>"
 msgstr "〈<a href=\"https://wordpress.org/support/article/comments-screen/\" target=\"_blank\">留言</a>〉線上說明"
 
@@ -1978,17 +1978,17 @@ msgid "The authenticity of %s could not be verified as signature verification is
 msgstr "由於在這個系統無法使用簽章驗證，因此無法驗證 %s 的真實性。"
 
 #. translators: %s: Eraser friendly name.
-#: wp-admin/includes/ajax-actions.php:5027
+#: wp-admin/includes/ajax-actions.php:5028
 msgid "Eraser callback is not valid: %s."
 msgstr "清除程式的回呼無效: %s。"
 
 #. translators: %s: Eraser friendly name.
-#: wp-admin/includes/ajax-actions.php:5017
+#: wp-admin/includes/ajax-actions.php:5018
 msgid "Eraser does not include a callback: %s."
 msgstr "清除程式不包含的回呼: %s。"
 
-#: wp-admin/includes/ajax-actions.php:4739
-#: wp-admin/includes/ajax-actions.php:4930
+#: wp-admin/includes/ajax-actions.php:4740
+#: wp-admin/includes/ajax-actions.php:4931
 msgid "Sorry, you are not allowed to perform this action."
 msgstr "很抱歉，目前的登入身分沒有執行這項操作的權限。"
 
@@ -4002,7 +4002,7 @@ msgid "Report generated for"
 msgstr "製表傳送目標"
 
 #. translators: %s: Exporter array index.
-#: wp-admin/includes/ajax-actions.php:4823
+#: wp-admin/includes/ajax-actions.php:4824
 msgid "Exporter array at index %s does not include a friendly name."
 msgstr "匯出程式在索引 %s 中的陣列不包含易記名稱。"
 
@@ -4014,72 +4014,72 @@ msgstr "很抱歉，目前的登入身分沒有在這個網站上清除個人資
 msgid "Sorry, you are not allowed to export personal data on this site."
 msgstr "很抱歉，目前的登入身分沒有在這個網站上匯出個人資料的權限。"
 
-#: wp-admin/includes/ajax-actions.php:4990
+#: wp-admin/includes/ajax-actions.php:4991
 msgid "Eraser index is out of range."
 msgstr "清除程式索引超出範圍。"
 
-#: wp-admin/includes/ajax-actions.php:4949
+#: wp-admin/includes/ajax-actions.php:4950
 msgid "Missing eraser index."
 msgstr "找不到清除程式索引。"
 
 #. translators: %s: Exporter friendly name.
-#: wp-admin/includes/ajax-actions.php:4874
+#: wp-admin/includes/ajax-actions.php:4875
 msgid "Expected done (boolean) in response array from exporter: %s."
 msgstr "匯出程式 %s 必須完成回應陣列中的布林值。"
 
 #. translators: %s: Exporter friendly name.
-#: wp-admin/includes/ajax-actions.php:4867
+#: wp-admin/includes/ajax-actions.php:4868
 msgid "Expected data array in response array from exporter: %s."
 msgstr "匯出程式 %s 的回應陣列中必須有資料陣列。"
 
 #. translators: %s: Exporter friendly name.
-#: wp-admin/includes/ajax-actions.php:4860
+#: wp-admin/includes/ajax-actions.php:4861
 msgid "Expected data in response array from exporter: %s."
 msgstr "匯出程式 %s 的回應陣列中必須有資料。"
 
 #. translators: %s: Exporter friendly name.
-#: wp-admin/includes/ajax-actions.php:4853
+#: wp-admin/includes/ajax-actions.php:4854
 msgid "Expected response as an array from exporter: %s."
 msgstr "匯出程式 %s 必須回應為一組陣列。"
 
 #. translators: %s: Exporter friendly name.
-#: wp-admin/includes/ajax-actions.php:4839
+#: wp-admin/includes/ajax-actions.php:4840
 msgid "Exporter callback is not a valid callback: %s."
 msgstr "匯出程式 %s 的回呼不是有效的回呼。"
 
 #. translators: %s: Exporter friendly name.
-#: wp-admin/includes/ajax-actions.php:4832
+#: wp-admin/includes/ajax-actions.php:4833
 msgid "Exporter does not include a callback: %s."
 msgstr "匯出程式 %s 不包含回呼。"
 
 #. translators: %s: Exporter array index.
-#: wp-admin/includes/ajax-actions.php:4816
+#: wp-admin/includes/ajax-actions.php:4817
 msgid "Expected an array describing the exporter at index %s."
 msgstr "必須有一組陣列描述在索引 %s 中的匯出程式。"
 
-#: wp-admin/includes/ajax-actions.php:4802
+#: wp-admin/includes/ajax-actions.php:4803
 msgid "Exporter index is out of range."
 msgstr "匯出程式索引超出範圍。"
 
-#: wp-admin/includes/ajax-actions.php:4798
+#: wp-admin/includes/ajax-actions.php:4799
 msgid "Exporter index cannot be negative."
 msgstr "匯出程式索引不能為負數。"
 
-#: wp-admin/includes/ajax-actions.php:4792
+#: wp-admin/includes/ajax-actions.php:4793
 msgid "An exporter has improperly used the registration filter."
 msgstr "匯出程式不當使用註冊篩選器。"
 
-#: wp-admin/includes/ajax-actions.php:4763
-#: wp-admin/includes/ajax-actions.php:4955
+#: wp-admin/includes/ajax-actions.php:4764
+#: wp-admin/includes/ajax-actions.php:4956
 msgid "Missing page index."
 msgstr "找不到頁面索引。"
 
-#: wp-admin/includes/ajax-actions.php:4757
+#: wp-admin/includes/ajax-actions.php:4758
 msgid "Missing exporter index."
 msgstr "找不到匯出程式索引。"
 
-#: wp-admin/includes/ajax-actions.php:4748
-#: wp-admin/includes/ajax-actions.php:4939
+#: wp-admin/includes/ajax-actions.php:4749
+#: wp-admin/includes/ajax-actions.php:4940
 msgid "Invalid request type."
 msgstr "無效的要求類型。"
 
@@ -4237,7 +4237,7 @@ msgstr "用於產生個人資料匯出檔的要求 ID 無效。"
 msgid "Unable to generate export file. ZipArchive not available."
 msgstr "無法產生資料匯出檔。無法使用 ZipArchive 類別。"
 
-#: wp-admin/includes/ajax-actions.php:4753
+#: wp-admin/includes/ajax-actions.php:4754
 msgid "A valid email address must be given."
 msgstr "必須輸入有效的電子郵件地址。"
 
@@ -4316,61 +4316,61 @@ msgstr "確認要求已成功重新傳送。"
 msgid "Unable to initiate confirmation request."
 msgstr "確認要求無法初始化。"
 
-#: wp-admin/includes/ajax-actions.php:4735
-#: wp-admin/includes/ajax-actions.php:4925
+#: wp-admin/includes/ajax-actions.php:4736
+#: wp-admin/includes/ajax-actions.php:4926
 msgid "Invalid request ID."
 msgstr "無效的要求 ID。"
 
 #. translators: 1: Eraser friendly name, 2: Eraser array index.
-#: wp-admin/includes/ajax-actions.php:5099
+#: wp-admin/includes/ajax-actions.php:5100
 msgid "Expected done flag in response array from %1$s eraser (index %2$d)."
 msgstr "清除程式 %1$s (索引 %2$d) 必須完成回應陣列中的旗標。"
 
 #. translators: 1: Eraser friendly name, 2: Eraser array index.
-#: wp-admin/includes/ajax-actions.php:5088
+#: wp-admin/includes/ajax-actions.php:5089
 msgid "Expected messages key to reference an array in response array from %1$s eraser (index %2$d)."
 msgstr "清除程式 %1$s (索引 %2$d) 必須完成回應陣列中的訊息索引鍵以進行參照。"
 
 #. translators: 1: Eraser friendly name, 2: Eraser array index.
-#: wp-admin/includes/ajax-actions.php:5077
+#: wp-admin/includes/ajax-actions.php:5078
 msgid "Expected messages key in response array from %1$s eraser (index %2$d)."
 msgstr "清除程式 %1$s (索引 %2$d) 必須完成回應陣列中的訊息索引鍵。"
 
 #. translators: 1: Eraser friendly name, 2: Eraser array index.
-#: wp-admin/includes/ajax-actions.php:5066
+#: wp-admin/includes/ajax-actions.php:5067
 msgid "Expected items_retained key in response array from %1$s eraser (index %2$d)."
 msgstr "清除程式 %1$s (索引 %2$d) 必須完成回應陣列中的 items_retained 索引鍵。"
 
 #. translators: 1: Eraser friendly name, 2: Eraser array index.
-#: wp-admin/includes/ajax-actions.php:5055
+#: wp-admin/includes/ajax-actions.php:5056
 msgid "Expected items_removed key in response array from %1$s eraser (index %2$d)."
 msgstr "清除程式 %1$s (索引 %2$d) 必須完成回應陣列中的 items_removed 索引鍵。"
 
 #. translators: 1: Eraser friendly name, 2: Eraser array index.
-#: wp-admin/includes/ajax-actions.php:5044
+#: wp-admin/includes/ajax-actions.php:5045
 msgid "Did not receive array from %1$s eraser (index %2$d)."
 msgstr "無法從 %1$s 清除程式收到陣列 (索引 %2$d)。"
 
 #. translators: %d: Eraser array index.
-#: wp-admin/includes/ajax-actions.php:5008
+#: wp-admin/includes/ajax-actions.php:5009
 msgid "Eraser array at index %d does not include a friendly name."
 msgstr "清除程式在索引 %d 中的陣列不包含易記名稱。"
 
 #. translators: %d: Eraser array index.
-#: wp-admin/includes/ajax-actions.php:5003
+#: wp-admin/includes/ajax-actions.php:5004
 msgid "Expected an array describing the eraser at index %d."
 msgstr "必須有一組陣列描述在索引 %d 中的清除程式。"
 
-#: wp-admin/includes/ajax-actions.php:4806
-#: wp-admin/includes/ajax-actions.php:4994
+#: wp-admin/includes/ajax-actions.php:4807
+#: wp-admin/includes/ajax-actions.php:4995
 msgid "Page index cannot be less than one."
 msgstr "頁面索引不能小於 1。"
 
-#: wp-admin/includes/ajax-actions.php:4986
+#: wp-admin/includes/ajax-actions.php:4987
 msgid "Eraser index cannot be less than one."
 msgstr "清除程式索引不能小於 1。"
 
-#: wp-admin/includes/ajax-actions.php:4945
+#: wp-admin/includes/ajax-actions.php:4946
 msgid "Invalid email address in request."
 msgstr "要求中的電子郵件地址無效。"
 
@@ -4985,7 +4985,7 @@ msgstr "重複背景圖片"
 #: wp-admin/link-manager.php:79 wp-admin/options-writing.php:53
 #: wp-admin/includes/class-custom-background.php:100
 #: wp-admin/includes/class-custom-image-header.php:135 wp-admin/my-sites.php:52
-#: wp-admin/options-general.php:49 wp-admin/comment.php:67
+#: wp-admin/options-general.php:49 wp-admin/comment.php:71
 #: wp-admin/theme-editor.php:55 wp-admin/plugin-editor.php:144
 #: wp-admin/nav-menus.php:659 wp-admin/update-core.php:847
 #: wp-admin/options-permalink.php:62 wp-admin/user-new.php:269
@@ -5119,7 +5119,7 @@ msgstr "確認使用安全強度較弱的密碼"
 msgid "Sorry, you are not allowed to edit this changeset."
 msgstr "很抱歉，目前的登入身分沒有編輯這個變更集的權限。"
 
-#: wp-admin/includes/ajax-actions.php:4153 wp-admin/update.php:202
+#: wp-admin/includes/ajax-actions.php:4154 wp-admin/update.php:202
 #: wp-admin/update.php:223
 msgid "Sorry, you are not allowed to update themes for this site."
 msgstr "很抱歉，目前的登入身分沒有為這個網站更新佈景主題的權限。"
@@ -5342,38 +5342,38 @@ msgstr "很抱歉，目前的登入身分沒有為這個網站編輯連結的權
 msgid "Sorry, you are not allowed to manage privacy on this site."
 msgstr "很抱歉，目前的登入身分沒有在這個網站上管理隱私權的權限。"
 
-#: wp-admin/includes/ajax-actions.php:4578
+#: wp-admin/includes/ajax-actions.php:4579
 msgid "Plugin could not be deleted."
 msgstr "外掛無法刪除。"
 
-#: wp-admin/includes/ajax-actions.php:4432 wp-admin/update.php:29
+#: wp-admin/includes/ajax-actions.php:4433 wp-admin/update.php:29
 #: wp-admin/update.php:57 wp-admin/update.php:79
 msgid "Sorry, you are not allowed to update plugins for this site."
 msgstr "很抱歉，目前的登入身分沒有為這個網站更新外掛的權限。"
 
-#: wp-admin/includes/ajax-actions.php:4308
-#: wp-admin/includes/ajax-actions.php:4417
-#: wp-admin/includes/ajax-actions.php:4525
+#: wp-admin/includes/ajax-actions.php:4309
+#: wp-admin/includes/ajax-actions.php:4418
+#: wp-admin/includes/ajax-actions.php:4526
 msgid "No plugin specified."
 msgstr "找不到指定的外掛。"
 
-#: wp-admin/includes/ajax-actions.php:4284
+#: wp-admin/includes/ajax-actions.php:4285
 msgid "Theme could not be deleted."
 msgstr "佈景主題無法刪除。"
 
-#: wp-admin/includes/ajax-actions.php:4246
+#: wp-admin/includes/ajax-actions.php:4247
 msgid "Sorry, you are not allowed to delete themes on this site."
 msgstr "很抱歉，目前的登入身分沒有為這個網站刪除佈景主題的權限。"
 
-#: wp-admin/includes/ajax-actions.php:4029 wp-admin/update.php:251
+#: wp-admin/includes/ajax-actions.php:4030 wp-admin/update.php:251
 #: wp-admin/update.php:291 wp-admin/update.php:324
 #: wp-admin/theme-install.php:16
 msgid "Sorry, you are not allowed to install themes on this site."
 msgstr "很抱歉，目前的登入身分沒有在這個網站上安裝佈景主題的權限。"
 
-#: wp-admin/includes/ajax-actions.php:4016
-#: wp-admin/includes/ajax-actions.php:4139
-#: wp-admin/includes/ajax-actions.php:4234
+#: wp-admin/includes/ajax-actions.php:4017
+#: wp-admin/includes/ajax-actions.php:4140
+#: wp-admin/includes/ajax-actions.php:4235
 msgid "No theme specified."
 msgstr "找不到指定的佈景主題。"
 
@@ -6410,7 +6410,7 @@ msgstr "留言 (%s)"
 msgid "Comments (%1$s) on &#8220;%2$s&#8221;"
 msgstr "在〈%2$s〉中有 %1$s 則留言"
 
-#: wp-admin/includes/ajax-actions.php:5336
+#: wp-admin/includes/ajax-actions.php:5337
 msgid "Sorry, you are not allowed to modify themes."
 msgstr "很抱歉，目前的登入身分沒有修改佈景主題的權限。"
 
@@ -6495,7 +6495,7 @@ msgid "%s comment"
 msgid_plural "%s comments"
 msgstr[0] "%s 則留言"
 
-#: wp-admin/includes/ajax-actions.php:3876
+#: wp-admin/includes/ajax-actions.php:3877
 msgid "Image could not be processed."
 msgstr "圖片無法進行處理。"
 
@@ -6854,13 +6854,13 @@ msgstr ""
 msgid "M j, Y @ H:i"
 msgstr "Y 年 n 月 j 日a g:i"
 
-#: wp-admin/comment.php:208
+#: wp-admin/comment.php:212
 msgid "Submitted on"
 msgstr "發佈日期"
 
 #. translators: Column name or table row header.
 #: wp-admin/includes/class-wp-comments-list-table.php:459
-#: wp-admin/comment.php:182
+#: wp-admin/comment.php:186
 msgid "In response to"
 msgstr "回應目標"
 
@@ -6976,19 +6976,19 @@ msgid "Filter by comment type"
 msgstr "依留言類型篩選"
 
 #. translators: %s: User's display name.
-#: wp-admin/includes/ajax-actions.php:3851
+#: wp-admin/includes/ajax-actions.php:3852
 msgid "%s has been logged out."
 msgstr "「%s」已登出。"
 
-#: wp-admin/includes/ajax-actions.php:3847
+#: wp-admin/includes/ajax-actions.php:3848
 msgid "You are now logged out everywhere else."
 msgstr "已在除了這台裝置之外的全部裝置登出。"
 
-#: wp-admin/includes/ajax-actions.php:3838
+#: wp-admin/includes/ajax-actions.php:3839
 msgid "Could not log out user sessions. Please try again."
 msgstr "無法登出使用者工作階段，請再試一次。"
 
-#: wp-admin/includes/ajax-actions.php:3725
+#: wp-admin/includes/ajax-actions.php:3726
 msgid "This preview is unavailable in the editor."
 msgstr "無法在編輯器中預覽。"
 
@@ -7181,7 +7181,7 @@ msgid "Beta Testing"
 msgstr "Beta 版測試"
 
 #. translators: %s: URL that could not be embedded.
-#: wp-admin/includes/ajax-actions.php:3691
+#: wp-admin/includes/ajax-actions.php:3692
 msgid "%s failed to embed."
 msgstr "無法嵌入來自 %s 的內容。"
 
@@ -8884,7 +8884,7 @@ msgstr "https://tw.wordpress.org/about/"
 #: wp-admin/update-core.php:329 wp-admin/update-core.php:449
 #: wp-admin/update-core.php:491 wp-admin/update-core.php:613
 msgid "Select All"
-msgstr "選取全部"
+msgstr "全部選取"
 
 #: wp-admin/includes/meta-boxes.php:175 wp-admin/js/post.js:866
 msgid "Public, Sticky"
@@ -9841,7 +9841,7 @@ msgstr "管理後台左側的導覽選單提供存取各個 WordPress 管理畫�
 #: wp-admin/includes/class-custom-background.php:88
 #: wp-admin/includes/ms.php:1135 wp-admin/includes/class-wp-screen.php:853
 #: wp-admin/includes/class-custom-image-header.php:97 wp-admin/my-sites.php:43
-#: wp-admin/options-general.php:41 wp-admin/comment.php:57
+#: wp-admin/options-general.php:41 wp-admin/comment.php:61
 #: wp-admin/theme-editor.php:27 wp-admin/plugin-editor.php:124
 #: wp-admin/nav-menus.php:609 wp-admin/nav-menus.php:650
 #: wp-admin/update-core.php:806 wp-admin/options-permalink.php:22
@@ -9932,7 +9932,7 @@ msgstr "目前的登入身分沒有移除使用者的權限。"
 msgid "Search results for &#8220;%s&#8221;"
 msgstr "「%s」的搜尋結果"
 
-#: wp-admin/comment.php:162 wp-admin/theme-editor.php:305
+#: wp-admin/comment.php:166 wp-admin/theme-editor.php:305
 #: wp-admin/plugins.php:342 wp-admin/plugins.php:348
 #: wp-admin/includes/network.php:444 wp-admin/includes/network.php:452
 #: wp-admin/includes/network.php:460 wp-admin/network/themes.php:137
@@ -9979,8 +9979,8 @@ msgstr "多站網路管理員"
 #: wp-admin/includes/class-wp-debug-data.php:1275
 #: wp-admin/includes/class-wp-plugins-list-table.php:1018
 #: wp-admin/includes/update.php:231 wp-admin/includes/update.php:271
-#: wp-admin/includes/ajax-actions.php:4442
-#: wp-admin/includes/ajax-actions.php:4485
+#: wp-admin/includes/ajax-actions.php:4443
+#: wp-admin/includes/ajax-actions.php:4486
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:713
 msgid "Version %s"
 msgstr "%s 版"
@@ -10045,7 +10045,7 @@ msgstr "設定已儲存。"
 #: wp-admin/includes/class-custom-background.php:98
 #: wp-admin/includes/ms.php:1157
 #: wp-admin/includes/class-custom-image-header.php:133 wp-admin/my-sites.php:50
-#: wp-admin/options-general.php:47 wp-admin/comment.php:65
+#: wp-admin/options-general.php:47 wp-admin/comment.php:69
 #: wp-admin/theme-editor.php:50 wp-admin/plugin-editor.php:141
 #: wp-admin/nav-menus.php:657 wp-admin/update-core.php:844
 #: wp-admin/options-permalink.php:59 wp-admin/user-new.php:267
@@ -10340,7 +10340,7 @@ msgstr "第 %1$s 頁，總計 %2$s 頁"
 msgid "%s Page Template"
 msgstr "[%s] 頁面範本"
 
-#: wp-admin/includes/ajax-actions.php:4547 wp-admin/plugins.php:622
+#: wp-admin/includes/ajax-actions.php:4548 wp-admin/plugins.php:622
 msgid "You cannot delete a plugin while it is active on the main site."
 msgstr "無法刪除啟用於主要網站的外掛。"
 
@@ -10488,7 +10488,7 @@ msgstr "佈景主題已成功更新。"
 
 #: wp-admin/includes/class-theme-upgrader.php:63
 #: wp-admin/includes/class-theme-upgrader.php:100
-#: wp-admin/includes/ajax-actions.php:4213
+#: wp-admin/includes/ajax-actions.php:4214
 msgid "Theme update failed."
 msgstr "佈景主題更新失敗。"
 
@@ -10499,7 +10499,7 @@ msgstr "外掛已成功更新。"
 
 #: wp-admin/includes/class-plugin-upgrader.php:64
 #: wp-admin/includes/class-plugin-upgrader.php:91
-#: wp-admin/includes/ajax-actions.php:4504
+#: wp-admin/includes/ajax-actions.php:4505
 msgid "Plugin update failed."
 msgstr "外掛更新失敗。"
 
@@ -10838,11 +10838,11 @@ msgstr "除了標示為 [必填] 的欄位外，其餘欄位均為選填欄位�
 msgid "Your username cannot be changed, but you can use other fields to enter your real name or a nickname, and change which name to display on your posts."
 msgstr "使用者名稱無法變更，但可以在其他欄位輸入真實姓名或暱稱，並設定在文章顯示作者名稱的方式。"
 
-#: wp-admin/comment.php:60
+#: wp-admin/comment.php:64
 msgid "You can also moderate the comment from this screen using the Status box, where you can also change the timestamp of the comment."
 msgstr "相關站務人員也可以使用畫面上的 [狀態] 區塊審閱留言，還可以變更該則留言的時間戳記。"
 
-#: wp-admin/comment.php:59
+#: wp-admin/comment.php:63
 msgid "You can edit the information left in a comment if needed. This is often useful when you notice that a commenter has made a typographical error."
 msgstr "如果有需要，具備管理留言權限的站務人員可以編輯留言內的資訊。當發現留言者發生拼寫錯誤時，這項功能會非常有幫助。"
 
@@ -11132,7 +11132,7 @@ msgid "Clear"
 msgstr "清除"
 
 #: wp-admin/includes/class-wp-comments-list-table.php:362
-#: wp-admin/comment.php:128
+#: wp-admin/comment.php:132
 msgctxt "comment"
 msgid "Mark as spam"
 msgstr "標示為垃圾留言"
@@ -11632,19 +11632,19 @@ msgstr "這則留言已移至回收桶。"
 msgid "This comment is already approved."
 msgstr "這則留言已核准。"
 
-#: wp-admin/comment.php:154
+#: wp-admin/comment.php:158
 msgid "This comment is currently in the Trash."
 msgstr "這則留言目前已移至回收桶。"
 
-#: wp-admin/comment.php:151
+#: wp-admin/comment.php:155
 msgid "This comment is currently marked as spam."
 msgstr "這則留言目前已標示為垃圾留言。"
 
-#: wp-admin/comment.php:148
+#: wp-admin/comment.php:152
 msgid "This comment is currently approved."
 msgstr "這則留言目前已核准。"
 
-#: wp-admin/comment.php:95
+#: wp-admin/comment.php:99
 msgid "Moderate Comment"
 msgstr "審閱留言"
 
@@ -12099,7 +12099,7 @@ msgstr "外掛檔案"
 msgid "Select plugin to edit:"
 msgstr "選取需要編輯的外掛:"
 
-#: wp-admin/includes/ajax-actions.php:4715 wp-admin/theme-editor.php:189
+#: wp-admin/includes/ajax-actions.php:4716 wp-admin/theme-editor.php:189
 #: wp-admin/plugin-editor.php:184
 msgid "File edited successfully."
 msgstr "檔案已完成編輯。"
@@ -14360,7 +14360,7 @@ msgstr "更新留言"
 
 #. translators: 1: Date of last edit, 2: Time of last edit.
 #. translators: 1: Post edited date, 2: Post edited time.
-#: wp-admin/includes/ajax-actions.php:2815 wp-admin/edit-form-advanced.php:628
+#: wp-admin/includes/ajax-actions.php:2816 wp-admin/edit-form-advanced.php:628
 msgid "Last edited on %1$s at %2$s"
 msgstr "最後編輯時間: %1$s%2$s"
 
@@ -14368,7 +14368,7 @@ msgstr "最後編輯時間: %1$s%2$s"
 #. edit.
 #. translators: 1: Name of most recent post author, 2: Post edited date, 3:
 #. Post edited time.
-#: wp-admin/includes/ajax-actions.php:2812 wp-admin/edit-form-advanced.php:625
+#: wp-admin/includes/ajax-actions.php:2813 wp-admin/edit-form-advanced.php:625
 msgid "Last edited by %1$s on %2$s at %3$s"
 msgstr "最後由「%1$s」於 %2$s%3$s 進行編輯"
 
@@ -14569,44 +14569,44 @@ msgstr "背景已更新。<a href=\"%s\">造訪這個網站</a>以檢視外觀�
 msgid "Custom Background"
 msgstr "自訂背景"
 
-#: wp-admin/comment.php:363
+#: wp-admin/comment.php:367
 msgid "Unknown action."
 msgstr "未知的操作。"
 
-#: wp-admin/comment.php:140
+#: wp-admin/comment.php:144
 msgid "Approve comment"
 msgstr "核准留言"
 
-#: wp-admin/comment.php:139
+#: wp-admin/comment.php:143
 msgid "You are about to approve the following comment:"
 msgstr "即將核准以下留言:"
 
-#: wp-admin/comment.php:136
+#: wp-admin/comment.php:140
 msgid "Permanently delete comment"
 msgstr "永久刪除留言"
 
-#: wp-admin/comment.php:135
+#: wp-admin/comment.php:139
 msgid "You are about to delete the following comment:"
 msgstr "即將刪除以下留言:"
 
-#: wp-admin/comment.php:131
+#: wp-admin/comment.php:135
 msgid "You are about to move the following comment to the Trash:"
 msgstr "即將移動以下留言至回收桶:"
 
-#: wp-admin/comment.php:127
+#: wp-admin/comment.php:131
 msgid "You are about to mark the following comment as spam:"
 msgstr "即將標示以下留言為垃圾留言:"
 
-#: wp-admin/comment.php:82
+#: wp-admin/comment.php:86
 msgid "This comment is in the Trash. Please move it out of the Trash if you want to edit it."
 msgstr "這則留言已移至回收桶。如需編輯這則留言，請從回收桶中將它還原。"
 
-#: wp-admin/includes/comment.php:55 wp-admin/comment.php:275
+#: wp-admin/includes/comment.php:55 wp-admin/comment.php:279
 #: wp-admin/edit-comments.php:253
 msgid "Sorry, you are not allowed to edit comments on this post."
 msgstr "很抱歉，目前的登入身分沒有編輯這篇文章留言的權限。"
 
-#: wp-admin/includes/template.php:453 wp-admin/comment.php:52
+#: wp-admin/includes/template.php:453 wp-admin/comment.php:56
 #: wp-admin/edit-form-comment.php:17
 msgid "Edit Comment"
 msgstr "編輯留言"

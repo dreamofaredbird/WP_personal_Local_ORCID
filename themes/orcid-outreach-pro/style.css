@@ -475,7 +475,8 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"],
-.button {
+a.button
+{
 	background-color: var(--brand-secondary-dark);
 	border: 2px solid var(--brand-secondary-dark);
 	border-radius: 4px;
@@ -485,6 +486,7 @@ input[type="submit"],
 	text-transform: uppercase;
 	letter-spacing: 0.5px;
 	width: auto;
+	text-decoration: none;
 }
 
 button:hover,
@@ -521,6 +523,7 @@ input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-results-button {
 	display: none;
 }
+
 
 
 /* Tables

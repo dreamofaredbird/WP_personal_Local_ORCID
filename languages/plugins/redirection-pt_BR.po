@@ -2,18 +2,110 @@
 # This file is distributed under the same license as the Plugins - Redirection - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-06-02 20:34:19+0000\n"
+"PO-Revision-Date: 2020-09-28 14:53:38+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: GlotPress/3.0.0-alpha\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
 "Language: pt_BR\n"
 "Project-Id-Version: Plugins - Redirection - Stable (latest release)\n"
+
+#: redirection-strings.php:680
+msgid "Relocate to domain"
+msgstr "Mudar para o domínio"
+
+#: redirection-strings.php:679
+msgid "Want to redirect the entire site? Enter a domain to redirect everything, except WordPress login and admin. Enabling this option will disable any site aliases or canonical settings."
+msgstr "Quer redirecionar o site todo? Insira um domínio para o qual redirecionar tudo, exceto o login e admin do WordPress. Ativar esta opção vai desativar todos as configurações canônicas e de alias."
+
+#: redirection-strings.php:678
+msgid "Relocate Site"
+msgstr "Mudar o site"
+
+#: redirection-strings.php:671
+msgid "Add CORS Presets"
+msgstr "Adicionar Predefinições CORS"
+
+#: redirection-strings.php:670
+msgid "Add Security Presets"
+msgstr "Adicionar Predefinições de Segurança"
+
+#: redirection-strings.php:669
+msgid "Add Header"
+msgstr "Adicionar cabeçalho"
+
+#: redirection-strings.php:664
+msgid "You should update your site URL to match your canonical settings: {{code}}%(current)s{{/code}} ⇒ {{code}}%(site)s{{/code}}"
+msgstr "Você deve atualizar o URL do site para corresponder à sua configuração canônica: {{code}}%(current)s{{/code}} ⇒ {{code}}%(site)s{{/code}}"
+
+#: redirection-strings.php:663
+msgid "Preferred domain"
+msgstr "Domínio preferido"
+
+#: redirection-strings.php:662
+msgid "{{strong}}Warning{{/strong}}: ensure your HTTPS is working before forcing a redirect."
+msgstr "{{strong}}Cuidado{{/strong}}: verifique se o HTTPS está funcionando antes de forçar um redirecionamento."
+
+#: redirection-strings.php:661
+msgid "Force a redirect from HTTP to HTTPS - {{code}}%(site)s{{/code}} ⇒ {{code}}%(siteHTTPS)s{{/code}}"
+msgstr "Forçar o redirecionamento de HTTP para HTTPS - {{code}}%(site)s{{/code}} ⇒ {{code}}%(siteHTTPS)s{{/code}}"
+
+#: redirection-strings.php:660
+msgid "Canonical Settings"
+msgstr "Configurações canônicas"
+
+#: redirection-strings.php:659
+msgid "Add www to domain - {{code}}%(site)s{{/code}} ⇒ {{code}}%(siteWWW)s{{/code}}"
+msgstr "Adicionar www ao domínio - {{code}}%(site)s{{/code}} ⇒ {{code}}%(siteWWW)s{{/code}}"
+
+#: redirection-strings.php:658
+msgid "Remove www from domain - {{code}}%(siteWWW)s{{/code}} ⇒ {{code}}%(site)s{{/code}}"
+msgstr "Retirar o www do domínio - {{code}}%(siteWWW)s{{/code}} ⇒ {{code}}%(site)s{{/code}}"
+
+#: redirection-strings.php:657
+msgid "Don't set a preferred domain - {{code}}%(site)s{{/code}}"
+msgstr "Não defina um domínio preferido - {{code}}%(site)s{{/code}}"
+
+#: redirection-strings.php:656
+msgid "Add Alias"
+msgstr "Adicionar alias"
+
+#: redirection-strings.php:655
+msgid "No aliases"
+msgstr "Nenhum alias"
+
+#: redirection-strings.php:654
+msgid "Alias"
+msgstr "Alias"
+
+#: redirection-strings.php:653
+msgid "Aliased Domain"
+msgstr "Domínio em alias"
+
+#: redirection-strings.php:652
+msgid "You will need to configure your system (DNS and server) to pass requests for these domains to this WordPress install."
+msgstr "Você precisa configurar seus sistema (DNS e servidor) para passar as solicitações para esses domínios para esta instalação WordPress."
+
+#: redirection-strings.php:651
+msgid "A site alias is another domain that you want to be redirected to this site. For example, an old domain, or a subdomain. This will redirect all URLs, including WordPress login and admin."
+msgstr "Um alias de site é um outro domínio que você quer que seja redirecionado para este site. Por exemplo, um domínio antigo, ou um subdomínio. Isso vai redirecionar todos os URLs, inclusive o login e admin do WordPress."
+
+#: redirection-strings.php:650
+msgid "Site Aliases"
+msgstr "Alias do site"
 
 #: redirection-strings.php:584
 msgid "The companion plugin Search Regex allows you to search and replace data on your site. It also supports Redirection, and is handy if you want to bulk update a lot of redirects."
 msgstr "O plugin complementar Search Regex permite que você faça uma pesquisa e substituição de dados em seu site. Ele também suporta o Redirection, e é útil se você quiser atualizar em massa muitos redirecionamentos."
+
+#: redirection-strings.php:583
+msgid "Need to search and replace?"
+msgstr "Precisa procurar e substituir?"
+
+#: redirection-strings.php:572
+msgid "Options on this page can cause problems if used incorrectly. You can {{link}}temporarily disable them{{/link}} to make changes."
+msgstr "As opções desta página podem causar problemas se usadas incorretamente. Você pode {{link}}desativá-las temporariamente{{/link}} para fazer alterações."
 
 #: redirection-strings.php:248
 msgid "Please wait, importing."
@@ -43,6 +135,10 @@ msgstr "Importar redirecionamentos existentes"
 msgid "That's all there is to it - you are now redirecting! Note that the above is just an example."
 msgstr "Isso é tudo - você já está redirecionando! Note que o que está acima é só um exemplo."
 
+#: redirection-strings.php:152
+msgid "If you want to redirect everything please use a site relocation or alias from the Site page."
+msgstr "Se você quer redirecionar tudo, por favor use um redirecionamento de site, ou um alias, na página Site."
+
 #: redirection-strings.php:683
 msgid "Value"
 msgstr "Valor"
@@ -61,7 +157,7 @@ msgstr "Alguns cabeçalhos HTTP são gerados pelo servidor e não podem ser alte
 
 #: redirection-strings.php:676
 msgid "No headers"
-msgstr "Sem cabeçalhos"
+msgstr "Nenhum cabeçalho"
 
 #: redirection-strings.php:675
 msgid "Header"
@@ -143,6 +239,10 @@ msgstr "Código de status HTTP"
 #: redirection-strings.php:548
 msgid "Plain"
 msgstr "Simples"
+
+#: redirection-strings.php:546
+msgid "URL match"
+msgstr "Correspondência de URL"
 
 #: redirection-strings.php:528
 msgid "Source"
@@ -286,10 +386,6 @@ msgstr "Isso geralmente é corrigido fazendo uma dessas alternativas:"
 #: redirection-strings.php:40
 msgid "You are not authorised to access this page."
 msgstr "Você não está autorizado a acessar esta página."
-
-#: redirection-strings.php:546
-msgid "URL match"
-msgstr "Correspondência de URL"
 
 #: redirection-strings.php:4
 msgid "A loop was detected and the upgrade has been stopped. This usually indicates {{support}}your site is cached{{/support}} and database changes are not being saved."
@@ -1630,6 +1726,14 @@ msgstr "Posição"
 msgid "Used to auto-generate a URL if no URL is given. Use the special tags {{code}}$dec${{/code}} or {{code}}$hex${{/code}} to insert a unique ID instead"
 msgstr "Usado na auto-geração do URL se nenhum URL for dado. Use as tags especiais {{code}}$dec${{/code}} ou {{code}}$hex${{/code}} para em vez disso inserir um ID único"
 
+#: redirection-strings.php:449
+msgid "I'd like to support some more."
+msgstr "Eu gostaria de ajudar mais um pouco."
+
+#: redirection-strings.php:452
+msgid "Support 💰"
+msgstr "Doação 💰"
+
 #: redirection-strings.php:325
 msgid "Import to group"
 msgstr "Importar para grupo"
@@ -1725,14 +1829,6 @@ msgstr "Erro 404"
 #: redirection-strings.php:321
 msgid "Please mention {{code}}%s{{/code}}, and explain what you were doing at the time"
 msgstr "Mencione {{code}}%s{{/code}} e explique o que estava fazendo no momento"
-
-#: redirection-strings.php:449
-msgid "I'd like to support some more."
-msgstr "Eu gostaria de ajudar mais um pouco."
-
-#: redirection-strings.php:452
-msgid "Support 💰"
-msgstr "Doação 💰"
 
 #: redirection-strings.php:254
 msgid "Redirection saved"
