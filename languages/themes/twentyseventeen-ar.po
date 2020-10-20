@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Themes - Twenty Seventeen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-08-06 19:35:54+0000\n"
+"PO-Revision-Date: 2020-09-20 14:08:41+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,14 @@ msgstr ""
 "X-Generator: GlotPress/3.0.0-alpha.2\n"
 "Language: ar\n"
 "Project-Id-Version: Themes - Twenty Seventeen\n"
+
+#. Description of the theme
+msgid "Twenty Seventeen brings your site to life with header video and immersive featured images. With a focus on business sites, it features multiple sections on the front page as well as widgets, navigation and social menus, a logo, and more. Personalize its asymmetrical grid with a custom color scheme and showcase your multimedia content with post formats. Our default theme for 2017 works great in many languages, for any abilities, and on any device."
+msgstr "قالب Twenty Seventeen يضفي الحيوية على موقعك من خلال فيديوهات رأسية وصور مميزة غامرة. من خلال التركيز على مواقع الأعمال، فهي تتميز بأقسام متعددة في الصفحة الأولى بالإضافة إلى عناصر ودجات، والتصفح والقوائم الاجتماعية وشعار والمزيد. قم بإضفاء الطابع الشخصي وأعرض أعمالك باستخدام نظام ألوان مخصص وعرض محتوى الوسائط المتعددة الخاص بك بتنسيقات المقال. يعمل القالب لعام 2017 بشكل رائع مع العديد من اللغات، ولأي قدرات ، وعلى أي جهاز."
+
+#. Theme Name of the theme
+msgid "Twenty Seventeen"
+msgstr "Twenty Seventeen"
 
 #: template-parts/footer/footer-widgets.php:18
 msgid "Footer"
@@ -23,15 +31,15 @@ msgstr "إضافة ودجات هنا لتظهر في الشريط الجانبي
 msgid "Blog Sidebar"
 msgstr "الشريط الجانبي للمدونة"
 
-#: template-parts/header/site-branding.php:34
 #: template-parts/navigation/navigation-top.php:31
+#: template-parts/header/site-branding.php:34
 msgid "Scroll down to content"
 msgstr "الانتقال للأسفل إلى المحتوى"
 
 #: functions.php:181
 msgctxt "Theme starter content"
 msgid "Coffee"
-msgstr "قهوة"
+msgstr "القهوة"
 
 #: functions.php:177
 msgctxt "Theme starter content"
@@ -157,8 +165,8 @@ msgctxt "Libre Franklin font: on or off"
 msgid "on"
 msgstr "on"
 
-#: template-parts/navigation/navigation-top.php:12 functions.php:64
-#: functions.php:205
+#: functions.php:64 functions.php:205
+#: template-parts/navigation/navigation-top.php:12
 msgid "Top Menu"
 msgstr "القائمة العلوية"
 
@@ -187,11 +195,11 @@ msgstr "لم يتم العثور على نتائج"
 msgid "Previous Post"
 msgstr "المقالة السابقة"
 
-#: single.php:33 comments.php:71
+#: comments.php:71 single.php:33
 msgid "Previous"
 msgstr "السابق"
 
-#: single.php:34 comments.php:72
+#: comments.php:72 single.php:34
 msgid "Next"
 msgstr "التالي"
 
@@ -216,12 +224,12 @@ msgid "Search Results for: %s"
 msgstr "نتائج البحث عن: %s"
 
 #. translators: %s: Post title.
-#: template-parts/post/content.php:57 template-parts/post/content-audio.php:84
-#: template-parts/post/content-image.php:61
+#: functions.php:392 template-parts/post/content-gallery.php:71
 #: template-parts/post/content-video.php:83
-#: template-parts/post/content-gallery.php:71
+#: template-parts/post/content-image.php:61
+#: template-parts/post/content-audio.php:84 template-parts/post/content.php:57
+#: template-parts/page/content-front-page-panels.php:45
 #: template-parts/page/content-front-page.php:42
-#: template-parts/page/content-front-page-panels.php:45 functions.php:392
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr "متابعة قراءة<span class=\"screen-reader-text\"> \"%s\"</span>"
 
@@ -239,11 +247,12 @@ msgstr "Twenty Seventeen يتطلب نسخة الووردبريس 4.7 على ا�
 msgid "Edit<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr "تحرير<span class=\"screen-reader-text\"> \"%s\"</span>"
 
-#: template-parts/post/content.php:64 template-parts/post/content-audio.php:91
-#: template-parts/post/content-image.php:68
-#: template-parts/post/content-video.php:90
 #: template-parts/post/content-gallery.php:78
+#: template-parts/post/content-video.php:90
+#: template-parts/post/content-image.php:68
+#: template-parts/post/content-audio.php:91 template-parts/post/content.php:64
 #: template-parts/page/content-page.php:26
+#: template-parts/page/content-front-page.php:48
 msgid "Pages:"
 msgstr "الصفحات:"
 
@@ -298,25 +307,33 @@ msgctxt "comments title"
 msgid "One Reply to &ldquo;%s&rdquo;"
 msgstr "ردّ واحد على &ldquo;%s&rdquo;"
 
-#: index.php:55 archive.php:51 search.php:52
+#: archive.php:51 index.php:55 search.php:52
 msgid "Page"
 msgstr "الصفحة"
 
-#: 404.php:21
-msgid "Oops! That page can&rsquo;t be found."
-msgstr "عذراً! لايمكن العثور على تلك الصفحة."
+#: archive.php:50 index.php:54 search.php:51
+msgid "Next page"
+msgstr "الصفحة التالية"
+
+#: archive.php:49 index.php:53 search.php:50
+msgid "Previous page"
+msgstr "الصفحة السابقة"
 
 #: 404.php:24
 msgid "It looks like nothing was found at this location. Maybe try a search?"
 msgstr "يبدو أنه لم يتم إيجاد شيء في هذا المكان. ربما تريد البحث؟"
 
-#: index.php:53 archive.php:49 search.php:50
-msgid "Previous page"
-msgstr "الصفحة السابقة"
+#: 404.php:21
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "عذراً! لايمكن العثور على تلك الصفحة."
 
-#: index.php:54 archive.php:50 search.php:51
-msgid "Next page"
-msgstr "الصفحة التالية"
+#. Author of the theme
+msgid "the WordPress team"
+msgstr "فريق ووردبريس"
+
+#. Theme URI of the theme
+msgid "https://wordpress.org/themes/twentyseventeen/"
+msgstr "https://wordpress.org/themes/twentyseventeen/"
 
 #. Author URI of the theme
 #: template-parts/footer/site-info.php:18

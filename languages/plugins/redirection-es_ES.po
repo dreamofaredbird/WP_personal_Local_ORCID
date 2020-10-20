@@ -2,12 +2,12 @@
 # This file is distributed under the same license as the Plugins - Redirection - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-05-08 16:31:38+0000\n"
+"PO-Revision-Date: 2020-09-28 12:05:52+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/3.0.0-alpha\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
 "Language: es\n"
 "Project-Id-Version: Plugins - Redirection - Stable (latest release)\n"
 
@@ -240,6 +240,10 @@ msgstr "Código HTTP de estado"
 msgid "Plain"
 msgstr "Plano"
 
+#: redirection-strings.php:546
+msgid "URL match"
+msgstr "Coincidencia de URL"
+
 #: redirection-strings.php:528
 msgid "Source"
 msgstr "Fuente"
@@ -382,10 +386,6 @@ msgstr "Normalmente, esto es corregido haciendo algo de lo siguiente:"
 #: redirection-strings.php:40
 msgid "You are not authorised to access this page."
 msgstr "No estás autorizado para acceder a esta página."
-
-#: redirection-strings.php:546
-msgid "URL match"
-msgstr "Coincidencia de URL"
 
 #: redirection-strings.php:4
 msgid "A loop was detected and the upgrade has been stopped. This usually indicates {{support}}your site is cached{{/support}} and database changes are not being saved."
@@ -809,7 +809,7 @@ msgstr "El almacenamiento de la dirección IP te permite realizar acciones de re
 
 #: redirection-strings.php:226
 msgid "Store IP information for redirects and 404 errors."
-msgstr "Almacena información IP para redirecciones y errores 404."
+msgstr "Almacenar información de IPs de las redirecciones y errores 404."
 
 #: redirection-strings.php:224
 msgid "Storing logs for redirects and 404s will allow you to see what is happening on your site. This will increase your database storage requirements."
@@ -817,7 +817,7 @@ msgstr "Almacena registros de redirecciones y 404s te permitirá ver lo que est�
 
 #: redirection-strings.php:223
 msgid "Keep a log of all redirects and 404 errors."
-msgstr "Guarda un registro de todas las redirecciones y errores 404."
+msgstr "Guardar un registro de todas las redirecciones y errores 404."
 
 #: redirection-strings.php:222 redirection-strings.php:225
 #: redirection-strings.php:228
@@ -1222,7 +1222,7 @@ msgstr "La URL relativa desde la que quieres redirigir"
 
 #: redirection-strings.php:492
 msgid "GDPR / Privacy information"
-msgstr "Información de RGPD / Provacidad"
+msgstr "Información de RGPD / Privacidad"
 
 #: redirection-strings.php:322
 msgid "Add New"
@@ -1726,6 +1726,14 @@ msgstr "Posición"
 msgid "Used to auto-generate a URL if no URL is given. Use the special tags {{code}}$dec${{/code}} or {{code}}$hex${{/code}} to insert a unique ID instead"
 msgstr "Se usa para generar automáticamente una URL si no se ofrece una URL. Utiliza las etiquetas especiales {{code}}$dec${{/code}} o {{code}}$hex${{/code}} para insertar un ID único insertado"
 
+#: redirection-strings.php:449
+msgid "I'd like to support some more."
+msgstr "Me gustaría dar algo más de apoyo."
+
+#: redirection-strings.php:452
+msgid "Support 💰"
+msgstr "Apoyar 💰"
+
 #: redirection-strings.php:325
 msgid "Import to group"
 msgstr "Importar a un grupo"
@@ -1821,14 +1829,6 @@ msgstr "Errores 404"
 #: redirection-strings.php:321
 msgid "Please mention {{code}}%s{{/code}}, and explain what you were doing at the time"
 msgstr "Por favor, menciona {{code}}%s{{/code}}, y explica lo que estabas haciendo en ese momento"
-
-#: redirection-strings.php:449
-msgid "I'd like to support some more."
-msgstr "Me gustaría dar algo más de apoyo."
-
-#: redirection-strings.php:452
-msgid "Support 💰"
-msgstr "Apoyar 💰"
 
 #: redirection-strings.php:254
 msgid "Redirection saved"

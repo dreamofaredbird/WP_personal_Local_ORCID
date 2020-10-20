@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Ninja Forms Contact Form &#8211; The Drag and Drop Form Builder for WordPress - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-09-23 06:17:51+0000\n"
+"PO-Revision-Date: 2020-09-26 10:25:10+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11,9 +11,133 @@ msgstr ""
 "Language: es\n"
 "Project-Id-Version: Plugins - Ninja Forms Contact Form &#8211; The Drag and Drop Form Builder for WordPress - Stable (latest release)\n"
 
+#: services/bootstrap.php:42
+msgid "SendWP - Transactional Email"
+msgstr "SendWP - Correos electrónicos transacionales"
+
+#: blocks/ninja-forms-blocks.php:19
+msgid "Ninja Forms Blocks was unable to load."
+msgstr "No se han podido cargar los bloques de Ninja Forms."
+
+#: blocks/ninja-forms-blocks.php:14
+msgid "Autoloader not found for Ninja Forms Blocks - try running <code>composer install</code>"
+msgstr "No se ha encontrado el cargador automático de los bloques de Ninja Forms - trata de ejecutar <code>composer install</code>"
+
+#: blocks/bootstrap.php:198
+msgid "Preview token failed validation"
+msgstr "Falló la validación del token de previsualización"
+
+#: blocks/bootstrap.php:170
+msgid "Current page of the collection."
+msgstr "Página actual de la colección"
+
+#: blocks/bootstrap.php:162
+msgid "Maximum number of items to be returned in result set."
+msgstr "Número máximo de elementos que se devolverán en el conjunto de resultados."
+
+#: blocks/bootstrap.php:138 blocks/bootstrap.php:157
+msgid "Unique identifier for the object."
+msgstr "Identificador único para el objeto."
+
+#: blocks/bootstrap.php:22 build/form-block.js:1
+msgid "Ninja Form"
+msgstr "Formulario Ninja"
+
+#: includes/Admin/Menus/Addons.php:114
+msgid "Don’t See Your Favorite Service Above? We Can Likely Still Help."
+msgstr "¿No ves arriba tu servicio favorito? Puede que te podamos ayudar."
+
+#: includes/Admin/Menus/Addons.php:110
+msgid "Never Miss an Important Submission or Lead Again!"
+msgstr "¡Nunca olvides de nuevo un envío o cliente potencial importante!"
+
+#: includes/Admin/Menus/Addons.php:106
+msgid "Generate More Leads Than You Ever Thought Possible"
+msgstr "Genera más clientes potenciales de los que pensaste que sería posible"
+
+#: includes/Admin/Menus/Addons.php:102
+msgid "Let Your Users Do More, and Do More for Your Users"
+msgstr "Permite a tus usuarios hacer más, y haz más por tus usuarios"
+
+#: includes/Admin/Menus/Addons.php:98
+msgid "Want to Attract More Subscribers to Your Mailing Lists?"
+msgstr "¿Quiieres atraer más suscriptores a tus listas de correo electrónico?"
+
+#: includes/Admin/Menus/Addons.php:94
+msgid "Accept Payments & Donations Without Breaking the Bank"
+msgstr "Acepta pagos y donaciones sin hacer saltar la banca"
+
+#: includes/Admin/Menus/Addons.php:90
+msgid "Better Document Sharing will Take Your Business Further"
+msgstr "Mejor compartición de documentos llevará tu negocio más arriba"
+
+#: includes/Admin/Menus/Addons.php:86
+msgid "You Can Build Smart, Beautiful WordPress Forms!"
+msgstr "¡Puedes crear formularios WordPress bonitos e inteligentes!"
+
+#: includes/Config/i18nBuilder.php:90
+msgid "Integrate with 1000+ More Services"
+msgstr "Intégralo con más de 1.000 servicios"
+
 #: includes/Config/i18nBuilder.php:89
 msgid "Send SMS Form Notifications"
 msgstr "Enviar avisos de formulario por SMS"
+
+#: includes/Config/i18nBuilder.php:88
+msgid "Document & Workflow Management"
+msgstr "Gestión de documentos y flujo de trabajo"
+
+#: includes/Config/i18nBuilder.php:87
+msgid "Manage Your Users Better"
+msgstr "Gestiona mejor tus usuarios"
+
+#: includes/Config/i18nBuilder.php:86
+msgid "Connect to Your Email Marketing or CRM Account"
+msgstr "Conecta con tu cuenta de marketing por correo electrónico o CRM"
+
+#: includes/Config/i18nBuilder.php:85
+msgid "Accept Payments & Donations"
+msgstr "Acepta pagos y donaciones"
+
+#: includes/Config/i18nDashboard.php:82
+msgid "No Results Found."
+msgstr "No se han encontrado resultados."
+
+#: includes/Templates/admin-menu-system-status.html.php:25
+msgid "For your security, do not post this information in public places, such as the WordPress.org support forums."
+msgstr "Por tu seguridad, no publiques esta información en sitios públicos, como los foros de soporte de WordPress.org."
+
+#: includes/Templates/admin-menu-system-status.html.php:21
+msgid "This information is vital for addressing your issue in a timely manner."
+msgstr "Esta información es vital para poder solucionar tu problema en un tiempo razonable."
+
+#: includes/Templates/admin-menu-new-form.html.php:57
+msgid "Accept credit card payments or donations from any form. Single payments, subscriptions, and more!"
+msgstr "Acepta pagos o donaciones desde tarjetas de crédito desde cualquier formulario. ¡Pagos simples, suscripciones y más!"
+
+#: includes/Templates/admin-menu-new-form.html.php:49
+msgid "Let users upload files to your site! Restrict file type and size. Upload to server, media library, or cloud service."
+msgstr "¡Permite a los usuarios subir archivos a tu sitio! Restringe el tipo y tamaño de archivo. Subida al servidor, la biblioteca de medios o servicios en la nube."
+
+#: includes/Templates/admin-menu-new-form.html.php:41
+msgid "Create multiple page forms with drag-and-drop. You don't need to code to build complex forms!"
+msgstr "Crea formularios de varias páginas arrastrando y soltando. ¡No necesitas programar para crear formularios complejos!"
+
+#: includes/Templates/admin-menu-new-form.html.php:33
+msgid "Show & hide fields and pages, selectively send email, & much more! Build professional forms easily."
+msgstr "¡Muestra y oculta campos y páginas, envía correos electrónicos selectivos y mucho más! Crea formularios profesionales fácilmente."
+
+#: includes/Templates/admin-menu-new-form.html.php:25
+msgid "Drag & drop rows and columns, custom backgrounds, borders, & more without writing a single line of code."
+msgstr "Arrastra y suelta filas y columnas, fondos personalizados, bordes y más sin tener que escribir ni una sola línea de código."
+
+#: includes/Templates/admin-menu-dashboard.html.php:245
+msgid "Additional Templates"
+msgstr "Plantillas adicionales"
+
+#: includes/Templates/admin-menu-dashboard.html.php:240
+msgid "Available Templates"
+msgstr "Plantillas disponibles"
 
 #: services/bootstrap.php:76
 msgid "Invalid nonce."

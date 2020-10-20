@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Yoast SEO - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-08-20 17:55:31+0000\n"
+"PO-Revision-Date: 2020-09-26 21:32:43+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Language: zh_TW\n"
 "Project-Id-Version: Plugins - Yoast SEO - Stable (latest release)\n"
 
-#: admin/metabox/class-metabox.php:167
+#: admin/metabox/class-metabox.php:175
 msgid "If you want to apply advanced <code>meta</code> robots settings for this page, please define them in the following field."
 msgstr "如果您想在此頁面套用進階的 <code>meta</code> robots 設定，請在下方的項目定義它們。"
 
@@ -46,17 +46,17 @@ msgstr "我們的在地SEO外掛能幫助您增加Google 地圖跟在地服務�
 msgid "%s settings to import:"
 msgstr "%s 要匯入的設定"
 
-#. translators: %1$s expands to Yoast SEO
-#: admin/class-export.php:68
-msgid "Your %1$s settings:"
-msgstr "您的 %1$s 設定："
-
 #. translators: 1: expands to Yoast SEO, 2: expands to Import settings.
 #: admin/views/tabs/tool/wpseo-import.php:23
 msgid "Import settings from another %1$s installation by pasting them here and clicking \"%2$s\"."
 msgstr "從另一個 %1$s 複製設定來到這邊並點選「%2$s」"
 
-#: languages/wordpress-seojs.php:150 admin/metabox/class-metabox.php:435
+#. translators: %1$s expands to Yoast SEO
+#: admin/class-export.php:68
+msgid "Your %1$s settings:"
+msgstr "您的 %1$s 設定："
+
+#: languages/wordpress-seojs.php:246 admin/metabox/class-metabox.php:395
 msgid "Schema"
 msgstr "結構"
 
@@ -109,12 +109,12 @@ msgstr "關閉這則通知"
 msgid "A company name and logo need to be set for structured data to work properly. %1$sLearn more about the importance of structured data.%2$s"
 msgstr "為了使結構化資料正常運作，需要設定公司名稱和 Logo。%1$s了解有關結構化資料重要性的更多資訊。%2$s"
 
-#: admin/config-ui/class-configuration-structure.php:92
+#: admin/config-ui/class-configuration-structure.php:93
 msgid "Continue learning"
 msgstr "繼續學習"
 
 #. translators: %s expands to an invalid Facebook App ID.
-#: inc/options/class-wpseo-option.php:472
+#: inc/options/class-wpseo-option.php:474
 msgid "%s does not seem to be a valid Facebook App ID. Please correct."
 msgstr "%s 似乎不是一個正確的 Facebook 應用程式編號。請修正。"
 
@@ -225,14 +225,6 @@ msgstr "我們無法在您的網站上找到您可以從您的文章連結到任
 msgid "%1$sSEO%2$s: %3$s"
 msgstr "%1$sSEO%2$s: %3$s"
 
-#: languages/yoast-seo-js.php:469
-msgid "Has feedback"
-msgstr "有反饋"
-
-#: languages/yoast-seo-js.php:463
-msgid "Content optimization:"
-msgstr "內容最佳化"
-
 #. translators: %1$s expands to the opening anchor tag, %2$s to the closing
 #. anchor tag, %3$s to the readability score.
 #: admin/formatter/class-metabox-formatter.php:104
@@ -241,6 +233,14 @@ msgstr "內容最佳化"
 #: admin/formatter/class-metabox-formatter.php:125
 msgid "%1$sReadability%2$s: %3$s"
 msgstr "%1$s可讀性%2$s: %3$s"
+
+#: languages/yoast-seo-js.php:469
+msgid "Has feedback"
+msgstr "有反饋"
+
+#: languages/yoast-seo-js.php:463
+msgid "Content optimization:"
+msgstr "內容最佳化"
 
 #. translators: %s expands to the score
 #: admin/statistics/class-statistics-service.php:216
@@ -254,7 +254,7 @@ msgstr "貼文最佳化分數:%s"
 msgid "Extend %s"
 msgstr "延伸 %s"
 
-#: admin/views/tabs/metas/paper-content/general/knowledge-graph.php:71
+#: admin/views/tabs/metas/paper-content/general/knowledge-graph.php:77
 msgid "Person logo / avatar"
 msgstr "個性化識別頭像/ Logo"
 
@@ -291,40 +291,40 @@ msgid "Google has discontinued its Crawl Errors API. Therefore, any possible cra
 msgstr "Google已停止其Crawl Errors API。因此，您可能無法再顯示任何可能的索引錯誤。%1$s閱讀我們關於此的聲明以獲取更多資訊%2$s。"
 
 #. translators: %s expands to Local SEO
-#: languages/wordpress-seojs.php:102
+#: languages/wordpress-seojs.php:99
 msgid "Get the %s plugin now"
 msgstr "立刻取得 %s 外掛"
 
-#: languages/wordpress-seojs.php:94
-msgid "Serving local customers?"
-msgstr "為當地客戶服務？"
-
 #. translators: %s expands to Local SEO
-#: languages/wordpress-seojs.php:98
+#: languages/wordpress-seojs.php:95
 msgid "Truly optimize your site for a local audience with our %s plugin! Optimized address details, opening hours, store locator and pickup option!"
 msgstr "使用我們的網站為當地受眾真正最佳化您的網站 %s 外掛！最佳化的地址詳細資訊，營業時間，商店位置和取件選項！"
 
-#: admin/views/tabs/metas/paper-content/general/knowledge-graph.php:68
+#: languages/wordpress-seojs.php:91
+msgid "Serving local customers?"
+msgstr "為當地客戶服務？"
+
+#: admin/views/tabs/metas/paper-content/general/knowledge-graph.php:74
 msgid "Personal info"
 msgstr "個人資訊"
 
-#: admin/views/tabs/metas/paper-content/general/knowledge-graph.php:63
+#: admin/views/tabs/metas/paper-content/general/knowledge-graph.php:69
 msgid "Organization logo"
 msgstr "組織標誌"
 
-#: admin/views/tabs/metas/paper-content/general/knowledge-graph.php:62
+#: admin/views/tabs/metas/paper-content/general/knowledge-graph.php:68
 msgid "Organization name"
 msgstr "組織名稱"
 
-#: admin/views/tabs/metas/paper-content/general/knowledge-graph.php:37
+#: admin/views/tabs/metas/paper-content/general/knowledge-graph.php:44
 msgid "Choose whether the site represents an organization or a person."
 msgstr "選擇網站是代表組織還是個人。"
 
-#: admin/views/tabs/metas/paper-content/general/knowledge-graph.php:23
+#: admin/views/tabs/metas/paper-content/general/knowledge-graph.php:27
 msgid "Knowledge Graph & Schema.org"
 msgstr "知識圖 和 Schema.org "
 
-#: admin/views/tabs/social/accounts.php:101
+#: admin/views/tabs/social/accounts.php:102
 msgid "Organization social profiles"
 msgstr "組織社交檔案"
 
@@ -348,13 +348,13 @@ msgid "Your website is currently configured to represent a Person"
 msgstr "您的網站目前已設定為個人網站。"
 
 #: admin/config-ui/class-configuration-structure.php:72
-#: admin/views/tabs/metas/paper-content/general/knowledge-graph.php:44
+#: admin/views/tabs/metas/paper-content/general/knowledge-graph.php:51
 msgid "Organization or person"
 msgstr "組織或個人"
 
 #: admin/config-ui/fields/class-field-company-or-person.php:23
-#: admin/views/tabs/metas/paper-content/general/knowledge-graph.php:41
-#: admin/views/tabs/metas/paper-content/general/knowledge-graph.php:47
+#: admin/views/tabs/metas/paper-content/general/knowledge-graph.php:48
+#: admin/views/tabs/metas/paper-content/general/knowledge-graph.php:54
 msgid "Organization"
 msgstr "組織"
 
@@ -398,11 +398,11 @@ msgstr "SoundCloud 個人資料網址"
 msgid "MySpace profile URL"
 msgstr "MySpace 個人資料網址"
 
-#: src/generators/schema/article.php:141
+#: src/generators/schema/article.php:135
 msgid "Uncategorized"
 msgstr "未分類"
 
-#: languages/wordpress-seojs.php:185
+#: languages/wordpress-seojs.php:173
 msgid "Select a user..."
 msgstr "選擇一個使用者"
 
@@ -432,7 +432,7 @@ msgstr "Instagram 個人資料網址"
 msgid "Wikipedia URL"
 msgstr "維基百科網址"
 
-#: inc/class-my-yoast-api-request.php:186
+#: inc/class-my-yoast-api-request.php:140
 msgid "No JSON object was returned."
 msgstr "沒有 JSON 物件回傳。"
 
@@ -440,19 +440,19 @@ msgstr "沒有 JSON 物件回傳。"
 msgid "Find out what words your audience uses to find you"
 msgstr "找出您的讀者搜尋到您的關鍵字"
 
-#: src/integrations/admin/link-count-columns-integration.php:151
+#: src/integrations/admin/link-count-columns-integration.php:146
 msgid "Received internal links"
 msgstr "收到的內部連結"
 
-#: src/integrations/admin/link-count-columns-integration.php:144
+#: src/integrations/admin/link-count-columns-integration.php:139
 msgid "Outgoing internal links"
 msgstr "出去的內部連結"
 
-#: languages/wordpress-seojs.php:433
+#: languages/wordpress-seojs.php:447
 msgid "New step added"
 msgstr "新步驟已新增"
 
-#: languages/wordpress-seojs.php:393
+#: languages/wordpress-seojs.php:407
 msgid "New question added"
 msgstr "新問題已新增"
 
@@ -464,11 +464,11 @@ msgstr "關鍵詞"
 msgid "By enabling this option, attachment URLs become visible to both your visitors and Google. To add value to your website, they should contain useful information, or they might have a negative impact on your ranking."
 msgstr "透過啟用此選項，訪客和 Google 都可以看到附件URL。為了增加您網站的價值，它們應該包含有用的資訊，否則可能會對您的排名產生負面影響。"
 
-#: src/integrations/admin/link-count-notification-integration.php:115
+#: src/integrations/admin/link-count-notification-integration.php:110
 msgid "Count links"
 msgstr "連結計數"
 
-#: src/integrations/admin/link-count-notification-integration.php:114
+#: src/integrations/admin/link-count-notification-integration.php:109
 msgid "All you have to do is press the following button and we'll go through all your texts for you."
 msgstr "你所要做的就是按下以下按鈕，我們將為你瀏覽所有的文字。"
 
@@ -483,7 +483,7 @@ msgid "Cannot get the size of %1$s because it is hosted externally."
 msgstr "無法得到的大小 %1$s因為它是在外部託管的。"
 
 #. translators: %s expands to the current page number
-#: src/generators/breadcrumbs-generator.php:386
+#: src/generators/breadcrumbs-generator.php:381
 msgid "Page %s"
 msgstr "第%s頁"
 
@@ -528,17 +528,17 @@ msgstr "Google Ads"
 msgid "Upgrade to %s"
 msgstr "升級到 %s"
 
-#: admin/class-admin-init.php:503
+#: admin/class-admin-init.php:505
 msgid "Learn about why permalinks are important for SEO."
 msgstr "了解為什麼固定網址對SEO很重要。"
 
 #. translators: %1$s and %2$s expand to <em> items to emphasize the word in the
 #. middle.
-#: admin/class-admin-init.php:497
+#: admin/class-admin-init.php:499
 msgid "Changing your permalinks settings can seriously impact your search engine visibility. It should almost %1$s never %2$s be done on a live website."
 msgstr "改變文章的永久連結很可能會影響到您的文章在搜尋引擎上的可見度，可能影響%1$s，甚至%2$s可能無法完成於正在上線的網站。"
 
-#: admin/class-admin-init.php:494
+#: admin/class-admin-init.php:496
 msgid "WARNING:"
 msgstr "警告："
 
@@ -886,25 +886,25 @@ msgstr "%1$s段落長度%2$s：好極了！沒有過長的段落。"
 msgid "Good job!"
 msgstr "做得好！"
 
-#: languages/wordpress-seojs.php:208
+#: languages/wordpress-seojs.php:196
 msgid "Focus keyphrase"
 msgstr "焦點關鍵字"
 
-#: languages/wordpress-seojs.php:204
+#: languages/wordpress-seojs.php:192
 msgid "Help on choosing the perfect focus keyphrase"
 msgstr "關於選擇完美的焦點關鍵字的幫助"
 
-#: languages/wordpress-seojs.php:230
+#: languages/wordpress-seojs.php:218
 msgid "Would you like to add a related keyphrase?"
 msgstr "您想增加相關的關鍵字嗎？"
 
 #. translators: %s expands to Premium
-#: languages/wordpress-seojs.php:67
+#: languages/wordpress-seojs.php:64
 msgid "Go %s!"
 msgstr "前往 %s！"
 
 #. translators: %s expands to Yoast SEO Premium
-#: languages/wordpress-seojs.php:63
+#: languages/wordpress-seojs.php:60
 msgid "Did you know %s also analyzes the different word forms of your keyphrase, like plurals and past tenses?"
 msgstr "您是否知道 %s 還會分析您的關鍵字的不同單詞形式，如複數形式和過去式？"
 
@@ -957,7 +957,7 @@ msgstr "停用"
 msgid "Allow Control"
 msgstr "允許控制"
 
-#: languages/wordpress-seojs.php:252 admin/views/sidebar.php:29
+#: languages/wordpress-seojs.php:253 admin/views/sidebar.php:29
 msgid "Rank better with synonyms & related keyphrases"
 msgstr "使用同義詞 & 相關的關鍵字 以獲得更好的排名"
 
@@ -966,7 +966,7 @@ msgid "optimize a single post for synonyms and related keyphrases."
 msgstr "最佳化同義詞和相關關鍵字的單篇文章。"
 
 #. translators: %s: argument name
-#: admin/views/class-yoast-feature-toggle.php:88
+#: admin/views/class-yoast-feature-toggle.php:95
 msgid "%s is a required feature toggle argument."
 msgstr "%s 是必要的功能切換參數。"
 
@@ -974,7 +974,7 @@ msgstr "%s 是必要的功能切換參數。"
 msgid "Synonyms & related keyphrases"
 msgstr "同義詞 & 相關的關鍵字"
 
-#: languages/wordpress-seojs.php:233
+#: languages/wordpress-seojs.php:221
 msgid "Add related keyphrase"
 msgstr "增加相關關鍵字"
 
@@ -999,22 +999,22 @@ msgstr "%1$s 影片"
 msgid "This feature has been disabled by the network admin."
 msgstr "網路管理員已禁用此功能。"
 
-#: admin/class-meta-columns.php:151 admin/class-meta-columns.php:648
-msgid "Focus keyphrase not set."
-msgstr "焦點關鍵字未設定。"
+#: admin/taxonomy/class-taxonomy-fields-presenter.php:129
+#: admin/metabox/class-metabox.php:618 admin/class-yoast-form.php:585
+msgid "Clear Image"
+msgstr "清除圖片"
 
 #: admin/class-premium-upsell-admin-block.php:54
 msgid "Multiple keyphrases"
 msgstr "多個關鍵字"
 
-#: admin/taxonomy/class-taxonomy-fields-presenter.php:129
-#: admin/metabox/class-metabox.php:668 admin/class-yoast-form.php:585
-msgid "Clear Image"
-msgstr "清除圖片"
+#: admin/class-meta-columns.php:151 admin/class-meta-columns.php:652
+msgid "Focus keyphrase not set."
+msgstr "焦點關鍵字未設定。"
 
 #. translators: %s expands to 'Yoast SEO Premium'.
 #. translators: %s expands to Yoast SEO Premium
-#: languages/wordpress-seojs.php:227 admin/class-keyword-synonyms-modal.php:38
+#: languages/wordpress-seojs.php:215 admin/class-keyword-synonyms-modal.php:38
 #: admin/class-premium-popup.php:81 admin/class-add-keyword-modal.php:38
 #: admin/class-premium-upsell-admin-block.php:67
 #: admin/watchers/class-slug-change-watcher.php:223
@@ -1023,7 +1023,7 @@ msgstr "清除圖片"
 msgid "Get %s"
 msgstr "取得 %s"
 
-#: languages/wordpress-seojs.php:218
+#: languages/wordpress-seojs.php:206
 msgid "Learn more about the readability analysis"
 msgstr "了解更多關於「可讀性分析」"
 
@@ -1043,107 +1043,107 @@ msgid "Both %1$s and %2$s manage the SEO of your site. Running two SEO plugins a
 msgstr "%1$s 和 %2$s 都管理您網站的 SEO。同時執行兩個 SEO 插件是有害的。"
 
 #. translators: %s expands to a unit of time (e.g. 1 day).
-#: languages/wordpress-seojs.php:522
+#: languages/wordpress-seojs.php:536
 msgid "%s, %s and %s"
 msgstr "%s、%s 和 %s"
 
 #. translators: %s expands to a unit of time (e.g. 1 day).
-#: languages/wordpress-seojs.php:517
+#: languages/wordpress-seojs.php:531
 msgid "%s and %s"
 msgstr "%s 和 %s"
 
-#: languages/wordpress-seojs.php:512
+#: languages/wordpress-seojs.php:526
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "%d 分"
 
-#: languages/wordpress-seojs.php:508
+#: languages/wordpress-seojs.php:522
 msgid "%d hour"
 msgid_plural "%d hours"
 msgstr[0] "%d 小時"
 
-#: languages/wordpress-seojs.php:504
+#: languages/wordpress-seojs.php:518
 msgid "%d day"
 msgid_plural "%d days"
 msgstr[0] "%d 天"
 
-#: languages/wordpress-seojs.php:497
+#: languages/wordpress-seojs.php:511
 msgid "Enter a step title"
 msgstr "輸入步驟標題"
 
-#: languages/wordpress-seojs.php:463
+#: languages/wordpress-seojs.php:477
 msgid "CSS class(es) to apply to the steps"
 msgstr "在此步驟套用 CSS 類別"
 
-#: languages/wordpress-seojs.php:454
+#: languages/wordpress-seojs.php:468
 msgid "minutes"
 msgstr "分鐘"
 
-#: languages/wordpress-seojs.php:451
+#: languages/wordpress-seojs.php:465
 msgid "hours"
 msgstr "小時"
 
-#: languages/wordpress-seojs.php:448
+#: languages/wordpress-seojs.php:462
 msgid "days"
 msgstr "天"
 
-#: languages/wordpress-seojs.php:424
+#: languages/wordpress-seojs.php:438
 msgid "Create a How-to guide in an SEO-friendly way. You can only use one How-to block per post."
 msgstr "以 SEO 友善的方式來建立操作指南。每篇文章只能使用一個操作指南區塊。"
 
-#: languages/wordpress-seojs.php:121
+#: languages/wordpress-seojs.php:118
 msgid "Copy error"
 msgstr "複製錯誤"
 
 #. translators: %s expands to Yoast SEO.
-#: languages/wordpress-seojs.php:118
+#: languages/wordpress-seojs.php:115
 msgid "An error occurred loading the %s primary taxonomy picker."
 msgstr "載入 %s 主分類選擇器時發生錯誤。"
 
 #. translators: %1$s expands to Yoast.
-#: src/integrations/blocks/block-categories.php:42
+#: src/integrations/blocks/block-categories.php:37
 msgid "%1$s Structured Data Blocks"
 msgstr "%1$s 資料結構化區塊"
 
-#: languages/wordpress-seojs.php:482
+#: languages/wordpress-seojs.php:496
 msgid "Time needed:"
 msgstr "所需時間："
 
-#: languages/wordpress-seojs.php:408
+#: languages/wordpress-seojs.php:422
 msgid "Move question down"
 msgstr "向下移動問題"
 
-#: languages/wordpress-seojs.php:405
+#: languages/wordpress-seojs.php:419
 msgid "Move question up"
 msgstr "向上移動問題"
 
-#: languages/wordpress-seojs.php:402
+#: languages/wordpress-seojs.php:416
 msgid "Insert question"
 msgstr "插入問題"
 
-#: languages/wordpress-seojs.php:399
+#: languages/wordpress-seojs.php:413
 msgid "Delete question"
 msgstr "刪除問題"
 
-#: languages/wordpress-seojs.php:414
+#: languages/wordpress-seojs.php:428
 msgid "Enter the answer to the question"
 msgstr "輸入問題的答案"
 
-#: languages/wordpress-seojs.php:411
+#: languages/wordpress-seojs.php:425
 msgid "Enter a question"
 msgstr "輸入問題"
 
-#: languages/wordpress-seojs.php:396
+#: languages/wordpress-seojs.php:410
 msgid "Add question"
 msgstr "新增問題"
 
-#: languages/wordpress-seojs.php:382
+#: languages/wordpress-seojs.php:396
 msgid "Frequently Asked Questions"
 msgstr "常見問題"
 
 #. translators: %s expands to a 'Yoast SEO Premium' text linked to the
 #. yoast.com website.
-#: languages/wordpress-seojs.php:287 admin/class-keyword-synonyms-modal.php:26
+#: languages/wordpress-seojs.php:288 admin/class-keyword-synonyms-modal.php:26
 #: admin/class-add-keyword-modal.php:26
 #: admin/class-multiple-keywords-modal.php:26
 #: admin/formatter/class-metabox-formatter.php:219
@@ -1151,7 +1151,7 @@ msgid "Great news: you can, with %s!"
 msgstr "好消息：您可以，%s！"
 
 #. translators: %s expands to the taxonomy name.
-#: languages/wordpress-seojs.php:125
+#: languages/wordpress-seojs.php:122
 msgid "Select the primary %s"
 msgstr "選擇主要%s"
 
@@ -1167,79 +1167,79 @@ msgstr "關鍵字研究訓練"
 msgid "Are you trying to use multiple keyphrases? You should add them separately below."
 msgstr "您是否嘗試使用多個關鍵字？您應該在下面單獨增加它們。"
 
-#: languages/yoast-components.php:104 languages/wordpress-seojs.php:79
+#: languages/yoast-components.php:104 languages/wordpress-seojs.php:76
 msgid "Mark as cornerstone content"
 msgstr "標記為基石內容"
 
-#: languages/wordpress-seojs.php:494
+#: languages/wordpress-seojs.php:508
 msgid "Move step down"
 msgstr "向下移動"
 
-#: languages/wordpress-seojs.php:491
+#: languages/wordpress-seojs.php:505
 msgid "Move step up"
 msgstr "向上移動"
 
-#: languages/wordpress-seojs.php:488
+#: languages/wordpress-seojs.php:502
 msgid "Insert step"
 msgstr "插入步驟"
 
-#: languages/wordpress-seojs.php:485
+#: languages/wordpress-seojs.php:499
 msgid "Delete step"
 msgstr "刪除步驟"
 
-#: languages/wordpress-seojs.php:418
+#: languages/wordpress-seojs.php:432
 msgid "Add image"
 msgstr "新增圖片"
 
-#: languages/wordpress-seojs.php:500
+#: languages/wordpress-seojs.php:514
 msgid "Enter a step description"
 msgstr "輸入步驟描述"
 
-#: languages/wordpress-seojs.php:478
+#: languages/wordpress-seojs.php:492
 msgid "Enter a description"
 msgstr "輸入一個描述"
 
-#: languages/wordpress-seojs.php:442
+#: languages/wordpress-seojs.php:456
 msgid "Showing step items as an ordered list."
 msgstr "將步驟項顯示為有序列表。"
 
-#: languages/wordpress-seojs.php:439
+#: languages/wordpress-seojs.php:453
 msgid "Showing step items as an unordered list"
 msgstr "將步驟項顯示為無序列表"
 
-#: languages/wordpress-seojs.php:436
+#: languages/wordpress-seojs.php:450
 msgid "Add step"
 msgstr "增加步驟"
 
-#: languages/wordpress-seojs.php:457
+#: languages/wordpress-seojs.php:471
 msgid "Delete total time"
 msgstr "刪除全部時間"
 
-#: languages/wordpress-seojs.php:445
+#: languages/wordpress-seojs.php:459
 msgid "Add total time"
 msgstr "增加全部時間"
 
-#: languages/wordpress-seojs.php:430
+#: languages/wordpress-seojs.php:444
 msgid "How to"
 msgstr "如何"
 
-#: languages/wordpress-seojs.php:427
+#: languages/wordpress-seojs.php:441
 msgid "How-to"
 msgstr "如何"
 
-#: languages/wordpress-seojs.php:215
+#: languages/wordpress-seojs.php:203
 msgid "Analysis results"
 msgstr "分析結果"
 
-#: languages/wordpress-seojs.php:236
+#: languages/wordpress-seojs.php:224
 msgid "Enter a focus keyphrase to calculate the SEO score"
 msgstr "輸入焦點關鍵字來計算SEO分數"
 
-#: languages/wordpress-seojs.php:76
+#: languages/wordpress-seojs.php:73
 msgid "Learn more about Cornerstone Content."
 msgstr "瞭解更多關於基石內容。"
 
-#: languages/wordpress-seojs.php:73
+#: languages/wordpress-seojs.php:70
 msgid "Cornerstone content should be the most important and extensive articles on your site."
 msgstr "基石內容應該是您網站上最重要和最廣泛的文章。"
 
@@ -1251,26 +1251,26 @@ msgstr "還原網站"
 msgid "Network Settings"
 msgstr "網路設定"
 
-#: admin/class-yoast-network-admin.php:263
+#: admin/class-yoast-network-admin.php:266
 msgid "You are not allowed to perform this action."
 msgstr "您不能執行此操作。"
 
 #. translators: %s: error message
-#: admin/class-yoast-network-admin.php:195
+#: admin/class-yoast-network-admin.php:198
 msgid "Error: %s"
 msgstr "錯誤：%s"
 
 #. translators: %s: success message
-#: admin/class-yoast-network-admin.php:193
+#: admin/class-yoast-network-admin.php:196
 msgid "Success: %s"
 msgstr "成功：%s"
 
 #. translators: %s expands to the ID of a site within a multisite network.
-#: admin/class-yoast-network-admin.php:155
+#: admin/class-yoast-network-admin.php:158
 msgid "Site with ID %d not found."
 msgstr "找不到 ID 為 %d 的網站。"
 
-#: admin/class-yoast-network-admin.php:146
+#: admin/class-yoast-network-admin.php:149
 msgid "No site has been selected to restore."
 msgstr "沒有選擇要還原的網站。"
 
@@ -1330,11 +1330,11 @@ msgstr "未填寫所有必填欄位。缺少欄位 %1$s"
 msgid "Optimize your shop's SEO and sell more products!"
 msgstr "最佳化您商店的SEO並銷售更多產品！"
 
-#: languages/wordpress-seojs.php:242
+#: languages/wordpress-seojs.php:230
 msgid "Add synonyms"
 msgstr "增加同義詞"
 
-#: languages/wordpress-seojs.php:245 admin/class-keyword-synonyms-modal.php:23
+#: languages/wordpress-seojs.php:233 admin/class-keyword-synonyms-modal.php:23
 msgid "Would you like to add keyphrase synonyms?"
 msgstr "您想增加關鍵同義詞嗎？"
 
@@ -1353,7 +1353,7 @@ msgstr "您可以在 %1$s商店頁面%2$s 上編輯此自訂類型的 SEO meta�
 msgid "You haven't set a Shop page in your WooCommerce settings. Please do this first."
 msgstr "您尚未在 WooCommerce 設定中設置商店頁面。請先完成此動作。"
 
-#: languages/wordpress-seojs.php:525
+#: languages/wordpress-seojs.php:539
 msgid "Current year"
 msgstr "今年"
 
@@ -1369,15 +1369,15 @@ msgstr "網址預覽"
 msgid "Please provide a meta description by editing the snippet below. If you don’t, Google will try to find a relevant part of your post to show in the search results."
 msgstr "請透過編輯下面的代碼段提供 Meta 描述。如果不這樣做，Google 會嘗試在搜尋結果中找到您文章中相關的部分。"
 
-#: languages/wordpress-seojs.php:540 inc/class-wpseo-replace-vars.php:1252
+#: languages/wordpress-seojs.php:554 inc/class-wpseo-replace-vars.php:1252
 msgid "Tagline"
 msgstr "標語"
 
-#: languages/wordpress-seojs.php:534
+#: languages/wordpress-seojs.php:548
 msgid "Page"
 msgstr "頁面"
 
-#: languages/yoast-components.php:170 languages/wordpress-seojs.php:174
+#: languages/yoast-components.php:170 languages/wordpress-seojs.php:170
 msgid "Modify your meta description by editing it right here"
 msgstr "在此處編輯來修改 Meta 描述"
 
@@ -1413,7 +1413,7 @@ msgstr "頁碼"
 msgid "User description"
 msgstr "用戶描述"
 
-#: languages/wordpress-seojs.php:531 inc/class-wpseo-replace-vars.php:1280
+#: languages/wordpress-seojs.php:545 inc/class-wpseo-replace-vars.php:1280
 msgid "ID"
 msgstr "ID"
 
@@ -1429,11 +1429,11 @@ msgstr "文章類型（複數）"
 msgid "Post type (singular)"
 msgstr "文章類型（單數）"
 
-#: languages/wordpress-seojs.php:561 inc/class-wpseo-replace-vars.php:1264
+#: languages/wordpress-seojs.php:575 inc/class-wpseo-replace-vars.php:1264
 msgid "Separator"
 msgstr "分隔器"
 
-#: languages/wordpress-seojs.php:537 inc/class-wpseo-replace-vars.php:1262
+#: languages/wordpress-seojs.php:551 inc/class-wpseo-replace-vars.php:1262
 msgid "Search phrase"
 msgstr "搜尋字詞"
 
@@ -1441,23 +1441,23 @@ msgstr "搜尋字詞"
 msgid "Term title"
 msgstr "條款標題"
 
-#: languages/wordpress-seojs.php:573 inc/class-wpseo-replace-vars.php:1260
+#: languages/wordpress-seojs.php:587 inc/class-wpseo-replace-vars.php:1260
 msgid "Term description"
 msgstr "條款描述"
 
-#: languages/wordpress-seojs.php:570 inc/class-wpseo-replace-vars.php:1259
+#: languages/wordpress-seojs.php:584 inc/class-wpseo-replace-vars.php:1259
 msgid "Tag description"
 msgstr "標籤描述"
 
-#: languages/wordpress-seojs.php:567 inc/class-wpseo-replace-vars.php:1258
+#: languages/wordpress-seojs.php:581 inc/class-wpseo-replace-vars.php:1258
 msgid "Category description"
 msgstr "分類描述"
 
-#: languages/wordpress-seojs.php:558 inc/class-wpseo-replace-vars.php:1257
+#: languages/wordpress-seojs.php:572 inc/class-wpseo-replace-vars.php:1257
 msgid "Primary category"
 msgstr "主要類別"
 
-#: languages/wordpress-seojs.php:546 inc/class-wpseo-replace-vars.php:1256
+#: languages/wordpress-seojs.php:560 inc/class-wpseo-replace-vars.php:1256
 msgid "Category"
 msgstr "分類"
 
@@ -1465,15 +1465,15 @@ msgstr "分類"
 msgid "Tag"
 msgstr "標籤"
 
-#: languages/wordpress-seojs.php:564 inc/class-wpseo-replace-vars.php:1254
+#: languages/wordpress-seojs.php:578 inc/class-wpseo-replace-vars.php:1254
 msgid "Excerpt only"
 msgstr "僅摘要"
 
-#: languages/wordpress-seojs.php:555 inc/class-wpseo-replace-vars.php:1253
+#: languages/wordpress-seojs.php:569 inc/class-wpseo-replace-vars.php:1253
 msgid "Excerpt"
-msgstr "摘要"
+msgstr "內容摘要"
 
-#: languages/wordpress-seojs.php:543 inc/class-wpseo-replace-vars.php:1251
+#: languages/wordpress-seojs.php:557 inc/class-wpseo-replace-vars.php:1251
 msgid "Site title"
 msgstr "網站標題"
 
@@ -1481,11 +1481,11 @@ msgstr "網站標題"
 msgid "Archive title"
 msgstr "彙整標題"
 
-#: languages/wordpress-seojs.php:552 inc/class-wpseo-replace-vars.php:1249
+#: languages/wordpress-seojs.php:566 inc/class-wpseo-replace-vars.php:1249
 msgid "Parent title"
 msgstr "父標題"
 
-#: languages/wordpress-seojs.php:528 inc/class-wpseo-replace-vars.php:1247
+#: languages/wordpress-seojs.php:542 inc/class-wpseo-replace-vars.php:1247
 msgid "Date"
 msgstr "日期"
 
@@ -1556,11 +1556,6 @@ msgstr "如果您知道這意味著什麼並且您不想再看到此訊息，則
 msgid "Your site's settings currently allow attachment URLs on your site to exist. Please read %1$sthis post about a potential issue%2$s with attachment URLs and check whether you have the correct setting for your site."
 msgstr "您網站設定目前允許附件網址的存在。請閱讀%1$s此文章%2$s，了解附件網址的潛在問題，並檢查您的網站是否具有正確的設定。"
 
-#. translators: %1$s expands to the requested indexable type
-#: admin/services/class-indexable.php:91
-msgid "Unknown type %1$s"
-msgstr "未知類型 %1$s"
-
 #: admin/config-ui/fields/class-field-mailchimp-signup.php:41
 msgid "Includes a free MyYoast account which gives you access to our free SEO for Beginners course!"
 msgstr "包含一個免費的 MyYoast 帳號，讓您可以訪問我們的免費搜尋引擎最佳化初學者課程！"
@@ -1572,20 +1567,20 @@ msgstr "如果您想了解%1$s、%2$s 其他很酷的插件，以及來自SEO世
 
 #. translators: %1$s expands to a link start tag to the Baidu Webmaster Tools
 #. site add page, %2$s is the link closing tag.
-#: admin/views/tabs/dashboard/webmaster-tools.php:42
+#: admin/views/tabs/dashboard/webmaster-tools.php:44
 msgid "Get your Baidu verification code in %1$sBaidu Webmaster Tools%2$s."
 msgstr "在 %1$s百度網站管理員工具%2$s中取得您的百度驗證碼。"
 
-#: admin/views/tabs/dashboard/webmaster-tools.php:38
+#: admin/views/tabs/dashboard/webmaster-tools.php:40
 msgid "Baidu verification code"
 msgstr "百度驗證碼"
 
 #. translators: %s is replaced with the plugin's name.
-#: admin/import/plugins/class-abstract-plugin-importer.php:133
+#: admin/import/plugins/class-abstract-plugin-importer.php:132
 msgid "Cleanup of %s data failed."
 msgstr "清除 %s 資料失敗。"
 
-#: admin/class-bulk-editor-list-table.php:998
+#: admin/class-bulk-editor-list-table.php:997
 msgid "Content Type"
 msgstr "內容型態"
 
@@ -1678,7 +1673,7 @@ msgstr "成功匯入 %s 資料。"
 msgid "%s data not found."
 msgstr "找不到 %s 資料。"
 
-#: languages/wordpress-seojs.php:270
+#: languages/wordpress-seojs.php:271
 #: admin/class-premium-upsell-admin-block.php:58 admin/views/sidebar.php:38
 msgid "24/7 email support"
 msgstr "24/7 郵件支援"
@@ -1706,11 +1701,11 @@ msgstr "不允許搜尋引擎在搜尋結果中顯示 %s。"
 
 #. translators: 1: link open tag; 2: link close tag., 3: the translated label
 #. of the button
-#: admin/views/tabs/social/facebook.php:56
+#: admin/views/tabs/social/facebook.php:58
 msgid "Click the \"%3$s\" button to use the meta description already set in the %1$sSearch Appearance Homepage%2$s setting."
 msgstr "點擊「%3$s」按鈕以使用在 %1$s搜尋外觀首頁%2$s 設定中設置的 Meta 描述。"
 
-#: admin/views/tabs/social/facebook.php:53
+#: admin/views/tabs/social/facebook.php:55
 msgid "Help on copying the home meta description"
 msgstr "關於複製首頁 meta 描述的幫助"
 
@@ -1735,7 +1730,7 @@ msgstr "WordPress 中的 類別URL 包含前綴，通常為 %s，此功能僅刪
 msgid "Help on the category prefix setting"
 msgstr "關於此類別前綴設定的幫助"
 
-#: admin/views/tabs/metas/taxonomies.php:49
+#: admin/views/tabs/metas/taxonomies.php:51
 msgid "Category URLs"
 msgstr "分類網址"
 
@@ -1809,7 +1804,7 @@ msgstr "關於作者沒有彙整文章搜尋結果設定的幫助"
 msgid "Help on the author archives search results setting"
 msgstr "關於作者彙整搜尋結果設定的幫助"
 
-#: admin/views/tabs/metas/archives/help.php:31
+#: admin/views/tabs/metas/archives/help.php:32
 msgid "Archives settings help"
 msgstr "彙整設定幫助"
 
@@ -1818,29 +1813,29 @@ msgid "Learn more about the archives setting"
 msgstr "瞭解更多關於彙整設定"
 
 #. translators: 1: link open tag; 2: link close tag.
-#: admin/views/tabs/dashboard/webmaster-tools.php:77
+#: admin/views/tabs/dashboard/webmaster-tools.php:79
 msgid "Get your Yandex verification code in %1$sYandex Webmaster Tools%2$s."
 msgstr "在 %1$sYandex網站管理員工具%2$s中取得您的Yandex驗證碼。"
 
-#: admin/views/tabs/dashboard/webmaster-tools.php:73
+#: admin/views/tabs/dashboard/webmaster-tools.php:75
 msgid "Yandex verification code"
 msgstr "Yandex 認證碼"
 
 #. translators: 1: link open tag; 2: link close tag.
-#: admin/views/tabs/dashboard/webmaster-tools.php:67
+#: admin/views/tabs/dashboard/webmaster-tools.php:69
 msgid "Get your Google verification code in %1$sGoogle Search Console%2$s."
 msgstr "在 %1$sGoogle Search Console%2$s中取得您的Google驗證碼。"
 
-#: admin/views/tabs/dashboard/webmaster-tools.php:63
+#: admin/views/tabs/dashboard/webmaster-tools.php:65
 msgid "Google verification code"
 msgstr "Google 驗證碼"
 
 #. translators: 1: link open tag; 2: link close tag.
-#: admin/views/tabs/dashboard/webmaster-tools.php:57
+#: admin/views/tabs/dashboard/webmaster-tools.php:59
 msgid "Get your Bing verification code in %1$sBing Webmaster Tools%2$s."
 msgstr "在 %1$sBing網站管理員工具%2$s中取得您的Bing驗證碼。"
 
-#: admin/views/tabs/dashboard/webmaster-tools.php:53
+#: admin/views/tabs/dashboard/webmaster-tools.php:55
 msgid "Bing verification code"
 msgstr "Bing 驗證碼"
 
@@ -1864,16 +1859,16 @@ msgid "%1$s comes with a lot of features. You can enable / disable some of them 
 msgstr "%1$s 具備許多功能。您可以在下面 啟用/禁用 其中一些。點擊問號可取得關於該功能的更多資訊。"
 
 #: languages/yoast-components.php:52 admin/views/tabs/dashboard/features.php:53
-#: admin/views/class-yoast-feature-toggles.php:142
+#: admin/views/class-yoast-feature-toggles.php:145
 msgid "Off"
 msgstr "關閉"
 
 #. translators: %s: Yoast SEO
-#: admin/views/class-yoast-feature-toggles.php:107
+#: admin/views/class-yoast-feature-toggles.php:109
 msgid "Enable the XML sitemaps that %s generates."
 msgstr "啟用 %s 產生的 XML網站地圖。"
 
-#: admin/views/class-yoast-feature-toggles.php:67
+#: admin/views/class-yoast-feature-toggles.php:69
 msgid "See the XML sitemap."
 msgstr "查看  XML sitemap。"
 
@@ -1895,22 +1890,22 @@ msgid "Content Types"
 msgstr "內容類型"
 
 #. translators: %1$s expands to the post type name.
-#: admin/metabox/class-metabox.php:162
+#: admin/metabox/class-metabox.php:170
 msgid "Should search engines follow links on this %1$s?"
 msgstr "搜尋引擎應關注此 %1$s 上的連結嗎？"
 
 #. translators: %1$s expands to Yes or No,  %2$s expands to the post type name.
-#: admin/metabox/class-metabox.php:157
+#: admin/metabox/class-metabox.php:165
 msgid "Default for %2$s, currently: %1$s"
 msgstr "預設為 %2$s，目前是：%1$s"
 
 #. translators: %s translates to the Post Label in singular form
 #. translators: %s expands to the post type name.
-#: languages/wordpress-seojs.php:56 admin/metabox/class-metabox.php:152
+#: languages/wordpress-seojs.php:6 admin/metabox/class-metabox.php:160
 msgid "Allow search engines to show this %s in search results?"
 msgstr "允許搜尋引擎在搜尋結果中顯示此 %s？"
 
-#: src/presenters/meta-description-presenter.php:42
+#: src/presenters/meta-description-presenter.php:37
 #: admin/menu/class-admin-menu.php:86
 msgid "Search Appearance"
 msgstr "搜尋外觀"
@@ -1940,65 +1935,65 @@ msgstr "切換 %1$s 的XML網站地圖"
 msgid "Enable this feature if you want Twitter to display a preview with images and a text excerpt when a link to your site is shared."
 msgstr "如果您希望 Twitter 和其他社群媒體，在分享您網站的連結時顯示圖片預覽和文章摘要，請啟用此功能。"
 
-#: languages/wordpress-seojs.php:239
-#: admin/views/class-yoast-feature-toggles.php:72
+#: admin/views/tabs/social/facebook.php:23
+msgid "Enable this feature if you want Facebook and other social media to display a preview with images and a text excerpt when a link to your site is shared."
+msgstr "如果您希望 Facebook 和其他社群媒體，在分享您網站的連結時顯示圖片預覽和文章摘要，請啟用此功能。"
+
+#. translators: %s: Ryte
+#: admin/views/class-yoast-feature-toggles.php:127
+msgid "Read more about how %s works."
+msgstr "詳細了解 %s 的工作原理。"
+
+#. translators: %s: Ryte
+#: admin/views/class-yoast-feature-toggles.php:118
+msgid "%s integration"
+msgstr "%s 整合"
+
+#: admin/views/class-yoast-feature-toggles.php:101
+msgid "Find out how the text link counter can enhance your SEO."
+msgstr "了解文字連結計數器如何增強您的SEO。"
+
+#: admin/views/class-yoast-feature-toggles.php:93
+msgid "Find out how cornerstone content can help you improve your site structure."
+msgstr "了解基石內容如何幫助您改善網站結構。"
+
+#: admin/views/class-yoast-feature-toggles.php:85
+msgid "Discover why readability is important for SEO."
+msgstr "了解為什麼可讀性對 SEO 很重要。"
+
+#: admin/views/class-yoast-feature-toggles.php:84
+msgid "The readability analysis offers suggestions to improve the structure and style of your text."
+msgstr "可讀性分析提供了改進文章結構和樣式的建議。"
+
+#: admin/views/class-yoast-feature-toggles.php:77
+msgid "Learn how the SEO analysis can help you rank."
+msgstr "瞭解 SEO分析 如何幫助您提升排名。"
+
+#: admin/views/class-yoast-feature-toggles.php:76
+msgid "The SEO analysis offers suggestions to improve the SEO of your text."
+msgstr "SEO分析提供了改善文章SEO的建議。"
+
+#: languages/wordpress-seojs.php:227
+#: admin/views/class-yoast-feature-toggles.php:74
 msgid "SEO analysis"
 msgstr "SEO 分析"
-
-#: languages/yoast-components.php:20
-#: admin/formatter/class-metabox-formatter.php:196
-msgid "Good results"
-msgstr "良好的結果"
-
-#: admin/views/licenses.php:42
-msgid "Get better search results in local search"
-msgstr "在本地搜尋中取得更好的搜尋結果"
 
 #. translators: %1$s expands to WooCommerce
 #: admin/views/licenses.php:45
 msgid "Allow customers to pick up their %s order locally"
 msgstr "允許客戶在本地取得他們的 %s 訂單"
 
-#: admin/views/class-yoast-feature-toggles.php:74
-msgid "The SEO analysis offers suggestions to improve the SEO of your text."
-msgstr "SEO分析提供了改善文章SEO的建議。"
+#: admin/views/licenses.php:42
+msgid "Get better search results in local search"
+msgstr "在本地搜尋中取得更好的搜尋結果"
 
-#: admin/views/class-yoast-feature-toggles.php:75
-msgid "Learn how the SEO analysis can help you rank."
-msgstr "瞭解 SEO分析 如何幫助您提升排名。"
-
-#: admin/views/class-yoast-feature-toggles.php:82
-msgid "The readability analysis offers suggestions to improve the structure and style of your text."
-msgstr "可讀性分析提供了改進文章結構和樣式的建議。"
-
-#: admin/views/class-yoast-feature-toggles.php:83
-msgid "Discover why readability is important for SEO."
-msgstr "了解為什麼可讀性對 SEO 很重要。"
-
-#: admin/views/class-yoast-feature-toggles.php:91
-msgid "Find out how cornerstone content can help you improve your site structure."
-msgstr "了解基石內容如何幫助您改善網站結構。"
-
-#: admin/views/class-yoast-feature-toggles.php:99
-msgid "Find out how the text link counter can enhance your SEO."
-msgstr "了解文字連結計數器如何增強您的SEO。"
-
-#. translators: %s: Ryte
-#: admin/views/class-yoast-feature-toggles.php:115
-msgid "%s integration"
-msgstr "%s 整合"
-
-#. translators: %s: Ryte
-#: admin/views/class-yoast-feature-toggles.php:124
-msgid "Read more about how %s works."
-msgstr "詳細了解 %s 的工作原理。"
-
-#: admin/views/tabs/social/facebook.php:23
-msgid "Enable this feature if you want Facebook and other social media to display a preview with images and a text excerpt when a link to your site is shared."
-msgstr "如果您希望 Facebook 和其他社群媒體，在分享您網站的連結時顯示圖片預覽和文章摘要，請啟用此功能。"
+#: languages/yoast-components.php:20
+#: admin/formatter/class-metabox-formatter.php:196
+msgid "Good results"
+msgstr "良好的結果"
 
 #. translators: %s expands to Yoast SEO Premium
-#: languages/wordpress-seojs.php:298
+#: languages/wordpress-seojs.php:316
 msgid "Find out why you should upgrade to %s"
 msgstr "找出您應該升級到 %s 的原因"
 
@@ -2053,10 +2048,32 @@ msgstr "錯誤"
 msgid "Change language"
 msgstr "更改語言"
 
+#. translators: %s expands to ".htaccess".
+#: admin/views/tool-file-editor.php:186
+msgid "%s file"
+msgstr "%s 檔案"
+
 #. translators: %s expands to robots.txt.
-#: admin/views/tool-file-editor.php:28
-msgid "You cannot create a %s file."
-msgstr "您無法建立 %s 檔案"
+#. translators: %s expands to ".htaccess".
+#: admin/views/tool-file-editor.php:174 admin/views/tool-file-editor.php:224
+msgid "Save changes to %s"
+msgstr "儲存修改至 %s"
+
+#. translators: %s expands to robots.txt.
+#. translators: %s expands to ".htaccess".
+#: admin/views/tool-file-editor.php:165 admin/views/tool-file-editor.php:215
+msgid "Edit the content of your %s:"
+msgstr "編輯 %s 的內容："
+
+#. translators: %s expands to robots.txt.
+#: admin/views/tool-file-editor.php:125
+msgid "Create %s file"
+msgstr "建立 %s 檔案"
+
+#. translators: %s expands to robots.txt.
+#: admin/views/tool-file-editor.php:65
+msgid "Updated %s"
+msgstr "已更新 %s"
 
 #. translators: %s expands to robots.txt.
 #. translators: %s expands to ".htaccess".
@@ -2065,41 +2082,9 @@ msgid "You cannot edit the %s file."
 msgstr "您無法編輯 %s 檔案。"
 
 #. translators: %s expands to robots.txt.
-#: admin/views/tool-file-editor.php:65
-msgid "Updated %s"
-msgstr "已更新 %s"
-
-#. translators: %s expands to robots.txt.
-#: admin/views/tool-file-editor.php:126
-msgid "Create %s file"
-msgstr "建立 %s 檔案"
-
-#. translators: %s expands to robots.txt.
-#. translators: %s expands to ".htaccess".
-#: admin/views/tool-file-editor.php:166 admin/views/tool-file-editor.php:216
-msgid "Edit the content of your %s:"
-msgstr "編輯 %s 的內容："
-
-#. translators: %s expands to robots.txt.
-#. translators: %s expands to ".htaccess".
-#: admin/views/tool-file-editor.php:175 admin/views/tool-file-editor.php:225
-msgid "Save changes to %s"
-msgstr "儲存修改至 %s"
-
-#. translators: %s expands to ".htaccess".
-#: admin/views/tool-file-editor.php:187
-msgid "%s file"
-msgstr "%s 檔案"
-
-#. translators: %1$s expands to Yoast SEO, %2$s expands to the dependency name,
-#. %3$s expands to the install link, %4$s expands to the more info link.
-#: admin/class-suggested-plugins.php:113
-msgid "%1$s and %2$s can work together a lot better by adding a helper plugin. Please install %3$s to make your life better. %4$s."
-msgstr "透過增加幫助程序插件，%1$s 和 %2$s 可以更好地協同工作。請安裝 %3$s 以改善您的狀態。%4$s。"
-
-#: admin/class-suggested-plugins.php:139
-msgid "More information"
-msgstr "更多資訊"
+#: admin/views/tool-file-editor.php:28
+msgid "You cannot create a %s file."
+msgstr "您無法建立 %s 檔案"
 
 #. translators: %1$s expands to Yoast SEO, %2$s expands to the dependency name,
 #. %3$s expands to activation link.
@@ -2107,10 +2092,20 @@ msgstr "更多資訊"
 msgid "%1$s and %2$s can work together a lot better by adding a helper plugin. Please activate %3$s to make your life better."
 msgstr "透過增加幫助程序插件，%1$s 和 %2$s 可以更好地協同工作。請啟用 %3$s 以改善您的狀態。"
 
+#: admin/class-suggested-plugins.php:139
+msgid "More information"
+msgstr "更多資訊"
+
 #. translators: %1$s expands to the dependency name.
 #: admin/class-suggested-plugins.php:138
 msgid "More information about %1$s"
 msgstr "關於 %1$s 的更多資訊"
+
+#. translators: %1$s expands to Yoast SEO, %2$s expands to the dependency name,
+#. %3$s expands to the install link, %4$s expands to the more info link.
+#: admin/class-suggested-plugins.php:113
+msgid "%1$s and %2$s can work together a lot better by adding a helper plugin. Please install %3$s to make your life better. %4$s."
+msgstr "透過增加幫助程序插件，%1$s 和 %2$s 可以更好地協同工作。請安裝 %3$s 以改善您的狀態。%4$s。"
 
 #: inc/class-wpseo-admin-bar-menu.php:210
 msgid "Configuration Wizard"
@@ -2231,11 +2226,11 @@ msgstr "已啟動"
 msgid "%1$s recommendations for you"
 msgstr "推薦 %1$s 給您"
 
-#: admin/class-meta-columns.php:250
+#: admin/class-meta-columns.php:253
 msgid "All Readability Scores"
 msgstr "所有可讀性分數"
 
-#: admin/class-meta-columns.php:247
+#: admin/class-meta-columns.php:249
 msgid "Filter by Readability Score"
 msgstr "依照可讀性分數篩選"
 
@@ -2250,47 +2245,47 @@ msgstr "您無法收到更新或支持！透過增加此網站並 %1$s啟用它%
 msgid "Request method %1$s is not valid."
 msgstr "請求方法 %1$s 無效。"
 
-#: src/presenters/admin/link-count-indexing-list-item-presenter.php:40
-#: src/integrations/admin/link-count-tools-integration.php:122
+#: src/presenters/admin/link-count-indexing-list-item-presenter.php:35
+#: src/integrations/admin/link-count-tools-integration.php:117
 msgid "Good job! All the links in your texts have been counted."
 msgstr "做得好！您文章中的所有連結都已計算在內。"
 
-#: src/integrations/admin/link-count-tools-integration.php:127
+#: src/integrations/admin/link-count-tools-integration.php:122
 msgid "Calculation completed."
 msgstr "計算完成。"
 
-#: src/integrations/admin/link-count-tools-integration.php:126
+#: src/integrations/admin/link-count-tools-integration.php:121
 msgid "Calculation in progress..."
 msgstr "正在計算..."
 
-#: src/presenters/admin/link-count-indexing-modal-presenter.php:68
+#: src/presenters/admin/link-count-indexing-modal-presenter.php:63
 msgid "Stop counting"
 msgstr "停止計算"
 
-#: src/presenters/admin/link-count-indexing-modal-presenter.php:61
+#: src/presenters/admin/link-count-indexing-modal-presenter.php:56
 msgid "Counting links in your texts"
 msgstr "計算您文字中的連結數量"
 
 #. translators: 1: expands to a <span> containing the number of items
 #. recalculated. 2: expands to a <strong> containing the total number of items.
-#: src/presenters/admin/link-count-indexing-modal-presenter.php:50
+#: src/presenters/admin/link-count-indexing-modal-presenter.php:45
 msgid "Text %1$s of %2$s processed."
 msgstr "已處理 %2$s 的文字 %1$s。"
 
-#: src/presenters/admin/link-count-indexing-modal-presenter.php:44
+#: src/presenters/admin/link-count-indexing-modal-presenter.php:39
 msgid "All your texts are already counted, there is no need to count them again."
 msgstr "所有文章已經統計完畢，無需再次統計"
 
-#: src/presenters/admin/link-count-indexing-list-item-presenter.php:45
+#: src/presenters/admin/link-count-indexing-list-item-presenter.php:40
 msgid "Count links in your texts"
 msgstr "統計文中連結數量"
 
-#: src/presenters/admin/link-count-indexing-list-item-presenter.php:37
-#: admin/views/class-yoast-feature-toggles.php:96
+#: src/presenters/admin/link-count-indexing-list-item-presenter.php:32
+#: admin/views/class-yoast-feature-toggles.php:98
 msgid "Text link counter"
 msgstr "文字連結計數"
 
-#: src/integrations/admin/link-count-columns-integration.php:150
+#: src/integrations/admin/link-count-columns-integration.php:145
 msgid "Number of internal links linking to this post. See \"Yoast Columns\" text in the help tab for more info."
 msgstr "連結到此文章的內部連結數。有關詳情，請參閱幫助標籤中的「Yoast 欄」文字。"
 
@@ -2303,21 +2298,21 @@ msgstr "%s 欄"
 msgid "Readability score"
 msgstr "可讀性分數"
 
+#: languages/yoast-components.php:182 languages/yoast-seo-js.php:536
+msgid "Scroll to see the preview content."
+msgstr "捲動以預覽內容"
+
 #. translators: %s expands to 'Yoast SEO Premium'.
-#: languages/wordpress-seojs.php:279 admin/class-keyword-synonyms-modal.php:32
+#: languages/wordpress-seojs.php:280 admin/class-keyword-synonyms-modal.php:32
 #: admin/class-add-keyword-modal.php:32
 #: admin/class-multiple-keywords-modal.php:32
 #: admin/formatter/class-metabox-formatter.php:225
 msgid "Other benefits of %s for you:"
 msgstr "%s 對您的其他好處："
 
-#: languages/yoast-components.php:182 languages/yoast-seo-js.php:536
-msgid "Scroll to see the preview content."
-msgstr "捲動以預覽內容"
-
-#: languages/wordpress-seojs.php:70
+#: languages/wordpress-seojs.php:67
 #: admin/filters/class-cornerstone-filter.php:87
-#: admin/views/class-yoast-feature-toggles.php:88
+#: admin/views/class-yoast-feature-toggles.php:90
 msgid "Cornerstone content"
 msgstr "基石內容"
 
@@ -2333,14 +2328,14 @@ msgstr "升級到進階版"
 msgid "The configuration wizard helps you to easily configure your site to have the optimal SEO settings."
 msgstr "設定精靈可以很容易幫您的網站做 SEO 最佳化設定。"
 
-#: languages/wordpress-seojs.php:261
+#: languages/wordpress-seojs.php:262
 #: admin/class-premium-upsell-admin-block.php:56
 msgid "Superfast internal linking suggestions"
 msgstr "超快的內部鏈結建議"
 
 #. translators: %1$s expands to a 'Yoast SEO Premium' text linked to the
 #. yoast.com website.
-#: languages/wordpress-seojs.php:249
+#: languages/wordpress-seojs.php:250
 msgid "Great news: you can, with %1$s!"
 msgstr "好消息！您可以和 %1$s ！"
 
@@ -2348,7 +2343,7 @@ msgstr "好消息！您可以和 %1$s ！"
 msgid "Save changes"
 msgstr "儲存變更"
 
-#: languages/wordpress-seojs.php:283 admin/class-keyword-synonyms-modal.php:41
+#: languages/wordpress-seojs.php:284 admin/class-keyword-synonyms-modal.php:41
 #: admin/class-premium-popup.php:88 admin/class-add-keyword-modal.php:41
 #: admin/class-multiple-keywords-modal.php:41
 #: admin/formatter/class-metabox-formatter.php:234
@@ -2357,17 +2352,17 @@ msgstr "包含一年免費更新與升級！"
 
 #. translators: %1$s expands to a 'strong' start tag, %2$s to a 'strong' end
 #. tag.
-#: languages/wordpress-seojs.php:266
+#: languages/wordpress-seojs.php:267
 msgid "%1$sSocial media preview%2$s: Facebook & Twitter"
 msgstr "%1$s社群媒體預覽%2$s：Facebook & Twitter"
 
 #. translators: %1$s expands to a 'strong' start tag, %2$s to a 'strong' end
 #. tag.
-#: languages/wordpress-seojs.php:257
+#: languages/wordpress-seojs.php:258
 msgid "%1$sNo more dead links%2$s: easy redirect manager"
 msgstr "%1$s沒有更多的死連結%2$s：簡易轉址管理器"
 
-#: languages/wordpress-seojs.php:274
+#: languages/wordpress-seojs.php:275
 #: admin/class-premium-upsell-admin-block.php:59 admin/views/sidebar.php:39
 msgid "No ads!"
 msgstr "無廣告！"
@@ -2392,11 +2387,11 @@ msgstr "沒有更多無效的連結"
 msgid "Increase your SEO reach"
 msgstr "增加您的SEO覆蓋率"
 
-#: admin/views/tabs/metas/paper-content/rss-content.php:30
+#: admin/views/tabs/metas/paper-content/rss-content.php:32
 msgid "Variable"
 msgstr "變數"
 
-#: admin/views/tabs/metas/paper-content/rss-content.php:24
+#: admin/views/tabs/metas/paper-content/rss-content.php:25
 msgid "Available variables"
 msgstr "可用變數"
 
@@ -2521,10 +2516,6 @@ msgstr "良好的SEO分數："
 msgid "OK SEO score"
 msgstr "尚可的SEO分數："
 
-#: languages/yoast-seo-js.php:466
-msgid "Feedback"
-msgstr "反饋"
-
 #: languages/yoast-seo-js.php:17
 msgid "ok"
 msgstr "好"
@@ -2545,11 +2536,11 @@ msgstr "MailChimp 加入失敗："
 msgid "Sign Up!"
 msgstr "註冊"
 
-#: languages/wordpress-seojs.php:195 inc/class-wpseo-replace-vars.php:1281
+#: languages/wordpress-seojs.php:183 inc/class-wpseo-replace-vars.php:1281
 msgid "Name"
 msgstr "名稱"
 
-#: languages/yoast-seo-js.php:542 languages/wordpress-seojs.php:328
+#: languages/yoast-seo-js.php:542 languages/wordpress-seojs.php:342
 msgid "Please provide a meta description by editing the snippet below."
 msgstr "請利用以下代碼編輯器提供meta描述。"
 
@@ -2587,6 +2578,11 @@ msgstr "匯出設定"
 msgid "%1$s video tutorial"
 msgstr "%1$s 影片教學"
 
+#. translators: %s expands to Yoast SEO.
+#: admin/config-ui/class-configuration-page.php:107
+msgid "%s &rsaquo; Configuration Wizard"
+msgstr "%s &rsaquo; 設定精靈"
+
 #: admin/class-product-upsell-notice.php:160
 msgid "Please don't show me this notification anymore"
 msgstr "請不要再顯示此通知。"
@@ -2603,11 +2599,6 @@ msgstr "如果您有遇到問題，請 %1$s提交錯誤回報%2$s，我們將盡
 msgid "We've noticed you've been using %1$s for some time now; we hope you love it! We'd be thrilled if you could %2$sgive us a 5 stars rating on WordPress.org%3$s!"
 msgstr "我們已經注意到您正在使用 %1$s 一些時間，我們希望您喜歡！如果您可以在%2$sWordPress.org上給我們5星好評%3$s，我們會很開心！"
 
-#. translators: %s expands to Yoast SEO.
-#: admin/config-ui/class-configuration-page.php:107
-msgid "%s &rsaquo; Configuration Wizard"
-msgstr "%s &rsaquo; 設定精靈"
-
 #: admin/views/tabs/metas/archives.php:24
 msgid "Date archives settings"
 msgstr "時間彙整設定"
@@ -2615,13 +2606,6 @@ msgstr "時間彙整設定"
 #: admin/views/tabs/metas/archives.php:19
 msgid "Author archives settings"
 msgstr "作者彙整設定"
-
-#. translators: %1$s expands to the image recommended width, %2$s to its
-#. height.
-#: admin/taxonomy/class-taxonomy-social-fields.php:99
-#: admin/taxonomy/class-taxonomy-social-fields.php:106
-msgid "%1$s by %2$s"
-msgstr "%1$s x %2$s"
 
 #: admin/class-bulk-editor-list-table.php:791
 msgid "(no title)"
@@ -2633,11 +2617,11 @@ msgid "%s installation wizard"
 msgstr "%s 安裝精靈"
 
 #. translators: 1: Yoast SEO
-#: admin/views/class-yoast-feature-toggles.php:132
+#: admin/views/class-yoast-feature-toggles.php:135
 msgid "The %1$s admin bar menu contains useful links to third-party tools for analyzing pages and makes it easy to see if you have new notifications."
 msgstr "%1$s 管理者選單中包含了第三分分析工具可以級快速得知新通知。"
 
-#: admin/views/class-yoast-feature-toggles.php:129
+#: admin/views/class-yoast-feature-toggles.php:132
 msgid "Admin bar menu"
 msgstr "管理選單"
 
@@ -2648,7 +2632,7 @@ msgid "Features"
 msgstr "特色"
 
 #: languages/yoast-components.php:163 languages/yoast-seo-js.php:503
-#: admin/metabox/class-metabox.php:148
+#: admin/metabox/class-metabox.php:156
 msgid "SEO title"
 msgstr "SEO標題"
 
@@ -2713,23 +2697,23 @@ msgstr "連字號"
 msgid "Choose the symbol to use as your title separator. This will display, for instance, between your post title and site name. Symbols are shown in the size they'll appear in the search results."
 msgstr "選擇要作為標題的分隔服務。這將顯示文章和網站標題之間的分隔。此符號將會顯示於搜尋結果中。"
 
-#: languages/wordpress-seojs.php:188
+#: languages/wordpress-seojs.php:176
 msgid "The name of the person"
 msgstr "人物名稱"
 
-#: languages/wordpress-seojs.php:42
+#: languages/wordpress-seojs.php:46
 #: admin/config-ui/fields/class-field-choice-post-type.php:35
 #: admin/config-ui/fields/class-field-multiple-authors.php:24
-#: admin/metabox/class-metabox.php:159 admin/metabox/class-metabox.php:164
+#: admin/metabox/class-metabox.php:167 admin/metabox/class-metabox.php:172
 #: admin/class-yoast-form.php:717
 #: admin/views/tabs/metas/paper-content/media-content.php:20
 msgid "No"
 msgstr "否"
 
-#: languages/wordpress-seojs.php:45
+#: languages/wordpress-seojs.php:49
 #: admin/config-ui/fields/class-field-choice-post-type.php:34
 #: admin/config-ui/fields/class-field-multiple-authors.php:23
-#: admin/metabox/class-metabox.php:158 admin/metabox/class-metabox.php:163
+#: admin/metabox/class-metabox.php:166 admin/metabox/class-metabox.php:171
 #: admin/class-yoast-form.php:716
 #: admin/views/tabs/metas/paper-content/media-content.php:19
 msgid "Yes"
@@ -2743,7 +2727,7 @@ msgstr "您的網站是否會有多作者？"
 msgid "WordPress automatically generates an URL for each media item in the library. Enabling this will allow for google to index the generated URL."
 msgstr "WordPress 會自動針對每一個媒體產生一個專屬URL。啟用此選項將允許Google針對每一個媒體URL進行索引。"
 
-#: admin/config-ui/class-configuration-structure.php:93
+#: admin/config-ui/class-configuration-structure.php:94
 msgid "Success!"
 msgstr "成功！"
 
@@ -2918,7 +2902,7 @@ msgstr "Pinterest設定"
 msgid "Facebook settings"
 msgstr "Facebook 設定"
 
-#: admin/views/tabs/metas/paper-content/general/title-separator.php:21
+#: admin/views/tabs/metas/paper-content/general/title-separator.php:27
 msgid "Title separator symbol"
 msgstr "標題分隔符號"
 
@@ -2944,8 +2928,8 @@ msgstr[0] "%s 則通知"
 msgid "Disable readability analysis"
 msgstr "關閉可讀性分析"
 
-#: languages/wordpress-seojs.php:221
-#: admin/views/class-yoast-feature-toggles.php:80
+#: languages/wordpress-seojs.php:209
+#: admin/views/class-yoast-feature-toggles.php:82
 msgid "Readability analysis"
 msgstr "可讀性分析"
 
@@ -3003,7 +2987,7 @@ msgstr "依照SEO分數篩選"
 msgid "Meta description not set."
 msgstr "Meta 描述沒設置。"
 
-#: languages/wordpress-seojs.php:290
+#: languages/wordpress-seojs.php:291
 msgid "Open"
 msgstr "開啟"
 
@@ -3033,7 +3017,7 @@ msgstr "如果您已經透過 Pinterest 驗證您的網站，可以跳過以下�
 msgid "Format-based archives"
 msgstr "文章格式彙整"
 
-#: admin/views/tabs/dashboard/webmaster-tools.php:23
+#: admin/views/tabs/dashboard/webmaster-tools.php:24
 msgid "Webmaster Tools verification"
 msgstr "網站管理員驗證工具"
 
@@ -3152,27 +3136,27 @@ msgid "The first true all-in-one SEO solution for WordPress, including on-page c
 msgstr "WordPress 真正第一個集所有功能於一身的SEO解決方案，其中包括對網頁內容分析、XML網站地圖等等。"
 
 #. Plugin Name of the plugin
-#: languages/wordpress-seojs.php:334
+#: languages/wordpress-seojs.php:348
 #: admin/capabilities/class-capability-manager-integration.php:72
 msgid "Yoast SEO"
 msgstr "Yoast SEO"
 
-#: wp-seo-main.php:564
+#: wp-seo-main.php:568
 msgid "Activation failed:"
 msgstr "啟動失敗："
 
-#: wp-seo-main.php:554
+#: wp-seo-main.php:557
 msgid "The filter extension seem to be unavailable. Please ask your web host to enable it."
 msgstr "這個擴充功能似乎不支援，請洽詢您的主機商開啟該功能。"
 
 #. translators: %1$s expands to Yoast SEO, %2$s / %3$s: links to the
 #. installation manual in the Readme for the Yoast SEO code repository on
 #. GitHub
-#: wp-seo-main.php:530
+#: wp-seo-main.php:533
 msgid "The %1$s plugin installation is incomplete. Please refer to %2$sinstallation instructions%3$s."
 msgstr "%1$s 插件安裝未完整。請參考 %2$s安裝介紹%3$s。"
 
-#: wp-seo-main.php:508
+#: wp-seo-main.php:511
 msgid "The Standard PHP Library (SPL) extension seem to be unavailable. Please ask your web host to enable it."
 msgstr "標準 PHP 函式庫（SPL）擴充元件似乎無法使用。請要求您的網站管理員啟用它。"
 
@@ -3218,12 +3202,12 @@ msgid "Keyword Research"
 msgstr "關鍵字研究"
 
 #. translators: %s expands to an invalid URL.
-#: inc/options/class-wpseo-option.php:394
+#: inc/options/class-wpseo-option.php:396
 msgid "%s does not seem to be a valid url. Please correct."
 msgstr "%s 似乎不是一個有效的URL。請更正。"
 
 #. translators: 1: Verification string from user input; 2: Service name.
-#: inc/options/class-wpseo-option.php:358
+#: inc/options/class-wpseo-option.php:360
 msgid "%1$s does not seem to be a valid %2$s verification string. Please correct."
 msgstr "%1$s 似乎不是一個正確的 %2$s 驗證值。請更正。"
 
@@ -3444,7 +3428,7 @@ msgstr "這裡的替代變數可包含字母與數字或者底線，嘗試重命
 
 #. Translators: %1$s resolves to the SEO menu item, %2$s resolves to the Search
 #. Appearance submenu item.
-#: src/presenters/meta-description-presenter.php:40
+#: src/presenters/meta-description-presenter.php:35
 msgid "Admin only notice: this page does not show a meta description because it does not have one, either write it for this page specifically or go into the [%1$s - %2$s] menu and set up a template."
 msgstr "管理員注意：此頁面不顯示 Meta 描述，因為它沒有 Meta 描述，要不特地為此頁面寫入，要不就前往 [%1$s - %2$s] 選單並設定模板。"
 
@@ -3493,34 +3477,34 @@ msgstr "匯入"
 
 #. translators: %s expands to robots.txt.
 #. translators: %s expands to ".htaccess".
-#: admin/views/tool-file-editor.php:136 admin/views/tool-file-editor.php:236
+#: admin/views/tool-file-editor.php:135 admin/views/tool-file-editor.php:235
 msgid "If you had a %s file and it was editable, you could edit it from here."
 msgstr "如果您有一個可以編輯的 %s 檔案時，您可以從這裡來編輯它。"
 
 #. translators: %s expands to robots.txt.
 #. translators: %s expands to ".htaccess".
-#: admin/views/tool-file-editor.php:154 admin/views/tool-file-editor.php:204
+#: admin/views/tool-file-editor.php:153 admin/views/tool-file-editor.php:203
 msgid "If your %s were writable, you could edit it from here."
 msgstr "如果您的 %s 可以被寫入的話，您可以從這裡來編輯它。"
 
 #. translators: %s expands to robots.txt.
-#: admin/views/tool-file-editor.php:117
+#: admin/views/tool-file-editor.php:116
 msgid "You don't have a %s file, create one here:"
 msgstr "您沒有 %s 檔案，請在此處建立一個："
 
-#: admin/views/tabs/metas/paper-content/rss-content.php:49
+#: admin/views/tabs/metas/paper-content/rss-content.php:51
 msgid "A link to your site, with your site's name and description as anchor text."
 msgstr "一個連結到您網站的連結，以您網站的名稱以及描述作為固定文字。"
 
-#: admin/views/tabs/metas/paper-content/rss-content.php:45
+#: admin/views/tabs/metas/paper-content/rss-content.php:47
 msgid "A link to your site, with your site's name as anchor text."
 msgstr "一個連結到您網站的連結，以您網站的名稱作為固定文字。"
 
-#: admin/views/tabs/metas/paper-content/rss-content.php:41
+#: admin/views/tabs/metas/paper-content/rss-content.php:43
 msgid "A link to the post, with the title as anchor text."
 msgstr "一個連結到文章的連結，以標題作為固定文字。"
 
-#: admin/views/tabs/metas/paper-content/rss-content.php:37
+#: admin/views/tabs/metas/paper-content/rss-content.php:39
 msgid "A link to the archive for the post author, with the authors name as anchor text."
 msgstr "一個適用於文章作者並且連結到彙整的連結，以作者名稱作為固定文字。"
 
@@ -3594,7 +3578,7 @@ msgstr "啟用導覽標記"
 msgid "Below are your published posts' SEO scores. Now is as good a time as any to start improving some of your posts!"
 msgstr "以下是您所發佈文章的SEO分數。現在是開始改進您一些文章的好時機！"
 
-#: admin/views/tabs/dashboard/dashboard.php:45
+#: admin/views/tabs/dashboard/dashboard.php:48
 msgid "Credits"
 msgstr "貢獻者"
 
@@ -3644,25 +3628,25 @@ msgstr "預設要使用的卡片類型"
 msgid "Add Twitter card meta data"
 msgstr "加入 Twitter card meta 資料"
 
-#: admin/views/tabs/social/facebook.php:78
+#: admin/views/tabs/social/facebook.php:84
 msgid "This image is used if the post/page being shared does not contain any images."
 msgstr "如果文章／頁面在被分享時裡面不含有任何圖片的話才會使用這裡設定的圖片。"
 
-#: admin/views/tabs/social/facebook.php:72
+#: admin/views/tabs/social/facebook.php:78
 msgid "Default settings"
 msgstr "預設設定"
 
-#: admin/views/tabs/social/facebook.php:46
+#: admin/views/tabs/social/facebook.php:48
 msgid "Copy home meta description"
 msgstr "複製首頁 meta 描述"
 
-#: admin/views/tool-bulk-editor.php:111 admin/views/tabs/social/facebook.php:44
-#: admin/views/tabs/metas/paper-content/rss-content.php:31
+#: admin/views/tool-bulk-editor.php:111 admin/views/tabs/social/facebook.php:46
+#: admin/views/tabs/metas/paper-content/rss-content.php:33
 msgid "Description"
 msgstr "描述"
 
-#: admin/views/tabs/social/facebook.php:42
-#: admin/views/tabs/social/facebook.php:74
+#: admin/views/tabs/social/facebook.php:44
+#: admin/views/tabs/social/facebook.php:80
 msgid "Image URL"
 msgstr "圖片網址"
 
@@ -3670,7 +3654,7 @@ msgstr "圖片網址"
 msgid "These are the title, description and image used in the Open Graph meta tags on the front page of your site."
 msgstr "這些是會用在您網站前端頁面裡 Open Graph meta 標籤中的標題、描述以及圖片。"
 
-#: admin/views/tabs/social/facebook.php:39
+#: admin/views/tabs/social/facebook.php:40
 msgid "Frontpage settings"
 msgstr "前端頁面設定"
 
@@ -3778,11 +3762,11 @@ msgid "public"
 msgstr "公開"
 
 #. translators: %s expands to the name of a site within a multisite network.
-#: admin/class-yoast-network-admin.php:161
+#: admin/class-yoast-network-admin.php:164
 msgid "%s restored to default SEO settings."
 msgstr "%s 恢復為預設SEO設置。"
 
-#: admin/class-yoast-network-admin.php:128
+#: admin/class-yoast-network-admin.php:130
 msgid "Settings Updated."
 msgstr "設定已更新。"
 
@@ -3826,8 +3810,8 @@ msgstr "日期彙整"
 msgid "author archives"
 msgstr "作者彙整"
 
-#: languages/wordpress-seojs.php:549 admin/views/tool-bulk-editor.php:109
-#: admin/views/tabs/social/facebook.php:43
+#: languages/wordpress-seojs.php:563 admin/views/tool-bulk-editor.php:109
+#: admin/views/tabs/social/facebook.php:45
 #: inc/class-wpseo-replace-vars.php:1248
 msgid "Title"
 msgstr "標題"
@@ -3840,12 +3824,12 @@ msgstr "隱藏"
 msgid "Take note:"
 msgstr "寫點註解："
 
-#: admin/views/tabs/metas/paper-content/general/homepage.php:37
+#: admin/views/tabs/metas/paper-content/general/homepage.php:39
 msgid "Homepage &amp; Front page"
 msgstr "首頁 &amp; 前端頁面"
 
 #: admin/config-ui/fields/class-field-separator.php:19
-#: admin/views/tabs/metas/paper-content/general/title-separator.php:18
+#: admin/views/tabs/metas/paper-content/general/title-separator.php:21
 msgid "Title Separator"
 msgstr "標題分隔符號"
 
@@ -3862,7 +3846,7 @@ msgstr "強制重寫標題"
 msgid "Taxonomies"
 msgstr "分類法"
 
-#: admin/views/tabs/metas/paper-content/general/homepage.php:21
+#: admin/views/tabs/metas/paper-content/general/homepage.php:22
 msgid "Homepage"
 msgstr "首頁"
 
@@ -3894,7 +3878,7 @@ msgid "The premium version of %1$s with more features & support."
 msgstr "有著更多功能&支援的 %1$s 。"
 
 #: admin/config-ui/fields/class-field-company-or-person.php:24
-#: admin/views/tabs/metas/paper-content/general/knowledge-graph.php:42
+#: admin/views/tabs/metas/paper-content/general/knowledge-graph.php:49
 msgid "Person"
 msgstr "個人"
 
@@ -3937,7 +3921,7 @@ msgid "The %1$s plugin might cause issues when used in conjunction with %2$s."
 msgstr "%1$s 插件若配合 %2$s 使用可能造成錯誤。"
 
 #: admin/taxonomy/class-taxonomy-fields-presenter.php:123
-#: admin/metabox/class-metabox.php:663 admin/class-yoast-form.php:578
+#: admin/metabox/class-metabox.php:613 admin/class-yoast-form.php:578
 msgid "Upload Image"
 msgstr "上傳圖片"
 
@@ -3978,7 +3962,7 @@ msgstr "上一步"
 msgid "Next"
 msgstr "下一步"
 
-#: languages/yoast-components.php:64 languages/wordpress-seojs.php:182
+#: languages/yoast-components.php:64 languages/wordpress-seojs.php:294
 #: admin/google_search_console/views/gsc-redirect-nopremium.php:27
 msgid "Close"
 msgstr "關閉"
@@ -3994,12 +3978,10 @@ msgstr "%1$s 與 %2$s 可以建立 XML 網站地圖。擁有二個 XML 網站地
 msgid "Configure %1$s's Open Graph settings"
 msgstr "調整  %1$s 的OpenGraph 設定"
 
-#: admin/taxonomy/class-taxonomy-social-fields.php:113
 #: admin/pages/social.php:20
 msgid "Twitter"
 msgstr "Twitter"
 
-#: admin/taxonomy/class-taxonomy-social-fields.php:112
 #: admin/pages/social.php:19
 msgid "Facebook"
 msgstr "Facebook"
@@ -4049,76 +4031,76 @@ msgstr "非常容易"
 msgid "Meta Desc."
 msgstr "Meta 描述"
 
-#: admin/class-meta-columns.php:224
+#: admin/class-meta-columns.php:225
 msgid "All SEO Scores"
 msgstr "所有 SEO 分數"
 
-#: admin/metabox/class-metabox.php:936
+#: admin/metabox/class-metabox.php:886
 msgid "SEO issue: The featured image should be at least 200 by 200 pixels to be picked up by Facebook and other social media sites."
 msgstr "SEO 問題：這個特色圖片必須至少達到200 x 200 像素，對於Facebook或其他社群媒體平台較好擷取。"
 
 #: admin/taxonomy/class-taxonomy.php:160 admin/taxonomy/class-taxonomy.php:293
-#: admin/metabox/class-metabox.php:902
+#: admin/metabox/class-metabox.php:852
 msgid "(no parent)"
 msgstr "(沒有上層)"
 
-#: admin/class-meta-columns.php:639
+#: admin/class-meta-columns.php:643
 msgid "Post is set to noindex."
 msgstr "文章已被設定為不索引。"
 
-#: admin/metabox/class-metabox.php:185
+#: admin/metabox/class-metabox.php:193
 msgid "The URL that this page should redirect to."
 msgstr "這個頁面要被重新導向的網址。"
 
-#: admin/metabox/class-metabox.php:184
+#: admin/metabox/class-metabox.php:192
 msgid "301 Redirect"
 msgstr "301 轉址"
 
 #. translators: 1: link open tag; 2: link close tag.
-#: admin/metabox/class-metabox.php:179
+#: admin/metabox/class-metabox.php:187
 msgid "The canonical URL that this page should point to. Leave empty to default to permalink. %1$sCross domain canonical%2$s supported too."
 msgstr "這個頁面要指向的標準網址，保持空白以將預設值設定為固定網址，也支援%1$s跨網域標準網址%2$s。"
 
-#: languages/wordpress-seojs.php:33 admin/metabox/class-metabox.php:175
+#: languages/wordpress-seojs.php:40 admin/metabox/class-metabox.php:183
 msgid "Canonical URL"
 msgstr "標準網址"
 
-#: admin/metabox/class-metabox.php:173
+#: admin/metabox/class-metabox.php:181
 msgid "Title to use for this page in breadcrumb paths"
 msgstr "用於導覽標記路徑中這個頁面的標題"
 
-#: languages/wordpress-seojs.php:27 admin/metabox/class-metabox.php:172
+#: languages/wordpress-seojs.php:34 admin/metabox/class-metabox.php:180
 msgid "Breadcrumbs Title"
 msgstr "導覽標記標題"
 
-#: languages/wordpress-seojs.php:21 admin/metabox/class-metabox.php:170
+#: languages/wordpress-seojs.php:28 admin/metabox/class-metabox.php:178
 msgid "No Snippet"
 msgstr "沒有代碼"
 
-#: languages/wordpress-seojs.php:18 admin/metabox/class-metabox.php:169
+#: languages/wordpress-seojs.php:25 admin/metabox/class-metabox.php:177
 msgid "No Archive"
 msgstr "沒有彙整"
 
-#: languages/wordpress-seojs.php:15 admin/metabox/class-metabox.php:168
+#: languages/wordpress-seojs.php:22 admin/metabox/class-metabox.php:176
 msgid "No Image Index"
 msgstr "無圖片索引"
 
-#: src/config/schema-types.php:154 admin/class-yoast-network-admin.php:43
+#: src/config/schema-types.php:149 admin/class-yoast-network-admin.php:43
 #: admin/views/tabs/metas/paper-content/breadcrumbs-content.php:51
 #: admin/views/tabs/metas/paper-content/breadcrumbs-content.php:79
 msgid "None"
 msgstr "無"
 
-#: languages/wordpress-seojs.php:12 admin/metabox/class-metabox.php:166
+#: languages/wordpress-seojs.php:19 admin/metabox/class-metabox.php:174
 msgid "Meta robots advanced"
 msgstr "Meta robots 進階"
 
-#: admin/metabox/class-metabox.php:154
+#: admin/metabox/class-metabox.php:162
 msgid "Warning: even though you can set the meta robots setting here, the entire site is set to noindex in the sitewide privacy settings, so these settings won't have an effect."
 msgstr "警告：就算您可以在這裡設定 meta 機器人設定，整個網站也將在全站隱私設定中被設定為不索引，因此這些設定將不會產生任何影響。"
 
 #: languages/yoast-components.php:167 languages/yoast-seo-js.php:509
-#: admin/metabox/class-metabox.php:149
+#: admin/metabox/class-metabox.php:157
 msgid "Meta description"
 msgstr "Meta 描述"
 
@@ -4168,27 +4150,27 @@ msgid "%s Breadcrumbs"
 msgstr "%s 導覽標記"
 
 #: admin/taxonomy/class-taxonomy.php:180 admin/class-config.php:118
-#: admin/metabox/class-metabox.php:923
+#: admin/metabox/class-metabox.php:873
 msgid "Use Image"
 msgstr "使用圖片"
 
-#: admin/class-bulk-editor-list-table.php:1006
+#: admin/class-bulk-editor-list-table.php:1005
 msgid "Action"
 msgstr "操作"
 
-#: admin/class-bulk-editor-list-table.php:1001
+#: admin/class-bulk-editor-list-table.php:1000
 msgid "Page URL/Slug"
 msgstr "頁面網址/代稱"
 
-#: admin/class-bulk-editor-list-table.php:1000
+#: admin/class-bulk-editor-list-table.php:999
 msgid "Publication date"
 msgstr "發佈日期"
 
-#: admin/class-bulk-editor-list-table.php:999
+#: admin/class-bulk-editor-list-table.php:998
 msgid "Post Status"
 msgstr "文章狀態"
 
-#: admin/class-bulk-editor-list-table.php:997
+#: admin/class-bulk-editor-list-table.php:996
 msgid "WP Page Title"
 msgstr "WP 頁面標題"
 
@@ -4248,7 +4230,7 @@ msgstr "Facebook 個人檔案網址"
 msgid "Twitter username (without @)"
 msgstr "Twitter 使用者名稱（沒有 @）"
 
-#: languages/wordpress-seojs.php:379 admin/class-admin.php:237
+#: languages/wordpress-seojs.php:393 admin/class-admin.php:237
 msgid "FAQ"
 msgstr "常見問題集"
 
@@ -4256,11 +4238,11 @@ msgstr "常見問題集"
 msgid "Premium Support"
 msgstr "進階技術支援"
 
-#: languages/wordpress-seojs.php:460 admin/class-admin.php:223
+#: languages/wordpress-seojs.php:474 admin/class-admin.php:223
 msgid "Settings"
 msgstr "設定"
 
-#: admin/class-admin-init.php:543
+#: admin/class-admin-init.php:545
 msgid "Huge SEO Issue: You're blocking access to robots."
 msgstr "嚴重 SEO 問題：您阻擋了搜尋引擎機器人的搜尋了。"
 
@@ -4290,23 +4272,23 @@ msgstr "搜尋控制台"
 msgid "Tools"
 msgstr "工具"
 
-#: languages/wordpress-seojs.php:39
+#: languages/wordpress-seojs.php:237
 msgid "Advanced"
 msgstr "進階"
 
-#: admin/views/class-yoast-feature-toggles.php:104
+#: admin/views/class-yoast-feature-toggles.php:106
 msgid "XML sitemaps"
 msgstr "XML Sitemap"
 
-#: admin/taxonomy/class-taxonomy-metabox.php:193
-#: admin/metabox/class-metabox.php:377 admin/menu/class-admin-menu.php:92
+#: admin/taxonomy/class-taxonomy-metabox.php:148
+#: admin/metabox/class-metabox.php:403 admin/menu/class-admin-menu.php:92
 msgid "Social"
 msgstr "社群網站"
 
-#: src/presenters/meta-description-presenter.php:41
-#: languages/wordpress-seojs.php:386
-#: admin/taxonomy/class-taxonomy-metabox.php:132
-#: admin/metabox/class-metabox.php:396
+#: src/presenters/meta-description-presenter.php:36
+#: languages/wordpress-seojs.php:400
+#: admin/taxonomy/class-taxonomy-metabox.php:134
+#: admin/metabox/class-metabox.php:382
 #: admin/menu/class-network-admin-menu.php:35
 #: admin/menu/class-admin-menu.php:38 inc/class-wpseo-admin-bar-menu.php:473
 #: inc/health-check.php:173
@@ -4319,7 +4301,7 @@ msgstr "SEO"
 msgid "%1$s detected you are using version %2$s of %3$s, please update to the latest version to prevent compatibility issues."
 msgstr "%1$s 偵測出您使用的版本 %2$s 屬於 %3$s，請更新至最新版本避免相容性問題。"
 
-#: admin/class-admin-init.php:641 inc/health-check-default-tagline.php:63
+#: admin/class-admin-init.php:642 inc/health-check-default-tagline.php:62
 msgid "Just another WordPress site"
 msgstr "只是另一個 WordPress 網站"
 
