@@ -94,6 +94,26 @@
 	--brand-secondary-dark: rgb(8, 92, 119);
 	--brand-secondary-darkest: rgb(0, 52, 73);
 
+	/* ORCID background greys */
+	--ui-background-lightest: rgb(250, 250, 250);
+	--ui-background-light: rgb(245, 245, 245);
+	--ui-background: rgb(224, 224, 224);
+	--ui-background-dark: rgb(97, 97, 97);
+	--ui-background-darkest: rgb(33, 33, 33);
+
+	/* TEXT - Colours for copy */
+	/* DARK */
+	--text-dark-high: rgba(0, 0, 0, .9);
+	--text-dark-med: rgba(0, 0, 0, .6);
+	--text-dark-low: rgba(0, 0, 0, .3);
+	--copy-dark: var(--text-dark-high);
+	/* LIGHT */
+	--text-light-high: rgba(255, 255, 255, .9);
+	--text-light-med: rgba(255, 255, 255, .6);
+	--text-light-low: rgba(255, 255, 255, .3);
+	--copy-light: var(--text-light-high);
+
+
 	/* SPACING - Standard spacing amounts based on factors of 8 */
 	--space: 8px;
 	--space-half: 4px;
@@ -472,11 +492,11 @@ input[type="radio"] {
 
 /* BUTTON DEFAULT STYLES */
 button,
+.button,
+a.button,
 input[type="button"],
 input[type="reset"],
-input[type="submit"],
-a.button
-{
+input[type="submit"] {
 	background-color: var(--brand-secondary-dark);
 	border: 2px solid var(--brand-secondary-dark);
 	border-radius: 4px;
@@ -486,7 +506,6 @@ a.button
 	text-transform: uppercase;
 	letter-spacing: 0.5px;
 	width: auto;
-	text-decoration: none;
 }
 
 button:hover,
@@ -515,15 +534,10 @@ input:focus[type="submit"],
 	border-color: var(--brand-primary);
 }
 
-.button {
-	/* display: inline-block; */
-}
-
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-results-button {
 	display: none;
 }
-
 
 
 /* Tables
@@ -571,7 +585,6 @@ tr:nth-child(odd),
 }
 
 /* Easy FAQS Container overflow so tables display correctly */
-
 .easy-faqs-wrapper.easy-faqs-theme-modern-gray .easy-faq-body {
 	overflow-x: auto;
 }
@@ -628,7 +641,6 @@ Structure and Layout
 .content {
     background-color: #fff;
     border-radius: var(--radius);
-    /* float: right; */
     margin-bottom: var(--space-quad);
     padding: var(--space-quad);
     width: 760px;
@@ -939,15 +951,15 @@ Widgets
 
 .widget {
 	word-wrap: break-word;
-	margin-bottom: 30px;
-	background-color: #f6f6f6;
+	margin-bottom: var(--space-quad);
+	background-color: #fff;
 }
 
 
 .widget li {
-	border-bottom: 2px solid rgb(245, 245, 245);
-	margin-bottom: 16px;
-	padding-bottom: 16px;
+	border-bottom: 2px solid var(--ui-background-light);
+	margin-bottom: var(--space-double);
+	padding-bottom: var(--space-double);
 	text-align: left;
 }
 
@@ -961,7 +973,7 @@ Widgets
 
 .widget li li {
 	border: none;
-	margin: 0 0 0 30px;
+	margin: 0 0 0 var(--space-quad);
 	padding: 0;
 }
 
@@ -981,16 +993,6 @@ Widgets
 .widget_calendar td,
 .widget_calendar th {
 	text-align: center;
-}
-
-.custom-html-widget{
-	background-color:#fff;
-	font-size: 12px;
-}
-
-.custom-html-widget a{
-	font-size: 18px;
-
 }
 
 /* Featured Content
@@ -1027,7 +1029,7 @@ Plugins
 }
 
 .enews-widget input {
-	margin-bottom: 16px;
+	margin-bottom: var(--space-double);
 }
 
 .enews-widget input[type="submit"] {
@@ -1138,19 +1140,6 @@ html > body .content .slide-excerpt-border {
 	background-position: 0 -49px;
 }
 
-
-/* Ninja Forms
---------------------------------------------- */
-/* DD 16/10/20 NOTE: Button now inherits default styling. We can get rid of this! */
-
-/* .nf-form-content button:hover,
-.nf-form-content input[type="button"]:hover,
-.nf-form-content input[type="submit"]:hover {
-	background-color: #2e7f9f;
-	color:#fff;
-} */
-
-
 /* Jetpack
 --------------------------------------------- */
 
@@ -1193,7 +1182,6 @@ button.tribe-common .tribe-common-c-btn:focus, .tribe-common .tribe-common-c-btn
 }
 
 /* Atomic blocks Accordion */
-
 .ab-block,  .ab-block-accordion .ab-accordion-title, ::selection{
  background:  #447405 !important;
  color:#fff;
@@ -1209,26 +1197,7 @@ button.tribe-common .tribe-common-c-btn:focus, .tribe-common .tribe-common-c-btn
 	padding: var(--space) var(--space-double)!important;
 }
 
-/* .mailpoet_submit{
-	background-color: #2e7f9f;
-	border: none;
-	border-radius: 3px;
-	color: #fff;
-	cursor: pointer;
-	font-size: 14px;
-	font-weight: 400;
-	padding: 16px 24px;
-	text-transform: uppercase;
-	width: auto;
-	}
-
-input.mailpoet_submit:hover{
-	background-color: #085c77;
-	color: #fff;
-} */
-
 /* Input  */
-
 .mailpoet_form,
 .mailpoet_form .mailpoet_paragraph,
 .mailpoet_form .mailpoet_form_paragraph,
@@ -1247,55 +1216,18 @@ Site Header
 
 .site-header {
 	background-color: #fff;
-	color: #fff;
-	height: 108px;
-	border-bottom: 2px solid #rgb(245, 245, 245);
-}
-
-.site-header .widget {
-    margin-bottom: 0;
-    display: inline-block;
-}
-
-.site-header .wrap {
-	padding: 2px 0;
+	height: 112px;
+	border-bottom: 2px solid var(--ui-background-light);
 }
 
 /* Title Area
 --------------------------------------------- */
 
+/* Display the ORCID logo and strapline */
 .title-area {
 	float: left;
-	padding: 14px 0;
 	width: 340px;
-}
-
-.header-full-width .title-area {
-	width: 100%;
-}
-
-.site-title {
-	font-size: 18px;
-	font-weight: 700;
-	line-height: 1;
-	text-transform: uppercase;
-	display: none;
-	margin-top: 8px;
-	
-}
-
-.site-title a{
-	color:rgba(0, 0, 0, 0.0);
-	
-}
-
-.site-title a:hover {
-	color: #447405;
-	
-}
-
-.header-image .title-area {
-	padding: 0;
+	margin-top: var(--space-double);
 }
 
 .header-image .site-title > a {
@@ -1305,78 +1237,36 @@ Site Header
 }
 
 .site-description {
-	color: #999;
+	color: var(--text-dark-med);
 	font-size: 16px;
 	line-height: 1.5;
-	/* text-indent: -9999px; */
 }
 
 .site-description,
 .site-title {
-	margin-bottom: 0;
+	margin: 0;
 }
-
-.header-image .site-description,
-.header-image .site-title {
-	display: block;
-	/* text-indent: -9999px; */
-}
-
-
 
 /* Widget Area
 --------------------------------------------- */
 
+/* Bolt the widget area to the right side of the page */
 .site-header .widget-area {
 	float: right;
-	padding-top: 14px;
 	text-align: right;
-	width: 740px;
-	background-color: #fff;
+	margin-top: var(--space-quad);
 }
 
-.site-header .widget-area a {
-	color: #1F708D;
-	background-color: #fff;
-	text-transform: uppercase;
-	font-weight: bold;
-	line-height: 1.2;
-	/* margin: 0 0 10px; */
-	font-size: 14px;
-	text-align: right;
+/* Target the individual sections elements in the header widget area */
+.site-header .widget-area section {
+	margin: 0 var(--space-double);
 }
 
-.site-header .widget-area a:hover {
-	color: #1F708D;
+/* Remove margin from any widgets in the header and make them inline */
+.site-header .widget {
+    margin-bottom: 0;
+    display: inline-block;
 }
-
-.site-header .widget li {
-	border-color: #fff;
-}
-
-.site-header .genesis-nav-menu li li {
-	margin-left: 0;
-}
-
-.site-header .widget-area button:hover,
-.site-header .widget-area input:hover[type="button"],
-.site-header .widget-area input:hover[type="reset"],
-.site-header .widget-area input:hover[type="submit"],
-.site-header .widget-area .button:hover {
-	background-color: #2e7f9f;
-	color: #fff;
-}
-
-.textwidget .custom-html-widget a{
-	color: #1F708D;
-	background-color: #fff;
-	text-transform: uppercase;
-	font-weight: 300;
-	line-height: 1.2;
-	margin: 0 0 10px;
-	font-size: 18px;
-}
-
 
 /*
 Site Navigation
@@ -1467,7 +1357,7 @@ Site Navigation
 }
 
 .genesis-nav-menu > .right {
-	display: inline-block;
+	/* display: inline-block; */
 	float: right;
 	list-style-type: none;
 	padding: 0;
@@ -1506,101 +1396,56 @@ Site Navigation
 
 ------------------------------------------------*/
 
-
 /* ## Accessible Menu
 
 --------------------------------------------- */
 
- 
-
 .menu .menu-item:focus {
-
 	position: static;
-
 }
 
- 
-
 .menu .menu-item > a:focus + ul.sub-menu,
-
 .menu .menu-item.sfHover > ul.sub-menu {
-
 	left: auto;
-
 	opacity: 1;
-
 }
 
 /* ## Screen reader text
 
 --------------------------------------------- */
 
- 
-
 .screen-reader-text,
-
 .screen-reader-text span,
-
 .screen-reader-shortcut {
-
 	border: 0;
-
 	clip: rect(0, 0, 0, 0);
-
 	height: 1px;
-
 	overflow: hidden;
-
 	position: absolute !important;
-
 	width: 1px;
-
 	word-wrap: normal !important;
-
 }
-
- 
 
 .screen-reader-text:focus,
-
 .screen-reader-shortcut:focus,
-
 .genesis-nav-menu .search input[type="submit"]:focus,
-
 .widget_search input[type="submit"]:focus  {
-
 	background: #fff;
-
 	box-shadow: 0 0 2px 2px rgba(0,0,0,.6);
-
 	clip: auto !important;
-
 	color: #333;
-
 	display: block;
-
 	font-size: 1em;
-
 	font-weight: bold;
-
 	height: auto;
-
 	padding: 15px 23px 14px;
-
 	text-decoration: none;
-
 	width: auto;
-
 	z-index: 100000; /* Above WP toolbar. */
-
 }
 
- 
-
 .more-link {
-
 	position: relative;
-
 }
 
 /* Skip Links
@@ -1608,33 +1453,20 @@ Site Navigation
 ---------------------------------------------------------------------------------------------------- */
 
 .genesis-skip-link {
-
 	margin: 0;
-
 }
-
- 
 
 .genesis-skip-link li {
-
 	height: 0;
-
 	list-style: none;
-
 	width: 0;
-
 }
-
- 
 
 /* Display outline on focus */
 
 :focus {
-
 	color: #fff;
-
 	outline: #ccc solid 1px;
-
 }
 
 /* Site Header Navigation
@@ -1767,18 +1599,18 @@ Content Area
 --------------------------------------------- */
 
 .entry {
-	margin-bottom: 40px;
+	margin-bottom: var(--space-quad);
 	background-color: #fff;
 }
 
 .entry-content ol,
 .entry-content ul {
-	margin-bottom: 26px;
+	margin-bottom: var(--space-double);
 }
 
 .entry-content ol,
 .entry-content ul {
-	margin-left: 40px;
+	margin-left: var(--space-quad);
 }
 
 .entry-content ol > li {
@@ -1799,9 +1631,6 @@ Content Area
 	color: #000;
 }
 
-.entry-content p,{
-	margin-top: 26px;
-}
 /* Entry Meta
 --------------------------------------------- */
 p.entry-meta {
@@ -1942,9 +1771,6 @@ li.pingback {
 	display: none;
 }
 
-.bypostauthor {
-}
-
 .form-allowed-tags {
 	background-color: #f5f5f5;
 	padding: 24px;
@@ -1955,35 +1781,20 @@ li.pingback {
 Sidebars
 ---------------------------------------------------------------------------------------------------- */
 
-.sidebar {
-	/* color: rgba 0, 0, 0, 0.9;
-	font-size: 14px; */
-}
-
 .sidebar .widget {
     background-color: #fff;
-    /* padding: 24px; */
 	padding: var(--space-quad);
 	border: none;
     border-radius: 4px;
 }
 
-/* #search-6{
-	padding: 30px 30px 10px 30px;
-} */
-
 .sidebar li a {
-	/* color: #085c77;
-	font-weight: 700; */
 	color: var(--brand-secondary-dark);
 }
 
 .sidebar li a:hover,
 .sidebar .entry-meta a:hover {
-	/* ccolor: #447405;
-	font-weight: 700; */
 	color: var(--brand-primary-dark);
-	/* text-decoration: underline; */
 }
 
 
@@ -2238,7 +2049,9 @@ Media Queries
 	}
 	
 	.site-header .widget-area {
-		padding: 25px;
+		padding: var(--space-double);
+		/* This shouldn't be displaying at this size */
+		display: none;
 	}
 
 	.site-header .widget-area .widget-wrap{
@@ -2295,11 +2108,6 @@ Media Queries
 }
 
 @media only screen and (max-width: 860px) {
-	
-	.wrap {
-		/* padding-left: 5%;
-		padding-right: 5%; */
-	}
 	
 	.outreach-pro-home .site-inner .wrap {
 		padding: 0;
