@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Jetpack &#8211; WP Security, Backup, Speed, &amp; Growth - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-10-09 16:54:15+0000\n"
+"PO-Revision-Date: 2020-10-16 15:54:09+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -71,6 +71,14 @@ msgstr "يتعذر تفعيل إضافة نماذج Jetpack."
 #: extensions/blocks/eventbrite/eventbrite.php:114
 msgid "Expand"
 msgstr "توسيع"
+
+#: class.jetpack-connection-banner.php:354
+msgid "Jetpack offers security, performance, and marketing tools made for WordPress sites by the WordPress experts. Set up Jetpack to enable new features for this site; don't let your subscription go to waste!"
+msgstr "يوفِّر Jetpack أدوات الأمان والأداء والتسويق التي خصصها الخبراء في ووردبريس لمواقع ووردبريس.كوم. قم بإعداد Jetpack لتمكين ميزات جديدة لهذا الموقع؛ حيث لا تدع اشتراكك يذهب هباءً!"
+
+#: class.jetpack-connection-banner.php:349
+msgid "Your Jetpack purchase needs completion! Please set up the plugin for your subscription."
+msgstr "يجب إكمال عملية شراء Jetpack الخاص بك! يرجى إعداد الإضافة لاشتراكك."
 
 #: _inc/lib/debugger/class-jetpack-cxn-tests.php:223
 msgid "Jetpack is not connected. No blog token to check."
