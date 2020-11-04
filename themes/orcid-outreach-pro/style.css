@@ -506,7 +506,6 @@ input[type="submit"] {
 	text-transform: uppercase;
 	letter-spacing: 0.5px;
 	width: auto;
-	text-decoration: none;
 }
 
 button:hover,
