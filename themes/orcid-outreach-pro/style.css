@@ -119,12 +119,20 @@
 	--space-half: 4px;
 	--space-quarter: 2px;
 	--space-double: 16px;
+	--space-triple: 24px;
 	--space-quad: 32px;
+	--space-oct: 64px;
 
 	/* BORDER RADIUS - Curved corners */
 	--radius: 4px;
 	--radius-tight: 2px;
 	--radius-loose: 8px;
+
+	/* THICKNESS - Use for borders and separators */
+	--thin: 1px;
+	--medium: 2px;
+	--thick: 4px;
+	--chunky: 8px;
 }
 
 /*
@@ -138,7 +146,7 @@ HTML5 Reset
 article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,video{display:inline-block}audio:not([controls]){display:none;height:0}[hidden],template{display:none}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}a{background:transparent}a:focus{outline:thin dotted}a:active,a:hover{outline:0}h1{font-size:2em;margin:.67em 0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}mark{background:#ff0;color:#000}code,kbd,pre,samp{font-family:monospace,serif;font-size:1em;background-color:#fff;}pre{white-space:pre-wrap}q{quotes:"\201C" "\201D" "\2018" "\2019"}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:0}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}button,input{line-height:normal}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}
 
 /* Additional wrap for code blocks so they don't spill over FAQ borders*/
-pre{
+pre {
 	word-wrap: break-word;
 }
 
@@ -202,8 +210,8 @@ Defaults
 --------------------------------------------- */
 
 body {
-    background-color: rgb(250, 250, 250);
-    color: rgba(0, 0, 0, 0.9);
+    background-color: var(--ui-background-lightest);
+    color: var(--text-dark-high);
     font-family: 'Noto Sans', sans-serif;
     font-size: 16px;
     font-weight: normal;
@@ -226,7 +234,7 @@ textarea:focus,
 	transition:         all 0.1s ease-in-out;
 }
 
-/* Style text hilighted by the user */
+/* Style text highlighted by the user */
 
 /* DD 16/10/20 NOTE: This styling is currently overridden by a rule for Atomic blocks accordions on line 1180 */
 
@@ -257,13 +265,15 @@ a:active {
 /* PARAGRAPHS */
 
 p {
-	margin: 0 0 24px;
+	margin: 0 0 var(--space-triple);
 	padding: 0;
 }
 
 strong {
 	font-weight: 700;
 }
+
+/* LISTS - Ordered and unordered */
 
 ol,
 ul {
@@ -274,6 +284,8 @@ ul {
 li {
 	list-style-type: none;
 }
+
+/* BLOCKQUOTES */
 
 blockquote,
 blockquote::before {
@@ -306,7 +318,7 @@ cite {
 
 /* Download buttons */
 
-.wp-block-file .wp-block-file__button{
+.wp-block-file .wp-block-file__button {
 	background-color: #2e7f9f;
 	border: none;
 	border-radius: 3px;
@@ -328,7 +340,6 @@ h3,
 h4,
 h5,
 h6 {
-	font-size: 32px;
 	font-weight: 600;
 	font-stretch: normal;
 	font-style: normal;
@@ -460,16 +471,26 @@ input,
 select,
 textarea {
 	background-color: #fff;
-	border: 1px solid #ddd;
-	color: rgba(0, 0, 0, 0.9);
+	border: 1px solid var(--ui-background);
+	color: var(--text-dark-high);
 	padding: var(--space);
 	margin-bottom: var(--space-double);
 	width: 100%;
 }
 
+/* Set the text colour in standard fields to be --copy-dark (90% black)
+NOTE: If new fields of a different type are added then we may well need to extend
+this rule further to cover them all */
+
+input[type="text"],
+input[type="email"],
+input[type="search"] {
+	color: var(--copy-dark);
+}
+
 input:focus,
 textarea:focus {
-	border: 1px solid #999;
+	border: 1px solid var(--ui-background-dark);
 	outline: none;
 }
 
@@ -479,15 +500,15 @@ input[type="radio"] {
 	width: auto;
 }
 
+/* PLaceholder text styling */
+
 ::-moz-placeholder {
-	color: #666;
+	color: var(--text-dark-med);
 	opacity: 1;
-	font-weight: 400;
 }
 
 ::-webkit-input-placeholder {
-	color: #666;
-	font-weight: 400;
+	color: var(--text-dark-med);
 }
 
 /* BUTTON DEFAULT STYLES */
@@ -506,6 +527,8 @@ input[type="submit"] {
 	text-transform: uppercase;
 	letter-spacing: 0.5px;
 	width: auto;
+	text-decoration: none;
+	margin-bottom: 0;
 }
 
 button:hover,
@@ -534,6 +557,7 @@ input:focus[type="submit"],
 	border-color: var(--brand-primary);
 }
 
+/* Hide any Webkit-inserted search field elements */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-results-button {
 	display: none;
@@ -602,18 +626,8 @@ Structure and Layout
 }
 
 .site-inner {
-	clear: both;
-	font-size: 16px;
 	overflow: hidden;
-	padding-top: 30px;
-}
-
-.outreach-pro-home .site-inner {
-	padding: 4px 0;
-}
-
-.outreach-pro-landing .wrap {
-	max-width: 900px;
+	padding-top: var(--space-quad);
 }
 
 /* Column Widths and Positions
@@ -639,11 +653,16 @@ Structure and Layout
 /* Content */
 
 .content {
-    background-color: #fff;
-    border-radius: var(--radius);
+	background-color: #fff;
+	border: 1px solid var(--ui-background-light);
+    border-radius: var(--radius-loose);
     margin-bottom: var(--space-quad);
-    padding: var(--space-quad);
-    width: 760px;
+    padding: var(--space-quad) var(--space-oct);
+	width: 760px;
+	/* Lets try adding some shadows */
+	-webkit-box-shadow: 0px 0px 8px 0px var(--ui-background);
+	-moz-box-shadow: 0px 0px 8px 0px var(--ui-background);
+	box-shadow: 0px 0px 8px 0px var(--ui-background);
 }
 
 .outreach-pro-home .content {
@@ -776,8 +795,8 @@ Common Classes
 
 
 .breadcrumb {
-    background-color: #fafafa;
-    font-size: 14px;
+    background-color: var(--ui-background-light);
+    /* font-size: 14px; */
     margin-bottom: var(--space-double);
     padding: var(--space-double);
 }
@@ -831,9 +850,9 @@ Common Classes
 	border: 0;
 	clip: rect(0, 0, 0, 0);	
 	margin: -1px;
-}
+}*/
 
-.search-form input[type="search"] {
+/* .search-form input[type="search"] {
 	width: 180px;
 	margin-right:10px;
 	color: rgba(0, 0, 0, 0.9);
@@ -867,11 +886,15 @@ Common Classes
 	border-bottom: 2px dotted;
 }
 
+/* Style the sidebar widget titles */
+/* DD NOTE 23/10/20 - We might want to move this to be closer to the widget styling */
 .widget-title {
-    color: rgba 0, 0, 0, 0.9;
-    font-size: 16px;
-	margin: 0 0 var(--space-double);
-	letter-spacing: normal;
+    color: var(--brand-primary-dark);
+    font-size: 18px;
+	margin: 0 0 var(--space-triple);
+	letter-spacing: 1px;
+	font-weight: normal;
+	text-transform: uppercase;
 }
 
 .footer-widgets .widget-title,
@@ -952,12 +975,11 @@ Widgets
 .widget {
 	word-wrap: break-word;
 	margin-bottom: var(--space-quad);
-	background-color: #fff;
 }
 
 
 .widget li {
-	border-bottom: 2px solid var(--ui-background-light);
+	border-bottom: var(--medium) solid var(--ui-background-light);
 	margin-bottom: var(--space-double);
 	padding-bottom: var(--space-double);
 	text-align: left;
@@ -967,8 +989,8 @@ Widgets
 .widget ol > li {
 	list-style-position: inside;
 	list-style-type: decimal;
-	padding-left: 20px;
-	text-indent: -20px;
+	padding-left: var(--space-triple);
+	text-indent: -(var(--space-triple));
 }
 
 .widget li li {
@@ -999,7 +1021,7 @@ Widgets
 --------------------------------------------- */
 
 .featured-content .entry {
-	margin-bottom: 20px;
+	margin-bottom: var(--space-quad);
 }
 
 .featured-content .entry-title {
@@ -1012,8 +1034,8 @@ Widgets
 
 .more-from-category {
 	border-top: 1px dotted #494949;
-	margin-top: 10px;
-	padding-top: 10px;
+	margin-top: var(--space-double);
+	padding-top: var(--space-double);
 }
 
 
@@ -1045,7 +1067,7 @@ Plugins
 }
 
 .enews form + p {
-	margin-top: 24px;
+	margin-top: var(--space-triple);
 }
 
 /* Genesis Responsive Slider
@@ -1166,7 +1188,7 @@ html > body .content .slide-excerpt-border {
 /* Modern Tribe Events 
 ------------------------------------------------*/
 
-.tribe-events .tribe-events-calendar-month__day-cell--selected, 
+/* .tribe-events .tribe-events-calendar-month__day-cell--selected, 
 .tribe-events .tribe-events-calendar-month__day-cell--selected:focus, 
 .tribe-events .tribe-events-calendar-month__day-cell--selected:hover,
 .tribe-common .tribe-common-c-btn, .tribe-common a.tribe-common-c-btn {
@@ -1179,10 +1201,10 @@ button.tribe-common .tribe-common-c-btn:focus, .tribe-common .tribe-common-c-btn
 	background-color: #2e7f9f;
 	color:#fff;
 	
-}
+} */
 
 /* Atomic blocks Accordion */
-.ab-block,  .ab-block-accordion .ab-accordion-title, ::selection{
+.ab-block,  .ab-block-accordion .ab-accordion-title, ::selection {
  background:  #447405 !important;
  color:#fff;
  cursor: pointer;
@@ -1191,8 +1213,11 @@ button.tribe-common .tribe-common-c-btn:focus, .tribe-common .tribe-common-c-btn
 /*Mailpoet
 ---------------------------------------- */
 
-/* button */
+/* Style the Mailpoet submission form. I'm afraid we're going to have to use some !important overrides in here :-(
+Most of the styling has been added in the Custom CSS section of the Mailpoet plugin config: /wp-admin/admin.php?page=mailpoet-form-editor&id=1 */
 
+
+/* Get the spacing right on the Mailpoet button */
 .mailpoet_submit {
 	padding: var(--space) var(--space-double)!important;
 }
@@ -1207,7 +1232,10 @@ button.tribe-common .tribe-common-c-btn:focus, .tribe-common .tribe-common-c-btn
 .mailpoet_form .mailpoet_form_image,
 .mailpoet_form .mailpoet_message,
 .mailpoet_form .mailpoet_paragraph select {
-	color: rgba(0, 0, 0, 0.9);
+	color: var(--copy-dark);
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 16px;
+	line-height: 24px;
 }
 
 /*
@@ -1217,7 +1245,7 @@ Site Header
 .site-header {
 	background-color: #fff;
 	height: 112px;
-	border-bottom: 2px solid var(--ui-background-light);
+	border-bottom: var(--medium) solid var(--ui-background-light);
 }
 
 /* Title Area
@@ -1272,7 +1300,11 @@ Site Header
 Site Navigation
 ---------------------------------------------------------------------------------------------------- */
 
-.genesis-nav-menu {
+/* DD NOTE 30/08/20: I genuinely can't see what this block of code is doing so I've commented it out for the time being.
+I think we aren't using it any more as it has been superseded by the Mega Menu but I can't be sure there aren't any rules
+tucked away in there that we need to keep. */
+
+/* .genesis-nav-menu {
 	clear: both;
 	font-size: 18px;
 	line-height: 1.33;
@@ -1357,7 +1389,7 @@ Site Navigation
 }
 
 .genesis-nav-menu > .right {
-	/* display: inline-block; */
+	display: inline-block;
 	float: right;
 	list-style-type: none;
 	padding: 0;
@@ -1387,7 +1419,7 @@ Site Navigation
 .genesis-nav-menu input[type="search"] {
 	font-size: 14px;
 	padding: 10px 16px;
-}
+} */
 
 /* Additional CSS for Accessibility settings 
 * Accessible Menu
@@ -1430,17 +1462,17 @@ Site Navigation
 .screen-reader-shortcut:focus,
 .genesis-nav-menu .search input[type="submit"]:focus,
 .widget_search input[type="submit"]:focus  {
-	background: #fff;
-	box-shadow: 0 0 2px 2px rgba(0,0,0,.6);
-	clip: auto !important;
-	color: #333;
-	display: block;
-	font-size: 1em;
-	font-weight: bold;
-	height: auto;
-	padding: 15px 23px 14px;
-	text-decoration: none;
-	width: auto;
+	/* background: #fff; */
+	box-shadow: 0 0 2px 2px var(--brand-primary-lightest);
+	/* clip: auto !important; */
+	/* color: #333; */
+	/* display: block; */
+	/* font-size: 1em; */
+	/* font-weight: bold; */
+	/* height: auto; */
+	/* padding: 15px 23px 14px; */
+	/* text-decoration: none; */
+	/* width: auto; */
 	z-index: 100000; /* Above WP toolbar. */
 }
 
@@ -1484,7 +1516,7 @@ Site Navigation
 
 .nav-primary {
 	background-color: #fff;
-	border: 1px, solid, #2e7f9f;
+	border-bottom: 1px solid var(--ui-background-light);
 	width: 100%;
 }
 
@@ -1633,32 +1665,22 @@ Content Area
 
 /* Entry Meta
 --------------------------------------------- */
-p.entry-meta {
-    color: rgba(0, 0, 0, 0.6);
-    font-size: 14px;
+
+/* Default styles for meta information */
+.entry-meta {
+    color: var(--text-dark-med);
     margin-bottom: 0;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 
-p.entry-meta a {
-	color: #2e7f9f;
-	font-weight:normal;
-}
-
-p.entry-meta a:hover {
-	color: #2e7f9f;
-	font-weight: normal;
-	text-decoration: underline;
+.entry-header .entry-meta {
+	margin-bottom: var(--space-triple);
 }
 
 .entry-footer .entry-meta {
-	border-top: 1px dotted #ddd;
-	padding-top: 12px;
-}
-
-.entry-header .entry-meta {
-	margin-bottom: 24px;
+	border-top: var(--medium) dotted var(--ui-background);
+	padding-top: var(--space);
 }
 
 .entry-categories {
@@ -1696,7 +1718,7 @@ p.entry-meta a:hover {
 --------------------------------------------- */
 
 .pagination {
-	margin: 40px 0 0;
+	margin: var(--space-oct) 0 0;
 }
 
 .adjacent-entry-pagination {
@@ -1707,19 +1729,26 @@ p.entry-meta a:hover {
 	display: inline;
 }
 
+/* Default styling for pagination follows the standard button rules */
 .archive-pagination li a {
-	background-color: #2e7f9f;
+	background-color: var(--brand-secondary);
 	color: #fff;
 	cursor: pointer;
 	display: inline-block;
-	margin-bottom: 4px;
-	padding: 8px 12px;
+	margin-bottom: var(--space);
+	padding: var(--space) var(--space-double);
+	text-decoration: none;
+	border-radius: var(--radius-tight);
 }
 
-.archive-pagination li a:hover,
+/* Highlight with green when hovering */
+.archive-pagination li a:hover {
+	background-color: var(--brand-primary-dark);
+}
+
+/* Turn the active 'page' a darker blue */
 .archive-pagination .active a {
-	background-color: #065b77;
-	color: #fff;
+	background-color: var(--brand-secondary-dark);
 }
 
 /* Comments
@@ -1782,10 +1811,10 @@ Sidebars
 ---------------------------------------------------------------------------------------------------- */
 
 .sidebar .widget {
-    background-color: #fff;
-	padding: var(--space-quad);
-	border: none;
-    border-radius: 4px;
+    background-color: white;
+	padding: var(--space-triple) var(--space-quad) var(--space-quad);
+	border-top: var(--thick) solid var(--brand-primary);
+	border-radius: 0 0 var(--radius-loose) var(--radius-loose);
 }
 
 .sidebar li a {
@@ -1871,86 +1900,59 @@ Footer Widgets
 Site Footer
 ---------------------------------------------------------------------------------------------------- */
 
+/* Style the main site footer */
 .site-footer {
-	background-color: #f5f5f5;
-	box-shadow: inset 0 1px rgba(255, 255, 255, 0.07);
-	color: rgba (0 0 0, 0.87);
-	font-size: 14px;
-	padding: 10px;
+	background-color: var(--ui-background-light);
+	padding: var(--space-quad);
 	text-align: center;
 }
 
-.site-footer a {
-	color: #013f4e;
-	font-weight: 700;
-}
-
-.site-footer a:hover {
-	color: #2e7f9f;
-	text-decoration: underline;
-}
-
-.site-footer p {
-	margin-bottom: 0;
-}
-
-.site-footer li{
-	display: block;
-	color: #666;
-	text-align: center;
-	padding: 8px 16px;
-	text-decoration: none;
-}
-
-.site-footer ul{
+.site-footer ul {
 	list-style-type: none;
-	margin-left: 8px;
 	padding: 0;
 	overflow: hidden;
 	display: inline-flex;
 }
 
+.site-footer li {
+	display: inline-block;
+	text-align: center;
+	padding: 0 var(--space);
+	text-decoration: none;
+}
 
-.footer-icons-container{
+/* The container for the ORCID logo and social icons */
+.footer-icons-container {
 	display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-align-items: flex-end;
     -ms-flex-align: end;
     align-items: flex-end;
-    height: 35px;
-    margin-bottom: 10px;
-	width: 100%;
+    margin-bottom: var(--space-triple);
 	justify-content: center;
 }
 
+/* Add a little space around the social icons */
+.footer-icons-container nav {
+	margin: 0 var(--space-double);
+}
+
+.footer-icons-container nav > li {
+	margin: 0 var(--space);
+}
+
+/* Size the social icons appropriately */
 .social-button .social {
     display: block;
-	height: 20px;
+	height: var(--space-quad);
 }
 
 .social-button .social:before {
-	color: #a5cd39;
-	font-size: 20px;
+	color: var(--brand-primary);
+	font-size: 32px;
 }
 
-.site-footer .inline-list li{
-	margin: 0;
-    padding: 0;
-    overflow: hidden;
-	list-style: none;
-	justify-content: center;
-}
-
-.footer-list {
-	margin-top: 0;
-	display: flex;
-	justify-content: center;
-}
-
-.footer-list li{
-	margin-left: 10px;
-}
 
 /*
 Media Queries
