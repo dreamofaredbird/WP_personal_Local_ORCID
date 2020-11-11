@@ -513,7 +513,8 @@ a.button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"],
-.wp-block-file a.wp-block-file__button {
+.wp-block-file a.wp-block-file__button,
+.wp-block-button__link {
 	background-color: var(--brand-secondary-dark);
 	border: 2px solid var(--brand-secondary-dark);
 	border-radius: 4px;
@@ -532,7 +533,8 @@ input:hover[type="button"],
 input:hover[type="reset"],
 input:hover[type="submit"],
 .button:hover,
-.wp-block-file a.wp-block-file__button:hover {
+.wp-block-file a.wp-block-file__button:hover,
+.wp-block-button__link:hover {
 	background-color: var(--brand-primary-dark);
 	border-color: var(--brand-primary-dark);
 }
@@ -542,7 +544,8 @@ input:active[type="button"],
 input:active[type="reset"],
 input:active[type="submit"],
 .button:active,
-.wp-block-file a.wp-block-file__button:hover {
+.wp-block-file a.wp-block-file__button:active,
+.wp-block-button__link:active {
 	background-color: var(--brand-primary);
 	border-color: var(--brand-primary);
 }
@@ -552,7 +555,8 @@ input:focus[type="button"],
 input:focus[type="reset"],
 input:focus[type="submit"],
 .button:focus,
-.wp-block-file a.wp-block-file__button:hover {
+.wp-block-file a.wp-block-file__button:focus,
+.wp-block-button__link:focus {
 	border-color: var(--brand-primary);
 }
 
@@ -1202,11 +1206,12 @@ button.tribe-common .tribe-common-c-btn:focus, .tribe-common .tribe-common-c-btn
 	
 } */
 
-/* Atomic blocks Accordion */
+/* ACCORDION */
+/* NOTE: These were originally Atomic blocks but they've been renamed to Genesis blocks */
 .gb-block,  .gb-block-accordion .gb-accordion-title, ::selection {
- background:  #447405 !important;
- color:#fff;
- cursor: pointer;
+	background: var(--brand-primary-dark);
+	color: var(--copy-light);
+	cursor: pointer;
 }
 
 /*Mailpoet
