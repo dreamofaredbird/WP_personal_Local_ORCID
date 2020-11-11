@@ -1203,7 +1203,7 @@ button.tribe-common .tribe-common-c-btn:focus, .tribe-common .tribe-common-c-btn
 } */
 
 /* Atomic blocks Accordion */
-.ab-block,  .ab-block-accordion .ab-accordion-title, ::selection {
+.gb-block,  .gb-block-accordion .gb-accordion-title, ::selection {
  background:  #447405 !important;
  color:#fff;
  cursor: pointer;
