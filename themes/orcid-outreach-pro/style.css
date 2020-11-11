@@ -316,19 +316,14 @@ cite {
 	font-style: normal;
 }
 
-/* Download buttons */
+/* ---------------------------------------------
+DOWNLOAD LINKS (.wp-block-file)
+--------------------------------------------- */
 
-.wp-block-file .wp-block-file__button {
-	background-color: #2e7f9f;
-	border: none;
-	border-radius: 3px;
-	color: #fff;
-	cursor: pointer;
-	font-size: 14px;
-	font-weight: 400;
-	padding: 16px 24px;
-	text-transform: uppercase;
-	width: auto;
+.wp-block-file {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 /* Headings
@@ -517,7 +512,8 @@ button,
 a.button,
 input[type="button"],
 input[type="reset"],
-input[type="submit"] {
+input[type="submit"],
+.wp-block-file a.wp-block-file__button {
 	background-color: var(--brand-secondary-dark);
 	border: 2px solid var(--brand-secondary-dark);
 	border-radius: 4px;
@@ -535,7 +531,8 @@ button:hover,
 input:hover[type="button"],
 input:hover[type="reset"],
 input:hover[type="submit"],
-.button:hover {
+.button:hover,
+.wp-block-file a.wp-block-file__button:hover {
 	background-color: var(--brand-primary-dark);
 	border-color: var(--brand-primary-dark);
 }
@@ -544,7 +541,8 @@ button:active,
 input:active[type="button"],
 input:active[type="reset"],
 input:active[type="submit"],
-.button:active {
+.button:active,
+.wp-block-file a.wp-block-file__button:hover {
 	background-color: var(--brand-primary);
 	border-color: var(--brand-primary);
 }
@@ -553,7 +551,8 @@ button:focus,
 input:focus[type="button"],
 input:focus[type="reset"],
 input:focus[type="submit"],
-.button:focus {
+.button:focus,
+.wp-block-file a.wp-block-file__button:hover {
 	border-color: var(--brand-primary);
 }
 
@@ -1258,18 +1257,14 @@ Site Header
 	margin-top: var(--space-double);
 }
 
+/* Make the logo link a fixed height */
 .header-image .site-title > a {
-	float: left;
+	display: block;
 	min-height: 44px;
 	width: 100%;
 }
 
-.site-description {
-	color: var(--text-dark-med);
-	font-size: 16px;
-	line-height: 1.5;
-}
-
+/* Stop the logo and description pushing down too far */
 .site-description,
 .site-title {
 	margin: 0;
