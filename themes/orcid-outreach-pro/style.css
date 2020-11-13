@@ -121,6 +121,7 @@
 	--space-double: 16px;
 	--space-triple: 24px;
 	--space-quad: 32px;
+	--space-quint: 40px;
 	--space-oct: 64px;
 
 	/* BORDER RADIUS - Curved corners */
@@ -528,6 +529,7 @@ input[type="submit"],
 	margin-bottom: 0;
 }
 
+/* Hover state */
 button:hover,
 input:hover[type="button"],
 input:hover[type="reset"],
@@ -539,6 +541,7 @@ input:hover[type="submit"],
 	border-color: var(--brand-primary-dark);
 }
 
+/* Active state */
 button:active,
 input:active[type="button"],
 input:active[type="reset"],
@@ -550,6 +553,7 @@ input:active[type="submit"],
 	border-color: var(--brand-primary);
 }
 
+/* Focus state */
 button:focus,
 input:focus[type="button"],
 input:focus[type="reset"],
@@ -1206,12 +1210,34 @@ button.tribe-common .tribe-common-c-btn:focus, .tribe-common .tribe-common-c-btn
 	
 } */
 
-/* ACCORDION */
+/* ACCORDIONS
+--------------------------------------------- */
 /* NOTE: These were originally Atomic blocks but they've been renamed to Genesis blocks */
-.gb-block,  .gb-block-accordion .gb-accordion-title, ::selection {
-	background: var(--brand-primary-dark);
-	color: var(--copy-light);
+/* Annoyingly there's a default block stylesheet that gets loaded after the main one with some style rules for accordions. We need to use !important to overwrite these! */
+
+/* Space out multiple accordion blocks stacked together */
+.gb-block-accordion + .gb-block-accordion {
+	margin: 0 0 var(--space-double)!important;
+}
+
+/* Spacing for a solitary accordion block */
+.gb-block-accordion {
+	margin: 0 0 var(--space-double)!important;
+}
+
+/* Style the accordion title - This is the header area that you click to expand more information. */
+details .gb-accordion-title {
+	background: var(--ui-background-lightest) url("/wp-content/uploads/2020/11/Icon-expand-closed.png") no-repeat left center!important;
+	border-bottom: var(--medium) solid var(--ui-background);
+	color: var(--copy-dark);
 	cursor: pointer;
+	padding: var(--space-double) var(--space-double) var(--space-double) var(--space-quint)!important;
+}
+
+/* Style the accordion title directly after the wrapping element. This means we don't style any nested accordions */
+details[open] > .gb-accordion-title {
+	background: var(--ui-background-lightest) url("/wp-content/uploads/2020/11/Icon-expand-open.png") no-repeat left center!important;
+	border-bottom-color: var(--brand-primary);
 }
 
 /*Mailpoet
