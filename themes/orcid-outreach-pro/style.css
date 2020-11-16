@@ -1227,7 +1227,7 @@ button.tribe-common .tribe-common-c-btn:focus, .tribe-common .tribe-common-c-btn
 
 /* Style the accordion title - This is the header area that you click to expand more information. */
 details .gb-accordion-title {
-	background: var(--ui-background-lightest) url("/wp-content/uploads/2020/11/Icon-expand-closed.png") no-repeat left center!important;
+	background: var(--ui-background-lightest) url("images/Icon-expand-closed.png") no-repeat left center!important;
 	border-bottom: var(--medium) solid var(--ui-background);
 	color: var(--copy-dark);
 	cursor: pointer;
@@ -1236,7 +1236,7 @@ details .gb-accordion-title {
 
 /* Style the accordion title directly after the wrapping element. This means we don't style any nested accordions */
 details[open] > .gb-accordion-title {
-	background: var(--ui-background-lightest) url("/wp-content/uploads/2020/11/Icon-expand-open.png") no-repeat left center!important;
+	background: var(--ui-background-lightest) url("images/Icon-expand-open.png") no-repeat left center!important;
 	border-bottom-color: var(--brand-primary);
 }
 
