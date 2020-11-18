@@ -479,7 +479,8 @@ this rule further to cover them all */
 
 input[type="text"],
 input[type="email"],
-input[type="search"] {
+input[type="search"],
+input[type="textarea"] {
 	color: var(--copy-dark);
 }
 
