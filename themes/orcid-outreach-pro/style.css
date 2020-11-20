@@ -216,7 +216,7 @@ body {
     font-family: 'Noto Sans', sans-serif;
     font-size: 16px;
     font-weight: normal;
-    line-height: 1.5;
+    line-height: 1.55;
 }
 
 
@@ -274,45 +274,50 @@ strong {
 	font-weight: 700;
 }
 
-/* LISTS - Ordered and unordered */
+/* LISTS - DEFAULT
+Ordered and unordered */
 
+/* Position lists neatly */
 ol,
 ul {
-	margin: 0;
+	margin: 0 0 var(--space-double) var(--space-quad);
 	padding: 0;
 }
 
+/* Add some space between list items */
 li {
 	list-style-type: none;
+	margin-bottom: var(--space)
+}
+
+/* Remove the bottom margin from the last item in the list */
+li:last-of-type {
+	margin-bottom: 0;
 }
 
 /* BLOCKQUOTES */
 
 blockquote,
-blockquote::before {
-	color: #2e7f9f;
+blockquote.wp-block-quote.is-large,
+blockquote.wp-block-quote.is-style-large {
+	color: var(--brand-secondary-dark);
+	margin: var(--space-oct) 0;
+	padding: 0;
 }
 
-blockquote.wp-block-quote.is-large, blockquote.wp-block-quote.is-style-large {
-	margin: 60px;
-	font-style: normal;
-	background-color: #eee;
-	padding: 40px;
-	border-radius: 4px;
-}
-
-
+/* Add quote mark before the blockquote */
 blockquote::before {
 	content: "\201C";
 	display: block;
-	font-size: 30px;
+	font-size: 32px;
 	height: 0;
 	left: -20px;
 	position: relative;
-	top: -10px;
+	top: -12px;
 	
 }
 
+/* Keep citations simple */
 cite {
 	font-style: normal;
 }
@@ -336,41 +341,35 @@ h3,
 h4,
 h5,
 h6 {
-	font-weight: 600;
 	font-stretch: normal;
 	font-style: normal;
-	line-height: 1.5;
+	line-height: 1.4;
 	letter-spacing: 0.5px;
 }
 
+/* Heading 1 - Large headings mostly used for page titles */
 h1 {
-	font-family: 'Noto Sans', sans-serif;
 	font-size: 40px;
 	font-weight: 600;
-	font-stretch: normal;
-	font-style: normal;
-	line-height: 1.5;
-	letter-spacing: 0.5px;
+	margin: 0 0 var(--space-quad) 0;
 }
 
+/* Heading 2 - Commonly used sub-heading within page content */
 h2 {
-	font-size: 32px;
-}
-
-h3 {
 	font-size: 24px;
+	font-weight: 300;
 }
 
-h4 {
-	font-size: 20px;
+/* Heading 3 - Sub-headings within sections */
+h3 {
+	font-size: 18px;
 }
 
-h5 {
-	font-size: 18.72px;
-}
-
+/* There's no real need or benefit in styling these lower headings individually */
+h4,
+h5,
 h6 {
-	font-size: 17.92px;
+	font-size: 16px;
 }
 
 /* Objects
@@ -480,7 +479,8 @@ this rule further to cover them all */
 
 input[type="text"],
 input[type="email"],
-input[type="search"] {
+input[type="search"],
+input[type="textarea"] {
 	color: var(--copy-dark);
 }
 
@@ -869,18 +869,11 @@ Common Classes
 --------------------------------------------- */
 
 .archive-title {
-	font-size: 40px;
-	font-weight: 600;
-	line-height: 1.5;
-	letter-spacing: 0.5px;
 	margin: 0 0 var(--space-quad);
 }
 
 .entry-title {
-	font-size: 32px;
 	font-weight: 600;
-	line-height: 1.25;
-	letter-spacing: 0.5px;
 	margin: var(--space-double) 0;
 }
 
@@ -896,7 +889,7 @@ Common Classes
 /* Style the sidebar widget titles */
 /* DD NOTE 23/10/20 - We might want to move this to be closer to the widget styling */
 .widget-title {
-    color: var(--brand-primary-dark);
+    color: var(--brand-primary-darkest);
     font-size: 18px;
 	margin: 0 0 var(--space-triple);
 	letter-spacing: 1px;
@@ -982,6 +975,11 @@ Widgets
 .widget {
 	word-wrap: break-word;
 	margin-bottom: var(--space-quad);
+}
+
+/* Remove the default margins from widget lists */
+.widget ul {
+	margin: 0;
 }
 
 
@@ -1520,13 +1518,6 @@ tucked away in there that we need to keep. */
 	width: 0;
 }
 
-/* Display outline on focus */
-
-:focus {
-	color: #fff;
-	outline: #ccc solid 1px;
-}
-
 /* Site Header Navigation
 --------------------------------------------- */
 
@@ -1658,25 +1649,28 @@ Content Area
 
 .entry {
 	margin-bottom: var(--space-quad);
-	background-color: #fff;
+	/* background-color: white; */
 }
 
+/* Lists in article entries */
 .entry-content ol,
 .entry-content ul {
-	margin-bottom: var(--space-double);
+	margin: 0 0 var(--space-double) var(--space-quad);
 }
 
-.entry-content ol,
+/* .entry-content ol,
 .entry-content ul {
 	margin-left: var(--space-quad);
-}
+} */
 
 .entry-content ol > li {
 	list-style-type: decimal;
+	margin-bottom: var(--space);
 }
 
 .entry-content ul > li {
 	list-style-type: disc;
+	margin-bottom: var(--space);
 }
 
 .entry-content ol ol,
@@ -1684,6 +1678,7 @@ Content Area
 	margin-bottom: 0;
 }
 
+/* Example code blocks */
 .entry-content code {
 	background-color: #fff;
 	color: #000;
@@ -1857,7 +1852,7 @@ Sidebars
 Sub Footer
 ---------------------------------------------------------------------------------------------------- */
 
-.sub-footer {
+/* .sub-footer {
 	background-color: #f2f6e9;
 	padding: 60px 0 30px;
 }
@@ -1875,7 +1870,7 @@ Sub Footer
 
 .sub-footer-left .entry-title {
 	font-size: 30px;
-}
+} */
 
 
 /*
