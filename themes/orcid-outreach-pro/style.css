@@ -1518,13 +1518,6 @@ tucked away in there that we need to keep. */
 	width: 0;
 }
 
-/* Display outline on focus */
-
-:focus {
-	color: #fff;
-	outline: #ccc solid 1px;
-}
-
 /* Site Header Navigation
 --------------------------------------------- */
 
