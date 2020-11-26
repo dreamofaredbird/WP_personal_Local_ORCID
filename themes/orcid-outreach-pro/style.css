@@ -1208,6 +1208,14 @@ button.tribe-common .tribe-common-c-btn:focus, .tribe-common .tribe-common-c-btn
 	
 } */
 
+/* TEAM PROFILES */
+/* NOTE: We use the Genesis profile block on the Team page to give everyone an author bio and a link to their ORCID record */
+/* This override is solely to avoid having to update every profile with a custom icon colour in the block config */
+
+.gb-block-profile .gb-social-links li i {
+	background-color: var(--brand-primary)!important;
+}
+
 /* ACCORDIONS
 --------------------------------------------- */
 /* NOTE: These were originally Atomic blocks but they've been renamed to Genesis blocks */
