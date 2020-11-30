@@ -1746,20 +1746,23 @@ Content Area
 /* Pagination
 --------------------------------------------- */
 
+/* Push the pagination away from the items before it */
 .pagination {
 	margin: var(--space-oct) 0 0;
 }
 
-.adjacent-entry-pagination {
-	margin-bottom: 0;
+/* Remove standard list padding from the pagination */
+.pagination ul {
+	margin: 0;
 }
 
-.archive-pagination li {
+/* Display the list items inline */
+.pagination li {
 	display: inline;
 }
 
 /* Default styling for pagination follows the standard button rules */
-.archive-pagination li a {
+.pagination li a {
 	background-color: var(--brand-secondary);
 	color: #fff;
 	cursor: pointer;
@@ -1771,12 +1774,12 @@ Content Area
 }
 
 /* Highlight with green when hovering */
-.archive-pagination li a:hover {
+.pagination li a:hover {
 	background-color: var(--brand-primary-dark);
 }
 
 /* Turn the active 'page' a darker blue */
-.archive-pagination .active a {
+.pagination .active a {
 	background-color: var(--brand-secondary-dark);
 }
 
