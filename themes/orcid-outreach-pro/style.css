@@ -1246,6 +1246,17 @@ details[open] > .gb-accordion-title {
 	border-bottom-color: var(--brand-primary);
 }
 
+/* The WP accordion block uses the HTML <details> element that comes with a 'free' drop down arrow.*/
+/* Webkit browsers display the arrow but Firefox doesn't recognise it. For now we are simply disabling it for all */
+Summary {
+	list-style-image: none;
+}
+   
+/* Hide the arrow marker on Webkit */
+summary::-webkit-details-marker {
+	display: none;
+}
+
 /*Mailpoet
 ---------------------------------------- */
 
