@@ -1190,23 +1190,15 @@ html > body .content .slide-excerpt-border {
 	background-color: #447405;
 }
 
-/* Modern Tribe Events 
+/* EVENTS CALENDAR
 ------------------------------------------------*/
 
-/* .tribe-events .tribe-events-calendar-month__day-cell--selected, 
-.tribe-events .tribe-events-calendar-month__day-cell--selected:focus, 
-.tribe-events .tribe-events-calendar-month__day-cell--selected:hover,
-.tribe-common .tribe-common-c-btn, .tribe-common a.tribe-common-c-btn {
-	background-color: #2e7f9f;
-	color:#fff;
+/* Custom styling for the Tribe Events Calendar plugin will go here */
+
+/* Make sure the calendar hasn't been inadvertantly styled by less-specific rules */
+.datepicker thead th {
+	background-color: #fff;
 }
-
-
-button.tribe-common .tribe-common-c-btn:focus, .tribe-common .tribe-common-c-btn:hover, .tribe-common a.tribe-common-c-btn:focus, .tribe-common a.tribe-common-c-btn:hover{
-	background-color: #2e7f9f;
-	color:#fff;
-	
-} */
 
 /* TEAM PROFILES */
 /* NOTE: We use the Genesis profile block on the Team page to give everyone an author bio and a link to their ORCID record */
@@ -1981,6 +1973,13 @@ Site Footer
 	margin: 0 var(--space-double);
 }
 
+/* Remove the default <ul> spacing for the list of icons */
+.footer-icons-container ul {
+	margin: 0;
+	padding: 0;
+}
+
+/* Space out the icons horizontally */
 .footer-icons-container nav > li {
 	margin: 0 var(--space);
 }
