@@ -1249,6 +1249,25 @@ summary::-webkit-details-marker {
 	display: none;
 }
 
+/* FAQs */
+
+/* These are accordions in another name and controlled by the Easy FAQs plugin. Although this CSS could be combined with the accordion rules above I've split it out for now */
+/* To get the styling to work Easy FAQ needs to be set to 'No theme' in the plugin config - /wp-admin/admin.php?page=easy-faqs-themes#tab-theme_selector */
+
+.easy-faq-title {
+	background: var(--ui-background-lightest) url("images/Icon-expand-closed.png") no-repeat left center!important;
+	border-bottom: var(--medium) solid var(--ui-background);
+	color: var(--copy-dark);
+	cursor: pointer;
+	padding: var(--space-double) var(--space-double) var(--space-double) var(--space-quint)!important;
+}
+
+.easy-faq-title.ui-state-active {
+	background: var(--ui-background-lightest) url("images/Icon-expand-open.png") no-repeat left center!important;
+	border-bottom-color: var(--brand-primary);
+}
+
+
 /*Mailpoet
 ---------------------------------------- */
 
