@@ -1695,6 +1695,12 @@ Content Area
 	color: #000;
 }
 
+.wp-block-code{
+	background-color: var(--ui-background-darkest);
+	color: #ffffff;
+	padding: var(--space-double);	
+}
+
 /* Entry Meta
 --------------------------------------------- */
 
