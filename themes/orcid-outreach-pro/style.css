@@ -1690,15 +1690,16 @@ Content Area
 }
 
 /* Example code blocks */
-.entry-content code {
-	background-color: #fff;
-	color: #000;
-}
 
-.wp-block-code{
+.wp-block-code {
 	background-color: var(--ui-background-darkest);
 	color: #ffffff;
 	padding: var(--space-double);	
+}
+
+/* Remove the background color from the code text examples */
+code {
+	background-color: transparent;
 }
 
 /* Entry Meta
