@@ -1696,9 +1696,9 @@ Content Area
 }
 
 .wp-block-code{
-	border: 1px solid var(--ui-background-dark);
-	padding: var(--space);
-	
+	background-color: var(--ui-background-darkest);
+	color: #ffffff;
+	padding: var(--space-double);	
 }
 
 /* Entry Meta
