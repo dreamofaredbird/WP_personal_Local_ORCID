@@ -1252,7 +1252,7 @@ summary::-webkit-details-marker {
 /* FAQs */
 
 /* These are accordions in another name and controlled by the Easy FAQs plugin. Although this CSS could be combined with the accordion rules above I've split it out for now */
-/* To get the styling to work Easy FAQ needs to be set to 'No theme' in the plugin config - https://orcid-info.local/wp-admin/admin.php?page=easy-faqs-themes#tab-theme_selector */
+/* To get the styling to work Easy FAQ needs to be set to 'No theme' in the plugin config - /wp-admin/admin.php?page=easy-faqs-themes#tab-theme_selector */
 
 .easy-faq-title {
 	background: var(--ui-background-lightest) url("images/Icon-expand-closed.png") no-repeat left center!important;
