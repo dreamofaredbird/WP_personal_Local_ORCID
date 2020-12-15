@@ -1259,6 +1259,7 @@ summary::-webkit-details-marker {
 	border-bottom: var(--medium) solid var(--ui-background);
 	color: var(--copy-dark);
 	cursor: pointer;
+	line-height: 1.2!important;
 	padding: var(--space-double) var(--space-double) var(--space-double) var(--space-quint)!important;
 }
 
